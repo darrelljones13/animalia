@@ -1,2 +1,8 @@
-User.destroy_all
-User.create!(first_name: "Ryan", last_name: "Spencer", email: "ryan@test.com", password: "123456")
+Kingdom.create!
+Phylum.create!
+AnimalClass.create!
+Order.create!
+Family.create!
+Genus.create!
+Species.create!
+
