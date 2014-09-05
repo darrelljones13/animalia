@@ -1,3 +1,11 @@
+<div class="taxonomy">
+  <a href="#"><div class="kingdom tab"><%= @species.genus.family.order.chlass.phylum.kingdom.name.upcase %></div></a>
+  <a href="#"><div class="phylum tab"><%= @species.genus.family.order.chlass.phylum.name.upcase %></div></a>
+  <a href="#"><div class="chlass tab"><%= @species.genus.family.order.chlass.name.upcase %></div></a>
+  <a href="#"><div class="order tab"><%= @species.genus.family.order.name.upcase %></div></a>
+  <a href="#"><div class="family tab"><%= @species.genus.family.name.upcase.split("-")[0] %></div></a>
+  <a href="#"><div class="genus tab"><%= @species.genus.name.upcase %></div></a>
+</div>
 <img src="<%= @wikiInfo[:img] %>" style="float: right" />
 <h2><%= @species.common_name %></h2><h3><em><%= @species.scientific_name %></em></h3>
 <ul>
@@ -11,9 +19,10 @@
 <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
 <div class="relatives">
 <% @relatives.each do |relative| %>
+  <a href="<%= relative.id %>">
   <div class="card">
-    <img src="<%= @wikiInfo[:img] %>" />
+    <%= wikiImage(relative.scientific_name) %>
     <%= relative.common_name %>
-  </div>
+  </div></a>
 <% end %>
 </div>

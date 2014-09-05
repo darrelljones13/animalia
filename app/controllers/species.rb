@@ -9,7 +9,7 @@ get '/species/:search' do
     # TODO needs error handling
     @species = Species.where(common_name: params[:search])
   end
-  @relatives = Species.where(genus_id: @species.genus_id).limit(5)
+  @relatives = Species.where("genus_id = ? AND id != #{@species.id}", "#{@species.genus_id}").limit(20)
   p @relatives
   @wikiInfo = @species.parseWikipedia
   erb :species

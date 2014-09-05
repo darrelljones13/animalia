@@ -16,7 +16,7 @@ class Species < ActiveRecord::Base
       url = "http://en.wikipedia.org/wiki/#{self.scientific_name.split(" ").join("_")}"
       doc = Nokogiri::HTML(open(url))
       img_link = doc.search('.infobox img')[0]['src']  # img source
-      intro = (doc.search('p')[0]).to_s  # first paragraph
+      intro = (doc.search('p')[0]).to_s # description
       intro.gsub!(P_START, '<div class="intro">')
       intro.gsub!(P_END, "</div>")
       intro.gsub!(A_START, "<em>")
@@ -37,5 +37,28 @@ class Species < ActiveRecord::Base
     status_hash = { EX: "Extinct", EW: "Extinct in the Wild", CR: "Critically Endangered", EN: "Endangered", VU: "Vulnerable", NT: "Near Threatened", LC: "Least Concern", DD: "Data Deficient" }
     status_hash[self.red_list_status.to_sym]
   end
+
+  ####################################################
+
+  # def kingdom
+  #   "Animal"
+  # end
+
+  # def phylum
+  #   self.genus.family.order.chlass.phylum.name
+  # end
+
+  # def class
+  #   #self.genus.family.order.chlass.name
+  #   "Class"
+  # end
+
+  # def order
+  #   self.genus.family.order.name
+  # end
+
+  # def family
+  #   self.genus.family.name
+  # end
 
 end
