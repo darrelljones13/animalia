@@ -27,7 +27,7 @@ group :test do
   gem 'capybara'
 end
 
-group :test, :development do
+group :development, :test do
   gem 'factory_girl'
   gem 'faker'
 end

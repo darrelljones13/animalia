@@ -12,6 +12,8 @@ require 'shoulda-matchers'
 require 'rack/test'
 require 'capybara'
 require 'capybara/rspec'
+require 'factory_girl'
+require 'factories'
        
 Capybara.configure do |config|
   config.run_server = false
@@ -22,6 +24,7 @@ Capybara.app = Sinatra::Application.new
 RSpec.configure do |config|
   config.include Rack::Test::Methods
   config.include Capybara::DSL
+  config.include Factory::Syntax::Methods
 end
 
 def app
