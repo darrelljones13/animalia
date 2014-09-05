@@ -11,12 +11,14 @@ gem 'bcrypt'
 
 gem 'activesupport', '~>4.1'
 gem 'activerecord', '~>4.1'
+gem 'active_model_serializers'
 
 gem 'rake'
 
 gem 'shotgun'
 
 gem 'nokogiri'
+
 
 
 group :test do
@@ -26,7 +28,12 @@ group :test do
   gem 'capybara'
 end
 
-group :test, :development do
+group :development, :test do
   gem 'factory_girl'
   gem 'faker'
+end
+
+group :development do
+	gem 'better_errors'
+	gem 'binding_of_caller'
 end
