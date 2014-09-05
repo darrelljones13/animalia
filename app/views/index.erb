@@ -4,8 +4,8 @@
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<script>
 
-	var margin = 20,
-	    diameter = 960;
+	var margin = 5,
+	    diameter = 1020;
 
 	var color = d3.scale.linear()
 	    .domain([-1, 5])
@@ -19,8 +19,8 @@
 
 	var svg = d3.select(".container").append("svg")
 	    .attr("width", "100%")
-	    .attr("height", diameter)    
-	  .append("g")
+	    .attr("height", diameter) 
+	  	.append("g")
 	    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
 	d3.json("flare.json", function(error, root) {
@@ -39,7 +39,7 @@
 
 	  var text = svg.selectAll("text")
 	      .data(nodes)
-	    .enter().append("text")
+	   	 .enter().append("text")
 	      .attr("class", "label")
 	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
 	      .style("display", function(d) { return d.parent === root ? null : "none"; })

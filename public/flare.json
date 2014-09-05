@@ -1,4 +1,7 @@
-
+{
+  "name": "Kingdom",
+  "children": 
+[
 {
  "name": "Phylum",
  "children": [
@@ -80,4 +83,170 @@
    ]
   }
  ]
+},
+{
+ "name": "Phylum",
+ "children": [
+  {
+   "name": "Class",
+   "children": [
+    {
+     "name": "Order",
+     "children": [
+      {"name": "Family", "size": 3938},
+      {"name": "Family", "size": 3812},
+      {"name": "Family", "size": 6714},
+      {"name": "Family", "size": 743}
+     ]
+    },
+    {
+     "name": "Order",
+     "children": [
+      {"name": "Family", "size": 3534},
+      {"name": "Family", "size": 5731},
+      {"name": "Family", "size": 7840},
+      {"name": "Family", "size": 5914},
+      {"name": "Family", "size": 3416}
+     ]
+    },
+    {
+     "name": "Order",
+     "children": [
+      {
+        "name": "Family", 
+        "children": [
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731}
+        ]
+      },
+      {
+        "name": "Family", 
+        "children": [
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731}
+        ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Class",
+   "children": [
+    {
+     "name": "Order",
+     "children": [
+      {"name": "Family", "size": 3938},
+      {"name": "Family", "size": 3812},
+      {"name": "Family", "size": 6714},
+      {"name": "Family", "size": 743}
+     ]
+    },
+    {
+     "name": "Order",
+     "children": [
+      {"name": "Family", "size": 3534},
+      {"name": "Family", "size": 5731},
+      {"name": "Family", "size": 7840},
+      {"name": "Family", "size": 5914},
+      {"name": "Family", "size": 3416}
+     ]
+    },
+    {
+     "name": "Order",
+     "children": [
+      {"name": "Family", "size": 7074}
+     ]
+    }
+   ]
+  }
+ ]
+},
+{
+ "name": "Phylum",
+ "children": [
+  {
+   "name": "Class",
+   "children": [
+    {
+     "name": "Order",
+     "children": [
+      {"name": "Family", "size": 3938},
+      {"name": "Family", "size": 3812},
+      {"name": "Family", "size": 6714},
+      {"name": "Family", "size": 743}
+     ]
+    },
+    {
+     "name": "Order",
+     "children": [
+      {"name": "Family", "size": 3534},
+      {"name": "Family", "size": 5731},
+      {"name": "Family", "size": 7840},
+      {"name": "Family", "size": 5914},
+      {"name": "Family", "size": 3416}
+     ]
+    },
+    {
+     "name": "Order",
+     "children": [
+      {
+        "name": "Family", 
+        "children": [
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731}
+        ]
+      },
+      {
+        "name": "Family", 
+        "children": [
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731},
+          {"name": "Genus", "size": 5731}
+        ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Class",
+   "children": [
+    {
+     "name": "Order",
+     "children": [
+      {"name": "Family", "size": 3938},
+      {"name": "Family", "size": 3812},
+      {"name": "Family", "size": 6714},
+      {"name": "Family", "size": 743}
+     ]
+    },
+    {
+     "name": "Order",
+     "children": [
+      {"name": "Family", "size": 3534},
+      {"name": "Family", "size": 5731},
+      {"name": "Family", "size": 7840},
+      {"name": "Family", "size": 5914},
+      {"name": "Family", "size": 3416}
+     ]
+    },
+    {
+     "name": "Order",
+     "children": [
+      {"name": "Family", "size": 7074}
+     ]
+    }
+   ]
+  }
+ ]
+}
+]
 }
