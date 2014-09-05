@@ -1,5 +1,5 @@
 class Order < ActiveRecord::Base
-  belongs_to :animal_class
+  belongs_to :chlass
   has_many :families
-  has_many :genuses, through: :family
+  has_many :genus, through: :family
 end
