@@ -1,0 +1,19 @@
+<img src="<%= @wikiInfo[:img] %>" style="float: right" />
+<h2><%= @species.common_name %></h2><h3><em><%= @species.scientific_name %></em></h3>
+<ul>
+  <li>Endangered Species Status: <%= @species.redListStatus %></li>
+  <% if @species.population_trend != nil %>
+    <li>Population Trends: <%= @species.population_trend %></li>
+  <% end %>
+</ul>
+<%= @wikiInfo[:intro] %>
+<hr>
+<h4>Relatives from the Genus - <%= @species.genus.name %></h4>
+<div class="relatives">
+<% @relatives.each do |relative| %>
+  <div class="card">
+    <img src="<%= @wikiInfo[:img] %>" />
+    <%= relative.common_name %>
+  </div>
+<% end %>
+</div>

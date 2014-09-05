@@ -1,0 +1,41 @@
+.intro {
+
+}
+
+.intro b {
+  font-style: bold;
+  color: #373;
+}
+ .intro i {
+  color: #933;
+ }
+
+ .intro em {
+  color: #339;
+ }
+
+ img {
+  border-radius: 100%;
+ }
+
+ .relatives {
+
+ }
+
+ .relatives .card {
+  display: inline-block;
+  background: #666;
+  width: 100px;
+  height: 200px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  color: white;
+ }
+
+ .relatives img {
+  width: 100px;
+  height: 100px;
+  float: center;
+  clear: both;
+ }
