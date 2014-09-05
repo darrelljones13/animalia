@@ -5,6 +5,7 @@ class CreateSpecies < ActiveRecord::Migration
       t.string   :common_name
       t.string   :scientific_name, unique: true
       t.string   :red_list_status
+      t.string   :population_trend
 
       t.timestamps
     end
