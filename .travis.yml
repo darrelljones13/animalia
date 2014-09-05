@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.0.0
+
+deploy:
+  provider: heroku
+  api_key: "46549d10-db35-4a49-84b2-cf01f731fac8"
+  app: treefrog
+  strategy: git
