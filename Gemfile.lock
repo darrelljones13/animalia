@@ -84,6 +84,7 @@ DEPENDENCIES
   capybara
   factory_girl
   faker
+  nokogiri
   pg
   rack-test
   rake
