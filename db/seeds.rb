@@ -98,7 +98,7 @@ class Parser
 
 end
 Parser.seed_birds
-#Parser.seed_mammals
-#Parser.seed_reptiles
-#Parser.seed_amphibians
-#Parser.seed_marine_life
+Parser.seed_mammals
+Parser.seed_reptiles
+Parser.seed_amphibians
+Parser.seed_marine_life

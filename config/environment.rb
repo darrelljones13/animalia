@@ -10,6 +10,8 @@ require 'rubygems'
 
 require 'uri'
 require 'pathname'
+require 'open-uri'
+require 'nokogiri'
 
 require 'pg'
 require 'active_record'
