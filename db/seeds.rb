@@ -4,8 +4,8 @@ class Parser
 
   def self.seed_birds
     kingdom = Kingdom.create(name: "Animalia")
-    phylum = Phylum.create(name: "Chordata", kingdom_id: kingdom.id)
-    chlass = Chlass.create(name: "Aves", phylum_id: phylum.id)
+    phylum = Phylum.create(name: "Chordata", kingdom_id: Kingdom.last.id)
+    chlass = Chlass.create(name: "Aves", phylum_id: Phylum.last.id)
 
     CSV.foreach('db/birds.csv', :headers => true) do |bird|
       Order.create(name: bird["order"], chlass_id: Chlass.last.id)
@@ -21,8 +21,8 @@ class Parser
 
   def self.seed_mammals
     kingdom = Kingdom.create(name: "Animalia")
-    phylum = Phylum.create(name: "Chordata", kingdom_id: kingdom.id)
-    chlass = Chlass.create(name: "Mammalia", phylum_id: phylum.id)
+    phylum = Phylum.create(name: "Chordata", kingdom_id: Kingdom.last.id)
+    chlass = Chlass.create(name: "Mammalia", phylum_id: Phylum.last.id)
 
     CSV.foreach('Mammals_Higher_Taxonomy_8.csv', :headers => true) do |mammal|
       Order.create(name: mammal["Order"], chlass_id: Chlass.last.id)
@@ -40,8 +40,8 @@ class Parser
 
   def self.seed_reptiles
     kingdom = Kingdom.create(name: "Animalia")
-    phylum = Phylum.create(name: "Chordata", kingdom_id: kingdom.id)
-    chlass = Chlass.create(name: "Reptilia", phylum_id: phylum.id)
+    phylum = Phylum.create(name: "Chordata", kingdom_id: Kingdom.last.id)
+    chlass = Chlass.create(name: "Reptilia", phylum_id: Phylum.last.id)
 
     CSV.foreach('Reptiles_Higher_Taxonomy_8.csv', :headers => true) do |reptile|
 
@@ -60,8 +60,8 @@ class Parser
 
   def self.seed_amphibians
     kingdom = Kingdom.create(name: "Animalia")
-    phylum = Phylum.create(name: "Chordata", kingdom_id: kingdom.id)
-    chlass = Chlass.create(name: "Amphibia", phylum_id: phylum.id)
+    phylum = Phylum.create(name: "Chordata", kingdom_id: Kingdom.last.id)
+    chlass = Chlass.create(name: "Amphibia", phylum_id: Phylum.last.id)
 
     CSV.foreach('Amphibians_Higher_Taxonomy_8.csv', :headers => true) do |amphibian|
 
@@ -79,8 +79,8 @@ class Parser
 
   def self.seed_marine_life
     kingdom = Kingdom.create(name: "Animalia")
-    phylum = Phylum.create(name: "Chordata", kingdom_id: kingdom.id)
-    chlass = Chlass.create(name: "Osteichthyes", phylum_id: phylum.id)
+    phylum = Phylum.create(name: "Chordata", kingdom_id: Kingdom.last.id)
+    chlass = Chlass.create(name: "Osteichthyes", phylum_id: Phylum.last.id)
     
     CSV.foreach('MarineFish_Higher_Taxonomy_8.csv', :headers => true) do |fish|
 
