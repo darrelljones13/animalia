@@ -24,7 +24,7 @@ class Parser
     phylum = Phylum.create(name: "Chordata", kingdom_id: kingdom.id)
     chlass = Chlass.create(name: "Mammalia", phylum_id: phylum.id)
 
-    CSV.foreach('Mammals_Higher_Taxonomy.csv', :headers => true) do |mammal|
+    CSV.foreach('Mammals_Higher_Taxonomy_8.csv', :headers => true) do |mammal|
       Order.create(name: mammal["Order"], chlass_id: Chlass.last.id)
       Family.create(name: mammal["Family"], order_id: Order.last.id)
       Genus.create(name: mammal["Genus"], family_id: Family.last.id)
@@ -43,12 +43,13 @@ class Parser
     phylum = Phylum.create(name: "Chordata", kingdom_id: kingdom.id)
     chlass = Chlass.create(name: "Reptilia", phylum_id: phylum.id)
 
-    CSV.foreach('Reptiles_Higher_Taxonomy.csv', :headers => true) do |reptile|
+    CSV.foreach('Reptiles_Higher_Taxonomy_8.csv', :headers => true) do |reptile|
 
       Order.create(name: reptile["Order"], chlass_id: Chlass.last.id)
       Family.create(name: reptile["Family"], order_id: Order.last.id)
       Genus.create(name: reptile["Genus"], family_id: Family.last.id)
-      Species.create(
+      puts "Trying to save #{reptile["Common names (Eng)"]}"
+      Species.create!(
         genus_id: Genus.last.id,
         common_name: reptile["Common names (Eng)"],
         scientific_name: "#{reptile["Genus"]} #{reptile["Species"]}",
@@ -62,7 +63,7 @@ class Parser
     phylum = Phylum.create(name: "Chordata", kingdom_id: kingdom.id)
     chlass = Chlass.create(name: "Amphibia", phylum_id: phylum.id)
 
-    CSV.foreach('Amphibians_Higher_Taxonomy.csv', :headers => true) do |amphibian|
+    CSV.foreach('Amphibians_Higher_Taxonomy_8.csv', :headers => true) do |amphibian|
 
       Order.create(name: amphibian["Order"], chlass_id: Chlass.last.id)
       Family.create(name: amphibian["Family"], order_id: Order.last.id)
@@ -80,7 +81,8 @@ class Parser
     kingdom = Kingdom.create(name: "Animalia")
     phylum = Phylum.create(name: "Chordata", kingdom_id: kingdom.id)
     chlass = Chlass.create(name: "Osteichthyes", phylum_id: phylum.id)
-    CSV.foreach('Completed_Marine_Fish.csv', :headers => true) do |fish|
+    
+    CSV.foreach('MarineFish_Higher_Taxonomy_8.csv', :headers => true) do |fish|
 
       Order.create(name: fish["Order"], chlass_id: Chlass.last.id)
       Family.create(name: fish["Family"], order_id: Order.last.id)
@@ -95,8 +97,8 @@ class Parser
   end
 
 end
-# Parser.seed_birds
-# Parser.seed_mammals
-# Parser.seed_reptiles
-# Parser.seed_amphibians
-Parser.seed_marine_life
+Parser.seed_birds
+#Parser.seed_mammals
+#Parser.seed_reptiles
+#Parser.seed_amphibians
+#Parser.seed_marine_life
