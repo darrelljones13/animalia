@@ -11,6 +11,7 @@ gem 'bcrypt'
 
 gem 'activesupport', '~>4.1'
 gem 'activerecord', '~>4.1'
+gem 'active_model_serializers'
 
 gem 'rake'
 
