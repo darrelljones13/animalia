@@ -120,3 +120,13 @@ input {
 .node--leaf {
   pointer-events: none;
 }
+
+#new-user-form {
+  color: gray;
+  width: 30%;
+  margin: 0 auto;
+}
+
+#new-user-form h3 {
+  text-align: center;
+}
