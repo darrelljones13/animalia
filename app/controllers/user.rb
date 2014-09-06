@@ -10,6 +10,11 @@ get '/users/new' do
   erb :"users/new"
 end
 
+get '/logout' do
+  session.clear
+  erb :index
+end
+
 # register
 
 get 'users/new' do
@@ -55,10 +60,6 @@ end
 
 # Logout
 
-post '/logout' do
-  session.clear
-  redirect '/'
-end
 
 # Edit Collection
 
