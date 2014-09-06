@@ -4,4 +4,8 @@ class Kingdom < ActiveRecord::Base
 
   validates :name, uniqueness: true
 
+  def taxonomy
+    {
+    }
+  end
 end

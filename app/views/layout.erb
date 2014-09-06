@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+<!-- https://developers.google.com/speed/libraries/ -->
+<!-- https://www.google.com/fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <!-- font-family: 'Lobster', cursive; -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <!-- font-family: 'Roboto', sans-serif; -->
+
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/application.css">
+  <link rel="stylesheet" href="/css/species.css">
+  <link rel="stylesheet" href="/css/taxonomy.css">
 
   <script src="//use.edgefonts.net/alegreya-sc.js"></script>
 
@@ -11,7 +19,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src="/js/application.js"></script>
-  
+
   <title>Animalia</title>
 </head>
   <header>
@@ -36,6 +44,7 @@
   </header>
 <body>
   <div class="container">
+  <%= erb :_taxonomy if @taxonomy %>
   <%= yield %>
   </div>
 </body>

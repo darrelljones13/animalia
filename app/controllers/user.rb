@@ -18,10 +18,10 @@ end
 
 # profile (user collections)
 
-get 'users/profile/:id'
+get 'users/profile/:id' do
   @user = User.find(session[:user_id])
-  @events = @user.created_events.all
-  erb :show_events
+  @collections = @user.collections.all
+  erb :profile
 end
 
 # POST ___________

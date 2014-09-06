@@ -5,4 +5,17 @@ class Phylum < ActiveRecord::Base
 
   validates :name, uniqueness: true
 
+  def taxonomy
+    {
+    "kingdom" => self.kingdom.name
+    }
+  end
+
+  def parent_name
+    "kingdom"
+  end
+
+  def self
+    "phylum"
+  end
 end

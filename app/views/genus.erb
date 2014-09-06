@@ -1,0 +1,13 @@
+<%= wikiImage(@genus.name, "right") %>
+<h2><%= @genus.name %></h2><h3><em><%= @genus.name %></em></h3>
+<hr>
+<h4>Species of the Genus - <%= @genus.name %></h4>
+<div class="relatives">
+<% @relatives.each do |relative| %>
+  <a href="/species/<%= relative.id %>">
+  <div class="card">
+    <%= wikiImage(relative.scientific_name) %>
+    <%= relative.common_name %>
+  </div></a>
+<% end %>
+</div>

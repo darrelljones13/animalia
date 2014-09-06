@@ -1,0 +1,7 @@
+<%= wikiImage(@phylum.name, "right") %>
+<h2><%= @phylum.name %></h2><h3><em><%= @phylum.name %></em></h3>
+<hr>
+<h4>Classes of the Phylum - <%= @phylum.name %></h4>
+<div class="children">
+<%= erb :_children %>
+</div>
