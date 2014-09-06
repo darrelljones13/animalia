@@ -17,7 +17,6 @@ get 'users/new' do
 end
 
 # profile (user collections)
-get 'users/profile/'
 
 get 'users/profile/:id'
   @user = User.find(session[:user_id])
