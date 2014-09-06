@@ -1,16 +1,13 @@
-
+# require 'json'
 
 get "/" do
-  erb :index
+   # hierarchy.to_json
 end
-
 
 get '/species' do
 
   erb :"species/index"
 end
-
-
 
 post '/species' do
 

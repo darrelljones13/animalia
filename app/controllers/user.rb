@@ -1,7 +1,5 @@
 get '/' do
-
-p hierarchy
-  # erb :index
+  erb :index
 end
 
 post '/users/login' do
