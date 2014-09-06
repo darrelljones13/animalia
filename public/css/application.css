@@ -76,7 +76,7 @@ nav {
 
 body {
   font-family: alegreya-sc, serif;
-  color: white;
+  color: #444;
   background: #fcf9ff;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -85,8 +85,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #222;
 }
 
-form {
-
+form input{
+  color: #222;
 }
 input {
   display: inline;
