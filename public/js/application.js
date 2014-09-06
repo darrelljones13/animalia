@@ -2,7 +2,6 @@ $(document).ready(function() {
 
 	//get species data from database
 	$.post('/speciesnames', function(species){
-		// $allSPECIESNAMES = species
 		$( "#species-input" ).autocomplete({
 			source: species,
     	minLength: 3,
