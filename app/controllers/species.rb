@@ -5,10 +5,20 @@ get "/" do
    erb :index
 end
 
+get '/species/random' do 
+  random_id = Random.rand(29_000)
+  redirect "species/#{random_id}/show"
+end
+
+get'/species/:species_id/show' do
+  erb :"species/show"
+end
+
 get '/species' do
 
   erb :"species/index"
 end
+
 
 post '/species' do
 
