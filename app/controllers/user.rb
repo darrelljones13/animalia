@@ -17,9 +17,9 @@ get 'users/new' do
 end
 
 # profile (user collections)
-get 'users/profile/'
+# get 'users/profile/'
 
-get 'users/profile/:id'
+get 'users/profile/:id' do
   @user = User.find(session[:user_id])
   @events = @user.created_events.all
   erb :show_events
