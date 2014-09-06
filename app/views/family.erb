@@ -1,0 +1,19 @@
+<div class="taxonomy">
+  <a href="/kingdom/<%= @family.your_mom.chlass.phylum.kingdom.name %>"><div class="kingdom tab"><%= @family.your_mom.chlass.phylum.kingdom.name.upcase %></div></a>
+  <a href="/phylum/<%= @family.order.chlass.phylum.name %>"><div class="phylum tab"><%= @family.order.chlass.phylum.name.upcase %></div></a>
+  <a href="/class/<%= @family.order.chlass.name %>"><div class="chlass tab"><%= @family.order.chlass.name.upcase %></div></a>
+  <a href="/order/<%= @family.order.name %>"><div class="order tab"><%= @family.order.name.upcase %></div></a>
+</div>
+<img src="<%= wikiImage(@genus.name) %>" style="float: right" />
+<h2><%= @genus.name %></h2><h3><em><%= @genus.name %></em></h3>
+<hr>
+<h4>Species of the Genus - <%= @genus.name %></h4>
+<div class="relatives">
+<% @relatives.each do |relative| %>
+  <a href="<%= relative.id %>">
+  <div class="card">
+    <%= wikiImage(relative.scientific_name) %>
+    <%= relative.common_name %>
+  </div></a>
+<% end %>
+</div>

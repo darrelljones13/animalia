@@ -4,7 +4,7 @@
   <a href="#"><div class="chlass tab"><%= @species.genus.family.order.chlass.name.upcase %></div></a>
   <a href="#"><div class="order tab"><%= @species.genus.family.order.name.upcase %></div></a>
   <a href="#"><div class="family tab"><%= @species.genus.family.name.upcase.split("-")[0] %></div></a>
-  <a href="#"><div class="genus tab"><%= @species.genus.name.upcase %></div></a>
+  <a href="/genus/<%= @species.genus.id %>"><div class="genus tab"><%= @species.genus.name.upcase %></div></a>
 </div>
 <img src="<%= @wikiInfo[:img] %>" style="float: right" />
 <h2><%= @species.common_name %></h2><h3><em><%= @species.scientific_name %></em></h3>
