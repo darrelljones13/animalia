@@ -18,8 +18,8 @@ end
 
 # register
 
-get '/register' do
-  erb :register
+get 'users/new' do
+  erb :'users/new'
 end
 
 # POST ___________
@@ -32,7 +32,7 @@ post '/login' do
     if @user.authenticate(params[:password])
       session[:user_id] = @user.id
     end
-    redirect '/events'
+    redirect '/'
   else
     @error = "Uh oh, login unsuccessful"
     erb :index
@@ -45,9 +45,9 @@ post '/signup' do
   @user = User.new(params[:user])
   if @user.save
     session[:user_id] = @user.id
-    redirect '/events'
+    redirect '/'
   else
-    erb :register
+    erb :'users/new'
   end
 end
 
