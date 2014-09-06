@@ -17,9 +17,9 @@
   <header>
     <h1><a href="/">Animalia</a></h1>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/">Link 2</a></li>
-      <li><a href="/">Link 3</a></li>
+      <li><a href="/">Instructions</a></li>
+      <li><a href="/species/random">Random Animal</a></li>
+      <li><a href="/species">Search</a></li>
       <% if session[:user_id].nil? %>
         <a href="/users/new" >Create New Account</a>
         <form id="sign-in" action="/users/login" method="POST">
