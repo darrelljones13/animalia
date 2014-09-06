@@ -8,8 +8,8 @@ class Order < ActiveRecord::Base
   def taxonomy
     {
     "kingdom" => self.chlass.phylum.kingdom.name,
-    "phylum" => self.chlass.phylum.name.split("-")[0].split(" ")[0],
-    "class" => self.chlass.name.split("-")[0].split(" ")[0]
+    "phylum" => self.chlass.phylum.name,
+    "class" => self.chlass.name
     }
   end
 end

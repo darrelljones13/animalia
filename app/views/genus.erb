@@ -1,11 +1,4 @@
-<div class="taxonomy">
-  <a href="/kingdom/<%= @genus.family.order.chlass.phylum.kingdom.name %>"><div class="kingdom tab"><%= @genus.family.order.chlass.phylum.kingdom.name.upcase %></div></a>
-  <a href="/phylum/<%= @genus.family.order.chlass.phylum.name %>"><div class="phylum tab"><%= @genus.family.order.chlass.phylum.name.upcase %></div></a>
-  <a href="/class/<%= @genus.family.order.chlass.name %>"><div class="chlass tab"><%= @genus.family.order.chlass.name.upcase %></div></a>
-  <a href="/order/<%= @genus.family.order.name %>"><div class="order tab"><%= @genus.family.order.name.upcase %></div></a>
-  <a href="/family/<%= @genus.family.name %>"><div class="family tab"><%= @genus.family.name.upcase.split("-")[0] %></div></a>
-</div>
-<img src="<%= wikiImage(@genus.name) %>" style="float: right" />
+<%= wikiImage(@genus.name, "right") %>
 <h2><%= @genus.name %></h2><h3><em><%= @genus.name %></em></h3>
 <hr>
 <h4>Species of the Genus - <%= @genus.name %></h4>

@@ -8,7 +8,7 @@ class Chlass < ActiveRecord::Base
   def taxonomy
     {
     "kingdom" => self.phylum.kingdom.name,
-    "phylum" => self.phylum.name.split("-")[0].split(" ")[0]
+    "phylum" => self.phylum.name
     }
   end
 end

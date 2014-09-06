@@ -7,10 +7,10 @@ class Genus < ActiveRecord::Base
   def taxonomy
     {
     "kingdom" => self.family.order.chlass.phylum.kingdom.name,
-    "phylum" => self.family.order.chlass.phylum.name.split("-")[0].split(" ")[0],
-    "class" => self.family.order.chlass.name.split("-")[0].split(" ")[0],
-    "order" => self.family.order.name.split("-")[0].split(" ")[0],
-    "family" => self.family.name.split("-")[0].split(" ")[0]
+    "phylum" => self.family.order.chlass.phylum.name,
+    "class" => self.family.order.chlass.name,
+    "order" => self.family.order.name,
+    "family" => self.family.name
     }
   end
 

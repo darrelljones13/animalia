@@ -8,9 +8,9 @@ class Family < ActiveRecord::Base
   def taxonomy
     {
     "kingdom" => self.order.chlass.phylum.kingdom.name,
-    "phylum" => self.order.chlass.phylum.name.split("-")[0].split(" ")[0],
-    "class" => self.order.chlass.name.split("-")[0].split(" ")[0],
-    "order" => self.order.name.split("-")[0].split(" ")[0]
+    "phylum" => self.order.chlass.phylum.name,
+    "class" => self.order.chlass.name,
+    "order" => self.order.name
     }
   end
 

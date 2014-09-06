@@ -1,0 +1,7 @@
+<%= wikiImage(@order.name, "right") %>
+<h2><%= @order.name %></h2><h3><em><%= @order.name %></em></h3>
+<hr>
+<h4>Family of the Order - <%= @order.name %></h4>
+<div class="children">
+<%= erb :_children %>
+</div>

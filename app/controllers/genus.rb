@@ -7,8 +7,9 @@ get '/genus/:search' do
   else
     puts "Search by name #{params[:search]}"
     # TODO needs error handling
-    @genus = Genus.where(name: params[:search])
+    @genus = Genus.find_by(name: params[:search])
   end
+  @taxonomy = @genus.taxonomy
   @relatives = Species.where("genus_id = ?", "#{@genus.id}").limit(20)
   erb :genus
 end

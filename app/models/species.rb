@@ -41,11 +41,11 @@ class Species < ActiveRecord::Base
   def taxonomy
     {
     "kingdom" => self.genus.family.order.chlass.phylum.kingdom.name,
-    "phylum" => self.genus.family.order.chlass.phylum.name.split("-")[0].split(" ")[0],
-    "class" => self.genus.family.order.chlass.name.split("-")[0].split(" ")[0],
-    "order" => self.genus.family.order.name.split("-")[0].split(" ")[0],
-    "family" => self.genus.family.name.split("-")[0].split(" ")[0],
-    "genus" => self.genus.name.split("-")[0].split(" ")[0]
+    "phylum" => self.genus.family.order.chlass.phylum.name,
+    "class" => self.genus.family.order.chlass.name,
+    "order" => self.genus.family.order.name,
+    "family" => self.genus.family.name,
+    "genus" => self.genus.name
     }
   end
 
