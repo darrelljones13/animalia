@@ -1,10 +1,12 @@
 <% if session[:user_id].nil? %>
-<h3>Create New User</h3>
-<form action="/users" method="POST">
-  EMAIL: <input type="email" name="email" placeholder="name@email.com" /><br>
-  PASSWORD: <input type="text" name="password" value="" />
-  <input type="submit" value="Log In" />
-</form>
+<div id="new-user-form">
+	<h3>Create New User</h3>
+	<form id="new-user" action="/users" method="POST">
+	  EMAIL: <input type="email" name="email" placeholder="name@email.com" /><br>
+	  PASSWORD: <input type="text" name="password" value="" />
+	  <input type="submit" value="Log In" />
+	</form>
+</div>
 <% else %>
 LOGGED IN
 <% end %>

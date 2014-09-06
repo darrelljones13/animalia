@@ -2,6 +2,10 @@ html {
 
 }
 
+body {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -10,8 +14,8 @@ li {
 }
 
 header {
-  background: #222;
-  color: white;
+  background: white;
+  color: grey;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -20,46 +24,64 @@ header {
   box-shadow: 0px 0px 5px #444;
   z-index: 50;
 }
+
 header h1 {
-  color: white;
+  color: grey;
   position: relative;
-  left: 50%;
-  margin-left: -35%;
+  left: 5%;
   margin-top: 10px;
 }
+
 header a {
-  color: white;
+  color: grey;
 }
+
 header a:hover {
   text-shadow: 0px 0px 15px #ccf;
 }
+
 header ul {
   position: absolute;
+  width: 80%;
   top: 20px;
-  right: 50%;
+  left: 15%;
   margin: 0px;
-  margin-right: -35%;
 }
+
 header li {
   display: inline;
   padding-right: 18px;
   padding-left: 18px;
   border-left: 1px solid white;
 }
+
 header li:first-of-type {
   border: none;
 }
-nav {
 
+nav {
 }
+
+#sign-in {
+  display: inline;
+  float: right;
+}
+
+#sign-in > input {
+  display: inline;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 5px;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #444;
+  font-family: alegreya-sc, serif;
+  color: white;
   background: #fcf9ff;
 }
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lobster', cursive;
+  font-family: alegreya-sc, serif;
+  font-weight: bold;
   color: #222;
 }
 
@@ -73,17 +95,54 @@ input {
   margin: 5px;
 }
 
+#species-search {
+  color: gray;
+}
 
 .container {
   background: white;
   padding: 10px;
-  padding-top: 80px;
-  width: 67%;
-  min-height: 400px;
+  padding-top: 70px;
+  height: 100%;
   margin: 0 auto;
   box-shadow: 0px 0px 4px #333;
 }
 
 .right {
   float: right;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font-size: 12px;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+#new-user-form {
+  color: gray;
+  width: 30%;
+  margin: 0 auto;
+}
+
+#new-user-form h3 {
+  text-align: center;
 }

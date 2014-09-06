@@ -1,9 +1,3 @@
-get '/' do
-
-p hierarchy
-  # erb :index
-end
-
 post '/users/login' do
   user = User.find_by_email(params[:email])
   if user.authenticate(params[:password])
