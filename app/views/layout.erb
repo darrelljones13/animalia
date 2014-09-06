@@ -42,7 +42,7 @@
   </header>
 <body>
   <div class="container">
-  <%= erb :_taxonomy %>
+  <%= erb :_taxonomy if @taxonomy %>
   <%= yield %>
   </div>
 </body>

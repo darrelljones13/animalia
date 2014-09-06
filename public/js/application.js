@@ -5,7 +5,7 @@ $(document).ready(function() {
 		$( "#species-input" ).autocomplete({
 			source: species,
     	minLength: 3,
-  	});	
+  	});
 	});
 
 	//search for species in database

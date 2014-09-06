@@ -146,3 +146,10 @@ input {
 #new-user-form h3 {
   text-align: center;
 }
+.ui-autocomplete {
+  background: #ddd;
+}
+
+.ui-menu-item {
+  color: #444;
+}
