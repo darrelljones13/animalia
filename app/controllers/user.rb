@@ -24,9 +24,3 @@ post '/users' do
   User.create(params)
   erb :index
 end
-
-
-get '/species' do
-  @phylum = Phylum.all
-  @phylum.to_json
-end
