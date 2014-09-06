@@ -10,6 +10,7 @@ get '/species/:search' do
     @species = Species.where(common_name: params[:search])
   end
   @relatives = Species.where("genus_id = ? AND id != #{@species.id}", "#{@species.genus_id}").limit(20)
+  @taxonomy = @species.taxonomy
   @wikiInfo = @species.parseWikipedia
   erb :species
 end
