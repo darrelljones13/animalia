@@ -2,6 +2,7 @@
 
 get "/" do
    # hierarchy.to_json
+   erb :index
 end
 
 get '/species' do
