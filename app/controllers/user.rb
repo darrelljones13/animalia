@@ -10,16 +10,19 @@ get '/users/new' do
   erb :"users/new"
 end
 
-post '/users' do
-  p params
-  User.create(params)
-  erb :index
-end
-
 # register
 
 get 'users/new' do
   erb :'users/new'
+end
+
+# profile (user collections)
+get 'users/profile/'
+
+get 'users/profile/:id'
+  @user = User.find(session[:user_id])
+  @events = @user.created_events.all
+  erb :show_events
 end
 
 # POST ___________
@@ -57,3 +60,7 @@ post '/logout' do
   session.clear
   redirect '/'
 end
+
+# Edit Collection
+
+# Delete Collection

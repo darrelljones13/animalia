@@ -3,9 +3,10 @@
 	<h3>Register</h3>
 
 	<form id="new-user" action="/signup" method="POST">
-    NAME: <input type="text" name="name" placeholder="name" /><br>
-	  EMAIL: <input type="email" name="email" placeholder="name@email.com" /><br>
-	  PASSWORD: <input type="password" name="password" placeholder="password" />
+    FIRST NAME: <input type="text" name="user[first_name]" placeholder="first name" /><br>
+    LAST NAME: <input type="text" name="user[last_name]" placeholder="last name" /><br>
+	  EMAIL: <input type="email" name="user[email]" placeholder="name@email.com" /><br>
+	  PASSWORD: <input type="password" name="user[password]" placeholder="password" />
 	  <input type="submit" value="Submit"/>
 	</form>
 </div>
