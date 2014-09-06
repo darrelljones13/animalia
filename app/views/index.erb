@@ -4,8 +4,8 @@
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<script>
 
-	var margin = 5,
-	    diameter = 1020;
+	var margin = 20,
+	    diameter = (window.innerWidth)/2;
 
 	var color = d3.scale.linear()
 	    .domain([-1, 5])
@@ -51,7 +51,7 @@
 	      .style("background", color(-1))
 	      .on("click", function() { zoom(root); });
 
-	  zoomTo([root.x, root.y, root.r * 2 + margin]);
+	  zoomTo([root.x-(window.innerWidth/4), root.y, root.r * 2 + margin]);
 
 	  function zoom(d) {
 	    var focus0 = focus; focus = d;
