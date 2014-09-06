@@ -12,4 +12,12 @@ class Order < ActiveRecord::Base
     "class" => self.chlass.name
     }
   end
+
+  def parent_name
+    "class"
+  end
+
+  def self
+    "order"
+  end
 end

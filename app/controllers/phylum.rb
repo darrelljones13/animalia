@@ -1,16 +1,17 @@
-get '/order/:search' do
+get '/phylum/:search' do
   if params[:search] == nil
     redirect '/'
   elsif params[:search].to_i > 0
     puts "Search by integer"
-    @order = Order.find(params[:search].to_i)
+    @phylum = Phylum.find(params[:search].to_i)
   else
     puts "Search by name #{params[:search]}"
     # TODO needs error handling
-    @order = Order.find_by(name: params[:search])
+    @phylum = Phylum.find_by(name: params[:search])
   end
-  @taxonomy = @order.taxonomy
-  @children = Family.where(order: @order).limit(20).order("RANDOM()") # Postgres
+  puts ""
+  @taxonomy = @phylum.taxonomy
+  @children = Chlass.where(phylum_id: @phylum.id).limit(20).order("RANDOM()") # Postgres
                                             # switch to .order("RAND()") for MySQL
-  erb :order
+  erb :phylum
 end

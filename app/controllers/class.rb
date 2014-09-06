@@ -11,7 +11,7 @@ get '/class/:search' do
   end
   puts ""
   @taxonomy = @class.taxonomy
-  @children = Family.where(chlass_id: @class.id).limit(20).order("RANDOM()") # Postgres
+  @children = Order.where(chlass_id: @class.id).limit(20).order("RANDOM()") # Postgres
                                             # switch to .order("RAND()") for MySQL
   erb :class
 end

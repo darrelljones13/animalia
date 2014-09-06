@@ -11,4 +11,12 @@ class Chlass < ActiveRecord::Base
     "phylum" => self.phylum.name
     }
   end
+
+  def parent_name
+    "phylum"
+  end
+
+  def self
+    "class"
+  end
 end
