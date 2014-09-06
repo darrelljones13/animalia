@@ -3,8 +3,8 @@ get "/" do
 end
 
 get '/species/random' do
-  random_id = Random.rand(29_000)
-  redirect "species/#{random_id}/show"
+  random_id = Species.all.pluck(:id).sample
+  redirect "species/#{random_id}"
 end
 
 get'/species/:species_id/show' do
