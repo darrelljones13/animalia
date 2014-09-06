@@ -27,7 +27,7 @@
     <ul>
       <li><a href="/">Instructions</a></li>
       <li><a href="/species/random">Random Animal</a></li>
-      <li><a href="/species">Search</a></li>
+      <li><a href='#' onclick='overlay()'>Search</a></li> 
       <% if session[:user_id].nil? %>
         <a href="/users/new" >Create New Account</a>
         <form id="sign-in" action="/users/login" method="POST">
