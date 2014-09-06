@@ -5,4 +5,11 @@ class Order < ActiveRecord::Base
 
   validates :name, uniqueness: true
 
+  def taxonomy
+    {
+    "kingdom" => self.chlass.phylum.kingdom.name,
+    "phylum" => self.chlass.phylum.name,
+    "class" => self.chlass.name
+    }
+  end
 end
