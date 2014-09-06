@@ -20,3 +20,12 @@ post '/species' do
 end
 
 
+post '/speciesnames' do
+  @all_species = Species.pluck(:common_name, :scientific_name)
+  @all_species.flatten!.compact!
+
+  content_type :json
+  @all_species.to_json
+end
+
+
