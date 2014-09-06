@@ -14,4 +14,12 @@ class Genus < ActiveRecord::Base
     }
   end
 
+  def parent_name
+    "family"
+  end
+
+  def self
+    "genus"
+  end
+
 end

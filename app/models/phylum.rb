@@ -10,4 +10,12 @@ class Phylum < ActiveRecord::Base
     "kingdom" => self.kingdom.name
     }
   end
+
+  def parent_name
+    "kingdom"
+  end
+
+  def self
+    "phylum"
+  end
 end

@@ -1,6 +1,6 @@
 <div class="children">
 <% @children.each do |child| %>
-  <a href="/species/<%= child.id %>">
+  <a href="/<%= child.self %>/<%= child.id %>">
   <div class="card">
     <%= wikiImage(child.name) %>
     <%= child.name %>

@@ -14,5 +14,11 @@ class Family < ActiveRecord::Base
     }
   end
 
+  def parent_name
+    "order"
+  end
 
+  def self
+    "family"
+  end
 end

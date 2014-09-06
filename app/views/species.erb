@@ -14,7 +14,11 @@
   <a href="<%= relative.id %>">
   <div class="card">
     <%= wikiImage(relative.scientific_name) %>
-    <%= relative.common_name %>
+    <% if relative.common_name != nil %>
+      <%= relative.common_name %>
+    <% else %>
+      <%= relative.scientific_name %>
+    <% end %>
   </div></a>
 <% end %>
 </div>

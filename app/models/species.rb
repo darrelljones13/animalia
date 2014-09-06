@@ -21,14 +21,18 @@ class Species < ActiveRecord::Base
       intro.gsub!(P_END, "</div>")
       intro.gsub!(A_START, "<em>")
       intro.gsub!(A_END, "</em>")
-      print intro
-      {intro: intro, img: img_link}
+      return {intro: intro, img: img_link}
     rescue OpenURI::HTTPError => ex
+    end
+    begin
       genus_url = "http://en.wikipedia.org/wiki/#{self.scientific_name.split(" ")[0]}"
       doc = Nokogiri::HTML(open(genus_url))
-      img_link = doc.search('.infobox img')[0]['src']  # img source
+      img_link = doc.search('.infobox img')[0]['src'] # img source
       intro = '<div class="intro">The #{self.scientific_name} does not have a Wikipedia.org entry.  <a href="#{url}" class="button">Create one!</a></div>'
       {intro: intro, img: img_link}
+    rescue
+      img_link = "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bobolink%2C_Mer_Bleue.jpg/800px-Bobolink%2C_Mer_Bleue.jpg"
+      return {intro: '', img: img_link}
     end
   end
 
@@ -48,5 +52,14 @@ class Species < ActiveRecord::Base
     "genus" => self.genus.name
     }
   end
+
+  def parent_name
+    "genus"
+  end
+
+  def self
+    "species"
+  end
+
 
 end
