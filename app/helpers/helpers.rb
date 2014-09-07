@@ -16,7 +16,7 @@ helpers do
         children: Chlass.where(phylum_id: phylum.id).map {|chlass| {name: chlass.name,
             children: Order.where(chlass_id: chlass.id).map {|order| {name: order.name,
                 children: Family.where(order_id: order.id).map {|family| {name: family.name,
-                    children: Genus.where(family_id: family.id).map { |genus| {name: genus.name, size: 5}}}}}}}}}}}
+                    children: Genus.where(family_id: family.id).map { |genus| {name: genus.name, size: Species.where(genus_id: genus.id).count, url: "genus/#{genus.name}" }}}}}}}}}}}
          
     p tree
   end

@@ -1,6 +1,6 @@
-get "/" do
-   erb :index
-end
+# get "/" do
+#    erb :index
+# end
 
 get '/species/random' do
   random_id = Species.all.pluck(:id).sample
