@@ -25,9 +25,9 @@
   <header>
     <h1><a href="/">Animalia</a></h1>
     <ul>
-      <li><a href="/">Instructions</a></li>
+      <li><a href="#" onclick='instructionsOverlay()'>Instructions</a></li>
       <li><a href="/species/random">Random Animal</a></li>
-      <li><a href='#' onclick='overlay()'>Search</a></li>
+      <li><a href='#' onclick='searchOverlay()'>Search</a></li>
       <% if session[:user_id].nil? %>
         <a href="/users/new" >Create New Account</a>
         <form id="sign-in" action="/users/login" method="POST">
@@ -51,20 +51,38 @@
   <%= yield %>
   </div>
 
-  <div id="overlay">
-  <div class="dark-matter"></div>
-  <div class="search-form">
-    <form id="species-search" action="/species/search" method="POST">
-      <input id="species-input" type="text" name="species" placeholder="find a species" />
-        <input type="submit" value="Search" />
-        <a href='#' class="button exit" onclick='overlay()'>X</a>
-    </form>
+  <div id="instructions-overlay">
+    <div class="dark-matter"></div>
+    <div class="search-form">
+      <h4>Animalia is a tool that allows you to explore the Animal Kingdom by examining the way scientists name and group animals.  
+      <br>To start, click on any circle to traverse the Animal Kingdom, or search below for an animal of your choice.</h4>
+      <form id="species-search" action="/species/search" method="POST">
+        <input id="species-input" type="text" name="species" placeholder="find a species" />
+          <input type="submit" value="Search" />
+          <a href='#' class="button exit" onclick='instructionsOverlay()'>X</a>
+      </form>
+    </div>
   </div>
-</div>
+
+  <div id="search-overlay">
+    <div class="dark-matter"></div>
+    <div class="search-form">
+      <form id="species-search" action="/species/search" method="POST">
+        <input id="species-input" type="text" name="species" placeholder="find a species" />
+          <input type="submit" value="Search" />
+          <a href='#' class="button exit" onclick='searchOverlay()'>X</a>
+      </form>
+    </div>
+  </div>
 
 <script>
-  function overlay() {
-    el = document.getElementById("overlay");
+  function instructionsOverlay() {
+    el = document.getElementById("instructions-overlay");
+    el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+  }
+  
+  function searchOverlay() {
+    el = document.getElementById("search-overlay");
     el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
   }
 </script>
