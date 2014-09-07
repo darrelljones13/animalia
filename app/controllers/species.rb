@@ -44,7 +44,7 @@ get '/species/scrape_wikipedia' do
   image_url = "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Collage_of_Nine_Dogs.jpg/260px-Collage_of_Nine_Dogs.jpg"
 
   folder_names = Chlass.all.pluck('name')
-  species = Species.all.limit(10)
+  species = Species.all
   puts "Species Count = #{species.count}"
   puts "Creating folders for each Class..."
   
@@ -60,7 +60,7 @@ get '/species/scrape_wikipedia' do
     info = s.parseWikipedia
     s.wikitext = info[:intro]
     s.image_name = File.basename(info[:img])
-
+    s.save
     File.open("public/image/wiki/#{s.taxonomy['class']}/#{s.image_name}",'wb'){ |f| f.write(open("http:#{info[:img]}").read) }
     print "X"
   end
