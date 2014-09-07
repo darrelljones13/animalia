@@ -1,7 +1,7 @@
 class Species < ActiveRecord::Base
   belongs_to :genus
   has_many :cards
-
+  has_one :family, through: :genus
   validates :scientific_name, uniqueness: true
 
   # REGEXS FOR DOC PARSE/REPLACE
