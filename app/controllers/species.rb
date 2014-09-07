@@ -40,6 +40,7 @@ post '/speciesnames' do
 end
 
 get '/species/:search' do
+  @user = User.find(session[:user_id])
   if params[:search] == nil
     redirect '/'
   elsif params[:search].to_i > 0
