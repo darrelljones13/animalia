@@ -36,12 +36,9 @@
           <input type="submit" value="Log In" />
         </form>
       <% else %>
-        LOGGED IN - <form id="logout" action="/logout" method="POST">
+        <li><a href="/users/profile/<%= @user.id %>"> My Collections</a></li>
+         <li><a href="/logout" >Logout</a></li>
 
-      <a href="/logout" >LOGOUT</a>
-
-
-    </form>
       <% end %>
     </ul>
   </header>

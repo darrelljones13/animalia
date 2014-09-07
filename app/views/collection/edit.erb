@@ -1,0 +1,10 @@
+<div style="display: none;">
+  <label for="user_id" >User Id</label >
+  <input id="user_id" type="text"  name="collection[user_id]" value="<%= current_user.id %>">
+</div>
+<div>
+  <label for="name">Event name</label>
+  <input id="name" type="text"  name="name" value="<%= @collection.try(:name) %>">
+</div>
+  <form action="/collection/edit/<%= @collection.id %>" method="POST">
+  <input type="Submit" value="Submit" >

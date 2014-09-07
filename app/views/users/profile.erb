@@ -1,27 +1,28 @@
 <div class="container">
-<h3>Your Events</h3>
+<h3><%= @user.first_name %>'s Collections</h3>
 <ul id="collection_list">
   <% if @collections %>
     <% @collections.each do |collection| %>
 
-      <li><h3><%= collection.name %></h3> 
-      <form method="link" action= "/collection/edit/<%=collection.id%>">
-      <input id= "edit" type="submit" value="Edit">
-      </form>
-      <form id="delete" action="/collection/delete/<%=collection.id%>" method="POST">
-      <input type="submit" value="Delete">
-    </form>
+      <li><h3><%= collection.name %></h3>
 
+        <form method="link" action= "/collection/edit/<%=collection.id%>">
+        <input id= "edit" type="submit" value="Edit">
+        </form>
+        <form id="delete" action="/collection/delete/<%=collection.id%>" method="POST">
+        <input type="submit" value="Delete">
+        </form>
+        
+      <% @cards.each do |card| %>
+      <h5><li><%= card.species.common_name %></li></h5>
+    <% end %>
       </li>
     <% end %>
   <% end %>
 
-  <h3>Create an Event</h3>
 
     <form method="link" action= "/users/create">
     <input id= "create" type="submit" value="Create a Collection">
     </form>
-
-    
 
 </div>

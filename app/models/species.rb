@@ -1,5 +1,6 @@
 class Species < ActiveRecord::Base
   belongs_to :genus
+  has_many :cards
 
   validates :scientific_name, uniqueness: true
 

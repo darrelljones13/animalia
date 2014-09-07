@@ -1,4 +1,4 @@
 get '/' do  
-  # hierarchy.to_json
+  current_user
   erb :index
 end
