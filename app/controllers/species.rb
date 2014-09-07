@@ -19,15 +19,12 @@ end
 
 post '/species' do
   @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
-  puts @species.id
-  # redirect '/species/#{@species.id}'
   content_type :json
   { species: @species }.to_json
 end
 
 post '/species/search' do
   @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
-  puts @species.id
   redirect "/species/#{@species.id}"
 end
 
