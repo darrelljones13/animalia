@@ -10,6 +10,11 @@ get '/users/new' do
   erb :"users/new"
 end
 
+get '/logout' do
+  session.clear
+  erb :index
+end
+
 # register
 
 get 'users/new' do
@@ -17,13 +22,11 @@ get 'users/new' do
 end
 
 # profile (user collections)
-get 'users/profile/' do
-end
 
 get 'users/profile/:id' do
   @user = User.find(session[:user_id])
-  @events = @user.created_events.all
-  erb :show_events
+  @collections = @user.collections.all
+  erb :profile
 end
 
 # POST ___________
@@ -57,10 +60,6 @@ end
 
 # Logout
 
-post '/logout' do
-  session.clear
-  redirect '/'
-end
 
 # Edit Collection
 
