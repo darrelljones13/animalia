@@ -27,7 +27,7 @@
     <ul>
       <li><a href="/">Instructions</a></li>
       <li><a href="/species/random">Random Animal</a></li>
-      <li><a href='#' onclick='overlay()'>Search</a></li> 
+      <li><a href='#' onclick='overlay()'>Search</a></li>
       <% if session[:user_id].nil? %>
         <a href="/users/new" >Create New Account</a>
         <form id="sign-in" action="/users/login" method="POST">
@@ -39,7 +39,7 @@
         LOGGED IN - <form id="logout" action="/logout" method="POST">
 
       <a href="/logout" >LOGOUT</a>
-      
+
 
     </form>
       <% end %>
@@ -50,5 +50,16 @@
   <%= erb :_taxonomy if @taxonomy %>
   <%= yield %>
   </div>
+
+  <div id="overlay">
+  <div class="dark-matter"></div>
+  <div class="search-form">
+    <form id="species-search" action="/species/search" method="POST">
+      <input id="species-input" type="text" name="species" placeholder="find a species" />
+        <input type="submit" value="Search" />
+        <a href='#' class="button exit" onclick='overlay()'>X</a>
+    </form>
+  </div>
+</div>
 </body>
 </html>

@@ -4,7 +4,7 @@ end
 
 get '/species/random' do
   random_id = Species.all.pluck(:id).sample
-  redirect "species/#{random_id}"
+  redirect "/species/#{random_id}"
 end
 
 
