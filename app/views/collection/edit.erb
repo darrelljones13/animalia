@@ -3,8 +3,9 @@
   <input id="user_id" type="text"  name="collection[user_id]" value="<%= current_user.id %>">
 </div>
 <div>
-  <label for="name">Event name</label>
-  <input id="name" type="text"  name="name" value="<%= @collection.try(:name) %>">
-</div>
   <form action="/collection/edit/<%= @collection.id %>" method="POST">
-  <input type="Submit" value="Submit" >
+  	<label for="name">Collection Name</label>
+  	<input id="name" type="text"  name="name" value="<%= @collection.try(:name) %>">
+  	<input type="Submit" value="Submit" >
+	</form>
+</div>

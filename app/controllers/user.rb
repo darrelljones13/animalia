@@ -25,8 +25,8 @@ end
 
 get '/users/profile/:id' do
   @user = User.find(session[:user_id])
-  @collection = Collection.find(params[:id])
   @collections = @user.collections.all
+  @collection = Collection.find(params[:id])
   @cards = Card.where(collection_id: @collection.id)
   
   erb :'users/profile'
@@ -37,7 +37,7 @@ end
 get '/collection/edit/:id' do
   @user = User.find(session[:user_id])
   @collection = Collection.find(params[:id])
-  @cards = Card.find_by(params[:collection_id])
+  @cards = Card.where(collection_id: @collection.id)
   erb :'collection/edit'
 end
 
@@ -70,12 +70,12 @@ post '/signup' do
   end
 end
 
+
 # Edit Collection
 
 post '/collection/edit/:id' do
   @user = User.find(session[:user_id])
   @collection = Collection.find(params[:id])
-  # @cards = Card.where(collection_id: @collection.id)
   @collection.update(name: params[:name])
 
   redirect "/users/profile/#{@user.id}"

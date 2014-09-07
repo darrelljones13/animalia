@@ -6,9 +6,10 @@
 
       <li><h3><%= collection.name %></h3>
 
-        <form method="link" action= "/collection/edit/<%=collection.id%>">
-        <input id= "edit" type="submit" value="Edit">
+        <form method="GET" action="/collection/edit/<%= collection.id %>">
+        <input id= "create" type="submit" value="Edit this collection">
         </form>
+
         <form id="delete" action="/collection/delete/<%=collection.id%>" method="POST">
         <input type="submit" value="Delete">
         </form>
@@ -21,8 +22,6 @@
   <% end %>
 
 
-    <form method="link" action= "/users/create">
-    <input id= "create" type="submit" value="Create a Collection">
-    </form>
+
 
 </div>
