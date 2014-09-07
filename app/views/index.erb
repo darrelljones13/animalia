@@ -78,40 +78,40 @@
 
 	d3.select(self.frameElement).style("height", diameter + "px");
 
-	vis.selectAll("circle")
-    .data(nodes)
-   .enter()
-    .append("svg:circle")
-    .attr("class", function(d) {
-        return d.children ? "parent" : "child";
-    })
-    .attr("cx", function(d) {
-        return d.x;
-    })
-    .attr("cy", function(d) {
-        return d.y;
-    })
-    .attr("r", function(d) {
-        return d.r;
-    })
-    .on("click", function(d) {
-        zoom(node == d ? root : d);
-    })
-    .append("svg:title")
-    .text("test");        
+	// vis.selectAll("circle")
+ //    .data(nodes)
+ //   .enter()
+ //    .append("svg:circle")
+ //    .attr("class", function(d) {
+ //        return d.children ? "parent" : "child";
+ //    })
+ //    .attr("cx", function(d) {
+ //        return d.x;
+ //    })
+ //    .attr("cy", function(d) {
+ //        return d.y;
+ //    })
+ //    .attr("r", function(d) {
+ //        return d.r;
+ //    })
+ //    .on("click", function(d) {
+ //        zoom(node == d ? root : d);
+ //    })
+ //    .append("svg:title")
+ //    .text("test");        
 
-	div.tooltip {
-		position: absolute;
-		text-align: center;
-		width: 60px;
-		height: 28px;
-		padding: 2px;
-		font: 12px sans-serif;
-		background: lightsteelblue;
-		border: 0px;
-		border-radius: 8px;
-		pointer-events: none;
-	}
+	// div.tooltip {
+	// 	position: absolute;
+	// 	text-align: center;
+	// 	width: 60px;
+	// 	height: 28px;
+	// 	padding: 2px;
+	// 	font: 12px sans-serif;
+	// 	background: lightsteelblue;
+	// 	border: 0px;
+	// 	border-radius: 8px;
+	// 	pointer-events: none;
+	// }
 
 	</script>
 
