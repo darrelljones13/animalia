@@ -1,10 +1,9 @@
 
-
 <div class="kingdom">
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<script>
 
-	var margin = 20,
+	var margin = 20
 	    diameter = (window.innerWidth)/2;
 
 	var color = d3.scale.linear()
@@ -19,7 +18,7 @@
 
 	var svg = d3.select(".container").append("svg")
 	    .attr("width", "100%")
-	    .attr("height", diameter) 
+	    .attr("height", diameter)
 	  	.append("g")
 	    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
@@ -83,3 +82,9 @@
 
 </div>
 
+<script>
+	function overlay() {
+		el = document.getElementById("overlay");
+		el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+	}
+</script>
