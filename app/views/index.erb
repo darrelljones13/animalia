@@ -18,7 +18,7 @@
 
 	var svg = d3.select(".container").append("svg")
 	    .attr("width", "100%")
-	    .attr("height", diameter) 
+	    .attr("height", diameter)
 	  	.append("g")
 	    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
@@ -88,16 +88,3 @@
 		el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
 	}
 </script>
-
-<div id="overlay">
-	<div class="dark-matter"></div>
-
-	<div class="search-form">
-		<form id="species-search" action="/species/search" method="POST">
-			<input id="species-input" type="text" name="species" placeholder="find a species" />
-		  	<input type="submit" value="Search" />
-		  	<br>
-		  	<a href='#' onclick='overlay()'>Back to browsing!</a>
-		</form>
-	</div>
-</div>
