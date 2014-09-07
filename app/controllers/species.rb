@@ -39,6 +39,35 @@ post '/speciesnames' do
   @all_species.to_json
 end
 
+get '/species/scrape_wikipedia' do
+
+  image_url = "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Collage_of_Nine_Dogs.jpg/260px-Collage_of_Nine_Dogs.jpg"
+
+  folder_names = Chlass.all.pluck('name')
+  species = Species.all.limit(10)
+  puts "Species Count = #{species.count}"
+  puts "Creating folders for each Class..."
+  
+  folder_names.each do |name|
+    system 'mkdir', '-p', "public/image/wiki/#{name}"
+  end
+
+  puts "Preparing to get all image and descriptions from Wikipedia..."
+  puts "Good Luck!"
+  puts "*" * 50
+
+  species.each do |s|
+    info = s.parseWikipedia
+    s.wikitext = info[:intro]
+    s.image_name = File.basename(info[:img])
+
+    File.open("public/image/wiki/#{s.taxonomy['class']}/#{s.image_name}",'wb'){ |f| f.write(open("http:#{info[:img]}").read) }
+    print "X"
+  end
+
+  redirect "/"
+end
+
 get '/species/:search' do
   @user = User.find(session[:user_id])
   if params[:search] == nil
