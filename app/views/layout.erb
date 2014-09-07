@@ -53,8 +53,8 @@
     <div class="search-form">
       <h4>Animalia is a tool that allows you to explore the Animal Kingdom by examining the way scientists name and group animals.  
       <br>To start, click on any circle to traverse the Animal Kingdom, or search below for an animal of your choice.</h4>
-      <form id="species-search" action="/species/search" method="POST">
-        <input id="species-input" type="text" name="species" placeholder="find a species" />
+      <form id="species-instructions-search" action="/species/search" method="POST">
+        <input id="species-instructions-input" type="text" name="species" placeholder="find a species" />
           <input type="submit" value="Search" />
           <a href='#' class="button exit" onclick='instructionsOverlay()'>X</a>
       </form>
@@ -65,7 +65,7 @@
     <div class="dark-matter"></div>
     <div class="search-form">
       <form id="species-search" action="/species/search" method="POST">
-        <input id="species-input" type="text" name="species" placeholder="find a species" />
+        <input id="species-search-input" type="text" name="species" placeholder="find a species" />
           <input type="submit" value="Search" />
           <a href='#' class="button exit" onclick='searchOverlay()'>X</a>
       </form>
