@@ -2,18 +2,35 @@ $(document).ready(function() {
 
 	//get species data from database
 	$.post('/speciesnames', function(species){
-		$( "#species-input" ).autocomplete({
-			source: species,
-    	minLength: 3,
-  	});
+		autocomplete("#species-input", species);
 	});
 
-	$.post('/speciesnames', function(species){
-		$( "#species-input-instructions" ).autocomplete({
+	$.post('/speciesnames', function(species) {
+		autocomplete('#species-input-instructions', species);
+	});
+
+	var autocomplete = function(selector, species) {
+		$(selector).autocomplete({
 			source: species,
     	minLength: 3,
   	});
+	}
+
+	var hideAllOverlays = function() {
+		$(".overlay").hide();
+	};
+
+	$('#instructions-link').on('click', function() {
+		hideAllOverlays();
+		$("#instructions.overlay").show();
 	});
+
+	$('#search-link').on('click', function() {
+		hideAllOverlays();
+		$("#search.overlay").show();
+	});
+	
+	$('.overlay .exit').on('click', hideAllOverlays)
 
 	//search for species in database
 	// $('#species-search').on('submit', function(event){
