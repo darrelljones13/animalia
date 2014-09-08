@@ -44,7 +44,7 @@ get '/species/scrape_wikipedia' do
   species = Species.all.limit(10)
   puts "Species Count = #{species.count}"
   puts "Creating folders for each Class..."
-  
+
   folder_names.each do |name|
     system 'mkdir', '-p', "public/image/wiki/#{name}"
   end
@@ -74,4 +74,21 @@ get '/species/:search' do |search_result|
   else
     redirect '/'
   end
+end
+
+get '/ajax/:parent/:level' do |parent, level|
+   case level.to_i
+    when 3
+      @items = Chlass.where(phylum_id: parent)
+    when 4
+      @items = Order.where(chlass_id: parent)
+    when 5
+      @items = Family.where(order_id: parent)
+    when 6
+      @items = Genus.where(family_id: parent)
+    when 7
+      @items = Species.where(genus_id: parent)
+    end
+      content_type :json
+      @items.to_json
 end
