@@ -74,12 +74,11 @@ get '/species/:search' do
   else
     puts "Search by name #{params[:search]}"
     @species = Species.find_by(common_name: params[:search])
-    if @species = nil
+    if @species == nil
       redirect '/'
     end
   end
   @relatives = Species.where("genus_id = ? AND id != #{@species.id}", "#{@species.genus_id}").limit(20)
   @taxonomy = @species.taxonomy
-  @wikiInfo = @species.parseWikipedia
   erb :species
 end
