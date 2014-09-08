@@ -8,6 +8,13 @@ $(document).ready(function() {
   	});
 	});
 
+	$.post('/speciesnames', function(species){
+		$( "#species-input-instructions" ).autocomplete({
+			source: species,
+    	minLength: 3,
+  	});
+	});
+
 	//search for species in database
 	// $('#species-search').on('submit', function(event){
 	// 	event.preventDefault();
