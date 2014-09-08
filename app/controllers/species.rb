@@ -23,11 +23,6 @@ post '/species' do
   { species: @species }.to_json
 end
 
-post '/species/search' do
-  @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
-  redirect "/species/#{@species.id}"
-end
-
 post '/speciesnames' do
   @all_species = Species.pluck(:common_name, :scientific_name)
   @all_species.flatten!.compact!
@@ -65,12 +60,23 @@ get '/species/scrape_wikipedia' do
   redirect "/"
 end
 
-get '/species/:search' do |search_result|
-  # @user = User.find(session[:user_id])
-  unless search_result.nil?
-    @species = Species.find(search_result.to_i)
-  else
+post '/species/search' do
+  @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
+  redirect "/species/#{@species.id}"
+end
+
+get '/species/:search' do 
+  if params[:search] == nil
     redirect '/'
+  elsif params[:search].to_i > 0
+    puts "Search by integer"
+    @species = Species.find(params[:search].to_i)
+  else
+    puts "Search by name #{params[:search]}"
+    @species = Species.find_by(common_name: params[:search])
+    if @species = nil
+      redirect '/'
+    end
   end
   @relatives = Species.where("genus_id = ? AND id != #{@species.id}", "#{@species.genus_id}").limit(20)
   @taxonomy = @species.taxonomy
