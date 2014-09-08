@@ -96,9 +96,22 @@ class Parser
     end
   end
 
+  def self.seed_image_names
+    CSV.foreach('species.csv', :headers => true) do |row|
+
+      @species = Species.find(row["id"])
+      @species.update(
+        wikitext: row["wikitext"],
+        image_name: row["image_name"])
+      @species.save
+    end
+  end
+
 end
+
 Parser.seed_birds
 Parser.seed_mammals
 Parser.seed_reptiles
 Parser.seed_amphibians
 Parser.seed_marine_life
+Parser.seed_image_names
