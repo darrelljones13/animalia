@@ -23,7 +23,7 @@ class Species < ActiveRecord::Base
       intro.gsub!(A_START, "<em>")
       intro.gsub!(A_END, "</em>")
       return {intro: intro, img: img_link}
-    rescue OpenURI::HTTPError => ex
+    rescue
     end
     begin
       genus_url = "http://en.wikipedia.org/wiki/#{self.scientific_name.split(" ")[0]}"
@@ -32,7 +32,7 @@ class Species < ActiveRecord::Base
       intro = '<div class="intro">The #{self.scientific_name} does not have a Wikipedia.org entry.  <a href="#{url}" class="button">Create one!</a></div>'
       {intro: intro, img: img_link}
     rescue
-      img_link = "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bobolink%2C_Mer_Bleue.jpg/800px-Bobolink%2C_Mer_Bleue.jpg"
+      img_link = "/images/default.jpg"
       return {intro: '', img: img_link}
     end
   end
