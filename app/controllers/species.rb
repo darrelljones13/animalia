@@ -61,19 +61,17 @@ get '/species/scrape_wikipedia' do
     File.open("public/image/wiki/#{s.taxonomy['class']}/#{s.image_name}",'wb'){ |f| f.write(open("http:#{info[:img]}").read) }
     print "X"
   end
-
   redirect "/"
 end
 
 get '/species/:search' do |search_result|
-  # @user = User.find(session[:user_id])
   unless search_result.nil?
     @species = Species.find(search_result.to_i)
+    @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(20)
+    @taxonomy = @species.taxonomy
+    @wikiInfo = @species.parseWikipedia
+    erb :species
   else
     redirect '/'
   end
-  @relatives = Species.where("genus_id = ? AND id != #{@species.id}", "#{@species.genus_id}").limit(20)
-  @taxonomy = @species.taxonomy
-  @wikiInfo = @species.parseWikipedia
-  erb :species
 end
