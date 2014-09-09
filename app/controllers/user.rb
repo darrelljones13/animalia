@@ -73,7 +73,7 @@ end
 #create collection
 
 post '/collection/new' do
-  @collection = Collection.create(name: params["name"])
+  @collection = Collection.create(name: params[:collection_name])
   @bobolink = Species.find_by(scientific_name: "Dolichonyx oryzivorus")
   @card = Card.create(user_id: current_user.id, collection_id: @collection.id, species_id: @bobolink.id)
   redirect "/users/profile/#{current_user.id}"
@@ -101,11 +101,10 @@ post '/collection/delete/:id' do
 end
 
 #delete card from collection
-post '/card/delete' do
+post '/collection/:collection_id/cards/delete/:card_id' do
   @user = User.find(session[:user_id])
   @cards = Card.find_by(params[:collection_id])
-
+  @card = @cards.where(card_id = params[:card_id])
   @card.destroy
-
 end
 
