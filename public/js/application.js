@@ -28,6 +28,7 @@ $(document).ready(function() {
 	$('#search-link').on('click', function() {
 		hideAllOverlays();
 		$("#search.overlay").show();
+
 	});
 	
 	$('.overlay .exit').on('click', hideAllOverlays)

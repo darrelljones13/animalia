@@ -29,7 +29,7 @@ class Species < ActiveRecord::Base
       genus_url = "http://en.wikipedia.org/wiki/#{self.scientific_name.split(" ")[0]}"
       doc = Nokogiri::HTML(open(genus_url))
       img_link = doc.search('.infobox img')[0]['src'] # img source
-      intro = '<div class="intro">The #{self.scientific_name} does not have a Wikipedia.org entry.  <a href="#{url}" class="button">Create one!</a></div>'
+      intro = "<div class='intro'>The #{self.scientific_name} does not have a Wikipedia.org entry.  <a href='#{url}' class='button'>Create one!</a></div>"
       {intro: intro, img: img_link}
     rescue
       img_link = "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bobolink%2C_Mer_Bleue.jpg/800px-Bobolink%2C_Mer_Bleue.jpg"
@@ -45,7 +45,7 @@ class Species < ActiveRecord::Base
 
   def taxonomy
     {
-    "kingdom" => self.genus.family.order.chlass.phylum.kingdom.name,
+    "kingdom" => "Animalia",
     "phylum" => self.genus.family.order.chlass.phylum.name,
     "class" => self.genus.family.order.chlass.name,
     "order" => self.genus.family.order.name,

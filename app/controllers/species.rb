@@ -19,15 +19,12 @@ end
 
 post '/species' do
   @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
-  puts @species.id
-  # redirect '/species/#{@species.id}'
   content_type :json
   { species: @species }.to_json
 end
 
 post '/species/search' do
   @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
-  puts @species.id
   redirect "/species/#{@species.id}"
 end
 
@@ -64,24 +61,17 @@ get '/species/scrape_wikipedia' do
     File.open("public/image/wiki/#{s.taxonomy['class']}/#{s.image_name}",'wb'){ |f| f.write(open("http:#{info[:img]}").read) }
     print "X"
   end
-
   redirect "/"
 end
 
-get '/species/:search' do
-  current_user
-  if params[:search] == nil
-    redirect '/'
-  elsif params[:search].to_i > 0
-    puts "Search by integer"
-    @species = Species.find(params[:search].to_i)
+get '/species/:search' do |search_result|
+  unless search_result.nil?
+    @species = Species.find(search_result.to_i)
+    @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(20)
+    @taxonomy = @species.taxonomy
+    @wikiInfo = @species.parseWikipedia
+    erb :species
   else
-    puts "Search by name #{params[:search]}"
-    # TODO needs error handling
-    @species = Species.where(common_name: params[:search])
+    redirect '/'
   end
-  @relatives = Species.where("genus_id = ? AND id != #{@species.id}", "#{@species.genus_id}").limit(20)
-  @taxonomy = @species.taxonomy
-  @wikiInfo = @species.parseWikipedia
-  erb :species
 end
