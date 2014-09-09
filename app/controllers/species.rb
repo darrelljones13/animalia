@@ -7,13 +7,16 @@ get '/species/random' do
   redirect "/species/#{random_id}"
 end
 
+get '/card' do
+  @species = Species.find(params[:id])
+  erb :card
+end
 
 get'/species/:species_id/show' do
   erb :"species/show"
 end
 
 get '/species' do
-
   erb :"species/index"
 end
 
