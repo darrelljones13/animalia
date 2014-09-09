@@ -2,30 +2,37 @@
     <div class="species-dark-matter"></div>
       <div class="card-container">
         <img src="<%= @species.image_name %>" style="float: right"/>
-        <h2><%= @species.common_name %></h2><h3><em><%= @species.scientific_name %></em></h3>
-        <ul>
-          <li>Endangered Species Status: <%= @species.redListStatus %></li>
-            <% if @species.population_trend != nil %>
-          <li>Population Trends: <%= @species.population_trend %></li>
+            
+            <% if current_user %>
+            <form id="add-card-button" action="/add_to_collection" method="POST">
+              <input class="" type="submit" value="Add to Collection!" />
+            </form>
             <% end %>
-          </ul>
-            <%= @species.wikitext %>
-          <hr>
-            <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
-              <div class="relatives">
-                <% @relatives.each do |relative| %>
-                  <a href="<%= relative.id %>">
-                  <div class="card">
-                    <img src="<%= relative.image_name %>"/>
-                    <% if relative.common_name != nil %>
-                      <%= relative.common_name %>
-                    <% else %>
-                      <%= relative.scientific_name %>
+
+            <a href='#' class="button exit">X</a>
+            <h2><%= @species.common_name %></h2><h3><em><%= @species.scientific_name %></em></h3>
+            <ul>
+              <li>Endangered Species Status: <%= @species.redListStatus %></li>
+                <% if @species.population_trend != nil %>
+              <li>Population Trends: <%= @species.population_trend %></li>
+                <% end %>
+            </ul>
+                <%= @species.wikitext %>
+              <hr>
+                <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
+                  <div class="relatives">
+                    <% @relatives.each do |relative| %>
+                      <a href="<%= relative.id %>">
+                      <div class="card">
+                        <img src="<%= relative.image_name %>"/>
+                          <% if relative.common_name != nil %>
+                            <%= relative.common_name %>
+                          <% else %>
+                            <%= relative.scientific_name %>
+                          <% end %>
+                      </div>
+                      </a>
                     <% end %>
-                    </div>
-                  </a>
-                    <% end %>
-                    <a href='#' class="card button exit">X</a>
-            </div>
+                  </div>
                     
 </div>
