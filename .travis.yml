@@ -1,11 +1,11 @@
 language: ruby
 rvm:
-  - 2.0.0
-
+- 2.0.0
 deploy:
   provider: heroku
-  api_key:
-    secure: "hdXbka9m77G6KphMN+cK1iMjtSD1PlYbMOaHh17nYwpeR5sqUq+pbWdbwpe2SNKdU/Ld8P5eKiL0gPhzf2Cp5sPFLpLuKk56uQF93B5mfaFlRiX48hY/6CFVyEug+2or0lpfS8ccSrnryLVpNMTgwwg2hSkd9WoeXpwmwzz9bmg="
   app: treefrog
   strategy: git
-  run: "rake db:migrate"
+  run: rake db:migrate
+env:
+  global:
+    secure: e8RUSZ2wx9wnT6UDNxsEV0Fd/yT2RX/mqxzJIovd/Ogf3f4oupBcDzaOwHalrwKCfeX1EOooAKhnFJOYwnu0yzgTY9Pe8llX0NoPcdc7Vm8pDwOxwvmHdVaGKNse1C9jvoje28S12ccV9yDs7umf2QQxpyui0FMDxXsYH+YLIB8=
