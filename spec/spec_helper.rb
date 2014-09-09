@@ -15,18 +15,32 @@ require 'capybara/rspec'
 require 'factory_girl'
 require 'factories'
 require 'faker'
+require 'database_cleaner'
+require 'capybara/webkit/matchers'
 
        
 Capybara.configure do |config|
   config.run_server = false
 end
        
+Capybara.javascript_driver = :selenium
 Capybara.app = Sinatra::Application.new
 
 RSpec.configure do |config|
   config.include Rack::Test::Methods
   config.include Capybara::DSL
   # config.include Factory::Syntax::Methods
+  config.include(Capybara::Webkit::RspecMatchers, :type => :feature)
+
+  config.before(:each) do
+    DatabaseCleaner.strategy = :truncation
+    DatabaseCleaner.start
+  end
+
+  config.after(:each) do
+    DatabaseCleaner.clean
+  end
+
 end
 
 def app
