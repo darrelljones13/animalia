@@ -22,6 +22,22 @@ class Genus < ActiveRecord::Base
     "genus"
   end
 
+
+  def get_genus_photos
+    @photo = "/image/tree-frog-logo.png"
+    @species = Species.where(genus_id: self.id)
+    @species.each do |species|
+      if species.image_name != nil
+        @photo = species.image_name
+        return {image_name: @photo }
+      end
+    end
+    {image_name: @photo }
+  end
+
+  
+
+
   def parseWikipedia
     # Works
     # TODO refactor wikipedia parser

@@ -40,32 +40,6 @@ class Species < ActiveRecord::Base
     end
   end
 
-  def parseWikipedia
-    # Works
-    # TODO refactor wikipedia parser
-    begin
-      url = "http://en.wikipedia.org/wiki/#{self.scientific_name.split(" ").join("_")}"
-      doc = Nokogiri::HTML(open(url))
-      img_link = doc.search('.infobox img')[0]['src']  # img source
-      intro = (doc.search('p')[0]).to_s # description
-      intro.gsub!(P_START, '<div class="intro">')
-      intro.gsub!(P_END, "</div>")
-      intro.gsub!(A_START, "<em>")
-      intro.gsub!(A_END, "</em>")
-      return {intro: intro, img: img_link}
-    rescue OpenURI::HTTPError => ex
-    end
-    begin
-      genus_url = "http://en.wikipedia.org/wiki/#{self.scientific_name.split(" ")[0]}"
-      doc = Nokogiri::HTML(open(genus_url))
-      img_link = doc.search('.infobox img')[0]['src'] # img source
-      intro = "<div class='intro'>The #{self.scientific_name} does not have a Wikipedia.org entry.  <a href='#{url}' class='button'>Create one!</a></div>"
-      {intro: intro, img: img_link}
-    rescue
-      img_link = "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bobolink%2C_Mer_Bleue.jpg/800px-Bobolink%2C_Mer_Bleue.jpg"
-      return {intro: '', img: img_link}
-    end
-  end
 
   def parseRedList
     # Works
@@ -120,5 +94,30 @@ class Species < ActiveRecord::Base
     "species"
   end
 
+  def parse_red_list
+      url = "http://www.iucnredlist.org/details/summary/#{self.red_list_id}/0"
+      doc = Nokogiri::HTML(open(url))
+      td_array = []
+      
+      doc.css('td').each do |el|
+        unless el.children.first.nil?
+          td_array << el.children.first.content
+        end
+      end
+      
+      species_data = {}
+      td_array.each_with_index do |element, index|  
+        case 
+          when element =~ /Range Description:/
+            species_data[:range] = td_array[index+1].gsub("\n", " ").strip
+          when element =~ /Habitat and Ecology:/
+            species_data[:habitat] = td_array[index+1].gsub("\n", " ").strip      
+          when element =~ /Major Threat/
+            species_data[:major_threats] = td_array[index+1].gsub("\n", " ").strip          
+        end
+      end
+      species_data
+    rescue OpenURI::HTTPError => ex
+  end
 
 end

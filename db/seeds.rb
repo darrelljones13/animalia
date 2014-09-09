@@ -11,11 +11,14 @@ class Parser
       Order.create(name: bird["order"], chlass_id: Chlass.last.id)
       Family.create(name: bird["family"], order_id: Order.last.id)
       Genus.create(name: bird["scientific_name"].split(" ")[0], family_id: Family.last.id)
-      Species.create(
+      species = Species.create(
         genus_id: Genus.last.id,
         common_name: bird["common_name"],
         scientific_name: bird["scientific_name"],
-        red_list_status: bird["red_list_cat"])
+        red_list_status: bird["red_list_cat"],
+        red_list_id: fish["Species ID"])
+      species.update(species.parse_red_list)
+      species.save
     end
   end
 
@@ -29,12 +32,15 @@ class Parser
       Family.create(name: mammal["Family"], order_id: Order.last.id)
       Genus.create(name: mammal["Genus"], family_id: Family.last.id)
 
-      Species.create(
+      species = Species.create(
         genus_id: Genus.last.id,
         common_name: mammal["Common names (Eng)"],
         scientific_name: "#{mammal["Genus"]} #{mammal["Species"]}",
         red_list_status: mammal["Red List status"],
-        population_trend: mammal["Population trend"])
+        population_trend: mammal["Population trend"],
+        red_list_id: fish["Species ID"])
+      species.update(species.parse_red_list)
+      species.save
     end
   end
 
@@ -48,13 +54,15 @@ class Parser
       Order.create(name: reptile["Order"], chlass_id: Chlass.last.id)
       Family.create(name: reptile["Family"], order_id: Order.last.id)
       Genus.create(name: reptile["Genus"], family_id: Family.last.id)
-      puts "Trying to save #{reptile["Common names (Eng)"]}"
-      Species.create!(
+      species = Species.create!(
         genus_id: Genus.last.id,
         common_name: reptile["Common names (Eng)"],
         scientific_name: "#{reptile["Genus"]} #{reptile["Species"]}",
         red_list_status: reptile["Red List status"],
-        population_trend: reptile["Population trend"])
+        population_trend: reptile["Population trend"],
+        red_list_id: fish["Species ID"])
+      species.update(species.parse_red_list)
+      species.save
     end
   end
 
@@ -68,12 +76,15 @@ class Parser
       Order.create(name: amphibian["Order"], chlass_id: Chlass.last.id)
       Family.create(name: amphibian["Family"], order_id: Order.last.id)
       Genus.create(name: amphibian["Genus"], family_id: Family.last.id)
-      Species.create(
+      species = Species.create(
         genus_id: Genus.last.id,
         common_name: amphibian["Common names (Eng)"],
         scientific_name: "#{amphibian["Genus"]} #{amphibian["Species"]}",
         red_list_status: amphibian["Red List status"],
-        population_trend: amphibian["Population trend"])
+        population_trend: amphibian["Population trend"],
+        red_list_id: fish["Species ID"])
+      species.update(species.parse_red_list)
+      species.save
     end
   end
 
@@ -87,23 +98,53 @@ class Parser
       Order.create(name: fish["Order"], chlass_id: Chlass.last.id)
       Family.create(name: fish["Family"], order_id: Order.last.id)
       Genus.create(name: fish["Genus"], family_id: Family.last.id)
-      Species.create(
+      species = Species.create(
         genus_id: Genus.last.id,
         common_name: fish["Common names (Eng)"],
         scientific_name: "#{fish["Genus"]} #{fish["Species"]}",
         red_list_status: fish["Red List status"],
-        population_trend: fish["Population trend"])
+        population_trend: fish["Population trend"],
+        red_list_id: fish["Species ID"])
+      species.update(species.parse_red_list)
+      species.save
+    end
+  end
+
+   def self.seed_wiki_order
+    @orders = Order.all
+    @orders.each do |ord|
+      unless ord.parse_wiki_order.nil?
+        ord.update( ord.parse_wiki_order )
+        ord.save
+      end
+    end
+  end
+
+  def self.seed_wiki_family
+    @families = Family.all
+    @families.each do |family|
+      unless family.parse_wiki_family.nil?
+        family.update( family.parse_wiki_family )
+        family.save
+      end
     end
   end
 
   def self.seed_image_names
     CSV.foreach('species.csv', :headers => true) do |row|
-
       @species = Species.find(row["id"])
       @species.update(
         wikitext: row["wikitext"],
         image_name: row["image_name"])
       @species.save
+    end
+  end
+
+  def self.seed_genus_photos
+    @genus = Genus.all
+    @genus.each do |genus|
+        genus.update( genus.get_genus_photos )
+        genus.save
     end
   end
 
@@ -115,3 +156,7 @@ Parser.seed_reptiles
 Parser.seed_amphibians
 Parser.seed_marine_life
 Parser.seed_image_names
+Parser.seed_wiki_family
+Parser.seed_wiki_order
+Parser.seed_genus_photos
+
