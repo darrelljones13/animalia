@@ -17,6 +17,16 @@ helpers do
     return "<img src=http:#{img_link} class=#{css_class} />"
   end
 
+  def red_list_image( search_string, css_class="thumb" )
+    url = "http://www.iucnredlist.org/details/summary/56429/0"
+
+    doc = Nokogiri::HTML(open(url))
+    img_link = doc.search('#data_factsheet') # img source
+
+    # return "<img src=http:#{img_link} class=#{css_class} />"
+    puts "img_link: #{img_link}"
+  end
+
 end
 
 
