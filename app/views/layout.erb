@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="/css/taxonomy.css">
 
   <script src="http://use.edgefonts.net/alegreya-sc.js"></script>
-
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
@@ -36,7 +35,7 @@
           <input type="submit" value="Log In" />
         </form>
       <% else %>
-        <li><a href="/users/profile/<%= @user.id %>"> My Collections</a></li>
+        <li><a href="/users/profile/<%= current_user.id %>"> My Collections</a></li>
          <li><a href="/logout" >Logout</a></li>
 
       <% end %>

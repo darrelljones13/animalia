@@ -23,12 +23,12 @@ end
 
 # profile (show user collections)
 
-get '/users/profile/:id' do
-  @user = User.find(session[:user_id])
-  @collections = @user.collections.all
-  @collection = Collection.find(params[:id])
-  @cards = Card.where(collection_id: @collection.id)
-  
+get '/users/profile/:id' do 
+  current_user
+  @collections = @user.collections
+  unless @collections.empty?
+    @cards = Card.where(user_id: current_user.id)
+  end
   erb :'users/profile'
 end
 
@@ -41,7 +41,7 @@ get '/collection/edit/:id' do
   erb :'collection/edit'
 end
 
-# POST ___________
+# POST __________
 
 # Login
 
@@ -70,6 +70,14 @@ post '/signup' do
   end
 end
 
+#create collection
+
+post '/collection/new' do
+  @collection = Collection.create(name: params["name"])
+  @bobolink = Species.find_by(scientific_name: "Dolichonyx oryzivorus")
+  @card = Card.create(user_id: current_user.id, collection_id: @collection.id, species_id: @bobolink.id)
+  redirect "/users/profile/#{current_user.id}"
+end
 
 # Edit Collection
 

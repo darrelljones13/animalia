@@ -1,27 +1,31 @@
 <div class="container">
-<h3><%= @user.first_name %>'s Collections</h3>
-<ul id="collection_list">
-  <% if @collections %>
-    <% @collections.each do |collection| %>
+  <h3><%= @user.first_name %>'s Collections</h3>
+  <ul id="collection_list">
+    <% unless @collections.nil? %>
+      <% @collections.each do |collection| %>
 
-      <li><h3><%= collection.name %></h3>
-
-        <form method="GET" action="/collection/edit/<%= collection.id %>">
-        <input id= "create" type="submit" value="Edit this collection">
-        </form>
-
-        <form id="delete" action="/collection/delete/<%=collection.id%>" method="POST">
-        <input type="submit" value="Delete">
-        </form>
+        <li><h3><%= collection.name %></h3></li>
+  
+          <ul>
+            <% collection.cards.each do |card| %>
+              <li><a href=""><%= card.species.common_name %></a></li>
+            <% end %>
+          </ul>
         
-      <% @cards.each do |card| %>
-      <h5><li><%= card.species.common_name %></li></h5>
+          <form method="GET" action="/collection/edit/<%= collection.id %>">
+            <input id= "create" type="submit" value="Edit this collection">
+          </form>
+
+          <form id="delete" action="/collection/delete/<%=collection.id%>" method="POST">
+            <input type="submit" value="Delete">
+          </form>
+      <% end %>
     <% end %>
-      </li>
-    <% end %>
-  <% end %>
-
-
-
+  </ul>
+<hr>
+  <form method="POST" action="/collection/new">
+    <input type="text"  name="name" placeholder="collection name">
+    <input id="create-collection" type="submit" value="New Collection">
+  </form>
 
 </div>
