@@ -48,10 +48,7 @@ $(document).ready(function() {
   // ______________________________
 
     
-    $(".container").on("click", ".row", function(event) {
-        $(".row").removeClass("selected");
-        $(this).addClass("selected");
-    });
+ 
 
     //probably not finished
     $("#add-card-button").on("click", function(event) {
