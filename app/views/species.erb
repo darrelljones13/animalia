@@ -8,9 +8,18 @@
 </ul>
 <%= @species.wikitext %>
 <span id="current-species-id" style="display:none;"><%=@species.id%></span>
+
+<% if current_user %>
 <form id="add-card-button" action="/add_to_collection" method="POST">
+
+  <select>
+     <% @user.collections.each do |collection| %>
+        <option name="collection" value=<%= collection.id %>><%= collection.name %></option>
+     <% end %>
+  </select>
   <input class="" type="submit" value="Add to Collection!" />
 </form>
+<% end %>
 <hr>
 <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
 <div class="relatives">
