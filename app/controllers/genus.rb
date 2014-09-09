@@ -13,3 +13,23 @@ get '/genus/:search' do
   @relatives = Species.where("genus_id = ?", "#{@genus.id}").limit(20)
   erb :genus
 end
+
+
+get '/species/scrape_wikipedia' do
+  puts "Preparing to get all image and descriptions from Wikipedia..."
+  puts "Good Luck!"
+  puts "*" * 50
+
+  genus = Genus.all
+  genus.each do |s|
+    begin
+      info = g.parseWikipedia
+      # s.wikitext = info[:intro]
+      g.image_name = "http:" + info[:img]
+      g.save
+      # File.open("public/image/wiki/#{s.taxonomy['class']}/#{s.image_name}",'wb'){ |f| f.write(open("http:#{info[:img]}").read) }
+    rescue
+    end
+  end
+  redirect "/"
+end
