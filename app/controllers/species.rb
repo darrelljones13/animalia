@@ -7,8 +7,9 @@ get '/species/random' do
   redirect "/species/#{random_id}"
 end
 
-get '/card' do
+get '/card/:id' do
   @species = Species.find(params[:id])
+  @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
   erb :card
 end
 
