@@ -94,12 +94,14 @@ feature "Search", js: true do
   end
 end
 
-feature "Search", js: true do
-  scenario 'a user can access the search function' do
-    visit 'localhost:9393/species/22402'
-    click_on "Search"
-    find(:css, "#search").should be_visible
-  end
-end
+# feature "Collections" do
+#   scenario 'a user add a new collection from the collections page' do
+#     @user = User.create(first_name: "Bob", email: "bob@bob.bob", password: "bobbobbob")
+#     visit "localhost:9393/users/profile/'#{@user.id}'"
+#     fill_in "collection_name", with: "Bobolinks and friends"
+#     click_on "New Collection"
+#     expect(page).to have_content("Bobolinks and friends")
+#   end
+# end
 
 
