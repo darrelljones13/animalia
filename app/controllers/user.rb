@@ -101,10 +101,11 @@ post '/collection/delete/:id' do
 end
 
 #delete card from collection
-post '/collection/:collection_id/cards/delete/:card_id' do
+delete '/collection/:collection_id/cards/delete/:card_id' do
   @user = User.find(session[:user_id])
-  @cards = Card.find_by(params[:collection_id])
-  @card = @cards.where(card_id = params[:card_id])
+  @card = Card.where("collection_id = ? AND id = ?", params[:collection_id], params[:card_id]).first
   @card.destroy
+
+  redirect "/users/profile/#{current_user.id}"
 end
 
