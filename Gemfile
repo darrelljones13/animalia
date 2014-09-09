@@ -19,6 +19,10 @@ gem 'shotgun'
 
 gem 'nokogiri'
 
+group :production do
+  gem 'thin'
+end
+
 
 
 group :test do
