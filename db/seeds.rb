@@ -7,16 +7,16 @@ class Parser
     phylum = Phylum.create(name: "Chordata", kingdom_id: Kingdom.last.id)
     chlass = Chlass.create(name: "Aves", phylum_id: Phylum.last.id)
 
-    CSV.foreach('db/birds.csv', :headers => true) do |bird|
-      Order.create(name: bird["order"], chlass_id: Chlass.last.id)
-      Family.create(name: bird["family"], order_id: Order.last.id)
-      Genus.create(name: bird["scientific_name"].split(" ")[0], family_id: Family.last.id)
+    CSV.foreach('birds_proper.csv', :headers => true) do |bird|
+      Order.create(name: bird["Order"], chlass_id: Chlass.last.id)
+      Family.create(name: bird["Family"], order_id: Order.last.id)
+      Genus.create(name: bird["Scientific name"].split(" ")[0], family_id: Family.last.id)
       species = Species.create(
         genus_id: Genus.last.id,
-        common_name: bird["common_name"],
-        scientific_name: bird["scientific_name"],
-        red_list_status: bird["red_list_cat"],
-        red_list_id: fish["Species ID"])
+        common_name: bird["Common name"],
+        scientific_name: bird["Scientific name"],
+        red_list_status: bird["2014 IUCN Red List category"],
+        red_list_id: bird["SISRecID"])
       species.update(species.parse_red_list)
       species.save
     end
@@ -38,7 +38,7 @@ class Parser
         scientific_name: "#{mammal["Genus"]} #{mammal["Species"]}",
         red_list_status: mammal["Red List status"],
         population_trend: mammal["Population trend"],
-        red_list_id: fish["Species ID"])
+        red_list_id: mammal["Species ID"])
       species.update(species.parse_red_list)
       species.save
     end
@@ -60,7 +60,7 @@ class Parser
         scientific_name: "#{reptile["Genus"]} #{reptile["Species"]}",
         red_list_status: reptile["Red List status"],
         population_trend: reptile["Population trend"],
-        red_list_id: fish["Species ID"])
+        red_list_id: reptile["Species ID"])
       species.update(species.parse_red_list)
       species.save
     end
@@ -82,7 +82,8 @@ class Parser
         scientific_name: "#{amphibian["Genus"]} #{amphibian["Species"]}",
         red_list_status: amphibian["Red List status"],
         population_trend: amphibian["Population trend"],
-        red_list_id: fish["Species ID"])
+        red_list_id: amphibian["Species ID"])
+
       species.update(species.parse_red_list)
       species.save
     end
@@ -113,8 +114,9 @@ class Parser
    def self.seed_wiki_order
     @orders = Order.all
     @orders.each do |ord|
-      unless ord.parse_wiki_order.nil?
-        ord.update( ord.parse_wiki_order )
+      wiki_info = ord.parse_wiki_order
+      unless wiki_info.nil?
+        ord.update( wiki_info )
         ord.save
       end
     end
@@ -150,7 +152,7 @@ class Parser
 
 end
 
-Parser.seed_birds
+# Parser.seed_birds
 Parser.seed_mammals
 Parser.seed_reptiles
 Parser.seed_amphibians
