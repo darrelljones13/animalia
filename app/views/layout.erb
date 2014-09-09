@@ -41,7 +41,7 @@
       <% if session[:user_id].nil? %>
         <a href="/users/new" >Create New Account</a>
         <form id="sign-in" action="/users/login" method="POST">
-          EMAIL: <input type="text" name="email" value="" />
+          EMAIL: <input type="email" name="email" value="" />
           PASSWORD: <input type="password" name="password" value="" />
           <input type="submit" value="Log In" />
         </form>
