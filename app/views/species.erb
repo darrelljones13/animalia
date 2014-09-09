@@ -1,4 +1,4 @@
-<img src="<%= @wikiInfo[:img] %>" style="float: right" />
+<img src="<%= @species.image_name %>" style="float: right" />
 <h2><%= @species.common_name %></h2><h3><em><%= @species.scientific_name %></em></h3>
 <ul>
   <li>Endangered Species Status: <%= @species.redListStatus %></li>
@@ -6,14 +6,18 @@
     <li>Population Trends: <%= @species.population_trend %></li>
   <% end %>
 </ul>
-<%= @wikiInfo[:intro] %>
+<%= @species.wikitext %>
+<span id="current-species-id" style="display:none;"><%=@species.id%></span>
+<form id="add-card-button" action="/add_to_collection" method="POST">
+  <input class="" type="submit" value="Add to Collection!" />
+</form>
 <hr>
 <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
 <div class="relatives">
 <% @relatives.each do |relative| %>
   <a href="<%= relative.id %>">
   <div class="card">
-    <%= wikiImage(relative.scientific_name) %>
+    <img src="<%= relative.image_name %>"/>
     <% if relative.common_name != nil %>
       <%= relative.common_name %>
     <% else %>
