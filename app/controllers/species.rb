@@ -12,6 +12,19 @@ get '/card' do
   erb :card
 end
 
+#not finished. need to address edge cases
+post '/add_to_collection' do
+  if session[:user_id] != nil
+    @user_collection = current_user.collections.first
+    Card.create(user_id: current_user.id, species_id: params[:species_id], collection_id: @user_collection.id)
+    content_type :json
+    "success".to_json
+  else
+    content_type :json
+    "try again".to_json
+  end
+end
+
 get'/species/:species_id/show' do
   erb :"species/show"
 end
