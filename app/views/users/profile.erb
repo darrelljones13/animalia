@@ -8,7 +8,7 @@
   
           <ul>
             <% collection.cards.each do |card| %>
-              <li><a href=""><%= card.species.common_name %></a></li>
+              <li><a href="/species/<%=card.species.id%>"><%= card.species.common_name %></a></li>
             <% end %>
           </ul>
         
