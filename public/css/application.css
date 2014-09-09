@@ -202,10 +202,10 @@ input {
   height: 25px;
   width: 60px;
   border-radius: 5px;
-  background: #055766;
+  background: gray;
   border: 1px solid #222;
-  opacity: .7;
-  box-shadow: inset 0px -5px 8px 2px #eee;
+  opacity: 1;
+  box-shadow: inset 0px -5px 8px 2px gray;
   color: white;
   font-family: sans-serif;
   line-height: 25px;
@@ -217,9 +217,9 @@ input {
 }
 
 .exit {
-  background: #ff2600;
-  box-shadow: inset 0px -5px 8px 2px #dd2600;
+  background: gray;
+  /*box-shadow: inset 0px -5px 8px 2px #gray;*/
   width: 25px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 

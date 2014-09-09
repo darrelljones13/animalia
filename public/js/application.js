@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	//get species data from database
 	$.post('/speciesnames', function(species){
-		autocomplete("#species-input", species);
+		autocomplete("#species-search-input", species);
 	});
 
 	$.post('/speciesnames', function(species) {
@@ -33,6 +33,7 @@ $(document).ready(function() {
 	
 	$('.overlay .exit').on('click', hideAllOverlays)
 
+
   // _____________________________
   // This is the card modal
 
@@ -46,16 +47,12 @@ $(document).ready(function() {
   $('.overlay .exit').on('click', hideAllOverlays)
   // ______________________________
 
- $(document).ready(function(){
     
     $(".container").on("click", ".row", function(event) {
         $(".row").removeClass("selected");
         $(this).addClass("selected");
     });
-
-});
-
-
+    
 	//search for species in database
 	// $('#species-search').on('submit', function(event){
 	// 	event.preventDefault();
