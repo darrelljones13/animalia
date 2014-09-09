@@ -42,6 +42,7 @@ $(document).ready(function() {
     //probably not finished
     $("#add-card-button").on("click", function(event) {
     	event.preventDefault();
+    	event.stopPropagation();
     	var specId = parseInt($('#current-species-id').html());
     	$.post('/add_to_collection', {species_id: specId}, function(message) {
 			console.log(message);

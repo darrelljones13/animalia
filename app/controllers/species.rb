@@ -16,9 +16,9 @@ end
 post '/add_to_collection' do
   if session[:user_id] != nil
     @user_collection = current_user.collections.first
-    Card.create(user_id: current_user.id, species_id: params[:species_id], collection_id: @user_collection.id)
+    @card = Card.create(user_id: current_user.id, species_id: params[:species_id], collection_id: @user_collection.id)
     content_type :json
-    "success".to_json
+    @card.to_json
   else
     content_type :json
     "try again".to_json
