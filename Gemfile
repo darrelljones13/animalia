@@ -32,7 +32,7 @@ group :development, :test do
   gem 'factory_girl', :require => false
   gem 'faker'
   gem 'database_cleaner'
-  gem 'capybara-webkit'
+  # gem 'capybara-webkit'
   gem 'selenium-webdriver'
 end
 
