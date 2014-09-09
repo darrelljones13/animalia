@@ -96,6 +96,7 @@ class Species < ActiveRecord::Base
 
   def parse_red_list
       url = "http://www.iucnredlist.org/details/summary/#{self.red_list_id}/0"
+
       doc = Nokogiri::HTML(open(url))
       td_array = []
       
