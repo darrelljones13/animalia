@@ -88,7 +88,7 @@ get '/species/:search' do |search_result|
     @species = Species.find(search_result.to_i)
     @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(20)
     @taxonomy = @species.taxonomy
-    @wikiInfo = @species.parseWikipedia
+    # @wikiInfo = @species.parseWikipedia
     erb :species
   else
     redirect '/'
