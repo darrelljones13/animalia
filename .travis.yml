@@ -2,15 +2,6 @@ language: ruby
 rvm:
   - 2.0.0
 
-before_script:
-  - rake db:create
-  - rake db:migrate
-  - rake db:seed
-  - rake db:test:prepare
-
-script:
-  - rake spec
-
 deploy:
   provider: heroku
   api_key: "46549d10-db35-4a49-84b2-cf01f731fac8"
