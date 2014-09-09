@@ -1,7 +1,3 @@
-# get "/" do
-#    erb :index
-# end
-
 get '/species/random' do
   random_id = Species.all.pluck(:id).sample
   redirect "/species/#{random_id}"
@@ -99,11 +95,11 @@ get '/ajax/:parent/:level' do |parent, level|
   items = []
   images = [
     "",
-    "/image/icon/bird-icon.png",
-    "/image/icon/lion-icon.png",
-    "/image/icon/lizard-icon.png",
-    "/image/icon/frog-icon.png",
-    "/image/icon/fish-icon.png"
+    "/image/bird-icon.png",
+    "/image/lion-icon.png",
+    "/image/lizard-icon.png",
+    "/image/frog-icon.png",
+    "/image/fish-icon.png"
   ]
 
   case level.to_i
@@ -139,7 +135,7 @@ get '/ajax/:parent/:level' do |parent, level|
         else
           name = item.scientific_name
         end
-        items = {id: item.id, name: name, image: item.image_name, description: item.wikitext, status: item.red_list_status, trend: item.population_trend, taxonomy: item.taxonomy}
+        items = {id: item.id, name: name, image: item.image_name, description: item.wikitext, status: item.redListStatus, trend: item.population_trend, taxonomy: item.taxonomy}
     end
 
     content_type :json

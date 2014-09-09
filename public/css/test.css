@@ -1,5 +1,5 @@
 * {
-    transition: all linear .3s;
+    transition: all linear .4s;
     border: none;
     margin: none;
     padding: none;
@@ -8,17 +8,26 @@
 body {
     background: url('/image/bg/leather_1_@2X.png');
 }
-
+img {
+    border: none;
+    border-radius: 0;
+}
 .container {
     /*background: rgba(255, 38, 0, 0.5);*/
     box-shadow: 0px 0px 20px 20px #333;
     display: flex;
+    position: fixed;
+    top: 8%;
+    left: 0px;
+    width: 100%;
+    height: 92%;
+    overflow: hidden;
 }
 
 .bar {
     display: inline-block;
     flex: 2;
-    height: 100%;
+    /*height: 100%;*/
     padding: 0px;
     margin: 0px;
     border: none;
@@ -58,8 +67,8 @@ body {
 
 .bar.selected {
     flex: 6;
-    background: none;
-    box-shadow: inset 5px 0px 20px #666;
+    background: #333;
+    box-shadow: inset 5px 0px 25px #666;
     overflow-y: auto;
 }
 .bar::-webkit-scrollbar {
@@ -70,11 +79,6 @@ body {
     flex: 10;
 }
 
-.bar.inactive {
-    flex: 1;
-    background: #666;
-    box-shadow: inset 0px 0px 10px #333;
-}
 .bar.detail {
     flex: 0.01;
     background: #333;
@@ -86,17 +90,9 @@ body {
     background: none;
 }
 
-.class .cards {
-    background-image: none;
+.class .icons {
 }
 
-.cards img {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 85%;
-}
 
 /*
 .bar:hover {
@@ -109,42 +105,59 @@ body {
     transform: rotate(90deg);
 }*/
 
-.cards {
+.icons {
     margin: 30px auto;
     width: 65%;
-    height: 90px;
-    box-shadow: 0px 0px 13px #666;
+    height: 180px;
+    box-shadow: 0px 0px 13px #666, inset 0 0 30px 5px #fff;
     border-radius: 20px;
-    overflow: hidden;
-    padding: 5%;
-    background: #1e5799; /* Old browsers */
-background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-
+    padding: 0;
+    background: #e4f5fc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
     background-size: 100%;
     color: black;
     overflow: hidden;
-    line-height: 15%;
     cursor:pointer;
     z-index: 10;
 }
-.cards.fade {
+.icons.fade {
     box-shadow: inset 0 0 1000px #666;
 }
-.selected .cards {
+.selected .icons {
     height: 250px;
 }
-.selected .cards h4 {
+.icons h4 {
+    background: #fdfdfd;
+    width: 100%;
+    position: relative;
+    margin-top: -45%;
+
+}
+.selected .icons h4 {
     display: block;
+    margin-top: -40%;
+    font-size: 24pt;
 }
 
-.cards.breadcrumb {
+.icons.breadcrumb {
     box-shadow: 0 0 10px 8px #f4b612;
+}
+.icons img {
+    min-width: 100%;
+    max-width: 120%;
+    min-height: 100%;
+    max-height: 120%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 85%;
 }
 
 .hidden-id {
@@ -160,31 +173,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 }
 
 .bar.kingdom{
-    background-color: rgba(80, 142, 203, 0.7);
+    background-color: rgba(80, 142, 203, 0.8);
 }
 
 .bar.phylum {
-    background: rgba(99, 157, 214, 0.7);
+    background: rgba(99, 157, 214, 0.8);
     /*background-color: #639DD6;*/
 }
 .bar.class {
-    background: rgba(109, 166, 219, 0.7);
+    background: rgba(109, 166, 219, 0.8);
     /*background-color: #6DA6DB;*/
 }
 .bar.order {
-    background: rgba(122, 181, 228, 0.7);
+    background: rgba(122, 181, 228, 0.8);
     /*background-color: #7AB5E4;*/
 }
 .bar.family {
-    background: rgba(135, 185, 227, 0.7);
+    background: rgba(135, 185, 227, 0.8);
     /*background-color: #87b9e3;*/
 }
 .bar.genus {
-    background: rgba(154, 197, 232, 0.7);
+    background: rgba(154, 197, 232, 0.8);
     /*background-color: #9ac5e8;*/
 }
 .bar.species {
-    background: rgba(168, 206, 236, 0.7);
+    background: rgba(168, 206, 236, 0.8);
     /*background-color: #a8ceec;*/
 }
 .bar.detail {
@@ -193,52 +206,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     /*background-color: #2b3b45;*/
 }
 
-.taxonomy {
+.hierarchy {
     width: 100%;
     color: white;
 }
-.taxonomy .kingdom {
+.hierarchy .kingdom {
     display: inline-block;
     width: 10%;
     line-height: 30px;
     background-color: #21420b;
 
 }
-.taxonomy .phylum {
+.hierarchy .phylum {
     display: inline-block;
     min-width: 10%;
     line-height: 30px;
     background-color: #4a7a17;
 }
-.taxonomy .class {
+.hierarchy .class {
     display: inline-block;
     width: 10%;
     line-height: 30px;
     background-color: #21420b;
 }
-.taxonomy .order {
+.hierarchy .order {
     display: inline-block;
     width: 10%;
     line-height: 30px;
     background-color: #4a7a17;
 }
-.taxonomy .family {
+.hierarchy .family {
     display: inline-block;
     width: 10%;
     line-height: 30px;
     background-color: #21420b;
 }
-.taxonomy .genus {
+.hierarchy .genus {
     display: inline-block;
     width: 10%;
     line-height: 30px;
     background-color: #4a7a17;
 }
-.taxonomy .species {
+.hierarchy .species {
     display: inline-block;
     width: 13%;
     transform: skewX(10deg);
     line-height: 40px;
     background-color: #21420b;
 }
+
+.bar.inactive {
+    flex: .5;
+    background: #777;
+    padding-top: 30%;
+    color: white;
+}
+
 

@@ -1,6 +1,7 @@
-get '/' do  
+get '/' do
   current_user
-  erb :index
+  @flex = true
+  erb :slide
 end
 
 
