@@ -16,13 +16,11 @@ get '/logout' do
 end
 
 # register
-
 get 'users/new' do
   erb :'users/new'
 end
 
 # profile (show user collections)
-
 get '/users/profile/:id' do 
   current_user
   @collections = @user.collections
