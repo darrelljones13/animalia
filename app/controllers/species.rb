@@ -7,13 +7,16 @@ get '/species/random' do
   redirect "/species/#{random_id}"
 end
 
+get '/card' do
+  @species = Species.find(params[:id])
+  erb :card
+end
 
 get'/species/:species_id/show' do
   erb :"species/show"
 end
 
 get '/species' do
-
   erb :"species/index"
 end
 
@@ -44,7 +47,7 @@ get '/species/scrape_wikipedia' do
   species = Species.all.limit(10)
   puts "Species Count = #{species.count}"
   puts "Creating folders for each Class..."
-  
+
   folder_names.each do |name|
     system 'mkdir', '-p', "public/image/wiki/#{name}"
   end
@@ -74,4 +77,44 @@ get '/species/:search' do |search_result|
   else
     redirect '/'
   end
+end
+
+get '/ajax/:parent/:level' do |parent, level|
+  items = []
+  images = [
+    "",
+    "/image/icon/bird-icon.png",
+    "/image/icon/lion-icon.png",
+    "/image/icon/lizard-icon.png",
+    "/image/icon/frog-icon.png",
+    "/image/icon/fish-icon.png"
+  ]
+
+  case level.to_i
+    when 4
+      Order.where(chlass_id: parent).pluck(:id, :name).each do |item|
+        items << {id: item[0], name: item[1], image: images[parent.to_i]}
+      end
+
+    when 5
+      Family.where(order_id: parent).pluck(:id, :name).each do |item|
+        items << {id: item[0], name: item[1], image: images[1]}
+      end
+    when 6
+      Genus.where(family_id: parent).pluck(:id, :name).each do |item|
+        items << {id: item[0], name: item[1], image: images[1]}
+      end
+    when 7
+      Species.where(genus_id: parent).pluck(:id, :common_name, :scientific_name, :image_name).each do |item|
+        if item[1] != nil
+          name = item[1]
+        else
+          name = item[2]
+        end
+        items << {id: item[0], name: name, image: item[3]}
+      end
+    end
+
+    content_type :json
+    items.to_json
 end

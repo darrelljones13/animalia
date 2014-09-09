@@ -1,0 +1,127 @@
+* {
+    transition: all linear .5s;
+    border: none;
+    margin: none;
+    padding: none;
+}
+.container {
+    border: none;
+    display: flex;
+}
+
+.bar {
+    display: inline-block;
+    flex: 2;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background: #1C3A3E;
+    text-align: center;
+    color: white;
+    overflow-y: hidden;
+    border: 1px solid #666;
+}
+.bar.kingdom, .bar.phylum {
+    flex: 1;
+}
+
+.bar h2 {
+    z-index: 10;
+    position: relative;
+    transform: rotate(-90deg);
+    top: 40%;
+}
+
+.bar h5 {
+    z-index: 10;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: #444;
+    border: none;
+    margin: 0px;;
+    padding: 0px;
+    height: 30px;
+    text-transform: capitalize;
+    box-shadow: none;
+}
+
+.bar.selected {
+    flex: 6;
+    background: #6A8B78;
+    box-shadow: inset 0px 0px 10px #666;
+    overflow-y: auto;
+}
+.bar.selected::-webkit-scrollbar {
+    display: none;
+}
+
+.bar.species.selected {
+    flex: 6;
+}
+
+.bar.inactive {
+    flex: 1;
+    background: #666;
+    box-shadow: inset 0px 0px 10px #333;
+}
+.bar.detail {
+    flex: 0;
+}
+
+.bar.detail.active {
+    flex: 8;
+}
+
+.class .cards {
+    background-image: none;
+}
+
+.cards img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 85%;
+}
+
+/*
+.bar:hover {
+    width: 20%;
+}
+*/
+/*
+.container:hover {
+    top: 0px;
+    transform: rotate(90deg);
+}*/
+
+.cards {
+    margin: 30px auto;
+    width: 65%;
+    height: 90px;
+    box-shadow: 0px 0px 13px #666;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    background-size: 100%;
+    color: black;
+    overflow: hidden;
+    line-height: 15%;
+
+    z-index: 10;
+}
+
+.selected .cards {
+    height: 250px;
+}
+.selected .cards h4 {
+    display: block;
+}
+
+.hidden-id {
+    display: none;
+}
+
