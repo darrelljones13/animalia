@@ -33,16 +33,12 @@ $(document).ready(function() {
 	
 	$('.overlay .exit').on('click', hideAllOverlays)
 
- $(document).ready(function(){
     
     $(".container").on("click", ".row", function(event) {
         $(".row").removeClass("selected");
         $(this).addClass("selected");
     });
-
-});
-
-
+    
 	//search for species in database
 	// $('#species-search').on('submit', function(event){
 	// 	event.preventDefault();
