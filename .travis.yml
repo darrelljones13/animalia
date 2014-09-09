@@ -4,6 +4,8 @@ rvm:
 
 deploy:
   provider: heroku
-  api_key: "46549d10-db35-4a49-84b2-cf01f731fac8"
+  api_key:
+    secure: "hdXbka9m77G6KphMN+cK1iMjtSD1PlYbMOaHh17nYwpeR5sqUq+pbWdbwpe2SNKdU/Ld8P5eKiL0gPhzf2Cp5sPFLpLuKk56uQF93B5mfaFlRiX48hY/6CFVyEug+2or0lpfS8ccSrnryLVpNMTgwwg2hSkd9WoeXpwmwzz9bmg="
   app: treefrog
   strategy: git
+  run: "rake db:migrate"
