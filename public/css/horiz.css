@@ -10,14 +10,14 @@
     transition: all ease .5s;
 }
 
-.container {
+/*.container {
   height: 900px;
   box-shadow: inset 5px 5px 5px #CCC;
-}
+}*/
 
 /*.previous-row {
   overflow-x: auto;
-  overflow-y: hidden; 
+  overflow-y: hidden;
   white-space: nowrap;
 
   height: 100px;
@@ -25,14 +25,14 @@
 
 .previous-row img {
   display: inline;
-  opacity: 0.5; 
+  opacity: 0.5;
   height: 30%;
   margin: 10px;
 }*/
 
 .row {
   overflow-x: auto;
-  overflow-y: hidden; 
+  overflow-y: hidden;
   white-space: nowrap;
   height: 100px;
 }
@@ -62,14 +62,14 @@
 
 /*.next-row {
   overflow-x: auto;
-  overflow-y: hidden; 
+  overflow-y: hidden;
   white-space: nowrap;
   height: 100px;
 }
 
 .next-row img {
   display: inline;
-  opacity: 0.5; 
+  opacity: 0.5;
   height: 30%;
   margin: 10px;
 }

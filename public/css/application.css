@@ -20,7 +20,7 @@ header {
   top: 0px;
   left: 0px;
   right: 0px;
-  height: 60px;
+  height: 8%;
   box-shadow: 0px 0px 5px #444;
   z-index: 50;
 }
@@ -77,7 +77,7 @@ nav {
 body {
   font-family: alegreya-sc, serif;
   color: #444;
-  background: #fcf9ff;
+  /*background: #fcf9ff;*/
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: alegreya-sc, serif;
@@ -99,13 +99,13 @@ input {
   color: gray;
 }
 
-.container {
+/*.container {
   background: white;
   padding: 10px;
   padding-top: 70px;
   margin: 0 auto;
   box-shadow: 0px 0px 4px #333;
-}
+}*/
 
 .right {
   float: right;

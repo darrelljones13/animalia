@@ -27,27 +27,27 @@
             <!-- <span><h5>class</h5></span> -->
             <div class=cards>
 
-                <img src="/image/icon/bird-icon.png" />
+                <img src="/image/bird-icon.png" />
                 <span><h4>Aves - Birds</h4></span>
                 <span class="hidden-id">1</span>
             </div>
             <div class=cards>
-                <img src="/image/icon/lion-icon.png" />
+                <img src="/image/lion-icon.png" />
                 <span><h4>Mammalia - Mammals</h4></span>
                 <span class="hidden-id">2</span>
             </div>
             <div class=cards>
-                <img src="/image/icon/lizard-icon.png" />
+                <img src="/image/lizard-icon.png" />
                 <span><h4>Reptilia - Reptiles</h4></span>
                 <span class="hidden-id">3</span>
             </div>
             <div class=cards>
-                <img src="/image/icon/frog-icon.png" />
+                <img src="/image/frog-icon.png" />
                 <span><h4>Amphibia - Amphibians</h4></span>
                 <span class="hidden-id">4</span>
             </div>
             <div class=cards>
-                <img src="/image/icon/fish-icon.png" />
+                <img src="/image/fish-icon.png" />
                 <span><h4>Osteichthyes - Bony Fishes</h4></span>
                 <span class="hidden-id">5</span>
             </div>
@@ -80,7 +80,14 @@
                 <div class="genus"> </div>
                 <div class="species"> </div>
             </div>
-        </div>
+
+            <img src="<%= @species.image_name %>" style="float: right" />
+            <h2>Common Name</h2><h3><em>Scientific Name</em></h3>
+            <ul>
+                <li>Endangered Species Status: <span class="rl-status"></span></li>
+                <li>Population Trends: <span class="rl-status"></span></li>
+            </ul>
+
     <div>
 </body>
 </html>

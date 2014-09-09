@@ -14,10 +14,17 @@
   <link rel="stylesheet" href="/css/taxonomy.css">
   <link rel="stylesheet" href="/css/horiz.css">
   <link rel="stylesheet" href="/css/card.css">
+  <% if @flex == true %>
+    <%= "<link href='/css/test.css' rel='stylesheet' type='text/css' /> "%>
+  <% end %>
 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/xsu2yeh.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript" src="/js/test.js"></script>
   <script src="http://use.edgefonts.net/alegreya-sc.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src="/js/application.js"></script>
 
@@ -59,7 +66,7 @@
   <div id="instructions" class="overlay">
     <div class="dark-matter"></div>
     <div class="search-form">
-      <h4>Animalia is a tool that allows you to explore the Animal Kingdom by examining the way scientists name and group animals.  
+      <h4>Animalia is a tool that allows you to explore the Animal Kingdom by examining the way scientists name and group animals.
       <br>To start, click on any circle to traverse the Animal Kingdom, or search below for an animal of your choice.</h4>
       <form id="species-search-instructions" action="/species/search" method="POST">
         <input id="species-input-instructions" type="text" name="species" placeholder="find a species" />
@@ -79,8 +86,8 @@
       </form>
     </div>
   </div>
-  
-  
+
+
     </div>
 </body>
 </html>
