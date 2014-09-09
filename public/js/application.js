@@ -2,10 +2,14 @@ $(document).ready(function() {
 
 	//get species data from database
 	$.post('/speciesnames', function(species){
-		$( "#species-input" ).autocomplete({
+		$( "#species-search-input" ).autocomplete({
 			source: species,
     	minLength: 3,
-  	});
+  		});
+  		$( "#species-instructions-input" ).autocomplete({
+			source: species,
+    	minLength: 3,
+  		});
 	});
 
 	//search for species in database
