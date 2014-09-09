@@ -16,18 +16,21 @@
     padding: 0px;
     margin: 0px;
     border: none;
-    background: #39f;
+    background: #1C3A3E;
     text-align: center;
     color: white;
     overflow-y: hidden;
-    box-shadow: inset 0px 0px 30px #eee;
+    border: 1px solid #666;
+}
+.bar.kingdom, .bar.phylum {
+    flex: 1;
 }
 
 .bar h2 {
     z-index: 10;
     position: relative;
     transform: rotate(-90deg);
-    margin-top: 50%;
+    top: 40%;
 }
 
 .bar h5 {
@@ -47,7 +50,7 @@
 
 .bar.selected {
     flex: 6;
-    background: #f39;
+    background: #6A8B78;
     box-shadow: inset 0px 0px 10px #666;
     overflow-y: auto;
 }
@@ -56,13 +59,32 @@
 }
 
 .bar.species.selected {
-    flex: 10;
+    flex: 6;
 }
 
 .bar.inactive {
     flex: 1;
     background: #666;
     box-shadow: inset 0px 0px 10px #333;
+}
+.bar.detail {
+    flex: 0;
+}
+
+.bar.detail.active {
+    flex: 8;
+}
+
+.class .cards {
+    background-image: none;
+}
+
+.cards img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 85%;
 }
 
 /*
@@ -78,18 +100,28 @@
 
 .cards {
     margin: 30px auto;
-    width: 80%;
-    height: 200px;
+    width: 65%;
+    height: 90px;
     box-shadow: 0px 0px 13px #666;
     border-radius: 20px;
     overflow: hidden;
-    background: white url('http://upload.wikimedia.org/wikipedia/en/c/c2/Peter_Griffin.png');
+    background: white;
     background-size: 100%;
     color: black;
+    overflow: hidden;
+    line-height: 15%;
+
+    z-index: 10;
 }
 
-.cards.odd {
-    background: white url('http://thebrotherhoodofevilgeeks.files.wordpress.com/2014/04/griffin.jpg');
-    background-size: 100%;
+.selected .cards {
+    height: 250px;
+}
+.selected .cards h4 {
+    display: block;
+}
+
+.hidden-id {
+    display: none;
 }
 

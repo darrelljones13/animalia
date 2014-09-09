@@ -77,18 +77,41 @@ get '/species/:search' do |search_result|
 end
 
 get '/ajax/:parent/:level' do |parent, level|
-   case level.to_i
-    when 3
-      @items = Chlass.where(phylum_id: parent)
+  items = []
+  images = [
+    "",
+    "/image/icon/bird-icon.png",
+    "/image/icon/lion-icon.png",
+    "/image/icon/lizard-icon.png",
+    "/image/icon/frog-icon.png",
+    "/image/icon/fish-icon.png"
+  ]
+
+  case level.to_i
     when 4
-      @items = Order.where(chlass_id: parent)
+      Order.where(chlass_id: parent).pluck(:id, :name).each do |item|
+        items << {id: item[0], name: item[1], image: images[parent.to_i]}
+      end
+
     when 5
-      @items = Family.where(order_id: parent)
+      Family.where(order_id: parent).pluck(:id, :name).each do |item|
+        items << {id: item[0], name: item[1], image: images[1]}
+      end
     when 6
-      @items = Genus.where(family_id: parent)
+      Genus.where(family_id: parent).pluck(:id, :name).each do |item|
+        items << {id: item[0], name: item[1], image: images[1]}
+      end
     when 7
-      @items = Species.where(genus_id: parent)
+      Species.where(genus_id: parent).pluck(:id, :common_name, :scientific_name, :image_name).each do |item|
+        if item[1] != nil
+          name = item[1]
+        else
+          name = item[2]
+        end
+        items << {id: item[0], name: name, image: item[3]}
+      end
     end
-      content_type :json
-      @items.to_json
+
+    content_type :json
+    items.to_json
 end
