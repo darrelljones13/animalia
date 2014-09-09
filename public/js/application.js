@@ -33,6 +33,19 @@ $(document).ready(function() {
 	
 	$('.overlay .exit').on('click', hideAllOverlays)
 
+  // _____________________________
+  // This is the card modal
+
+  $('.card').on('click', function(event) {
+    event.preventDefault();
+    hideAllOverlays();
+    $(".species-card.overlay").show();
+
+  });
+  
+  $('.overlay .exit').on('click', hideAllOverlays)
+  // ______________________________
+
  $(document).ready(function(){
     
     $(".container").on("click", ".row", function(event) {
