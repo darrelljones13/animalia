@@ -21,7 +21,7 @@
 	      <a href="/species/<%=card.species.id%>"><%= card.species.scientific_name %></a>
 	    <% end %>
 
-		  <form action="/collection/<%= @collection.id %>cards/delete/<%= card.id %>" method="POST">
+		  <form action="/collection/<%= @collection.id %>/cards/delete/<%= card.id %>" method="POST">
 				<input type="hidden" value="DELETE" name="_method">
 		   	<input type="submit" value="Delete this card">
 		  </form>

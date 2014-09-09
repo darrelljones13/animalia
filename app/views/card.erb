@@ -4,9 +4,15 @@
         <img src="<%= @species.image_name %>" style="float: right"/>
             
             <% if current_user %>
+              <select>
+                 <% @user.collections.each do |collection| %>
+                    <option name="collection" value=<%= collection.id %>><%= collection.name %></option>
+                 <% end %>
+              </select>
             <form id="add-card-button" action="/add_to_collection" method="POST">
               <input class="" type="submit" value="Add to Collection!" />
             </form>
+
             <% end %>
 
             <a href='#' class="button exit">X</a>
