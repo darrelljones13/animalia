@@ -1,6 +1,16 @@
 <div class="container">
 
-  <script></script>
+  <script>
+  $(document).ready(function() {
+       $(".container").on("click", ".row", function(event) {
+        $(".row").removeClass("selected");
+        $(this).addClass("selected");
+    });
+   });
+  </script>
+
+
+  
 
   <div class="row class">
     <img src="image/fish-icon.png" alt="">

@@ -55,28 +55,31 @@ end
 
 get '/species/scrape_wikipedia' do
 
-  image_url = "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Collage_of_Nine_Dogs.jpg/260px-Collage_of_Nine_Dogs.jpg"
+  # image_url = "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Collage_of_Nine_Dogs.jpg/260px-Collage_of_Nine_Dogs.jpg"
 
-  folder_names = Chlass.all.pluck('name')
-  species = Species.all.limit(10)
-  puts "Species Count = #{species.count}"
-  puts "Creating folders for each Class..."
+  # folder_names = Chlass.all.pluck('name')
+  # species = Species.all.limit(10)
+  # puts "Species Count = #{species.count}"
+  # puts "Creating folders for each Class..."
 
-  folder_names.each do |name|
-    system 'mkdir', '-p', "public/image/wiki/#{name}"
-  end
+  # folder_names.each do |name|
+  #   system 'mkdir', '-p', "public/image/wiki/#{name}"
+  # end
 
   puts "Preparing to get all image and descriptions from Wikipedia..."
   puts "Good Luck!"
   puts "*" * 50
 
+  species = Species.where(image_name: nil)
   species.each do |s|
-    info = s.parseWikipedia
-    s.wikitext = info[:intro]
-    s.image_name = File.basename(info[:img])
-
-    File.open("public/image/wiki/#{s.taxonomy['class']}/#{s.image_name}",'wb'){ |f| f.write(open("http:#{info[:img]}").read) }
-    print "X"
+    begin
+      info = s.parseWikipedia
+      # s.wikitext = info[:intro]
+      s.image_name = "http//" + info[:img]
+      s.save
+      # File.open("public/image/wiki/#{s.taxonomy['class']}/#{s.image_name}",'wb'){ |f| f.write(open("http:#{info[:img]}").read) }
+    rescue
+    end
   end
   redirect "/"
 end
@@ -116,7 +119,7 @@ get '/ajax/:parent/:level' do |parent, level|
       end
     when 6
       Genus.where(family_id: parent).pluck(:id, :name).each do |item|
-        items << {id: item[0], name: item[1], image: images[1]}
+        items << {id: item[0], name: item[1].split(",")[0], image: images[1]}
       end
     when 7
       Species.where(genus_id: parent).pluck(:id, :common_name, :scientific_name, :image_name).each do |item|
@@ -125,8 +128,19 @@ get '/ajax/:parent/:level' do |parent, level|
         else
           name = item[2]
         end
+        name = name.split(",")[0]
         items << {id: item[0], name: name, image: item[3]}
       end
+    when 8
+      puts "*"*50
+      puts parent
+      item = Species.find(parent.to_i)
+        if item.common_name != nil
+          name = item.common_name
+        else
+          name = item.scientific_name
+        end
+        items = {id: item.id, name: name, image: item.image_name, description: item.wikitext, status: item.red_list_status, trend: item.population_trend, taxonomy: item.taxonomy}
     end
 
     content_type :json

@@ -1,6 +1,6 @@
 post '/users/login' do
   @user = User.find_by_email(params[:email])
-  if @user.authenticate(params[:password])
+  if @user && @user.authenticate(params[:password])
     session[:user_id] = @user.id
   end
   redirect '/'

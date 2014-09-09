@@ -1,11 +1,17 @@
 * {
-    transition: all linear .5s;
+    transition: all linear .3s;
     border: none;
     margin: none;
     padding: none;
 }
+
+body {
+    background: url('/image/bg/leather_1_@2X.png');
+}
+
 .container {
-    border: none;
+    /*background: rgba(255, 38, 0, 0.5);*/
+    box-shadow: 0px 0px 20px 20px #333;
     display: flex;
 }
 
@@ -16,11 +22,12 @@
     padding: 0px;
     margin: 0px;
     border: none;
-    background: #1C3A3E;
+    background: #055766;
     text-align: center;
     color: white;
-    overflow-y: hidden;
+    overflow-y: scroll;
     border: 1px solid #666;
+
 }
 .bar.kingdom, .bar.phylum {
     flex: 1;
@@ -34,6 +41,7 @@
 }
 
 .bar h5 {
+    font-size: 18px;
     z-index: 10;
     position: relative;
     width: 100%;
@@ -50,16 +58,16 @@
 
 .bar.selected {
     flex: 6;
-    background: #6A8B78;
-    box-shadow: inset 0px 0px 10px #666;
+    background: none;
+    box-shadow: inset 5px 0px 20px #666;
     overflow-y: auto;
 }
-.bar.selected::-webkit-scrollbar {
+.bar::-webkit-scrollbar {
     display: none;
 }
 
-.bar.species.selected {
-    flex: 6;
+.bar.detail.selected {
+    flex: 10;
 }
 
 .bar.inactive {
@@ -68,11 +76,14 @@
     box-shadow: inset 0px 0px 10px #333;
 }
 .bar.detail {
-    flex: 0;
+    flex: 0.01;
+    background: #333;
 }
 
 .bar.detail.active {
     flex: 8;
+    height: 100%;
+    background: none;
 }
 
 .class .cards {
@@ -110,10 +121,12 @@
     color: black;
     overflow: hidden;
     line-height: 15%;
-
+    cursor:pointer;
     z-index: 10;
 }
-
+.cards.fade {
+    box-shadow: inset 0 0 1000px #666;
+}
 .selected .cards {
     height: 250px;
 }
@@ -121,7 +134,102 @@
     display: block;
 }
 
+.cards.breadcrumb {
+    box-shadow: 0 0 10px 8px #f4b612;
+}
+
 .hidden-id {
     display: none;
+}
+
+.detail {
+
+}
+
+.detail img {
+    border-radius: 50%;
+}
+
+.bar.kingdom{
+    background-color: rgba(80, 142, 203, 0.7);
+}
+
+.bar.phylum {
+    background: rgba(99, 157, 214, 0.7);
+    /*background-color: #639DD6;*/
+}
+.bar.class {
+    background: rgba(109, 166, 219, 0.7);
+    /*background-color: #6DA6DB;*/
+}
+.bar.order {
+    background: rgba(122, 181, 228, 0.7);
+    /*background-color: #7AB5E4;*/
+}
+.bar.family {
+    background: rgba(135, 185, 227, 0.7);
+    /*background-color: #87b9e3;*/
+}
+.bar.genus {
+    background: rgba(154, 197, 232, 0.7);
+    /*background-color: #9ac5e8;*/
+}
+.bar.species {
+    background: rgba(168, 206, 236, 0.7);
+    /*background-color: #a8ceec;*/
+}
+.bar.detail {
+    background: rgba(249, 245, 241, 0.5);
+    color: #444;
+    /*background-color: #2b3b45;*/
+}
+
+.taxonomy {
+    width: 100%;
+    color: white;
+}
+.taxonomy .kingdom {
+    display: inline-block;
+    width: 10%;
+    line-height: 30px;
+    background-color: #21420b;
+
+}
+.taxonomy .phylum {
+    display: inline-block;
+    min-width: 10%;
+    line-height: 30px;
+    background-color: #4a7a17;
+}
+.taxonomy .class {
+    display: inline-block;
+    width: 10%;
+    line-height: 30px;
+    background-color: #21420b;
+}
+.taxonomy .order {
+    display: inline-block;
+    width: 10%;
+    line-height: 30px;
+    background-color: #4a7a17;
+}
+.taxonomy .family {
+    display: inline-block;
+    width: 10%;
+    line-height: 30px;
+    background-color: #21420b;
+}
+.taxonomy .genus {
+    display: inline-block;
+    width: 10%;
+    line-height: 30px;
+    background-color: #4a7a17;
+}
+.taxonomy .species {
+    display: inline-block;
+    width: 13%;
+    transform: skewX(10deg);
+    line-height: 40px;
+    background-color: #21420b;
 }
 
