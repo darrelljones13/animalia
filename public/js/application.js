@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	//get species data from database
 	$.post('/speciesnames', function(species){
-		autocomplete("#species-input", species);
+		autocomplete("#species-search-input", species);
 	});
 
 	$.post('/speciesnames', function(species) {
