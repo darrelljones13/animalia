@@ -151,7 +151,7 @@ input {
   color: #444;
 }
 
-#instructions.overlay, #search.overlay{
+#instructions.overlay, #search.overlay {
   display: none;
   position: absolute;
   left: 0px;

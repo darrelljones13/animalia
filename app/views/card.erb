@@ -1,5 +1,5 @@
 <div id="species-card" class="overlay">
-    <div class="dark-matter"></div>
+    <div class="species-dark-matter"></div>
       <div class="card-container">
         <img src="<%= @species.image_name %>" style="float: right"/>
         <h2><%= @species.common_name %></h2><h3><em><%= @species.scientific_name %></em></h3>
@@ -25,6 +25,7 @@
                     </div>
                   </a>
                     <% end %>
-                  </div>
-                    <a href='#' class="button exit">X</a>
-      </div>
+                    <a href='#' class="card button exit">X</a>
+            </div>
+                    
+</div>
