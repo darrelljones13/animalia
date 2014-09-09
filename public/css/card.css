@@ -1,8 +1,33 @@
 .card-container {
-  margin: 20px auto;
   width: 600px;
   padding: 0px 20px 20px 20px;
   border: 2px solid black;
-  border-radius: 8px;
-  background-color: #CCCCCC;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: -300px;
+  border-radius: 5px;  padding: 15px;
+  text-align: center;
+  z-index: 100;
+  overflow-y: scroll;
 }
+
+#species-card.overlay {
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+
+.species-dark-matter {
+  z-index: 50;
+  background-color: gray;
+  opacity: .4;
+  width:100%;
+  height:100%;
+}
+
+

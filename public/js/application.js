@@ -40,7 +40,7 @@ $(document).ready(function() {
   $('.card').on('click', function(event) {
     event.preventDefault();
     hideAllOverlays();
-    $(".species-card.overlay").show();
+    $("#species-card.overlay").show();
 
   });
   
