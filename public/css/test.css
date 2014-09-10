@@ -14,10 +14,14 @@ img {
 }
 .container {
     /*background: rgba(255, 38, 0, 0.5);*/
-    /*box-shadow: 0px 0px 20px 20px #333;*/
+    position: absolute;
+    box-shadow: 0px 0px 20px 20px #333;
     display: flex;
+    position: fixed;
+    top: 7%;
+    left: 0px;
     width: 100%;
-    height: 92%;
+    height: 93%;
     overflow: hidden;
 }
 
@@ -35,14 +39,15 @@ img {
     border: 1px solid #666;
 
 }
-.bar.kingdom {
+.bar.kingdom, .bar.phylum {
     flex: 1;
 }
 
-.bar.kingdom h2 {
+.bar h2 {
     z-index: 10;
     position: relative;
     transform: rotate(-90deg);
+    top: 40%;
 }
 
 .bar h5 {
@@ -281,7 +286,7 @@ img {
 .bar.inactive {
     flex: .5;
     background: #777;
-    padding-top: 15%;
+    padding-top: 30%;
     color: white;
 }
 .taxonomy-footer {
@@ -306,8 +311,8 @@ img {
     margin-top: -10%;
 }
 .hierarchy.taxonomy-footer .phylum {
-    flex: 2;
-    margin-top: -6%;
+    flex: 0.5;
+    margin-top: -8%;
 }
 .hierarchy.taxonomy-footer .selected {
     flex: 6;
