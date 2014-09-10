@@ -65,7 +65,7 @@ img {
     box-shadow: none;
 }
 
-.bar.selected {
+.selected {
     flex: 6;
     background: #333;
     box-shadow: inset 5px 0px 25px #666;
@@ -113,13 +113,14 @@ img {
     border-radius: 20px;
     padding: 0;
     background: #e4f5fc; /* Old browsers */
-    background: -moz-linear-gradient(top,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #5fa9d8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#5fa9d8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#5fa9d8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#5fa9d8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#5fa9d8 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#5fa9d8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#5fa9d8',GradientType=0 ); /* IE6-9 */
+
     background-size: 100%;
     color: black;
     overflow: hidden;
@@ -210,49 +211,55 @@ img {
     width: 100%;
     color: white;
 }
-.hierarchy .kingdom {
+.bar .hierarchy .kingdom {
     display: inline-block;
     width: 10%;
     line-height: 30px;
-    background-color: #21420b;
 
 }
-.hierarchy .phylum {
+.hierarchy .kingdom {
+    background-color: rgba(99, 204, 77, 0.8);
+    font-size: 14pt;
+}
+.bar .hierarchy .phylum {
     display: inline-block;
     min-width: 10%;
     line-height: 30px;
-    background-color: #4a7a17;
+}
+.hierarchy .phylum {
+    background-color: rgba(176, 241, 130, 0.8);
+    font-size: 14pt;
 }
 .hierarchy .class {
     display: inline-block;
     width: 10%;
     line-height: 30px;
-    background-color: #21420b;
+    background-color: rgba(99, 204, 77, 0.8);
 }
 .hierarchy .order {
     display: inline-block;
     width: 10%;
     line-height: 30px;
-    background-color: #4a7a17;
+    background-color: rgba(176, 241, 130, 0.8);
 }
 .hierarchy .family {
     display: inline-block;
     width: 10%;
     line-height: 30px;
-    background-color: #21420b;
+    background-color: rgba(99, 204, 77, 0.8);
 }
 .hierarchy .genus {
     display: inline-block;
     width: 10%;
     line-height: 30px;
-    background-color: #4a7a17;
+    background-color: rgba(176, 241, 130, 0.8);
 }
 .hierarchy .species {
     display: inline-block;
     width: 13%;
     transform: skewX(10deg);
     line-height: 40px;
-    background-color: #21420b;
+    background-color: rgba(99, 204, 77, 0.8);
 }
 
 .bar.inactive {
@@ -261,5 +268,44 @@ img {
     padding-top: 30%;
     color: white;
 }
+.taxonomy-footer {
+    position: fixed;
+    top: 93%;
+    left: 0px;
+    height: 50%;
+    width: 100%;
+    background: none;
+    display: flex;
+    z-index: 100;
+    text-align: center;
+}
+.hierarchy.taxonomy-footer div {
+    flex: 2;
+    transform: skewY(-5deg);
+    border-top-right-radius: 15px;
+    height: 100%;
+}
+.hierarchy.taxonomy-footer .kingdom {
+    flex: 0.5;
+    margin-top: -10%;
+}
+.hierarchy.taxonomy-footer .phylum {
+    flex: 0.5;
+    margin-top: -8%;
+}
+.hierarchy.taxonomy-footer .selected {
+    flex: 6;
+}
+.hierarchy.taxonomy-footer .detail.selected {
+    flex: 10;
+}
+.hierarchy.taxonomy-footer .detail {
+    flex: 0.01;
+}
 
+.taxonomy-footer div {
+    padding: 5px;
+    font-size: 20pt;
+    font-weight: bold;
+}
 
