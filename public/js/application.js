@@ -12,9 +12,9 @@ $(document).ready(function() {
 	var autocomplete = function(selector, species) {
 		$(selector).autocomplete({
 			source: species,
-    	minLength: 3,
+    	minLength: 3
   	});
-	}
+	};
 
 	var hideAllOverlays = function() {
 		$(".overlay").hide();
@@ -25,7 +25,6 @@ $(document).ready(function() {
 	$('#search-link').on('click', function() {
 		hideAllOverlays();
 		$("#search.overlay").show();
-
 	});	
 
 	//random animal link, shows modal
@@ -46,7 +45,7 @@ $(document).ready(function() {
     $("#species-card.overlay").show();
   });
   
-  $('.overlay').on('click', '.exit',  hideAllOverlays)
+  $('.overlay').on('click', '.exit',  hideAllOverlays);
 
   //relative links for animal modal
 	
@@ -58,6 +57,7 @@ $(document).ready(function() {
 			$("#species-card.overlay").html(data);
 			$("#species-card.overlay").show();
 		});
+	});
 
 	//search modal
 
@@ -65,23 +65,22 @@ $(document).ready(function() {
 		event.preventDefault();
 		hideAllOverlays();
 		var searchInput = $('#species-search-input').val();
-		console.log(searchInput)
 		$.post('/species/search', {animal: searchInput}, function(data) {
 			$("#species-card.overlay").html(data);
 			$("#species-card.overlay").show();
 		});
 	});
 		
-    //probably not finished
-    $("#add-card-button").on("click", function(event) {
-    	event.preventDefault();
-    	event.stopPropagation();
-    	var specId = parseInt($('#current-species-id').html());
-    	$.post('/add_to_collection', {species_id: specId}, function(message) {
-			console.log(message);
+   //probably not finished
+  $("#add-card-button").on("click", function(event) {
+  	event.preventDefault();
+  	event.stopPropagation();
+  	var specId = parseInt($('#current-species-id').html());
+  	$.post('/add_to_collection', {species_id: specId}, function(message) {
+		console.log(message);
 		}); 
-    });
-    
+  });
+  
 	//search for species in database
 	// $('#species-search').on('submit', function(event){
 	// 	event.preventDefault();
@@ -91,4 +90,6 @@ $(document).ready(function() {
 	// 	});
 	// });
 
-});//end doc ready
+});
+
+//end doc ready
