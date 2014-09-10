@@ -71,6 +71,7 @@
     <div id="species-card" class="overlay">
       <div class="species-dark-matter"></div>
 
+    <% if @species %>
       <div class="card-container">
         <div class="main-image">
           <img src="<%= @species.image_name %>" style="float: right"/>
@@ -95,6 +96,7 @@
           <h3>Range</h3><p><%= @species.range %></p>
           <h3>Habitat</h3><p><%= @species.habitat %></p>
           <h3>Major Threats</h3><p><%= @species.major_threats %></p>
+
         </div>
                 
         <hr>
@@ -121,8 +123,8 @@
             <% end %>
                       
         </div>
-                      
       </div>
+      <% end %>          
 
     </div>
 
