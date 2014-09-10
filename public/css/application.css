@@ -1,10 +1,8 @@
-html {
-
-}
-
 body {
-/*  overflow: hidden;
-*/}
+/*  overflow: hidden;*/
+  font-family: quattrocento-sans, sans-serif;
+  color: #444;
+}
 
 #logo {
   float: left;
@@ -16,13 +14,6 @@ body {
   width: 99%;
   border-radius: 0;
   border: none;
-}
-
-a {
-  text-decoration: none;
-}
-li {
-  list-style: none;
 }
 
 header {
@@ -71,9 +62,6 @@ header li:first-of-type {
   border: none;
 }
 
-nav {
-}
-
 #sign-in {
   display: inline;
   float: right;
@@ -86,13 +74,8 @@ nav {
   margin: 5px;
 }
 
-body {
-  font-family: alegreya-sc, serif;
-  color: #444;
-  /*background: #fcf9ff;*/
-}
 h1, h2, h3, h4, h5, h6 {
-  font-family: alegreya-sc, serif;
+  font-family: quattrocento-sans, sans-serif;
   font-weight: bold;
   color: #222;
 }
@@ -100,6 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 form input{
   color: #222;
 }
+
 input {
   display: inline;
   border-radius: 5px;
@@ -125,33 +109,16 @@ input {
   box-shadow: 0px 0px 4px #333;
 }*/
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 .right {
   float: right;
-}
-
-.node {
-  cursor: pointer;
-}
-
-.node:hover {
-  stroke: #000;
-  stroke-width: 1.5px;
-}
-
-.node--leaf {
-  fill: white;
-}
-
-.label {
-  font-size: 12px;
-  text-anchor: middle;
-  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
-}
-
-.label,
-.node--root,
-.node--leaf {
-  pointer-events: none;
 }
 
 .register {
@@ -265,7 +232,6 @@ input {
   opacity: 1;
   box-shadow: inset 0px -5px 8px 2px gray;
   color: white;
-  font-family: sans-serif;
   line-height: 25px;
 }
 

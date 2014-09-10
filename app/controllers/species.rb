@@ -6,11 +6,11 @@ get '/species/random' do
   erb :card, layout: false
 end
 
-# get '/card/:id' do
-#   @species = Species.find(params[:id])
-#   @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
-#   erb :card
-# end
+get '/card' do
+  @species = Species.find(params[:animal_id])
+  @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
+  erb :card, layout: false
+end
 
 #not finished. need to address edge cases
 post '/add_to_collection' do
