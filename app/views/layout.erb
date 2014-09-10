@@ -54,8 +54,8 @@
   </header>
   
   <div class="container">
-  <%= erb :_taxonomy if @taxonomy %>
-  <%= yield %>
+    <%= erb :_taxonomy if @taxonomy %>
+    <%= yield %>
   </div>
 
   <div id="search" class="overlay">
@@ -91,7 +91,7 @@
                 <%= @species.wikitext %>
               <hr>
                 <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
-              </hr>
+              <hr>
                   <div class="relatives">
                     <% @relatives.each do |relative| %>
                       <div id="<%= relative.id %>" class="relative card">
