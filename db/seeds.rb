@@ -133,8 +133,8 @@ class Parser
   end
 
   def self.seed_image_names
-    CSV.foreach('species.csv', :headers => true) do |row|
-      @species = Species.find(row["id"])
+    CSV.foreach('db/species29374.csv', :headers => true) do |row|
+      @species = Species.find_by(scientific_name: row["scientific_name"])
       @species.update(
         wikitext: row["wikitext"],
         image_name: row["image_name"])
@@ -152,13 +152,43 @@ class Parser
 
 end
 
+class BigDataParser
+
+  def seed_species
+    kingdom = Kingdom.create(name: "Animalia")
+    phylum = Phylum.create(name: "Chordata", kingdom_id: Kingdom.last.id)
+    chlass = Chlass.create(name: "Aves", phylum_id: Phylum.last.id)
+      # Order.create(name: species["Order"], chlass_id: Chlass.last.id)
+      # Family.create(name: species["Family"], order_id: Order.last.id)
+      # Genus.create(name: species["Scientific name"].split(" ")[0], family_id: Family.last.id)
+    CSV.foreach('123kingdom123.csv', :headers => true) do |row|
+      Species.create(
+        genus_id: row["genus_id"],
+        common_name: row["common_name"],
+        scientific_name: row["scientific_name"],
+        red_list_status: row["red_list_status"],
+        population_trend: row["population_trend"],
+        red_list_id: row["SISRecID"],
+        wikitext: row["wikitext"],
+        image_name: row["image_name"],
+        red_list_id: row["red_list_id"],
+        range: row["range"],
+        habitat: row["habitat"],
+        major_threats: row["major_threats"])
+        # id,genus_id,common_name,scientific_name,red_list_status,population_trend,created_at,updated_at,wikitext,image_name,red_list_id,range,habitat,major_threats
+    end
+  end
+
+
+end
+
 # Parser.seed_birds
-Parser.seed_mammals
-Parser.seed_reptiles
-Parser.seed_amphibians
-Parser.seed_marine_life
-Parser.seed_image_names
-Parser.seed_wiki_family
-Parser.seed_wiki_order
-Parser.seed_genus_photos
+# Parser.seed_mammals
+# Parser.seed_reptiles
+# Parser.seed_amphibians
+# Parser.seed_marine_life
+# Parser.seed_image_names
+# Parser.seed_wiki_family
+# Parser.seed_wiki_order
+# Parser.seed_genus_photos
 

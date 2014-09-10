@@ -1,0 +1,129 @@
+id,chlass_id,name,created_at,updated_at,wikitext,image_name
+32,3,ANURA,2014-09-09 23:24:02.925082,2014-09-09 23:24:02.925082,,
+33,3,CAUDATA,2014-09-09 23:24:20.244563,2014-09-09 23:24:20.244563,,
+34,3,GYMNOPHIONA,2014-09-09 23:29:52.354001,2014-09-09 23:29:52.354001,,
+35,4,PERCIFORMES,2014-09-10 00:24:16.351612,2014-09-10 00:24:16.351612,,
+36,4,ALBULIFORMES,2014-09-10 00:24:46.257555,2014-09-10 00:24:46.257555,,
+37,4,ELOPIFORMES,2014-09-10 00:29:07.67466,2014-09-10 00:29:07.67466,,
+39,5,STRUTHIONIFORMES,2014-09-10 01:21:40.924205,2014-09-10 01:21:40.924205,,
+40,5,GALLIFORMES,2014-09-10 02:15:17.21967,2014-09-10 02:15:17.21967,,
+41,5,ANSERIFORMES,2014-09-10 02:18:25.795041,2014-09-10 02:18:25.795041,,
+42,5,PODICIPEDIFORMES,2014-09-10 02:20:19.54447,2014-09-10 02:20:19.54447,,
+43,5,PHOENICOPTERIFORMES,2014-09-10 02:20:34.152926,2014-09-10 02:20:34.152926,,
+44,5,PHAETHONTIFORMES,2014-09-10 02:20:38.148579,2014-09-10 02:20:38.148579,,
+45,5,EURYPYGIFORMES,2014-09-10 02:20:40.13686,2014-09-10 02:20:40.13686,,
+46,5,MESITORNITHIFORMES,2014-09-10 02:20:41.255254,2014-09-10 02:20:41.255254,,
+47,5,COLUMBIFORMES,2014-09-10 02:20:42.998024,2014-09-10 02:20:42.998024,,
+48,5,PTEROCLIFORMES,2014-09-10 02:24:24.035978,2014-09-10 02:24:24.035978,,
+49,5,CAPRIMULGIFORMES,2014-09-10 02:24:33.088948,2014-09-10 02:24:33.088948,,
+50,5,OPISTHOCOMIFORMES,2014-09-10 02:30:30.554667,2014-09-10 02:30:30.554667,,
+51,5,CUCULIFORMES,2014-09-10 02:30:31.183019,2014-09-10 02:30:31.183019,,
+52,5,GRUIFORMES,2014-09-10 02:32:01.099864,2014-09-10 02:32:01.099864,,
+53,5,OTIDIFORMES,2014-09-10 02:33:56.68014,2014-09-10 02:33:56.68014,,
+54,5,MUSOPHAGIFORMES,2014-09-10 02:34:12.691634,2014-09-10 02:34:12.691634,,
+55,5,GAVIIFORMES,2014-09-10 02:34:26.483001,2014-09-10 02:34:26.483001,,
+56,5,SPHENISCIFORMES,2014-09-10 02:34:29.477237,2014-09-10 02:34:29.477237,,
+57,5,PROCELLARIIFORMES,2014-09-10 02:34:40.557354,2014-09-10 02:34:40.557354,,
+58,5,CICONIIFORMES,2014-09-10 02:36:14.079002,2014-09-10 02:36:14.079002,,
+59,5,PELECANIFORMES,2014-09-10 02:36:27.335387,2014-09-10 02:36:27.335387,,
+60,5,SULIFORMES,2014-09-10 02:37:41.773743,2014-09-10 02:37:41.773743,,
+61,5,CHARADRIIFORMES,2014-09-10 02:38:16.438311,2014-09-10 02:38:16.438311,,
+62,5,STRIGIFORMES,2014-09-10 02:42:34.744612,2014-09-10 02:42:34.744612,,
+63,5,CATHARTIFORMES,2014-09-10 02:45:07.329636,2014-09-10 02:45:07.329636,,
+64,5,ACCIPITRIFORMES,2014-09-10 02:45:11.915584,2014-09-10 02:45:11.915584,,
+65,5,COLIIFORMES,2014-09-10 02:47:49.455917,2014-09-10 02:47:49.455917,,
+66,5,LEPTOSOMIFORMES,2014-09-10 02:47:52.901989,2014-09-10 02:47:52.901989,,
+67,5,TROGONIFORMES,2014-09-10 02:47:54.330207,2014-09-10 02:47:54.330207,,
+68,5,BUCEROTIFORMES,2014-09-10 02:48:20.367502,2014-09-10 02:48:20.367502,,
+69,5,CORACIIFORMES,2014-09-10 02:49:05.698293,2014-09-10 02:49:05.698293,,
+70,5,PICIFORMES,2014-09-10 02:51:03.646537,2014-09-10 02:51:03.646537,,
+71,5,CARIAMIFORMES,2014-09-10 02:55:49.821239,2014-09-10 02:55:49.821239,,
+72,5,FALCONIFORMES,2014-09-10 02:55:50.875195,2014-09-10 02:55:50.875195,,
+73,5,PSITTACIFORMES,2014-09-10 02:56:37.876242,2014-09-10 02:56:37.876242,,
+74,5,PASSERIFORMES,2014-09-10 03:00:51.164667,2014-09-10 03:00:51.164667,,
+75,5,,2014-09-10 04:00:23.895433,2014-09-10 04:00:23.895433,,
+1,1,RODENTIA,2014-09-09 21:47:35.71273,2014-09-10 04:55:38.213056,"<div class=""intro""><em>Anomaluromorpha</em><br>
+<em>Castorimorpha</em><br>
+<em>Caviomorpha</em>)<br>
+<em>Myomorpha</em><br>
+<em>Sciuromorpha</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Rodent_collage.jpg/300px-Rodent_collage.jpg
+2,1,CHIROPTERA,2014-09-09 21:47:46.72356,2014-09-10 04:55:39.314102,"<div class=""intro""><i>See article</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Big-eared-townsend-fledermaus.jpg/240px-Big-eared-townsend-fledermaus.jpg
+3,1,CARNIVORA,2014-09-09 21:47:49.944639,2014-09-10 04:55:39.741782,"<div class=""intro""><b>Carnivora</b> (<span class=""nowrap""><span title=""Representation in the International Phonetic Alphabet (IPA)"" class=""IPA""><em>southern elephant seal</em> (<i>Mirounga leonina</i>), whose adult males weigh up to 5,000 kg (11,000 lb) and measure up to 6.9 m (23 ft) in length.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Order_Carnivora.jpg/250px-Order_Carnivora.jpg
+4,1,DIPROTODONTIA,2014-09-09 21:48:01.03687,2014-09-10 04:55:40.027495,"<div class=""intro""><em>Vombatiformes</em><br>
+<em>Phalangeriformes</em><br>
+<em>Macropodiformes</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Macropus_agilis_-_02.jpg/230px-Macropus_agilis_-_02.jpg
+5,1,CETARTIODACTYLA,2014-09-09 21:48:01.465889,2014-09-10 04:55:40.298983,"<div class=""intro""><b>Cetartiodactyla</b> is the <em>Whippomorpha</em>. Alternatively, the term 'Cetartiodactyla' is used to denote a clade where Cetacea evolved alongside Artiodactyla and not within it. Under this definition, all artiodactyls, including hippos, are more closely related to one another than any are to the whales.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Pakicetus_BW.jpg/245px-Pakicetus_BW.jpg
+6,1,PRIMATES,2014-09-09 21:48:47.889745,2014-09-10 04:55:40.783065,"<div class=""intro"">A <b>primate</b> (<span class=""nowrap""><span class=""noexcerpt""><em>arboreal</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/97/Primates_-_some_families.jpg/220px-Primates_-_some_families.jpg
+7,1,AFROSORICIDA,2014-09-09 21:49:05.859631,2014-09-10 04:55:41.040105,"<div class=""intro""> <em>Chrysochloridae</em><br>
+ <em>Tenrecidae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tanrek.jpg/240px-Tanrek.jpg
+8,1,SCANDENTIA,2014-09-09 21:49:13.457905,2014-09-10 04:55:41.329136,"<div class=""intro"">The <b>treeshrews</b> (or <b>tree shrews</b> or <b>banxrings</b><sup id=""cite_ref-2"" class=""reference""><em><span>[</span>3<span>]</span></em></sup> though high ratios are not uncommon for animals weighing less than a kilogram.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anathana_ellioti.jpg/220px-Anathana_ellioti.jpg
+9,1,EULIPOTYPHLA,2014-09-09 21:49:22.29494,2014-09-10 04:55:41.944941,"<div class=""intro""><b>Eulipotyphla</b> is an <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/7/74/Red_Pencil_Icon.png
+10,1,DASYUROMORPHIA,2014-09-09 21:49:24.359297,2014-09-10 04:55:42.223536,"<div class=""intro"">†<em>Thylacinidae</em><br>
+<em>Dasyuridae</em><br>
+<em>Myrmecobiidae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Dasyurus_maculatus.jpg/250px-Dasyurus_maculatus.jpg
+11,1,LAGOMORPHA,2014-09-09 21:51:41.396768,2014-09-10 04:55:42.50407,"<div class=""intro""><em>Leporidae</em><br>
+<em>Ochotonidae</em><br>
+<em>Prolagidae</em> (extinct)</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Oryctolagus_cuniculus_Tasmania_2.jpg/220px-Oryctolagus_cuniculus_Tasmania_2.jpg
+13,1,CINGULATA,2014-09-09 21:52:02.263242,2014-09-10 04:55:43.027513,"<div class=""intro""><b>Cingulata</b>, part of the superorder <em>Paleo-Indians</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Glyptotheriumm.jpg/220px-Glyptotheriumm.jpg
+18,1,DERMOPTERA,2014-09-09 21:58:44.831289,2014-09-10 04:55:45.51756,"<div class=""intro""><b>Colugos</b> <span class=""nowrap""><span title=""Representation in the International Phonetic Alphabet (IPA)"" class=""IPA""><em>lemurs</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Colugo.jpg/220px-Colugo.jpg
+25,1,NOTORYCTEMORPHIA,2014-09-09 22:20:13.904035,2014-09-10 04:55:47.996993,"<div class=""intro""><i><em>N. typhlops</em></i><br>
+<i><em>N. caurinus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Notoryctes_typhlops.jpg/220px-Notoryctes_typhlops.jpg
+28,2,SQUAMATA,2014-09-09 22:41:22.053932,2014-09-10 04:55:48.938417,"<div class=""intro""><em>Anguimorpha</em><br>
+<em>Gekkota</em><br>
+<em>Iguania</em><br>
+<em>Lacertoidea</em><br>
+<em>Scincomorpha</em><br>
+<em>Serpentes</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Blue-toungued_skink444.jpg/220px-Blue-toungued_skink444.jpg
+12,1,PILOSA,2014-09-09 21:51:46.370008,2014-09-10 04:55:42.747886,"<div class=""intro""><em>Vermilingua</em> - anteaters<br>
+<em>Folivora</em> - sloths</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Myresluger.jpg/250px-Myresluger.jpg
+14,1,PAUCITUBERCULATA,2014-09-09 21:52:06.566252,2014-09-10 04:55:43.70168,"<div class=""intro""><b>Caenolestinae</b><br></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Shrew_opossum_-_Caenolestidae.png/240px-Shrew_opossum_-_Caenolestidae.png
+15,1,DIDELPHIMORPHIA,2014-09-09 21:52:53.362748,2014-09-10 04:55:44.061348,"<div class=""intro"">Several; see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opossum_2.jpg/220px-Opossum_2.jpg
+16,1,PERISSODACTYLA,2014-09-09 21:53:49.636049,2014-09-10 04:55:44.379325,"<div class=""intro"">An <b>odd-toed ungulate</b> is a <em>rhinoceroses</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/ErmineSpot.jpg/250px-ErmineSpot.jpg
+17,1,PERAMELEMORPHIA,2014-09-09 21:54:13.263923,2014-09-10 04:55:44.668163,"<div class=""intro"">†<em>Yaralidae</em><br>
+<em>Thylacomyidae</em><br>
+†<em>Chaeropodidae</em><br>
+<em>Peramelidae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Taxidermied_Bandicoot.jpg/250px-Taxidermied_Bandicoot.jpg
+19,1,HYRACOIDEA,2014-09-09 21:59:27.747326,2014-09-10 04:55:45.796346,"<div class=""intro""><b>Hyraxes</b> (from the Greek <span lang=""grc"" xml:lang=""grc"">ὕραξ</span>, <i>hurax</i>, ""shrewmouse"") (also called <b>dassies</b>)<sup id=""cite_ref-1"" class=""reference""><em>Middle East</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Yellow-spotted_Rock_Hyrax.jpg/220px-Yellow-spotted_Rock_Hyrax.jpg
+20,1,MICROBIOTHERIA,2014-09-09 22:00:41.636152,2014-09-10 04:55:46.03842,"<div class=""intro"">†<i><em>Khasia</em></i><br>
+†<i><em>Mirandatherium</em></i><br>
+†<i><em>Eomicrobiotherium</em></i><br>
+†<i><em>Ideodelphys</em></i><br>
+†<i><em>Pitheculus</em></i><br>
+<i><em>Dromiciops</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Monito_del_Monte_ps6.jpg/220px-Monito_del_Monte_ps6.jpg
+21,1,SIRENIA,2014-09-09 22:00:44.408828,2014-09-10 04:55:46.296694,"<div class=""intro""><em>Dugongidae</em><br>
+<em>Trichechidae</em><br>
+†<em>Prorastomidae</em><br>
+†<em>Protosirenidae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/81/Manatee.jpg/250px-Manatee.jpg
+22,1,MACROSCELIDEA,2014-09-09 22:00:57.191863,2014-09-10 04:55:46.555636,"<div class=""intro""><i><em>Elephantulus</em></i><br>
+<i><em>Macroscelides</em></i><br>
+<i><em>Petrodromus</em></i><br>
+<i><em>Rhynchocyon</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Macroscelides._proboscideus.6869.jpg/200px-Macroscelides._proboscideus.6869.jpg
+23,1,PROBOSCIDEA,2014-09-09 22:01:04.788339,2014-09-10 04:55:46.835735,"<div class=""intro""><em>Elephantidae</em><br>
+†<em>Gomphotheriidae</em><br>
+†<em>Mammutidae</em><br>
+†<em>Stegodontidae</em><br>
+†<em>Barytheriidae</em><br>
+†<em>Deinotheriidae</em><br>
+†<em>Moeritheriidae</em><br>
+†<em>Numidotheriidae</em><br>
+†<em>Palaeomastodontidae</em><br>
+†<em>Phiomiidae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/AfricanElephant.jpg/250px-AfricanElephant.jpg
+24,1,PHOLIDOTA,2014-09-09 22:11:23.88798,2014-09-10 04:55:47.092748,"<div class=""intro""><i><em>Manis culionensis</em></i><br>
+<i><em>Manis gigantea</em></i><br>
+<i><em>Manis temminckii</em></i><br>
+<i><em>Manis tricuspis</em></i><br>
+<i><em>Manis tetradactyla</em></i><br>
+<i><em>Manis crassicaudata</em></i><br>
+<i><em>Manis pentadactyla</em></i><br>
+<i><em>Manis javanica</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/58/The_Children%27s_Museum_of_Indianapolis_-_ground_pangolin.jpg/250px-The_Children%27s_Museum_of_Indianapolis_-_ground_pangolin.jpg
+26,1,MONOTREMATA,2014-09-09 22:21:50.952264,2014-09-10 04:55:48.334201,"<div class=""intro""><b>Monotremes</b> (from the Greek μονός <i>monos</i> ""single"" + τρῆμα <i>trema</i> ""hole"", referring to the <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Tachyglossus_aculeatus_side_on.jpg/220px-Tachyglossus_aculeatus_side_on.jpg
+27,1,TUBULIDENTATA,2014-09-09 22:21:58.377546,2014-09-10 04:55:48.599602,"<div class=""intro""><i><em>Orycteropus</em></i><br>
+†<i><em>Amphiorycteropus</em></i><br>
+†<i><em>Leptorycteropus</em></i><br>
+†<i><em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Orycteropus_afer_stuffed.jpg/220px-Orycteropus_afer_stuffed.jpg
+29,2,TESTUDINES,2014-09-09 22:41:45.352208,2014-09-10 04:55:49.382749,"<div class=""intro""><em>Cryptodira</em><br>
+<em>Pleurodira</em><br>
+<span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><em>citation needed</span></em></i>]</sup><br>
+and see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Florida_Box_Turtle_Digon3_re-edited.jpg/220px-Florida_Box_Turtle_Digon3_re-edited.jpg
+30,2,CROCODYLIA,2014-09-09 22:42:55.896065,2014-09-10 04:55:50.506782,"<div class=""intro"">The <b>Crocodilia</b> (or <b>Crocodylia</b>) are an <em>Gavialidae</em>). Although the term 'crocodiles' is sometimes used to refer to all of these, a less ambiguous vernacular term for this group is <b>crocodilians</b>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Crocodilia_collage.jpg/300px-Crocodilia_collage.jpg
+31,2,RHYNCHOCEPHALIA,2014-09-09 23:17:52.972158,2014-09-10 04:55:50.80042,"<div class=""intro""><b>Rhynchocephalia</b> is an <em>pleurosaurs</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Homoeosaurus.jpg/220px-Homoeosaurus.jpg
