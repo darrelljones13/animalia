@@ -1,5 +1,12 @@
 .card-container {
-   
+  background-color: #fdfdfd;
+  width: 600px;
+  margin: 30px auto;
+  border-style: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  overflow-y: scroll;
+  z-index: 1000;
 }
 
 .species-info {
@@ -64,13 +71,13 @@
   position: relative;
   margin: 10px;
   box-shadow: 0px 0px 5px #444;
+  color: white;
 }
 
 .add-to-collection {
   display: inline;
   font-style: none;
   margin: 20px;
-
 }
 
 .relatives .card img {
