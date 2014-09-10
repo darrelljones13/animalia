@@ -65,13 +65,14 @@
     <div class="search-form">
       <form id="species-search" action="/species/search" method="POST">
         <input id="species-search-input" type="text" name="species" placeholder="find a species" />
-          <input type="submit" value="Search" />
+          <input id="species-search-input-submit" type="submit" value="Search" />
           <a href='#' class="button exit">end</a>
       </form>
     </div>
   </div>
 
   <div id="species-card" class="overlay">
+  <% if @species %>
     <div class="species-dark-matter"></div>
       <div class="card-container">
         <img src="<%= @species.image_name %>" style="float: right"/>            
@@ -106,6 +107,7 @@
                       </a>
                     <% end %>
                   </div>
+      <% end %>
                     
       </div>
 

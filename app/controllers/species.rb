@@ -1,13 +1,16 @@
 get '/species/random' do
   random_id = Species.all.pluck(:id).sample
-  redirect "/species/#{random_id}"
+  @species = Species.find(random_id)
+  @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
+  # redirect "/species/#{random_id}"
+  erb :card, layout: false
 end
 
-get '/card/:id' do
-  @species = Species.find(params[:id])
-  @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
-  erb :card
-end
+# get '/card/:id' do
+#   @species = Species.find(params[:id])
+#   @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
+#   erb :card
+# end
 
 #not finished. need to address edge cases
 post '/add_to_collection' do
@@ -33,7 +36,8 @@ end
 
 post '/species/search' do
   @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
-  redirect "/species/#{@species.id}"
+    @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
+  erb :card, layout: false
 end
 
 post '/speciesnames' do

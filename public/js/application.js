@@ -28,9 +28,21 @@ $(document).ready(function() {
 
 	$('#random-animal-link').on('click', function() {
 		hideAllOverlays();
-		$("#species-card.overlay").show();
-
+		$.get('/species/random', function(data) {
+			$("#species-card.overlay").html(data);
+			$("#species-card.overlay").show();
+		});
 	});
+
+	$('#species-search-input-submit').on('click', function() {
+		event.preventDefault();
+		hideAllOverlays();
+		$.get('/species/search', function(data) {
+			$("#species-card.overlay").html(data);
+			$("#species-card.overlay").show();
+		});
+	});
+	
 	
 	$('.overlay .exit').on('click', hideAllOverlays)
 
@@ -45,7 +57,7 @@ $(document).ready(function() {
 
   });
   
-  $('.overlay .exit').on('click', hideAllOverlays)
+  $('.overlay').on('click', '.exit',  hideAllOverlays)
   // ______________________________
 
     
