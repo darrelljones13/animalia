@@ -2,16 +2,33 @@
   width: 600px;
   height: 70%;
   padding: 0px 20px 20px 20px;
-  border: 2px solid black;
-  background-color: #FFFFFF;
+  border: 4px solid black;
+  background-image: url("/image/white-linen-background.jpg");
+  /*background-color: #FFFFFF;*/
   position: fixed;
   top: 100px;
   left: 50%;
   margin-left: -300px;
-  border-radius: 5px;  padding: 15px;
+  border-radius: 10px;  
+  padding: 15px;
   text-align: center;
   overflow-y: scroll;
   z-index: 100;
+}
+
+.status .li{
+  font-size: 14px;
+}
+
+.exit {
+  float: left;
+}
+
+.main-image img {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 0px 5px #444;
+  margin: 5px;
 }
 
 #species-card.overlay {
@@ -32,6 +49,28 @@
   height:100%;
 }
 
+.relatives .card {
+  background-color: gray;
+  display: inline-block;
+  border: none;
+  padding: 10px;
+  position: relative;
+  margin: 10px;
+  box-shadow: 0px 0px 5px #444;
+}
+
+.add-to-collection {
+  display: inline;
+  font-style: none;
+  margin: 20px;
+
+}
+
+.relatives .card img {
+  border: 2px solid gray;
+  display: block;
+  text-align: center;
+}
 
 
 
