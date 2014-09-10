@@ -95,18 +95,19 @@ class Species < ActiveRecord::Base
   end
 
   def parse_red_list
+    begin      
       url = "http://www.iucnredlist.org/details/summary/#{self.red_list_id}/0"
 
       doc = Nokogiri::HTML(open(url))
       td_array = []
-      
+
       doc.css('td').each do |el|
         unless el.children.first.nil?
           td_array << el.children.first.content
         end
       end
       
-      species_data = {}
+      species_data = {range: "Unknown"}
       td_array.each_with_index do |element, index|  
         case 
           when element =~ /Range Description:/
@@ -119,6 +120,8 @@ class Species < ActiveRecord::Base
       end
       species_data
     rescue OpenURI::HTTPError => ex
+      species_data = {range: "Unknown"}
+    end
   end
 
 end
