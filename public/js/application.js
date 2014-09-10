@@ -20,13 +20,15 @@ $(document).ready(function() {
 		$(".overlay").hide();
 	};
 
+	//search link, shows modal
+
 	$('#search-link').on('click', function() {
 		hideAllOverlays();
 		$("#search.overlay").show();
 
 	});	
 
-	//random animal show modal
+	//random animal link, shows modal
 
 	$('#random-animal-link').on('click', function() {
 		hideAllOverlays();
@@ -37,6 +39,16 @@ $(document).ready(function() {
 	});
 
 	//animal modal
+
+  $('.card').on('click', function(event) {
+    event.preventDefault();
+    hideAllOverlays();
+    $("#species-card.overlay").show();
+  });
+  
+  $('.overlay').on('click', '.exit',  hideAllOverlays)
+
+  //relative links for animal modal
 	
 	$(document).on('click', '.relative.card', function(event) {
 		event.preventDefault();
@@ -46,7 +58,6 @@ $(document).ready(function() {
 			$("#species-card.overlay").html(data);
 			$("#species-card.overlay").show();
 		});
-	});
 
 	//search modal
 
@@ -60,23 +71,7 @@ $(document).ready(function() {
 			$("#species-card.overlay").show();
 		});
 	});
-	
-  // _____________________________
-  // This is the card modal
-
-  $('.card').on('click', function(event) {
-    event.preventDefault();
-    hideAllOverlays();
-    $("#species-card.overlay").show();
-
-  });
-  
-  $('.overlay').on('click', '.exit',  hideAllOverlays)
-  // ______________________________
-
-    
- 
-
+		
     //probably not finished
     $("#add-card-button").on("click", function(event) {
     	event.preventDefault();
