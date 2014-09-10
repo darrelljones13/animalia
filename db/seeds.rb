@@ -187,7 +187,7 @@ class BigDataParser
     end
   end
 
-  def seed_genus
+  def self.seed_genus
     CSV.foreach('genus123.csv', :headers => true) do |row|
       Genus.create(
         family_id: row["family_id"],
