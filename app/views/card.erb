@@ -16,7 +16,11 @@
               <li>Population Trends: <%= @species.population_trend %></li></div>
                 <% end %>
             </ul>
-                <%= @species.wikitext %>
+              <div class="species-info">
+                  <h3>Range</h3><p><%= @species.range %></p>
+                  <h3>Habitat</h3><p><%= @species.habitat %></p>
+                  <h3>Major Threats</h3><p><%= @species.major_threats %></p>
+              </div>
               <hr>
                 <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
                   <div class="relatives">
