@@ -20,16 +20,31 @@ $(document).ready(function() {
 		$(".overlay").hide();
 	};
 
-	$('#instructions-link').on('click', function() {
-		hideAllOverlays();
-		$("#instructions.overlay").show();
-	});
-
 	$('#search-link').on('click', function() {
 		hideAllOverlays();
 		$("#search.overlay").show();
 
+	});	
+
+	$('#random-animal-link').on('click', function() {
+		hideAllOverlays();
+		$.get('/species/random', function(data) {
+			$("#species-card.overlay").html(data);
+			$("#species-card.overlay").show();
+		});
 	});
+
+	$('#species-search-input-submit').on('click', function(event) {
+		event.preventDefault();
+		hideAllOverlays();
+		var searchInput = $('#species-search-input').val();
+		console.log(searchInput)
+		$.post('/species/search', {animal: searchInput}, function(data) {
+			$("#species-card.overlay").html(data);
+			$("#species-card.overlay").show();
+		});
+	});
+	
 	
 	$('.overlay .exit').on('click', hideAllOverlays)
 
@@ -44,7 +59,7 @@ $(document).ready(function() {
 
   });
   
-  $('.overlay .exit').on('click', hideAllOverlays)
+  $('.overlay').on('click', '.exit',  hideAllOverlays)
   // ______________________________
 
     
