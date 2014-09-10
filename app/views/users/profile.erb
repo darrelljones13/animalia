@@ -1,6 +1,7 @@
-<div class="container">
-  <h3 class="page-headline"><%= @user.first_name %>'s Collections</h3>
+<div class="profile-container">
+  <h3 class="collection-page-headline"><%= @user.first_name %>'s Collections</h3>
   
+  <div class="collection-image"><img src="/image/lion-icon.png" alt=""></div>
 
   <ul id="collection_list">
     <% unless @collections.nil? %>
@@ -9,19 +10,23 @@
         <li><h3><%= collection.name %></h3></li>
   
           <form method="GET" action="/collection/edit/<%= collection.id %>">
+
             <input id="create" type="submit" value="Edit this collection">
           </form>
 
+                <div class="collection-card">
           <ul>
             <% collection.cards.each do |card| %>
-              <li>
+                  <div class="card">
                 <% if card.species.common_name != nil %>
-                  <a href="/species/<%=card.species.id%>"><%= card.species.common_name %></a>
+                  <a href="/species/<%=card.species.id%>"><h3><%= card.species.common_name.split(",")[0] %></h3>
+                  <img src="<%= card.species.image_name %>"/></a>
                 <% else %>
-                  <a href="/species/<%=card.species.id%>"><%= card.species.scientific_name %></a>
+                  <a href="/species/<%=card.species.id%>"><h3><%= card.species.scientific_name %></h3></a>
                 <% end %>
-              </li>
             <% end %>
+          </div>
+          </div>
           </ul>
         
       <% end %>

@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="/css/application.css">
   <link rel="stylesheet" href="/css/species.css">
   <link rel="stylesheet" href="/css/taxonomy.css">
-  <link rel="stylesheet" href="/css/horiz.css">
   <link rel="stylesheet" href="/css/card.css">
   <% if @flex == true %>
     <%= "<link href='/css/test.css' rel='stylesheet' type='text/css' /> "%>
@@ -64,7 +63,7 @@
     <div class="search-form">
       <form id="species-search" action="/species/search" method="POST">
         <input id="species-search-input" type="text" name="species" placeholder="find a species" />
-          <input id="species-search-input-submit" type="submit" value="Search" />
+          <input id="species-search-input-submit" type="submit" value="Search"/>
           <a href='#' class="button exit">end</a>
       </form>
     </div>
