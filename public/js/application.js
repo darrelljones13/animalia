@@ -26,6 +26,8 @@ $(document).ready(function() {
 
 	});	
 
+	//random animal show modal
+
 	$('#random-animal-link').on('click', function() {
 		hideAllOverlays();
 		$.get('/species/random', function(data) {
@@ -33,6 +35,20 @@ $(document).ready(function() {
 			$("#species-card.overlay").show();
 		});
 	});
+
+	//animal modal
+	
+	$(document).on('click', '.relative.card', function(event) {
+		event.preventDefault();
+		hideAllOverlays();
+		var animalId = $(this).attr('id')
+		$.get('/card', {animal_id: animalId}, function(data) {
+			$("#species-card.overlay").html(data);
+			$("#species-card.overlay").show();
+		});
+	});
+
+	//search modal
 
 	$('#species-search-input-submit').on('click', function(event) {
 		event.preventDefault();
@@ -45,10 +61,6 @@ $(document).ready(function() {
 		});
 	});
 	
-	
-	$('.overlay .exit').on('click', hideAllOverlays)
-
-
   // _____________________________
   // This is the card modal
 

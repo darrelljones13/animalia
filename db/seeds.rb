@@ -170,7 +170,7 @@ class BigDataParser
   end
 
   def self.seed_order
-    CSV.foreach('orders456.csv', :headers => true) do |row|
+    CSV.foreach('orders789.csv', :headers => true) do |row|
       Order.create(chlass_id: row["chlass_id"],
                    name: row["name"],
                    wikitext: row["wikitext"],
@@ -188,7 +188,7 @@ class BigDataParser
   end
 
   def self.seed_genus
-    CSV.foreach('genus123.csv', :headers => true) do |row|
+    CSV.foreach('genus456.csv', :headers => true) do |row|
       Genus.create(
         family_id: row["family_id"],
         name: row["name"],
@@ -198,7 +198,7 @@ class BigDataParser
   end
 
   def self.seed_species
-    CSV.foreach('123kingdom123.csv', :headers => true) do |row|
+    CSV.foreach('kingdom456.csv', :headers => true) do |row|
       Species.create(
         genus_id: row["genus_id"],
         common_name: row["common_name"],

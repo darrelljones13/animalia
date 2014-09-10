@@ -6,22 +6,24 @@ get '/species/random' do
   erb :card, layout: false
 end
 
-# get '/card/:id' do
-#   @species = Species.find(params[:id])
-#   @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
-#   erb :card
-# end
+get '/card' do
+  @species = Species.find(params[:animal_id])
+  @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
+  erb :card, layout: false
+end
 
 #not finished. need to address edge cases
 post '/add_to_collection' do
   @user_collection = current_user.collections.first
-  if @card = Card.create(user_id: current_user.id, species_id: params[:species_id], collection_id: params[:collection])
+  if 
+    @card = Card.create(user_id: current_user.id, species_id: params[:species_id], collection_id: params[:collection])
     content_type :json
     @card.to_json
   else
     content_type :json
     "try again".to_json
   end
+
 end
 
 # get '/species' do
