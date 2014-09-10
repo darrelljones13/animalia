@@ -1,13 +1,16 @@
 get '/species/random' do
   random_id = Species.all.pluck(:id).sample
-  redirect "/species/#{random_id}"
+  @species = Species.find(random_id)
+  @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
+  # redirect "/species/#{random_id}"
+  erb :card, layout: false
 end
 
-get '/card/:id' do
-  @species = Species.find(params[:id])
-  @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
-  erb :card
-end
+# get '/card/:id' do
+#   @species = Species.find(params[:id])
+#   @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
+#   erb :card
+# end
 
 #not finished. need to address edge cases
 post '/add_to_collection' do
@@ -21,13 +24,9 @@ post '/add_to_collection' do
   end
 end
 
-get'/species/:species_id/show' do
-  erb :"species/show"
-end
-
-get '/species' do
-  erb :"species/index"
-end
+# get '/species' do
+#   erb :"species/index"
+# end
 
 post '/species' do
   @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
@@ -36,8 +35,9 @@ post '/species' do
 end
 
 post '/species/search' do
-  @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
-  redirect "/species/#{@species.id}"
+  @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:animal].downcase}%", "%#{params[:animal].downcase}%")
+    @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
+  erb :card, layout: false
 end
 
 post '/speciesnames' do
@@ -84,8 +84,8 @@ get '/species/:search' do |search_result|
     @species = Species.find(search_result.to_i)
     @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(20)
     @taxonomy = @species.taxonomy
-    @wikiInfo = @species.parseWikipedia
-    erb :species
+    # @wikiInfo = @species.parseWikipedia
+    erb :card
   else
     redirect '/'
   end

@@ -40,10 +40,7 @@
     </h1>
     <ul>
       <li>
-        <a href="#" id="instructions-link">Instructions</a>
-      </li>
-      <li>
-        <a href="/species/random">Random Animal</a>
+        <a href="#" id="random-animal-link">Random Animal</a>
       </li>
       <li>
         <a href='#' id="search-link">Search</a>
@@ -66,29 +63,56 @@
   <%= yield %>
   </div>
 
-  <div id="instructions" class="overlay">
-    <div class="dark-matter"></div>
-    <div class="search-form">
-      <h4>Animalia is a tool that allows you to explore the Animal Kingdom by examining the way scientists name and group animals.
-      <br>To start, click on any circle to traverse the Animal Kingdom, or search below for an animal of your choice.</h4>
-      <form id="species-search-instructions" action="/species/search" method="POST">
-        <input id="species-input-instructions" type="text" name="species" placeholder="find a species" />
-          <input type="submit" value="Search" />
-          <a href='#' class="button exit">end</a>
-      </form>
-    </div>
-  </div>
-
   <div id="search" class="overlay">
     <div class="dark-matter"></div>
     <div class="search-form">
       <form id="species-search" action="/species/search" method="POST">
         <input id="species-search-input" type="text" name="species" placeholder="find a species" />
-          <input type="submit" value="Search" />
+          <input id="species-search-input-submit" type="submit" value="Search" />
           <a href='#' class="button exit">end</a>
       </form>
     </div>
   </div>
+
+  <div id="species-card" class="overlay">
+  <% if @species %>
+    <div class="species-dark-matter"></div>
+      <div class="card-container">
+        <img src="<%= @species.image_name %>" style="float: right"/>            
+            <% if current_user %>
+            <form id="add-card-button" action="/add_to_collection" method="POST">
+              <input class="" type="submit" value="Add to Collection!" />
+            </form>
+            <% end %>
+
+            <a href='#' class="button exit">X</a>
+            <h2><%= @species.common_name %></h2><h3><em><%= @species.scientific_name %></em></h3>
+            <ul>
+              <li>Endangered Species Status: <%= @species.redListStatus %></li>
+                <% if @species.population_trend != nil %>
+              <li>Population Trends: <%= @species.population_trend %></li>
+                <% end %>
+            </ul>
+                <%= @species.wikitext %>
+              <hr>
+                <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
+                  <div class="relatives">
+                    <% @relatives.each do |relative| %>
+                      <a href="<%= relative.id %>">
+                      <div class="card">
+                        <img src="<%= relative.image_name %>"/>
+                          <% if relative.common_name != nil %>
+                            <%= relative.common_name %>
+                          <% else %>
+                            <%= relative.scientific_name %>
+                          <% end %>
+                      </div>
+                      </a>
+                    <% end %>
+                  </div>
+      <% end %>
+                    
+      </div>
 
 
     </div>
