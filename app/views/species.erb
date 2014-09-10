@@ -1,37 +1,43 @@
-<img src="<%= @species.image_name %>" style="float: right" />
-<h2><%= @species.common_name %></h2><h3><em><%= @species.scientific_name %></em></h3>
-<ul>
-  <li>Endangered Species Status: <%= @species.redListStatus %></li>
-  <% if @species.population_trend != nil %>
-    <li>Population Trends: <%= @species.population_trend %></li>
-  <% end %>
-</ul>
-<%= @species.wikitext %>
-<span id="current-species-id" style="display:none;"><%=@species.id%></span>
+<div id="species-card" class="overlay">
+    <div class="species-dark-matter"></div>
+      <div class="card-container">
+        <div class="main-image"><img src="<%= @species.image_name %>" style="float: right"/></div>
+            
 
-<% if current_user %>
-<form id="add-card-button" action="/add_to_collection" method="POST">
+            <a href='#' class="button exit">x</a>
+            <br>
 
-  <select>
-     <% @user.collections.each do |collection| %>
-        <option name="collection" value=<%= collection.id %>><%= collection.name %></option>
-     <% end %>
-  </select>
-  <input class="" type="submit" value="Add to Collection!" />
-</form>
-<% end %>
-<hr>
-<h4>Relatives from the Genus - <%= @species.genus.name %></h4>
-<div class="relatives">
-<% @relatives.each do |relative| %>
-  <a href="<%= relative.id %>">
-  <div class="card">
-    <img src="<%= relative.image_name %>"/>
-    <% if relative.common_name != nil %>
-      <%= relative.common_name %>
-    <% else %>
-      <%= relative.scientific_name %>
-    <% end %>
-  </div></a>
-<% end %>
+            <h2><%= @species.common_name %></h2>
+            <h3><em><%= @species.scientific_name %></em></h3>
+            <ul>
+              <div class="status">
+              <li>Endangered Species Status: <%= @species.redListStatus %></li>
+                <% if @species.population_trend != nil %>
+              <li>Population Trends: <%= @species.population_trend %></li></div>
+                <% end %>
+            </ul>
+                <%= @species.wikitext %>
+              <hr>
+                <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
+                  <div class="relatives">
+                    <% @relatives.each do |relative| %>
+                      <a href="<%= relative.id %>">
+                      <div class="card">
+                        <img src="<%= relative.image_name %>"/>
+                          <% if relative.common_name != nil %>
+                            <%= relative.common_name.split(",")[0] %>
+                          <% else %>
+                            <%= relative.scientific_name %>
+                          <% end %>
+                      </div>
+                      </a>
+                    <% end %>
+            <% if current_user %>
+            <form id="add-card-button" action="/add_to_collection" method="POST">
+              <input class="add-to-collection" type="submit" value="Add to Collection!" />
+              <%=  %>
+            </form>
+            <% end %>
+                  </div>
+                    
 </div>
