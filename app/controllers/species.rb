@@ -21,13 +21,9 @@ post '/add_to_collection' do
   end
 end
 
-get'/species/:species_id/show' do
-  erb :"species/show"
-end
-
-get '/species' do
-  erb :"species/index"
-end
+# get '/species' do
+#   erb :"species/index"
+# end
 
 post '/species' do
   @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
@@ -84,8 +80,8 @@ get '/species/:search' do |search_result|
     @species = Species.find(search_result.to_i)
     @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(20)
     @taxonomy = @species.taxonomy
-    @wikiInfo = @species.parseWikipedia
-    erb :species
+    # @wikiInfo = @species.parseWikipedia
+    erb :card
   else
     redirect '/'
   end

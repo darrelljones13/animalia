@@ -20,14 +20,15 @@ $(document).ready(function() {
 		$(".overlay").hide();
 	};
 
-	$('#instructions-link').on('click', function() {
-		hideAllOverlays();
-		$("#instructions.overlay").show();
-	});
-
 	$('#search-link').on('click', function() {
 		hideAllOverlays();
 		$("#search.overlay").show();
+
+	});	
+
+	$('#random-animal-link').on('click', function() {
+		hideAllOverlays();
+		$("#species-card.overlay").show();
 
 	});
 	
