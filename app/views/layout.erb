@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 
+  <link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/application.css">
   <link rel="stylesheet" href="/css/species.css">
@@ -9,7 +10,7 @@
   <link rel="stylesheet" href="/css/horiz.css">
   <link rel="stylesheet" href="/css/card.css">
   <% if @flex == true %>
-    <%= "<link href='/css/test.css' rel='stylesheet' type='text/css' /> "%>
+    <%= "<link href='/css/test.css' rel='stylesheet' type='text/css' />"%>
   <% end %>
 
   <link rel="shortcut icon" href="/image/treefrog_icon.ico">
@@ -17,17 +18,14 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="//use.typekit.net/xsu2yeh.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
   <script type="text/javascript" src="/js/test.js"></script>
-
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src="/js/application.js"></script>
 
-  <link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700,300' rel='stylesheet' type='text/css'>
-
   <title>Tree Frog</title>
 </head>
+
 <body>
   <header>
     <div id="logo"><img src="/image/tree-frog-logo-2.png"></div>
@@ -50,10 +48,11 @@
         </form>
       <% else %>
         <li><a href="/users/profile/<%= current_user.id %>"> My Collections</a></li>
-         <li><a href="/logout" >Logout</a></li>
+        <li><a href="/logout" >Logout</a></li>
       <% end %>
     </ul>
   </header>
+  
   <div class="container">
   <%= erb :_taxonomy if @taxonomy %>
   <%= yield %>
@@ -92,7 +91,7 @@
                 <%= @species.wikitext %>
               <hr>
                 <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
-
+              </hr>
                   <div class="relatives">
                     <% @relatives.each do |relative| %>
                       <div id="<%= relative.id %>" class="relative card">
@@ -108,7 +107,7 @@
       <% end %>
                     
       </div>
-
+    </div>
 
 </body>
 </html>
