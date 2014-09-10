@@ -15,7 +15,7 @@ end
 #not finished. need to address edge cases
 post '/add_to_collection' do
   @user_collection = current_user.collections.first
-  if 
+  if
     @card = Card.create(user_id: current_user.id, species_id: params[:species_id], collection_id: params[:collection])
     content_type :json
     @card.to_json
@@ -106,17 +106,17 @@ get '/ajax/:parent/:level' do |parent, level|
 
   case level.to_i
     when 4
-      Order.where(chlass_id: parent).pluck(:id, :name).each do |item|
-        items << {id: item[0], name: item[1], image: images[parent.to_i]}
+      Order.where(chlass_id: parent).pluck(:id, :name, :image_name).each do |item|
+        items << {id: item[0], name: item[1], image: item[2]}
       end
 
     when 5
-      Family.where(order_id: parent).pluck(:id, :name).each do |item|
-        items << {id: item[0], name: item[1], image: images[1]}
+      Family.where(order_id: parent).pluck(:id, :name, :image_name).each do |item|
+        items << {id: item[0], name: item[1], image: item[2]}
       end
     when 6
-      Genus.where(family_id: parent).pluck(:id, :name).each do |item|
-        items << {id: item[0], name: item[1].split(",")[0], image: images[1]}
+      Genus.where(family_id: parent).pluck(:id, :name, :image_name).each do |item|
+        items << {id: item[0], name: item[1].split(",")[0], image: item[2]}
       end
     when 7
       Species.where(genus_id: parent).pluck(:id, :common_name, :scientific_name, :image_name).each do |item|
