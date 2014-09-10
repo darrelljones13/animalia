@@ -16,6 +16,15 @@
   z-index: 100;
 }
 
+.species-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.species-info p {
+  font-size: 16px;
+}
+
 .bar .card-container {
   position: static;
   top: 0;
