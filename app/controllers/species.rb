@@ -95,14 +95,6 @@ end
 
 get '/ajax/:parent/:level' do |parent, level|
   items = []
-  images = [
-    "",
-    "/image/bird-icon.png",
-    "/image/lion-icon.png",
-    "/image/lizard-icon.png",
-    "/image/frog-icon.png",
-    "/image/fish-icon.png"
-  ]
 
   case level.to_i
     when 4
@@ -138,6 +130,42 @@ get '/ajax/:parent/:level' do |parent, level|
           name = item.scientific_name
         end
         items = {id: item.id, name: name, image: item.image_name, description: item.wikitext, status: item.redListStatus, trend: item.population_trend, taxonomy: item.taxonomy}
+    end
+
+    content_type :json
+    items.to_json
+end
+
+get '/preload/:parent/:level' do |parent, level|
+  items = []
+  parent = parent.to_i
+  case level.to_i
+    when 4
+      Order.where(chlass_id: parent).pluck(:id).each do |order|
+        puts "**********" + order[0]
+        Family.where(order_id: order[0]).pluck(:image_name).each do |item|
+          items << {image: item[0]}
+        end
+      end
+    when 5
+      Family.where(order_id: parent).pluck(:id).each do |family|
+        puts "**********" + family[0]
+        Genus.where(family_id: family[0]).pluck(:image_name).each do |item|
+          items << {image: item[0]}
+        end
+      end
+    when 6
+      Genus.where(family_id: parent).pluck(:id).each do |genus|
+        puts "**********" + genus.to_s
+          Species.where(genus_id: g.to_s).pluck(:image_name).each do |item|
+            items << {image: item[0]}
+          end
+
+      end
+    when 7
+      items = {}
+    when 8
+      items = {}
     end
 
     content_type :json

@@ -48,10 +48,12 @@ function moveTaxonomyForward(clicked, next) {
     };
     $(clicked).siblings().removeClass("breadcrumb")
     $(clicked).addClass("breadcrumb");
+
 }
 
 function populateCards(clicked, next) {
-    request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next,
+    var id = $(clicked).children('.hidden-id').text()
+    request = $.get("/ajax/" + id + "/"+ next,
         function(data,status) {
             data.forEach( function(object) {
                 $(".bar." + next).append('<div class="icons"><img src="' + object['image'] + '" /><h4>' + object['name'] + '</h4><span class="hidden-id">' + object['id'] + '</span></div>');
@@ -59,16 +61,20 @@ function populateCards(clicked, next) {
     });
     request.done(function() {
         resizeIcons();
-        preloadIconImages();
+        preloadIconImages(id, next);
     });
 }
 
-function preloadIconImages() {
-
+function preloadIconImages(clicked, next) {
+    request = $.get("/preload/" + clicked + "/"+ next,
+        function(data,status) {
+            data.forEach( function(object) {
+                ('.preload-image-container').append('<img src="' + image + '" />');
+        });
+    });
 }
 
 function populateSpeciesDetail(clicked, next) {
-    console.log(clicked);
     var request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next, function(data,status){
         $(".description").html(data['description']);
         $(".detail h3").text(data['name']);

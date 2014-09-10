@@ -325,3 +325,8 @@ img {
     font-weight: bold;
 }
 
+.preload-image-container {
+    z-index: -100;
+    display: none;
+}
+
