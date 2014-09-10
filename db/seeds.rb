@@ -93,7 +93,7 @@ class Parser
     kingdom = Kingdom.create(name: "Animalia")
     phylum = Phylum.create(name: "Chordata", kingdom_id: Kingdom.last.id)
     chlass = Chlass.create(name: "Osteichthyes", phylum_id: Phylum.last.id)
-    
+
     CSV.foreach('MarineFish_Higher_Taxonomy_8.csv', :headers => true) do |fish|
 
       Order.create(name: fish["Order"], chlass_id: Chlass.last.id)
@@ -168,10 +168,10 @@ class BigDataParser
       Chlass.create(phylum_id: 1, name: row["name"])
     end
   end
-  
+
   def self.seed_order
     CSV.foreach('orders456.csv', :headers => true) do |row|
-      Order.create(chlass_id: row["chlass_id"], 
+      Order.create(chlass_id: row["chlass_id"],
                    name: row["name"],
                    wikitext: row["wikitext"],
                    image_name: row["image_name"])
@@ -180,7 +180,7 @@ class BigDataParser
 
   def self.seed_family
     CSV.foreach('families456.csv', :headers => true) do |row|
-      Family.create(order_id: row["order_id"], 
+      Family.create(order_id: row["order_id"],
                    name: row["name"],
                    wikitext: row["wikitext"],
                    image_name: row["image_name"])
@@ -228,6 +228,8 @@ end
 
 #=== use this guy to seed from CSVs =============#
 BigDataParser.shark_dot_all
+# Chlass.all.destroy_all
+# BigDataParser.seed_chlass
 #================================================#
 
 #=Wont need to run these if the CSV seeding works==#

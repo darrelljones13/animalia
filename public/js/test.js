@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    $(window).resize(function(){
+      resizeIcons();
+    });
+
     resizeIcons();
     // BAR CLICKS **********************************
     // $(".container").on("click", ".bar.active", function(event) {
@@ -56,17 +60,16 @@ $(document).ready(function(){
             });
 
         }
+
+
         $(".selected").removeClass("selected");
         $("." + next).addClass("selected").removeClass("inactive");
         $("." + next).children(".icons").remove();
-
         for(var i = next; i <= 7; i++) {
             $("." + i).removeClass("active").children(".icons").remove();
         };
         $(this).siblings().removeClass("breadcrumb")
         $(this).addClass("breadcrumb");
-
-
     });
 
 
