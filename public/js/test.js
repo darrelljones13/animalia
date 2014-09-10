@@ -9,13 +9,14 @@ $(document).ready(function(){
         $('.icons').css("height", "");
         var level = $(this).parent().attr("class").split(' ')[0];
         var next = (parseInt(level) + 1);
-        $.when(moveTaxonomyForward(this, next)).then(resizeIcons());
+        moveTaxonomyForward(this, next);
+        resizeIcons();
         if(next === 8) {
             // prepare species detail
             clearSpeciesDetail();
             populateSpeciesDetail(this, next);
             // move view to species detail
-            $(".bar.species").addClass(".active");
+            $(".bar.species").addClass("active");
         }else{
             populateCards(this, next);
         }
@@ -23,7 +24,15 @@ $(document).ready(function(){
 });
 
 function resizeIcons() {
+    $(".icon-fake").each(function() {
+        width = $(this).width();
+        $(this).css("height", width);
+    });
     $(".icons").each(function() {
+        width = $(".icon-fake").width();
+        $(this).css("height", width);
+    });
+    $(".bar.selected .icons").each(function() {
         width = $(this).width();
         $(this).css("height", width);
     });
@@ -46,7 +55,6 @@ function populateCards(clicked, next) {
         function(data,status) {
             data.forEach( function(object) {
                 $(".bar." + next).append('<div class="icons"><img src="' + object['image'] + '" /><h4>' + object['name'] + '</h4><span class="hidden-id">' + object['id'] + '</span></div>');
-
         });
     });
     request.done(function() {
