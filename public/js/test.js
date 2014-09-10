@@ -19,8 +19,9 @@ $(document).ready(function(){
 
     // CARD CLICKS **********************************
     $(".bar").on("click", ".icons", function(event) {
+        $(this).parent().scrollTop($(this).position());
         $('.icons').css("height", "");
-        var level = $(this).parent().attr("id");
+        var level = $(this).parent().attr("class").split(' ')[0];
         var next = (parseInt(level) + 1);
         if(next === 8) {
             request = $.get("/ajax/" + $(this).children('.hidden-id').text() + "/"+ next,function(data,status){
@@ -28,13 +29,13 @@ $(document).ready(function(){
                 $(".detail h3").text(data['name']);
                 $(".red_list_status").text(data['status']);
                 $(".population_trend").text(data['trend']);
-                $(".hierarchy .kingdom").html(data['taxonomy']['kingdom']);
-                $(".hierarchy .phylum").html(data['taxonomy']['phylum']);
-                $(".hierarchy .class").html(data['taxonomy']['class']);
-                $(".hierarchy .order").html(data['taxonomy']['order']);
-                $(".hierarchy .family").html(data['taxonomy']['family']);
-                $(".hierarchy .genus").html(data['taxonomy']['genus']);
-                $(".hierarchy .species").html(data['taxonomy']['species']);
+                $(".bar .hierarchy .kingdom").html(data['taxonomy']['kingdom']);
+                $(".bar .hierarchy .phylum").html(data['taxonomy']['phylum']);
+                $(".bar .hierarchy .class").html(data['taxonomy']['class']);
+                $(".bar .hierarchy .order").html(data['taxonomy']['order']);
+                $(".bar .hierarchy .family").html(data['taxonomy']['family']);
+                $(".bar .hierarchy .genus").html(data['taxonomy']['genus']);
+                $(".bar .hierarchy .species").html(data['taxonomy']['species']);
             });
             request.done(function() {
                 resizeIcons();
@@ -47,7 +48,7 @@ $(document).ready(function(){
         }else{
             request = $.get("/ajax/" + $(this).children('.hidden-id').text() + "/"+ next,function(data,status){
                 data.forEach( function(object) {
-                    $("#" + next).append('<div class="icons"><img src="' + object['image'] + '" /><h4>' + object['name'] + '</h4><span class="hidden-id">' + object['id'] + '</span></div>');
+                    $(".bar." + next).append('<div class="icons"><img src="' + object['image'] + '" /><h4>' + object['name'] + '</h4><span class="hidden-id">' + object['id'] + '</span></div>');
                 });
             });
             request.done(function() {
@@ -55,12 +56,12 @@ $(document).ready(function(){
             });
 
         }
-        $(".bar").removeClass("selected");
-        $("#" + next).addClass("selected").removeClass("inactive");
-        $("#" + next).children(".icons").remove();
+        $(".selected").removeClass("selected");
+        $("." + next).addClass("selected").removeClass("inactive");
+        $("." + next).children(".icons").remove();
 
         for(var i = next; i <= 7; i++) {
-            $("#" + i).removeClass("active").children(".icons").remove();
+            $("." + i).removeClass("active").children(".icons").remove();
         };
         $(this).siblings().removeClass("breadcrumb")
         $(this).addClass("breadcrumb");
