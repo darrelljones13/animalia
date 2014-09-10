@@ -1,6 +1,7 @@
 body {
 /*  overflow: hidden;*/
-  font-family: quattrocento-sans, sans-serif;
+  /*font-family: quattrocento-sans, sans-serif;*/
+  font-family: 'Comfortaa', bold;
   color: #444;
 }
 
@@ -14,6 +15,10 @@ body {
   width: 99%;
   border-radius: 0;
   border: none;
+}
+
+#title-text a {
+  padding-left: 20px;
 }
 
 header {
