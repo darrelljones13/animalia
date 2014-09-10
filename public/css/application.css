@@ -6,6 +6,16 @@ body {
 /*  overflow: hidden;
 */}
 
+#logo {
+  float: left;
+  width: 100px;
+  padding: 6px;
+}
+
+#logo img {
+  width: 99%;
+}
+
 a {
   text-decoration: none;
 }
@@ -28,7 +38,7 @@ header {
 header h1 {
   color: grey;
   position: relative;
-  left: 5%;
+  left: -3%;
   margin-top: 10px;
 }
 
