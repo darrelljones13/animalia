@@ -154,14 +154,54 @@ input {
   pointer-events: none;
 }
 
+.register {
+  width: 600px;
+  height: auto;
+/*  padding: 0px 20px 20px 20px;*/
+  border: 4px solid black;
+  background-image: url("/image/white-linen-background.jpg");
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: -300px;
+  border-radius: 10px;
+  z-index: 100;
+}
+
 #new-user-form {
   color: gray;
-  width: 30%;
-  margin: 0 auto;
+  width: 35%;
+  margin: 90px auto;
+
 }
 
 #new-user-form h3 {
   text-align: center;
+  color: gray;
+  font-size: 2em;
+}
+
+#new-user {
+  margin-left: 70px;
+  font-size: 1.45em;
+}
+
+#lname-field {
+  margin-left: 6px;
+}
+
+#email-field {
+  margin-left: 42px;
+}
+
+#password-field {
+ margin-left: 11px;
+}
+
+#submit-btn {
+  display: block;
+  margin-left: 100px;
+  margin-top: 15px;
 }
 
 .ui-menu-item {
@@ -220,7 +260,7 @@ input {
   height: 25px;
   width: 60px;
   border-radius: 5px;
-  background: gray;
+  background: #63cc4d;
   border: 1px solid #222;
   opacity: 1;
   box-shadow: inset 0px -5px 8px 2px gray;

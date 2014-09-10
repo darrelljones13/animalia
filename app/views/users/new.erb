@@ -1,15 +1,17 @@
-<% if session[:user_id].nil? %>
+<div class="register">
+  <% if session[:user_id].nil? %>
 <div id="new-user-form">
 	<h3>Register</h3>
 
 	<form id="new-user" action="/signup" method="POST">
-    FIRST NAME: <input type="text" name="user[first_name]" placeholder="first name" /><br>
-    LAST NAME: <input type="text" name="user[last_name]" placeholder="last name" /><br>
-	  EMAIL: <input type="email" name="user[email]" placeholder="name@email.com" /><br>
-	  PASSWORD: <input type="password" name="user[password]" placeholder="password" />
-	  <input type="submit" value="Submit"/>
+    First Name: <input id="fname-field" type="text" name="user[first_name]" placeholder="first name" /><br>
+    Last Name: <input id="lname-field" type="text" name="user[last_name]" placeholder="last name" /><br>
+	  Email: <input id="email-field" type="email" name="user[email]" placeholder="name@email.com" /><br>
+	  Password: <input id="password-field" type="password" name="user[password]" placeholder="password" /><br>
+	  <input id="submit-btn" type="submit" value="Submit"/>
 	</form>
 </div>
 <% else %>
 LOGGED IN
 <% end %>
+</div>

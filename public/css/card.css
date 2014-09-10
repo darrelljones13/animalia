@@ -1,19 +1,5 @@
 .card-container {
-  width: 600px;
-  height: 70%;
-  padding: 0px 20px 20px 20px;
-  border: 4px solid black;
-  background-image: url("/image/white-linen-background.jpg");
-  /*background-color: #FFFFFF;*/
-  position: fixed;
-  top: 100px;
-  left: 50%;
-  margin-left: -300px;
-  border-radius: 10px;
-  padding: 15px;
-  text-align: center;
-  overflow-y: scroll;
-  z-index: 100;
+   
 }
 
 .species-info {
