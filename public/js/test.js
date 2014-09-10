@@ -3,6 +3,7 @@ $(document).ready(function(){
       resizeIcons();
     });
     resizeIcons();
+    preloadIconImages(1, 3) // order images
     // CARD CLICKS **********************************
     $(".bar").on("click", ".icons", function(event) {
         $(this).parent().scrollTop($(this).position());
@@ -77,6 +78,7 @@ function preloadIconImages(clicked, next) {
 
 function populateSpeciesDetail(clicked, next) {
     var request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next, function(data,status){
+        console.log(data);
         $(".description").html(data['description']);
         $(".card-container h3").text(data['name']);
         $(".red_list_status").text(data['status']);
