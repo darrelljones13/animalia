@@ -39,7 +39,7 @@ img {
     border: 1px solid #666;
 
 }
-.bar.kingdom, .bar.phylum {
+.bar.kingdom {
     flex: 1;
 }
 
@@ -311,7 +311,7 @@ img {
     margin-top: -10%;
 }
 .hierarchy.taxonomy-footer .phylum {
-    flex: 0.5;
+    flex: 2;
     margin-top: -8%;
 }
 .hierarchy.taxonomy-footer .selected {
