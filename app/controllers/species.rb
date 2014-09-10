@@ -123,12 +123,12 @@ get '/ajax/:parent/:level' do |parent, level|
       puts "*"*50
       puts parent
       item = Species.find(parent.to_i)
-        if item.common_name != nil
-          name = item.common_name
-        else
-          name = item.scientific_name
-        end
-        items = {id: item.id, name: name, image: item.image_name, description: item.wikitext, status: item.redListStatus, trend: item.population_trend, taxonomy: item.taxonomy}
+      if item.common_name != nil
+        name = item.common_name
+      else
+        name = item.scientific_name
+      end
+      items = {id: item.id, name: name, image: item.image_name, description: item.wikitext, status: item.redListStatus, trend: item.population_trend, taxonomy: item.taxonomy}
     end
 
     content_type :json

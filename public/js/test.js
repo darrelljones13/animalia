@@ -78,7 +78,7 @@ function preloadIconImages(clicked, next) {
 function populateSpeciesDetail(clicked, next) {
     var request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next, function(data,status){
         $(".description").html(data['description']);
-        $(".detail h3").text(data['name']);
+        $(".card-container h3").text(data['name']);
         $(".red_list_status").text(data['status']);
         $(".population_trend").text(data['trend']);
         $(".bar .hierarchy .kingdom").html(data['taxonomy']['kingdom']);
