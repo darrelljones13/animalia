@@ -20,7 +20,8 @@
 
   <script type="text/javascript" src="/js/test.js"></script>
 
-  <script src="//use.edgefonts.net/telex;lato;quattrocento-sans;spinnaker;corben;cantata-one;alice;averia-serif-libre.js">  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.min.js"></script>
+  <script src="//use.edgefonts.net/telex;lato;quattrocento-sans;spinnaker;corben;cantata-one;alice;averia-serif-libre.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src="/js/application.js"></script>
 
@@ -90,10 +91,10 @@
                 <%= @species.wikitext %>
               <hr>
                 <h4>Relatives from the Genus - <%= @species.genus.name %></h4>
+
                   <div class="relatives">
                     <% @relatives.each do |relative| %>
-                      <a href="<%= relative.id %>">
-                      <div class="card">
+                      <div id="<%= relative.id %>" class="relative card">
                         <img src="<%= relative.image_name %>"/>
                           <% if relative.common_name != nil %>
                             <%= relative.common_name %>
@@ -101,7 +102,6 @@
                             <%= relative.scientific_name %>
                           <% end %>
                       </div>
-                      </a>
                     <% end %>
                   </div>
       <% end %>
@@ -109,6 +109,5 @@
       </div>
 
 
-    </div>
 </body>
 </html>
