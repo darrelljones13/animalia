@@ -1,222 +1,4 @@
 id,order_id,name,created_at,updated_at,wikitext,image_name
-335,40,Guans,2014-09-10 02:15:29.951249,2014-09-10 08:25:51.320581,"<div class=""intro""><b><em>Guan</em></b> is a surname.</div>",none
-7,4,ACROBATIDAE,2014-09-09 21:48:01.041173,2014-09-10 08:11:09.257973,"<div class=""intro""><i><em>Acrobates</em></i><br>
-<i><em>Distoechurus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Beutelmaus_brehm.png/220px-Beutelmaus_brehm.png
-10,5,SCIURIDAE,2014-09-09 21:48:05.384717,2014-09-10 08:11:10.691156,"<div class=""intro"">and see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sciuridae.jpg/240px-Sciuridae.jpg
-11,5,URSIDAE,2014-09-09 21:48:15.737269,2014-09-10 08:11:12.016682,"<div class=""intro""><b>Bears</b> are <em>Asia</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Ursus_arctos_-_Norway.jpg/200px-Ursus_arctos_-_Norway.jpg
-16,6,CERCOPITHECIDAE,2014-09-09 21:48:47.893629,2014-09-10 08:11:14.054258,"<div class=""intro""><em>Cercopithecinae</em> - 12 genera<br>
-<em>Colobinae</em> - 10 genera</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Olive_baboon_Ngorongoro.jpg/220px-Olive_baboon_Ngorongoro.jpg
-21,7,FURIPTERIDAE,2014-09-09 21:49:12.611159,2014-09-10 08:11:15.964101,"<div class=""intro""><i><em>Amorphochilus</em></i><br>
-<i><em>Furipterus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Furipterus_horrens.jpg/220px-Furipterus_horrens.jpg
-25,10,DASYURIDAE,2014-09-09 21:49:24.362954,2014-09-10 08:11:17.166345,"<div class=""intro""><em>Dasyurinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/SpottedQuoll_2005_SeanMcClean.jpg/200px-SpottedQuoll_2005_SeanMcClean.jpg
-27,10,ANTILOCAPRIDAE,2014-09-09 21:49:30.827222,2014-09-10 08:11:17.83169,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pronghorn_antelope.jpg/280px-Pronghorn_antelope.jpg
-30,10,AOTIDAE,2014-09-09 21:49:34.185475,2014-09-10 08:11:19.722263,"<div class=""intro""><em>see text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Panamanian_night_monkey.jpg/220px-Panamanian_night_monkey.jpg
-36,10,CANIDAE,2014-09-09 21:50:43.293938,2014-09-10 08:11:22.981069,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Familia_Canidae.jpg/220px-Familia_Canidae.jpg
-39,10,INDRIIDAE,2014-09-09 21:50:47.514071,2014-09-10 08:11:25.070355,"<div class=""intro""><i><em>Indri</em></i><br>
-<i><em>Avahi</em></i><br>
-<i><em>Propithecus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Indri_Indri.jpg/250px-Indri_Indri.jpg
-43,10,EMBALLONURIDAE,2014-09-09 21:51:04.692911,2014-09-10 08:11:26.308284,"<div class=""intro"">See Text</div>",//upload.wikimedia.org/wikipedia/commons/6/66/Emballonura_semicaudata.jpg
-47,10,ZIPHIIDAE,2014-09-09 21:51:21.71659,2014-09-10 08:11:27.669719,"<div class=""intro""><b>Beaked whales</b> are the members of the <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/e/ed/Cuviers_beaked_whale-swfsc.jpg
-50,12,BRADYPODIDAE,2014-09-09 21:51:46.373795,2014-09-10 08:11:29.057644,"<div class=""intro"">4, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bradypus.jpg/220px-Bradypus.jpg
-52,13,DASYPODIDAE,2014-09-09 21:52:02.266914,2014-09-10 08:11:30.296194,"<div class=""intro"">See <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Nine-banded_Armadillo.jpg/220px-Nine-banded_Armadillo.jpg
-57,15,DIDELPHIDAE,2014-09-09 21:52:53.366747,2014-09-10 08:11:32.95652,"<div class=""intro"">Several; see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opossum_2.jpg/220px-Opossum_2.jpg
-59,15,SPALACIDAE,2014-09-09 21:53:00.697881,2014-09-10 08:11:34.00128,"<div class=""intro""><em>Spalacinae</em><br>
-<em>Myospalacinae</em><br>
-<em>Rhizomyinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lesser_bamboo_rat.jpg/250px-Lesser_bamboo_rat.jpg
-63,15,CASTORIDAE,2014-09-09 21:53:24.495644,2014-09-10 08:11:35.634255,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Beaver.jpg/200px-Beaver.jpg
-66,15,CEBIDAE,2014-09-09 21:53:30.129171,2014-09-10 08:11:37.636222,"<div class=""intro""><i><em>Cebus</em></i><br>
-<i><em>Saimiri</em></i><br>
-<i><em>Sapajus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Capuchin_Costa_Rica.jpg/220px-Capuchin_Costa_Rica.jpg
-70,17,GLIRIDAE,2014-09-09 21:54:13.957051,2014-09-10 08:11:38.906472,"<div class=""intro""><em>Graphiurinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Graphiurus_spec_-murinus-1.jpg/220px-Graphiurus_spec_-murinus-1.jpg
-76,17,HIPPOPOTAMIDAE,2014-09-09 21:55:11.487866,2014-09-10 08:11:41.213853,"<div class=""intro"">†<i><em>Trilobophorous</em></i> <small>Geze, 1985</small><br>
-<br></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Hippo_pod_edit.jpg/250px-Hippo_pod_edit.jpg
-78,17,TALPIDAE,2014-09-09 21:55:33.825842,2014-09-10 08:11:42.28081,"<div class=""intro"">17 genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Talpa_europaea_MHNT.jpg/240px-Talpa_europaea_MHNT.jpg
-82,17,HYAENIDAE,2014-09-09 21:57:32.436149,2014-09-10 08:11:43.849876,"<div class=""intro""><b>Hyenas</b> or <b>hyaenas</b> (from <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Hyaenidae.jpg/220px-Hyaenidae.jpg
-85,17,CTENOMYIDAE,2014-09-09 21:58:06.6944,2014-09-10 08:11:45.218125,"<div class=""intro"">see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Tinytuco.jpg/200px-Tinytuco.jpg
-90,18,PETAURIDAE,2014-09-09 21:58:58.320561,2014-09-10 08:11:47.752751,"<div class=""intro""><i><em>Dactylopsila</em></i><br>
-<i><em>Gymnobelideus</em></i><br>
-<i><em>Petaurus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sugies03_hp.jpg/240px-Sugies03_hp.jpg
-93,18,MONODONTIDAE,2014-09-09 21:59:24.171001,2014-09-10 08:11:48.676164,"<div class=""intro"">see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Belugawhale_MMC.jpg/220px-Belugawhale_MMC.jpg
-98,21,DUGONGIDAE,2014-09-09 22:00:44.4128,2014-09-10 08:11:50.089633,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dugong_Marsa_Alam.jpg/220px-Dugong_Marsa_Alam.jpg
-99,21,TENRECIDAE,2014-09-09 22:00:49.274079,2014-09-10 08:11:50.984133,"<div class=""intro"">The <b>tenrec</b> is a <em>Madagascar dry deciduous forests</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tanrek.jpg/220px-Tanrek.jpg
-104,23,ESCHRICHTIIDAE,2014-09-09 22:02:13.897181,2014-09-10 08:11:53.084012,"<div class=""intro""><b>Eschrichtiidae</b> or the <b>gray whales</b> is a <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Graywhale_MMC.jpg/220px-Graywhale_MMC.jpg
-107,23,GIRAFFIDAE,2014-09-09 22:04:26.397423,2014-09-10 08:11:54.647792,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Okapi.bristol.600pix.jpg/220px-Okapi.bristol.600pix.jpg
-113,23,INIIDAE,2014-09-09 22:07:39.724866,2014-09-10 08:11:57.185553,"<div class=""intro"">see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Inia.jpg/220px-Inia.jpg
-115,23,DIATOMYIDAE,2014-09-09 22:08:32.849333,2014-09-10 08:11:58.139413,"<div class=""intro""><i><em>Laonastes</em></i><br>
-<i>†<em>Diatomys</em></i><br>
-<i>†<em>Fallomus</em></i><br>
-<i>†<em>Marymus</em></i><br>
-<i>†<em>Pierremus</em></i><br>
-<i>†<em>Willmus</em></i></div>",none
-120,24,MORMOOPIDAE,2014-09-09 22:15:39.877339,2014-09-10 08:11:59.703685,"<div class=""intro""><i><em>Mormoops</em><br>
-<em>Pteronotus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mormoops_blainvillii.jpg/240px-Mormoops_blainvillii.jpg
-126,24,MYZOPODIDAE,2014-09-09 22:18:29.350538,2014-09-10 08:12:03.036937,"<div class=""intro""><i><b>Myzopoda</b></i>, which has two described <em><span>[</span>3<span>]</span></em></sup></div>",none
-128,24,PHOCOENIDAE,2014-09-09 22:19:07.638806,2014-09-10 08:12:03.71267,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Harbor.Porpoise.4.jpg/225px-Harbor.Porpoise.4.jpg
-133,25,OCHOTONIDAE,2014-09-09 22:20:56.961793,2014-09-10 08:12:05.451711,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ochotona_princeps.jpg/220px-Ochotona_princeps.jpg
-135,26,ORNITHORHYNCHIDAE,2014-09-09 22:21:50.956292,2014-09-10 08:12:05.884101,"<div class=""intro""><em>Obdurodon</em></i><br>
-<i><em>Ornithorhynchus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Platypus.jpg/250px-Platypus.jpg
-138,27,PEDETIDAE,2014-09-09 22:23:21.885956,2014-09-10 08:12:06.698767,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Springharelg.jpg/220px-Springharelg.jpg
-142,27,PLATANISTIDAE,2014-09-09 22:26:28.049234,2014-09-10 08:12:09.050284,"<div class=""intro""><i>Platanista gangetica gangetica</i><br>
-<i>Platanista gangetica minor</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ganges_river_dolphin_skeleton.jpg/220px-Ganges_river_dolphin_skeleton.jpg
-146,27,RHINOLOPHIDAE,2014-09-09 22:30:47.015435,2014-09-10 08:12:11.071059,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bat%2820070605%29.jpg/220px-Bat%2820070605%29.jpg
-151,27,TARSIPEDIDAE,2014-09-09 22:38:08.67639,2014-09-10 08:12:14.115614,"<div class=""intro"">The <b>honey possum</b> (<i>Tarsipes rostratus</i>) is a tiny <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tarsipes_rostratus_-_Gould.jpg/220px-Tarsipes_rostratus_-_Gould.jpg
-154,27,THYLACINIDAE,2014-09-09 22:39:02.125437,2014-09-10 08:12:15.458643,"<div class=""intro"">All extinct, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Thylacinus.jpg/250px-Thylacinus.jpg
-159,28,ELAPIDAE,2014-09-09 22:41:41.771067,2014-09-10 08:12:16.850082,"<div class=""intro""><b>Elapidae</b> (<em>Indian Oceans</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/L14cobra.jpg/200px-L14cobra.jpg
-160,28,AGAMIDAE,2014-09-09 22:41:42.387565,2014-09-10 08:12:17.129396,"<div class=""intro"">6, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/MC_Siedleragame.jpg/220px-MC_Siedleragame.jpg
-163,29,XENODERMATIDAE,2014-09-09 22:42:04.338647,2014-09-10 08:12:19.169074,Unknown,
-167,29,TYPHLOPIDAE,2014-09-09 22:42:15.800956,2014-09-10 08:12:20.306262,"<div class=""intro"">The <b>Typhlopidae</b> are a <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/3/31/Ramphotyphlops_braminus.jpg
-169,29,DIPSADIDAE,2014-09-09 22:42:19.557374,2014-09-10 08:12:21.933655,Unknown,
-171,29,GEKKONIDAE,2014-09-09 22:42:27.548487,2014-09-10 08:12:22.425253,"<div class=""intro""><i>See text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tokay.jpg/240px-Tokay.jpg
-172,29,TROGONOPHIDAE,2014-09-09 22:42:41.025925,2014-09-10 08:12:22.668087,"<div class=""intro"">4, <i>See Text.</i></div>",//upload.wikimedia.org/wikipedia/commons/7/74/Red_Pencil_Icon.png
-175,30,PSEUDOXYRHOPHIIDAE,2014-09-09 22:42:56.929401,2014-09-10 08:12:24.59699,Unknown,
-179,30,TEIIDAE,2014-09-09 22:43:08.918059,2014-09-10 08:12:26.474071,"<div class=""intro"">10, <i>See text.</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Goldteju_Tupinambis_teguixin.jpg/200px-Goldteju_Tupinambis_teguixin.jpg
-181,30,TRIONYCHIDAE,2014-09-09 22:43:48.990494,2014-09-10 08:12:27.028945,"<div class=""intro""><em>Cyclanorbinae</em><br>
-<em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Pelodiscus.jpg/220px-Pelodiscus.jpg
-185,30,DACTYLOIDAE,2014-09-09 22:43:56.787174,2014-09-10 08:12:28.93955,"<div class=""intro"">The <b>Dactyloidae</b> are a family of <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Green_anole.jpg/250px-Green_anole.jpg
-188,30,PAREATIDAE,2014-09-09 22:45:12.919861,2014-09-10 08:12:30.331921,Unknown,
-191,30,SPHAERODACTYLIDAE,2014-09-09 22:45:24.120212,2014-09-10 08:12:31.602921,"<div class=""intro""><i>See text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Teratoscincus_keyserlingii.jpg/220px-Teratoscincus_keyserlingii.jpg
-195,30,CORYTOPHANIDAE,2014-09-09 22:46:43.692858,2014-09-10 08:12:33.292315,"<div class=""intro""><i><em>Laurenti</em>, 1768</small><br>
-<i><em>H. Boie</em>, 1826</small><br>
-<i><em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Brown-basilisk-detail.jpg/250px-Brown-basilisk-detail.jpg
-199,30,HOMALOPSIDAE,2014-09-09 22:46:56.077258,2014-09-10 08:12:35.145215,Unknown,
-201,30,UROPELTIDAE,2014-09-09 22:47:38.531535,2014-09-10 08:12:36.06795,"<div class=""intro"">The <b>Uropeltidae</b> are a <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Silybura_shortii.jpg/220px-Silybura_shortii.jpg
-202,30,CALAMARIIDAE,2014-09-09 22:48:09.678427,2014-09-10 08:12:36.986428,Unknown,
-206,30,OPLURIDAE,2014-09-09 22:49:53.495172,2014-09-10 08:12:38.571458,"<div class=""intro"">2 genera (7 recognized species), <i>see article</i>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Oplurus_Cuvieri_Kirindy_Madagascar.jpg/240px-Oplurus_Cuvieri_Kirindy_Madagascar.jpg
-209,30,EUBLEPHARIDAE,2014-09-09 22:51:02.79889,2014-09-10 08:12:39.780762,"<div class=""intro""><i>See text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Gecko999.jpg/240px-Gecko999.jpg
-213,30,CROTAPHYTIDAE,2014-09-09 22:52:16.649257,2014-09-10 08:12:41.19655,"<div class=""intro""><i><em>Crotaphytus</em></i><br>
-<i><em>Gambelia</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Collared_Lizard_2.jpg/220px-Collared_Lizard_2.jpg
-218,30,LEPTOTYPHLOPIDAE,2014-09-09 22:56:37.052295,2014-09-10 08:12:43.459185,"<div class=""intro""><i><em>Epictinae</em></i><br>
-<i><em>Leptotyphlopinae</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Leptotyphlops_humilis_-_head.jpg/220px-Leptotyphlops_humilis_-_head.jpg
-223,30,GERRHOPILIDAE,2014-09-09 22:59:31.143683,2014-09-10 08:12:47.022777,Unknown,
-224,30,LAMPROPHIIDAE,2014-09-09 22:59:46.24139,2014-09-10 08:12:47.267501,"<div class=""intro""><b>Lamprophiidae</b> is a <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Lamprophiscapensis.jpg/220px-Lamprophiscapensis.jpg
-226,30,PSAMMOPHIIDAE,2014-09-09 23:00:51.019737,2014-09-10 08:12:48.456122,Unknown,
-229,30,HOPLOCERCIDAE,2014-09-09 23:07:56.080723,2014-09-10 08:12:49.954137,"<div class=""intro"">3 genera (16 recognized species), <i>see article</i>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Enyalioides_palpebralis.jpg/220px-Enyalioides_palpebralis.jpg
-232,30,PSEUDOXENODONTIDAE,2014-09-09 23:12:23.386868,2014-09-10 08:12:51.525189,Unknown,
-235,30,PROSYMNIDAE,2014-09-09 23:13:34.122936,2014-09-10 08:12:53.474208,Unknown,
-237,30,SHINISAURIDAE,2014-09-09 23:17:09.602422,2014-09-10 08:12:54.025952,"<div class=""intro""><span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Bahndwivici</em></i><br>
-<i><em>Shinisaurus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chin-krokodilschwanzechse-01.jpg/250px-Chin-krokodilschwanzechse-01.jpg
-334,40,Megapodes,2014-09-10 02:15:17.225343,2014-09-10 08:20:19.51616,"<div class=""intro"">The <b>megapodes</b>, also known as <b>incubator birds</b> or <b>mound-builders</b>, are stocky, medium-large chicken-like <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Australian_Brush_turkey2.jpeg/300px-Australian_Brush_turkey2.jpeg
-339,41,Screamers,2014-09-10 02:18:25.799407,2014-09-10 08:35:05.769209,"<div class=""intro""><b><em>Screamer</em></b> is a family of bird species.</div>",none
-337,40,New_World_quails,2014-09-10 02:16:08.468367,2014-09-10 08:35:04.583278,Unknown,
-338,40,Pheasants_partridges_turkeys_grouse,2014-09-10 02:16:29.26481,2014-09-10 08:35:05.520657,Unknown,
-343,43,Flamingos,2014-09-10 02:20:34.156901,2014-09-10 08:35:08.82548,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flamingos_Laguna_Colorada.jpg/220px-Flamingos_Laguna_Colorada.jpg
-341,41,Ducks_geese_swans,2014-09-10 02:18:27.954443,2014-09-10 08:35:07.039771,Unknown,
-347,46,Mesites,2014-09-10 02:20:41.258956,2014-09-10 08:35:11.150868,"<div class=""intro""><b>Mesites</b> may refer to:</div>",none
-351,49,Frogmouths,2014-09-10 02:24:33.612539,2014-09-10 08:35:12.882016,"<div class=""intro""><i><em>Podargus</em></i><br>
-<i><em>Batrachostomus</em></i><br>
-<i><em>Rigidipenna</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tawny_frogmouth_wholebody444.jpg/220px-Tawny_frogmouth_wholebody444.jpg
-348,47,Pigeons_doves,2014-09-10 02:20:43.002182,2014-09-10 08:35:12.056895,Unknown,
-354,49,Owlet-nightjars,2014-09-10 02:25:45.88132,2014-09-10 08:35:15.125615,Unknown,
-355,49,Treeswifts,2014-09-10 02:25:52.234811,2014-09-10 08:35:16.151193,Unknown,
-358,50,Hoatzin,2014-09-10 02:30:30.558912,2014-09-10 08:35:17.710334,"<div class=""intro""><i><em>Phasianus</em> hoazin</i> <small>Müller, 1776</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Opisthocomus_hoazin.jpg/220px-Opisthocomus_hoazin.jpg
-241,31,XENOPHIIDAE,2014-09-09 23:23:39.766462,2014-09-10 08:12:56.239321,Unknown,
-246,32,ELEUTHERODACTYLIDAE,2014-09-09 23:24:05.469229,2014-09-10 08:12:57.951285,"<div class=""intro"">Eleutherodactylinae<br>
-Phyzelaphryninae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Edanae.jpg/220px-Edanae.jpg
-250,32,BUFONIDAE,2014-09-09 23:24:18.527257,2014-09-10 08:12:59.715751,"<div class=""intro"">The <b>true toads</b> are the <em>Bufo</em></i> being the most widespread and well known.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Bufo_bufo.jpg/240px-Bufo_bufo.jpg
-254,33,DICROGLOSSIDAE,2014-09-09 23:25:22.606119,2014-09-10 08:13:01.103703,"<div class=""intro"">Dicroglossinae<br>
-Occidozyginae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Paa_exilispinosa.jpg/220px-Paa_exilispinosa.jpg
-256,33,ALSODIDAE,2014-09-09 23:25:23.627126,2014-09-10 08:13:02.481824,"<div class=""intro"">Alsodinae <small>Mivart, 1869</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Alsodes_verrucosus.jpg/220px-Alsodes_verrucosus.jpg
-260,33,RANIDAE,2014-09-09 23:26:44.220316,2014-09-10 08:13:03.920425,"<div class=""intro"">See <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/RanaTemporaria.jpg/220px-RanaTemporaria.jpg
-265,33,PETROPEDETIDAE,2014-09-09 23:28:22.150266,2014-09-10 08:13:06.592447,"<div class=""intro"">Petropedetinae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Petropedetes_cameronensis_1874.jpg/220px-Petropedetes_cameronensis_1874.jpg
-266,33,ARTHROLEPTIDAE,2014-09-09 23:28:23.673249,2014-09-10 08:13:07.97336,"<div class=""intro""><i>See text</i></div>",//upload.wikimedia.org/wikipedia/en/e/e5/Scotobleps_gabonicus.jpg
-270,34,TYPHLONECTIDAE,2014-09-09 23:29:52.358102,2014-09-10 08:13:10.434942,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Typhlonectes_natans5.jpg/220px-Typhlonectes_natans5.jpg
-273,34,CERATOBATRACHIDAE,2014-09-09 23:30:39.172572,2014-09-10 08:13:11.587605,"<div class=""intro"">5, see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/CeratobatrachusGuentheriLyd.jpg/220px-CeratobatrachusGuentheriLyd.jpg
-278,34,RHACOPHORIDAE,2014-09-09 23:33:11.688188,2014-09-10 08:13:14.648851,"<div class=""intro""><em>Buergeriinae</em><br>
-<em>Rhacophorinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Polyp_leucom_A_050421_056_ipb.jpg/220px-Polyp_leucom_A_050421_056_ipb.jpg
-281,34,CALYPTOCEPHALELLIDAE,2014-09-09 23:34:06.899214,2014-09-10 08:13:16.206967,Unknown,
-283,34,CERATOPHRYIDAE,2014-09-09 23:34:35.577108,2014-09-10 08:13:17.568805,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Argentine_Horned_Frog_%28Ceratophrys_ornata%291.JPG/220px-Argentine_Horned_Frog_%28Ceratophrys_ornata%291.JPG
-284,34,CEUTHOMANTIDAE,2014-09-09 23:34:39.372359,2014-09-10 08:13:18.458738,Unknown,
-287,34,CYCLORAMPHIDAE,2014-09-09 23:37:30.917467,2014-09-10 08:13:19.860125,"<div class=""intro"">See text.</div>",none
-288,34,HYLODIDAE,2014-09-09 23:37:32.317183,2014-09-10 08:13:21.124441,Unknown,
-289,34,SCOLECOMORPHIDAE,2014-09-09 23:37:37.97512,2014-09-10 08:13:21.751087,"<div class=""intro""><i><em>Crotaphatrema</em></i><br>
-<i><em>Scolecomorphus</em></i></div>",none
-296,34,PTYCHADENIDAE,2014-09-09 23:44:35.898746,2014-09-10 08:13:24.460534,"<div class=""intro""><i><em>Hildebrandtia</em></i><br>
-<i><em>Lanzarana</em></i><br>
-<i><em>Ptychadena</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ptychadena_pumilio_Bild1222-2.jpg/220px-Ptychadena_pumilio_Bild1222-2.jpg
-299,34,RANIXALIDAE,2014-09-09 23:50:22.671114,2014-09-10 08:13:27.023346,"<div class=""intro""><i><b>Indirana</b></i> is a genus of <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Shola_talakaverifrog.jpg/220px-Shola_talakaverifrog.jpg
-302,34,ODONTOPHRYNIDAE,2014-09-09 23:57:04.803518,2014-09-10 08:13:28.700386,Unknown,
-305,34,PROTEIDAE,2014-09-09 23:59:23.032819,2014-09-10 08:13:29.834618,"<div class=""intro""><i><em>Necturus</em></i><br>
-<i><em>Proteus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Necturus_maculosus_maculosus.jpg/240px-Necturus_maculosus_maculosus.jpg
-308,34,PELODYTIDAE,2014-09-10 00:03:04.035608,2014-09-10 08:13:31.907066,"<div class=""intro""><i><em>Pelodytes punctatus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Pelodytes_punctatus_side.jpg/200px-Pelodytes_punctatus_side.jpg
-313,34,SCAPHIOPODIDAE,2014-09-10 00:18:41.976309,2014-09-10 08:13:33.193635,"<div class=""intro""><i><em>Spea</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Spea_hammondii_1.jpg/240px-Spea_hammondii_1.jpg
-315,34,TELMATOBIIDAE,2014-09-10 00:21:14.717866,2014-09-10 08:13:34.431433,Unknown,
-316,35,POMACENTRIDAE,2014-09-10 00:24:16.355783,2014-09-10 08:13:34.691286,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cocoa_damselfish.jpg/200px-Cocoa_damselfish.jpg
-319,35,LABRIDAE,2014-09-10 00:24:20.556935,2014-09-10 08:13:35.964858,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Thalassoma_lunare_1.jpg/220px-Thalassoma_lunare_1.jpg
-321,35,EPINEPHELIDAE,2014-09-10 00:24:45.550156,2014-09-10 08:13:37.298817,Unknown,
-323,36,CHAETODONTIDAE,2014-09-10 00:24:53.946921,2014-09-10 08:13:38.292026,"<div class=""intro"">About 10, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chaetodontidae.jpg/220px-Chaetodontidae.jpg
-328,37,XIPHIIDAE,2014-09-10 00:36:29.41716,2014-09-10 08:13:40.858606,"<div class=""intro""><b>Swordfish</b> (<i>Xiphias gladius</i>; from <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Xiphias_gladius2.jpg/250px-Xiphias_gladius2.jpg
-360,52,Finfoots,2014-09-10 02:32:01.103715,2014-09-10 08:35:19.531615,Unknown,
-364,52,Cranes,2014-09-10 02:33:47.121296,2014-09-10 08:35:21.70888,"<div class=""intro""><b>Crane</b> or <b>cranes</b> may refer to:</div>",none
-366,54,Turacos,2014-09-10 02:34:12.695293,2014-09-10 08:35:22.70601,Unknown,
-367,55,Loons/divers,2014-09-10 02:34:26.486848,2014-09-10 08:35:23.649584,Unknown,
-375,59,Herons,2014-09-10 02:36:49.762263,2014-09-10 08:35:29.454512,"<div class=""intro"">About 21 extant, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Great_Blue_Heron_On_Rock1.jpg/270px-Great_Blue_Heron_On_Rock1.jpg
-369,57,Southern_storm-petrels,2014-09-10 02:34:40.561251,2014-09-10 08:35:25.062608,Unknown,
-370,57,Northern_storm-petrels,2014-09-10 02:34:46.440418,2014-09-10 08:35:25.877486,Unknown,
-372,57,Petrels_shearwaters,2014-09-10 02:35:13.183588,2014-09-10 08:35:27.51883,Unknown,
-374,59,Ibises_spoonbills,2014-09-10 02:36:27.3394,2014-09-10 08:35:29.158185,Unknown,
-378,59,Pelicans,2014-09-10 02:37:36.632441,2014-09-10 08:35:30.469349,"<div class=""intro"">8, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Pelikan_Walvis_Bay.jpg/220px-Pelikan_Walvis_Bay.jpg
-383,61,Thick-knees,2014-09-10 02:38:16.444528,2014-09-10 08:35:33.254461,Unknown,
-380,60,Gannets_boobies,2014-09-10 02:37:44.876521,2014-09-10 08:35:31.614988,Unknown,
-384,61,Sheathbills,2014-09-10 02:38:22.329801,2014-09-10 08:35:33.550183,"<div class=""intro""><i><em>Chionis albus</em></i><br>
-<i><em>Chionis minor</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Snowy_Sheathbill.jpg/250px-Snowy_Sheathbill.jpg
-387,61,Oystercatchers,2014-09-10 02:38:24.787093,2014-09-10 08:35:34.649381,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Haematopus_longirostris_2.jpg/220px-Haematopus_longirostris_2.jpg
-392,61,Seedsnipes,2014-09-10 02:39:22.97911,2014-09-10 08:35:38.37379,Unknown,
-389,61,Avocets_stilts,2014-09-10 02:38:32.228528,2014-09-10 08:35:35.711406,Unknown,
-393,61,Painted-snipes,2014-09-10 02:39:25.00195,2014-09-10 08:35:39.294986,Unknown,
-396,61,Buttonquails,2014-09-10 02:40:36.986352,2014-09-10 08:35:41.547435,Unknown,
-395,61,Sandpipers_snipes_phalaropes,2014-09-10 02:39:31.985353,2014-09-10 08:35:40.524214,Unknown,
-400,61,Skuas,2014-09-10 02:42:10.303287,2014-09-10 08:35:44.785841,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Stercorarius_pomarinusPCCA20070623-3985B.jpg/250px-Stercorarius_pomarinusPCCA20070623-3985B.jpg
-398,61,Coursers_pratincoles,2014-09-10 02:40:50.357622,2014-09-10 08:35:43.103571,Unknown,
-399,61,Gulls_terns_skimmers,2014-09-10 02:41:00.19553,2014-09-10 08:35:44.10728,Unknown,
-411,68,Hornbills,2014-09-10 02:48:20.373685,2014-09-10 08:35:51.575275,"<div class=""intro"">14, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Malabar_grey_hornbill.jpg/220px-Malabar_grey_hornbill.jpg
-403,62,Typical_owls,2014-09-10 02:42:46.729264,2014-09-10 08:35:45.981634,"<div class=""intro"">some 25, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Eastern_Screech_Owl.jpg/220px-Eastern_Screech_Owl.jpg
-407,64,Hawks_eagles,2014-09-10 02:45:14.040733,2014-09-10 08:35:48.716833,Unknown,
-412,68,Hoopoes,2014-09-10 02:48:58.62755,2014-09-10 08:35:52.608266,Unknown,
-413,68,Woodhoopoes,2014-09-10 02:49:00.905659,2014-09-10 08:35:53.735998,Unknown,
-417,69,Todies,2014-09-10 02:49:34.3016,2014-09-10 08:35:56.353201,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Todus_todus_cropped.jpg/220px-Todus_todus_cropped.jpg
-418,69,Motmots,2014-09-10 02:49:36.873166,2014-09-10 08:35:57.214779,Unknown,
-419,69,Kingfishers,2014-09-10 02:49:45.497091,2014-09-10 08:35:57.495857,"<div class=""intro""><em>Alcedinidae</em><br>
-<em>Halcyonidae</em><br>
-<em>Cerylidae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Alcedo_azurea_-_Julatten.jpg/300px-Alcedo_azurea_-_Julatten.jpg
-433,73,Parrots,2014-09-10 02:56:51.597121,2014-09-10 08:36:08.294549,"<div class=""intro""><em>Cacatuoidea</em> (cockatoos)<br>
-<em>Psittacoidea</em> (true parrots)<br>
-<em>Strigopoidea</em> (New Zealand parrots)</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/220px-Ara_ararauna_Luc_Viatour.jpg
-423,70,New_World_barbets,2014-09-10 02:52:08.990965,2014-09-10 08:36:00.185226,Unknown,
-424,70,Prong-billed_barbets,2014-09-10 02:52:19.217197,2014-09-10 08:36:01.311846,Unknown,
-425,70,Asian_barbets,2014-09-10 02:52:20.316764,2014-09-10 08:36:02.33543,Unknown,
-426,70,African_barbets,2014-09-10 02:52:39.068317,2014-09-10 08:36:03.256547,Unknown,
-430,72,Falcons_caracaras,2014-09-10 02:55:50.881898,2014-09-10 08:36:06.022101,Unknown,
-431,73,New_Zealand_parrots,2014-09-10 02:56:37.881938,2014-09-10 08:36:06.844357,Unknown,
-438,74,Pittas,2014-09-10 03:01:04.801551,2014-09-10 08:36:12.063277,Unknown,
-434,74,New_Zealand_wrens,2014-09-10 03:00:51.171651,2014-09-10 08:36:09.197108,Unknown,
-439,74,Manakins,2014-09-10 03:01:25.250489,2014-09-10 08:36:12.354574,"<div class=""intro""><i>Many, see text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Manacus_candei1.jpg/220px-Manacus_candei1.jpg
-440,74,Cotingas,2014-09-10 03:01:56.334479,2014-09-10 08:36:13.189242,Unknown,
-441,74,Tyrant-flycatchers,2014-09-10 03:02:51.611971,2014-09-10 08:36:14.024062,Unknown,
-447,74,Woodcreepers,2014-09-10 03:12:32.693747,2014-09-10 08:36:18.924079,Unknown,
-445,74,Antthrushes_and_antpittas,2014-09-10 03:09:36.363284,2014-09-10 08:36:17.28597,Unknown,
-449,74,Scrub-birds,2014-09-10 03:13:04.930233,2014-09-10 08:36:20.664955,Unknown,
-454,74,Honeyeaters,2014-09-10 03:13:38.961131,2014-09-10 08:36:24.020658,"<div class=""intro"">see the text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Crescent_Honeyeater_Edit2.jpg/250px-Crescent_Honeyeater_Edit2.jpg
-451,74,Australian_treecreepers,2014-09-10 03:13:17.497067,2014-09-10 08:36:21.893637,Unknown,
-452,74,Australasian_wrens,2014-09-10 03:13:21.094573,2014-09-10 08:36:22.917826,Unknown,
-453,74,Hawaiian_honeyeaters,2014-09-10 03:13:36.278946,2014-09-10 08:36:23.736929,Unknown,
-456,74,Pardalotes,2014-09-10 03:15:21.959402,2014-09-10 08:36:25.785152,Unknown,
-459,74,Logrunners,2014-09-10 03:16:01.999444,2014-09-10 08:36:27.976117,"<div class=""intro"">2, <i>see text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Logrunner.jpg/200px-Logrunner.jpg
-457,74,Thornbills_and_gerygones,2014-09-10 03:15:24.00567,2014-09-10 08:36:26.706775,Unknown,
-458,74,Australasian_babblers,2014-09-10 03:15:59.184808,2014-09-10 08:36:27.52615,Unknown,
-461,74,Berrypeckers,2014-09-10 03:16:06.965154,2014-09-10 08:36:29.574251,Unknown,
-460,74,Satin_birds,2014-09-10 03:16:05.478701,2014-09-10 08:36:28.754603,Unknown,
-464,74,Quail-thrushes,2014-09-10 03:16:20.12584,2014-09-10 08:36:32.031119,Unknown,
-462,74,Wattled_crows,2014-09-10 03:16:13.41579,2014-09-10 08:36:30.392602,Unknown,
-463,74,Whipbirds_wedgebills_and_jewel-babblers,2014-09-10 03:16:15.117832,2014-09-10 08:36:31.212485,Unknown,
-467,74,Boatbills,2014-09-10 03:17:18.931121,2014-09-10 08:36:35.321225,Unknown,
-465,74,Shrike-flycatchers_wattle-eyes_and_batises,2014-09-10 03:16:22.783902,2014-09-10 08:36:32.850089,Unknown,
-466,74,Helmetshrikes_bushshrikes_and_puffbacks,2014-09-10 03:16:45.932561,2014-09-10 08:36:34.417469,Unknown,
-468,74,Vangas,2014-09-10 03:17:19.900394,2014-09-10 08:36:36.128168,Unknown,
-470,74,Woodswallows,2014-09-10 03:17:38.223859,2014-09-10 08:36:37.357318,Unknown,
-471,74,Ioras,2014-09-10 03:17:44.193646,2014-09-10 08:36:38.175359,Unknown,
-473,74,Cuckoo-shrikes,2014-09-10 03:17:46.99298,2014-09-10 08:36:39.917623,Unknown,
-474,74,Sittellas,2014-09-10 03:18:33.011279,2014-09-10 08:36:40.735325,Unknown,
-475,74,Shrike-tits,2014-09-10 03:18:34.189964,2014-09-10 08:36:41.76,Unknown,
 1,1,MURIDAE,2014-09-09 21:47:35.752678,2014-09-10 04:26:23.228719,"<div class=""intro"">The <b>Muridae</b>, or <b>murids</b>, are the largest family of <em>gerbils</em>, and relatives.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Apodemus_sylvaticus.JPG/220px-Apodemus_sylvaticus.JPG
 2,1,CRICETIDAE,2014-09-09 21:47:37.178701,2014-09-10 04:26:23.692011,"<div class=""intro""><em>Arvicolinae</em><br>
 <em>Cricetinae</em><br>
@@ -246,6 +28,8 @@ and see below</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meadvol
  <i><em>Pipanacoctomys</em></i><br>
  <i><em>Salinoctomys</em></i><br>
  <i><em>Tympanoctomys</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Octodon_degus_BG.jpg/200px-Octodon_degus_BG.jpg
+7,4,ACROBATIDAE,2014-09-09 21:48:01.041173,2014-09-10 08:11:09.257973,"<div class=""intro""><i><em>Acrobates</em></i><br>
+<i><em>Distoechurus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Beutelmaus_brehm.png/220px-Beutelmaus_brehm.png
 8,5,BOVIDAE,2014-09-09 21:48:01.469615,2014-09-10 08:11:09.611989,"<div class=""intro""><em>Bovinae</em><br>
 <em>Cephalophinae</em><br>
 <em>Hippotraginae</em><br>
@@ -256,57 +40,6 @@ and see below</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meadvol
 <em>Peleinae</em><br>
 <em>Alcelaphinae</em><br>
 <em>Pantholopinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Sable_bull.jpg/220px-Sable_bull.jpg
-34,10,OTARIIDAE,2014-09-09 21:50:04.002029,2014-09-10 08:11:22.10773,"<div class=""intro""><i><em>Arctocephalus</em></i><br>
-<i><em>Callorhinus</em></i><br>
-<i><em>Eumetopias</em></i><br>
-<i><em>Neophoca</em></i><br>
-<i><em>Otaria</em></i><br>
-<i><em>Phocarctos</em></i><br>
-<i><em>Zalophus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Neophoca_cinerea.JPG/220px-Neophoca_cinerea.JPG
-35,10,ERINACEIDAE,2014-09-09 21:50:35.781375,2014-09-10 08:11:22.42441,"<div class=""intro""><b>Erinaceidae</b> is the only living family in the order <b>Erinaceomorpha</b>, which has recently been subsumed with <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Igel.JPG/220px-Igel.JPG
-37,10,HYSTRICIDAE,2014-09-09 21:50:43.849424,2014-09-10 08:11:23.284205,"<div class=""intro""><i><em>Atherurus</em></i><br>
-<i><em>Hystrix</em></i><br>
-<i><em>Trichys</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Porcupine_Berlin_Zoo.jpg/240px-Porcupine_Berlin_Zoo.jpg
-38,10,HERPESTIDAE,2014-09-09 21:50:44.951891,2014-09-10 08:11:24.418771,"<div class=""intro""><b>Mongoose</b> is the popular English name for 29 of 34<sup id=""cite_ref-2"" class=""reference""><em>meerkat</em> in English.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dwarf_mongoose_Korkeasaari_zoo.jpg/220px-Dwarf_mongoose_Korkeasaari_zoo.jpg
-482,74,Drongos,2014-09-10 03:20:09.793002,2014-09-10 08:36:46.608237,"<div class=""intro""><b>Drongos</b> may refer to:</div>",none
-478,74,Vireos_and_allies,2014-09-10 03:19:12.499435,2014-09-10 08:36:43.194667,Unknown,
-479,74,Orioles_and_figbirds,2014-09-10 03:19:42.343153,2014-09-10 08:36:44.214072,Unknown,
-480,74,Shrike-thrushes_and_allies,2014-09-10 03:19:59.610576,2014-09-10 08:36:45.240751,Unknown,
-481,74,New_Zealand_thrushes,2014-09-10 03:20:08.771295,2014-09-10 08:36:46.060275,Unknown,
-491,74,Palmchat,2014-09-10 03:23:47.897519,2014-09-10 08:36:52.134298,"<div class=""intro"">The <b>palmchat</b> (<i>Dulus dominicus</i>) is a small, long-tailed <em>palms</em> for feeding, roosting and nesting.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dulus_dominicus.JPG/220px-Dulus_dominicus.JPG
-485,74,Crows_and_jays,2014-09-10 03:21:47.304956,2014-09-10 08:36:48.710065,Unknown,
-486,74,Australian_mudnesters,2014-09-10 03:22:54.836257,2014-09-10 08:36:49.715471,Unknown,
-488,74,Australasian_robins,2014-09-10 03:23:18.101944,2014-09-10 08:36:50.946007,Unknown,
-493,74,Penduline-tits,2014-09-10 03:24:22.820668,2014-09-10 08:36:54.149629,Unknown,
-492,74,Tits_and_chickadees,2014-09-10 03:23:48.39912,2014-09-10 08:36:52.920606,Unknown,
-498,74,Bulbuls,2014-09-10 03:27:52.521179,2014-09-10 08:36:57.938818,Unknown,
-497,74,Cisticolas_and_allies,2014-09-10 03:26:34.731014,2014-09-10 08:36:57.222584,Unknown,
-502,74,Fairy-bluebirds,2014-09-10 03:36:31.210758,2014-09-10 08:37:01.010856,Unknown,
-499,74,Old_World_warblers,2014-09-10 03:29:13.306483,2014-09-10 08:36:58.962514,Unknown,
-500,74,Babblers_and_parrotbills,2014-09-10 03:32:18.770887,2014-09-10 08:36:59.888211,Unknown,
-505,74,Gnatcatchers,2014-09-10 03:37:22.515281,2014-09-10 08:37:03.396692,"<div class=""intro""><i><em>Microbates</em><br>
-<em>Ramphocaenus</em><br>
-<em>Polioptila</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/California_Gnatcatcher.jpg/300px-California_Gnatcatcher.jpg
-503,74,Goldcrests_and_kinglets,2014-09-10 03:36:32.441954,2014-09-10 08:37:01.932584,Unknown,
-511,74,Starlings,2014-09-10 03:38:12.926215,2014-09-10 08:37:07.265568,"<div class=""intro"">Nearly 30, see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Lamprotornis_hildebrandti_-Tanzania-8-2c.jpg/250px-Lamprotornis_hildebrandti_-Tanzania-8-2c.jpg
-506,74,Nuthatches_and_wallcreeper,2014-09-10 03:37:30.993366,2014-09-10 08:37:04.390079,Unknown,
-509,74,Mockingbirds_and_thrashers,2014-09-10 03:37:52.723762,2014-09-10 08:37:06.335918,Unknown,
-515,74,Leafbirds,2014-09-10 03:44:11.376502,2014-09-10 08:37:10.021425,Unknown,
-513,74,Chats_and_Old_World_flycatchers,2014-09-10 03:41:06.177492,2014-09-10 08:37:08.897611,Unknown,
-516,74,Flowerpeckers,2014-09-10 03:44:17.885648,2014-09-10 08:37:10.727688,Unknown,
-523,74,Accentors,2014-09-10 03:49:05.915954,2014-09-10 08:37:16.370694,Unknown,
-519,74,Sparrows_snowfinches_and_allies,2014-09-10 03:45:58.82564,2014-09-10 08:37:12.991105,Unknown,
-520,74,Weavers_and_allies,2014-09-10 03:46:28.92155,2014-09-10 08:37:13.708767,Unknown,
-521,74,Waxbills_grass_finches_munias_and_allies,2014-09-10 03:47:30.789813,2014-09-10 08:37:14.52733,Unknown,
-522,74,Indigobirds_and_allies,2014-09-10 03:48:54.069302,2014-09-10 08:37:15.551233,Unknown,
-533,74,Tanagers,2014-09-10 03:55:32.382724,2014-09-10 08:37:24.963965,"<div class=""intro"">many: see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Green-headed_Tanager_Ubatuba.jpg/220px-Green-headed_Tanager_Ubatuba.jpg
-525,74,Wagtails_and_pipits,2014-09-10 03:49:13.717929,2014-09-10 08:37:17.906537,Unknown,
-526,74,Finches_and_Hawaiian_honeycreepers,2014-09-10 03:49:28.431905,2014-09-10 08:37:18.93049,Unknown,
-527,74,Pink-tailed_Bunting,2014-09-10 03:51:03.619105,2014-09-10 08:37:19.750421,Unknown,
-528,74,New_World_warblers,2014-09-10 03:51:48.514354,2014-09-10 08:37:21.184099,Unknown,
-529,74,Grosbeaks_saltators_and_allies,2014-09-10 03:52:56.374744,2014-09-10 08:37:22.207941,Unknown,
-530,74,New_World_blackbirds,2014-09-10 03:52:58.557628,2014-09-10 08:37:22.924631,Unknown,
-532,74,Buntings_American_sparrows_and_allies,2014-09-10 03:54:04.704058,2014-09-10 08:37:24.257721,Unknown,
 9,5,POTOROIDAE,2014-09-09 21:48:04.656274,2014-09-10 08:11:10.251777,"<div class=""intro""> <i><em>Aepyprymnus</em></i><br>
  <i><em>Bettongia</em></i><br>
  <span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Bulungamaya</em></i><br>
@@ -320,6 +53,8 @@ and see below</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meadvol
  <span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Purtia</em></i><br>
  <span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Wabularoo</em></i><br>
  <span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Wakiewakie</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Bettongia_penicillata.jpg/220px-Bettongia_penicillata.jpg
+10,5,SCIURIDAE,2014-09-09 21:48:05.384717,2014-09-10 08:11:10.691156,"<div class=""intro"">and see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sciuridae.jpg/240px-Sciuridae.jpg
+11,5,URSIDAE,2014-09-09 21:48:15.737269,2014-09-10 08:11:12.016682,"<div class=""intro""><b>Bears</b> are <em>Asia</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Ursus_arctos_-_Norway.jpg/200px-Ursus_arctos_-_Norway.jpg
 12,5,PHALANGERIDAE,2014-09-09 21:48:16.26206,2014-09-10 08:11:12.358499,"<div class=""intro"">The <b>Phalangeridae</b> are a family of <em>eucalypt</em> forest and tropical jungle.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Brushtail_possum.jpg/200px-Brushtail_possum.jpg
 13,5,AILURIDAE,2014-09-09 21:48:17.222821,2014-09-10 08:11:12.812514,"<div class=""intro""><i><em>†</em>)<br>
 <i><em>Ailurus</em></i><br>
@@ -338,6 +73,8 @@ and see below</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meadvol
 <em>Euchoreutinae</em><br>
 <em>Sicistinae</em><br>
 <em>Zapodinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Jaculus_orientalis_Stuffed_specimen_2.jpg/220px-Jaculus_orientalis_Stuffed_specimen_2.jpg
+16,6,CERCOPITHECIDAE,2014-09-09 21:48:47.893629,2014-09-10 08:11:14.054258,"<div class=""intro""><em>Cercopithecinae</em> - 12 genera<br>
+<em>Colobinae</em> - 10 genera</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Olive_baboon_Ngorongoro.jpg/220px-Olive_baboon_Ngorongoro.jpg
 17,6,CHEIROGALEIDAE,2014-09-09 21:48:48.3314,2014-09-10 08:11:14.33952,"<div class=""intro""><i><em>Cheirogaleus</em></i><br>
 <i><em>Microcebus</em></i><br>
 <i><em>Mirza</em></i><br>
@@ -356,6 +93,8 @@ and see below</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meadvol
 <em>Phyllonycterinae</em><br>
 <em>Phyllostominae</em><br>
 <em>Stenodermatinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Artibeus_sp._Tortuguero_National_Park_crop.jpg/220px-Artibeus_sp._Tortuguero_National_Park_crop.jpg
+21,7,FURIPTERIDAE,2014-09-09 21:49:12.611159,2014-09-10 08:11:15.964101,"<div class=""intro""><i><em>Amorphochilus</em></i><br>
+<i><em>Furipterus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Furipterus_horrens.jpg/220px-Furipterus_horrens.jpg
 22,8,TUPAIIDAE,2014-09-09 21:49:13.461739,2014-09-10 08:11:16.193432,"<div class=""intro""><i><em>Anathana</em></i><br>
 <i><em>Dendrogale</em></i><br>
 <i><em>Tupaia</em></i><br>
@@ -365,7 +104,9 @@ and see below</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meadvol
 <i><em>Zenkerella</em></i><br>
 †<i><em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Aethurus_glirinus.jpg/240px-Aethurus_glirinus.jpg
 24,9,SORICIDAE,2014-09-09 21:49:22.298564,2014-09-10 08:11:16.851718,"<div class=""intro"">A <b>shrew</b> or <b>shrew mouse</b> (<em>elephant shrews</em>, which belong to different families or orders.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Southern_short-tailed_shrew.jpg/220px-Southern_short-tailed_shrew.jpg
+25,10,DASYURIDAE,2014-09-09 21:49:24.362954,2014-09-10 08:11:17.166345,"<div class=""intro""><em>Dasyurinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/SpottedQuoll_2005_SeanMcClean.jpg/200px-SpottedQuoll_2005_SeanMcClean.jpg
 26,10,HIPPOSIDERIDAE,2014-09-09 21:49:29.611205,2014-09-10 08:11:17.490509,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Commerson%27s_leaf-nosed_bats_hipposideros_commersoni.jpg/220px-Commerson%27s_leaf-nosed_bats_hipposideros_commersoni.jpg
+27,10,ANTILOCAPRIDAE,2014-09-09 21:49:30.827222,2014-09-10 08:11:17.83169,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pronghorn_antelope.jpg/280px-Pronghorn_antelope.jpg
 28,10,VESPERTILIONIDAE,2014-09-09 21:49:32.07288,2014-09-10 08:11:18.99735,"<div class=""intro""><b>Vesper bats</b> (family <b>Vespertilionidae</b>), also known as <b>evening bats</b> or <b>common bats</b>, are the largest and best-known family of <em>vesper</em></span></i>, meaning ""evening"".</div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/56/ComputerHotline_-_Chiroptera_sp._%28by%29_%284%29.jpg/220px-ComputerHotline_-_Chiroptera_sp._%28by%29_%284%29.jpg
 29,10,MUSTELIDAE,2014-09-09 21:49:32.571502,2014-09-10 08:11:19.43865,"<div class=""intro""><em>Lutrinae</em> (otters)<br>
 <em>Melinae</em> (European badgers)<br>
@@ -374,6 +115,7 @@ and see below</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meadvol
 <em>Mustelinae</em> (weasels, tayra, wolverines, martens, polecats)<br>
 <br>
 Note ambiguity about classification at the section <em>Systematics</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/15/WEASEL.JPG/220px-WEASEL.JPG
+30,10,AOTIDAE,2014-09-09 21:49:34.185475,2014-09-10 08:11:19.722263,"<div class=""intro""><em>see text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Panamanian_night_monkey.jpg/220px-Panamanian_night_monkey.jpg
 31,10,APLODONTIIDAE,2014-09-09 21:49:42.225691,2014-09-10 08:11:20.48493,"<div class=""intro"">The <b>mountain beaver</b> (<i>Aplodontia rufa</i>) is a <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/3/3c/Aplodontia.jpg
 32,10,VIVERRIDAE,2014-09-09 21:50:02.048053,2014-09-10 08:11:21.416175,"<div class=""intro""><em>Hemigalinae</em><br>
 <em>Paradoxurinae</em><br>
@@ -384,6 +126,22 @@ Note ambiguity about classification at the section <em>Systematics</em>.</div>",
 <i><em>Pseudopotto</em></i><br>
 <i><em>Loris</em></i><br>
 <i><em>Nycticebus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/SlenderLorisLyd2.png/220px-SlenderLorisLyd2.png
+34,10,OTARIIDAE,2014-09-09 21:50:04.002029,2014-09-10 08:11:22.10773,"<div class=""intro""><i><em>Arctocephalus</em></i><br>
+<i><em>Callorhinus</em></i><br>
+<i><em>Eumetopias</em></i><br>
+<i><em>Neophoca</em></i><br>
+<i><em>Otaria</em></i><br>
+<i><em>Phocarctos</em></i><br>
+<i><em>Zalophus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Neophoca_cinerea.JPG/220px-Neophoca_cinerea.JPG
+35,10,ERINACEIDAE,2014-09-09 21:50:35.781375,2014-09-10 08:11:22.42441,"<div class=""intro""><b>Erinaceidae</b> is the only living family in the order <b>Erinaceomorpha</b>, which has recently been subsumed with <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Igel.JPG/220px-Igel.JPG
+36,10,CANIDAE,2014-09-09 21:50:43.293938,2014-09-10 08:11:22.981069,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Familia_Canidae.jpg/220px-Familia_Canidae.jpg
+37,10,HYSTRICIDAE,2014-09-09 21:50:43.849424,2014-09-10 08:11:23.284205,"<div class=""intro""><i><em>Atherurus</em></i><br>
+<i><em>Hystrix</em></i><br>
+<i><em>Trichys</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Porcupine_Berlin_Zoo.jpg/240px-Porcupine_Berlin_Zoo.jpg
+38,10,HERPESTIDAE,2014-09-09 21:50:44.951891,2014-09-10 08:11:24.418771,"<div class=""intro""><b>Mongoose</b> is the popular English name for 29 of 34<sup id=""cite_ref-2"" class=""reference""><em>meerkat</em> in English.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dwarf_mongoose_Korkeasaari_zoo.jpg/220px-Dwarf_mongoose_Korkeasaari_zoo.jpg
+39,10,INDRIIDAE,2014-09-09 21:50:47.514071,2014-09-10 08:11:25.070355,"<div class=""intro""><i><em>Indri</em></i><br>
+<i><em>Avahi</em></i><br>
+<i><em>Propithecus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Indri_Indri.jpg/250px-Indri_Indri.jpg
 40,10,SUIDAE,2014-09-09 21:50:54.897804,2014-09-10 08:11:25.438462,"<div class=""intro"">Over 30 extinct genera, 6 extant,<br>
 see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lightmatter_unidentified_pig-like_animal.jpg/220px-Lightmatter_unidentified_pig-like_animal.jpg
 41,10,BALAENIDAE,2014-09-09 21:50:58.569846,2014-09-10 08:11:25.735104,"<div class=""intro""><i><em>Balaena</em></i><br>
@@ -397,6 +155,7 @@ see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lightmatter
 <span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Protobalaena</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Right_whale_size.svg/220px-Right_whale_size.svg.png
 42,10,BALAENOPTERIDAE,2014-09-09 21:50:59.178203,2014-09-10 08:11:26.049915,"<div class=""intro""><i><em>Balaenoptera</em></i><br>
 <i><em>Megaptera</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/220px-Humpback_Whale_underwater_shot.jpg
+43,10,EMBALLONURIDAE,2014-09-09 21:51:04.692911,2014-09-10 08:11:26.308284,"<div class=""intro"">See Text</div>",//upload.wikimedia.org/wikipedia/commons/6/66/Emballonura_semicaudata.jpg
 44,10,PROCYONIDAE,2014-09-09 21:51:09.631729,2014-09-10 08:11:26.711095,"<div class=""intro"">†<i><em>Angustictis</em></i><br>
 <i><em>Bassariscus</em></i><br>
 †<i><em>Probassariscus</em></i><br>
@@ -421,6 +180,7 @@ see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lightmatter
 <em>Mystromyinae</em><br>
 <em>Nesomyinae</em><br>
 <em>Petromyscinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Malagasy.giant.rat.arp.jpg/250px-Malagasy.giant.rat.arp.jpg
+47,10,ZIPHIIDAE,2014-09-09 21:51:21.71659,2014-09-10 08:11:27.669719,"<div class=""intro""><b>Beaked whales</b> are the members of the <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/e/ed/Cuviers_beaked_whale-swfsc.jpg
 48,10,ECHIMYIDAE,2014-09-09 21:51:36.462851,2014-09-10 08:11:27.971579,"<div class=""intro""><em>Dactylomyinae</em><br>
 <em>Echimyinae</em><br>
 <em>Eumysopinae</em><br>
@@ -436,8 +196,10 @@ see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lightmatter
 <i><em>Caprolagus</em></i><br>
 <i><em>Pronolagus</em></i><br>
 <i><em>Lepus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Arctic_Hare_1.jpg/230px-Arctic_Hare_1.jpg
+50,12,BRADYPODIDAE,2014-09-09 21:51:46.373795,2014-09-10 08:11:29.057644,"<div class=""intro"">4, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bradypus.jpg/220px-Bradypus.jpg
 51,12,BURRAMYIDAE,2014-09-09 21:52:01.653863,2014-09-10 08:11:29.345325,"<div class=""intro""><i><em>Burramys</em></i><br>
 <i><em>Cercartetus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Cercartetus_nanus.jpg/220px-Cercartetus_nanus.jpg
+52,13,DASYPODIDAE,2014-09-09 21:52:02.266914,2014-09-10 08:11:30.296194,"<div class=""intro"">See <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Nine-banded_Armadillo.jpg/220px-Nine-banded_Armadillo.jpg
 53,13,PITHECIIDAE,2014-09-09 21:52:04.319479,2014-09-10 08:11:30.594575,"<div class=""intro""><i><em>Pithecia</em></i><br>
 <i><em>Chiropotes</em></i><br>
 <i><em>Cacajao</em></i><br>
@@ -458,11 +220,15 @@ see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lightmatter
 <i><em>Calomyscus mystax</em></i><br>
 <i><em>Calomyscus tsolovi</em></i><br>
 <i><em>Calomyscus urartensis</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Calo10.jpg/250px-Calo10.jpg
+57,15,DIDELPHIDAE,2014-09-09 21:52:53.366747,2014-09-10 08:11:32.95652,"<div class=""intro"">Several; see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opossum_2.jpg/220px-Opossum_2.jpg
 58,15,CAMELIDAE,2014-09-09 21:52:56.142098,2014-09-10 08:11:33.306654,"<div class=""intro""><i><em>Lama</em></i><br>
 <i><em>Vicugna</em></i><br>
 <i><em>Camelus</em></i><br>
 <em>Paracamelus</em></i><br>
 <em>Camelops</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Camel_seitlich_trabend.jpg/225px-Camel_seitlich_trabend.jpg
+59,15,SPALACIDAE,2014-09-09 21:53:00.697881,2014-09-10 08:11:34.00128,"<div class=""intro""><em>Spalacinae</em><br>
+<em>Myospalacinae</em><br>
+<em>Rhizomyinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lesser_bamboo_rat.jpg/250px-Lesser_bamboo_rat.jpg
 60,15,NEOBALAENIDAE,2014-09-09 21:53:02.786208,2014-09-10 08:11:34.320479,"<div class=""intro"">The <b>pygmy right whale</b> (<i>Caperea marginata</i>) is a member of the <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Caperea_marginata_3.jpg/220px-Caperea_marginata_3.jpg
 61,15,CAPROMYIDAE,2014-09-09 21:53:14.056966,2014-09-10 08:11:35.016411,"<div class=""intro""><i><em>Capromys</em></i><br>
 <i><em>Geocapromys</em></i><br>
@@ -476,18 +242,22 @@ see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lightmatter
 <i><em>Lavia</em></i><br>
 <i><em>Macroderma</em></i><br>
 <i><em>Megaderma</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ghost_bat_infrared_Perth_zoo.jpg/220px-Ghost_bat_infrared_Perth_zoo.jpg
+63,15,CASTORIDAE,2014-09-09 21:53:24.495644,2014-09-10 08:11:35.634255,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Beaver.jpg/200px-Beaver.jpg
 64,15,TAYASSUIDAE,2014-09-09 21:53:25.577005,2014-09-10 08:11:36.539874,"<div class=""intro"">Dicotylidae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Collared_peccary02_-_melbourne_zoo.jpg/220px-Collared_peccary02_-_melbourne_zoo.jpg
 65,15,CAVIIDAE,2014-09-09 21:53:27.147347,2014-09-10 08:11:37.378361,"<div class=""intro""> <em>Caviinae</em><br>
  <em>Dolichotinae</em><br>
  <em>Hydrochoerinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Mara_in_captivity.jpg/250px-Mara_in_captivity.jpg
+66,15,CEBIDAE,2014-09-09 21:53:30.129171,2014-09-10 08:11:37.636222,"<div class=""intro""><i><em>Cebus</em></i><br>
+<i><em>Saimiri</em></i><br>
+<i><em>Sapajus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Capuchin_Costa_Rica.jpg/220px-Capuchin_Costa_Rica.jpg
 67,15,DELPHINIDAE,2014-09-09 21:53:47.430795,2014-09-10 08:11:37.952983,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/19/PacificWhiteSidedDolphine.jpg/250px-PacificWhiteSidedDolphine.jpg
-102,23,ELEPHANTIDAE,2014-09-09 22:01:04.792533,2014-09-10 08:11:52.492102,"<div class=""intro"">The <b>Elephantidae</b> are a <em>living</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/220px-Elephas_maximus_%28Bandipur%29.jpg
 68,16,RHINOCEROTIDAE,2014-09-09 21:53:49.640068,2014-09-10 08:11:38.330447,"<div class=""intro""><i><em>Ceratotherium</em></i><br>
 <i><em>Dicerorhinus</em></i><br>
 <i><em>Diceros</em></i><br>
 <i><em>Rhinoceros</em></i><br>
 Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Diceros_bicornis.jpg/250px-Diceros_bicornis.jpg
 69,17,CHAEROPODIDAE,2014-09-09 21:54:13.267788,2014-09-10 08:11:38.600272,"<div class=""intro"">The <b>pig-footed bandicoot</b>, <i><b>Chaeropus ecaudatus</b></i>, was a small <em>Australia</em>. The distribution range of the species was later reduced to an inland desert region, where it was last recorded in the 1950s, and is now presumed to be extinct.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Mus_Nat_Hist_Nat_25022013_Chaeropus_ecaudatus.jpg/250px-Mus_Nat_Hist_Nat_25022013_Chaeropus_ecaudatus.jpg
+70,17,GLIRIDAE,2014-09-09 21:54:13.957051,2014-09-10 08:11:38.906472,"<div class=""intro""><em>Graphiurinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Graphiurus_spec_-murinus-1.jpg/220px-Graphiurus_spec_-murinus-1.jpg
 71,17,HETEROMYIDAE,2014-09-09 21:54:14.449702,2014-09-10 08:11:39.201726,"<div class=""intro""><em>Dipodomyinae</em><br>
 <em>Heteromyinae</em><br>
 <em>Perognathinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dipodomys_nitratoides.jpg/240px-Dipodomys_nitratoides.jpg
@@ -507,7 +277,10 @@ Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6
 <i><em>Lagostomus</em></i><br>
 †<i><em>Pliolagostomus</em></i><br>
 †<i><em>Prolagostomus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Chinchilla_brevicaudata.jpg/220px-Chinchilla_brevicaudata.jpg
+76,17,HIPPOPOTAMIDAE,2014-09-09 21:55:11.487866,2014-09-10 08:11:41.213853,"<div class=""intro"">†<i><em>Trilobophorous</em></i> <small>Geze, 1985</small><br>
+<br></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Hippo_pod_edit.jpg/250px-Hippo_pod_edit.jpg
 77,17,MEGALONYCHIDAE,2014-09-09 21:55:12.202743,2014-09-10 08:11:41.881627,"<div class=""intro"">see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Choloepus_didactylus_2_-_Buffalo_Zoo.jpg/250px-Choloepus_didactylus_2_-_Buffalo_Zoo.jpg
+78,17,TALPIDAE,2014-09-09 21:55:33.825842,2014-09-10 08:11:42.28081,"<div class=""intro"">17 genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Talpa_europaea_MHNT.jpg/240px-Talpa_europaea_MHNT.jpg
 79,17,MEPHITIDAE,2014-09-09 21:55:34.283012,2014-09-10 08:11:42.712605,"<div class=""intro""><i><em>Conepatus</em></i><br>
 <i><em>Mydaus</em></i><br>
 <i><em>type</em>)</small><br>
@@ -519,20 +292,26 @@ Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6
 <i><em>Pappogeomys</em></i><br>
 <i><em>Thomomys</em></i><br>
 <i><em>Zygogeomys</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pocket-Gopher_Ano-Nuevo-SP.jpg/250px-Pocket-Gopher_Ano-Nuevo-SP.jpg
+82,17,HYAENIDAE,2014-09-09 21:57:32.436149,2014-09-10 08:11:43.849876,"<div class=""intro""><b>Hyenas</b> or <b>hyaenas</b> (from <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Hyaenidae.jpg/220px-Hyaenidae.jpg
 83,17,EUPLERIDAE,2014-09-09 21:57:42.807941,2014-09-10 08:11:44.295844,"<div class=""intro""><em>Euplerinae</em><br>
 <em>Galidiinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Fossa.jpg/240px-Fossa.jpg
 84,17,CTENODACTYLIDAE,2014-09-09 21:58:05.71694,2014-09-10 08:11:44.936666,"<div class=""intro""><i><em>Ctenodactylus</em></i><br>
 <i><em>Felovia</em></i><br>
 <i><em>Massoutiera</em></i><br>
 <i><em>Pectinator</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gundi_at_Helsinki_Zoo.jpg/220px-Gundi_at_Helsinki_Zoo.jpg
+85,17,CTENOMYIDAE,2014-09-09 21:58:06.6944,2014-09-10 08:11:45.218125,"<div class=""intro"">see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Tinytuco.jpg/200px-Tinytuco.jpg
 86,17,CUNICULIDAE,2014-09-09 21:58:40.85315,2014-09-10 08:11:45.959691,"<div class=""intro""><i><em>Cuniculus paca</em></i><br>
 <i><em>Cuniculus taczanowskii</em></i><br>
 <i><em>Cuniculus hernandezi</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cuniculus_paca.jpg/220px-Cuniculus_paca.jpg
 87,17,CYCLOPEDIDAE,2014-09-09 21:58:43.526488,2014-09-10 08:11:46.688585,"<div class=""intro"">The <b>Cyclopedidae</b> are a family of <em>silky anteater</em> and its extinct relatives.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Silky_anteater.jpg/250px-Silky_anteater.jpg
 88,18,CYNOCEPHALIDAE,2014-09-09 21:58:44.835696,2014-09-10 08:11:47.016469,"<div class=""intro""><b>Colugos</b> <span class=""nowrap""><span title=""Representation in the International Phonetic Alphabet (IPA)"" class=""IPA""><em>lemurs</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Colugo.jpg/220px-Colugo.jpg
 89,18,PHOCIDAE,2014-09-09 21:58:54.944999,2014-09-10 08:11:47.429297,"<div class=""intro"">The <b>true seals</b> or <b>earless seals</b> are one of the three main groups of <em>Baikal seal</em> is the only seal found exclusively in fresh water.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Seehund.jpg/220px-Seehund.jpg
+90,18,PETAURIDAE,2014-09-09 21:58:58.320561,2014-09-10 08:11:47.752751,"<div class=""intro""><i><em>Dactylopsila</em></i><br>
+<i><em>Gymnobelideus</em></i><br>
+<i><em>Petaurus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sugies03_hp.jpg/240px-Sugies03_hp.jpg
 91,18,DASYPROCTIDAE,2014-09-09 21:59:08.358262,2014-09-10 08:11:48.041119,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Dasyprocta_punctata_%28Gamboa%2C_Panama%29.jpg/220px-Dasyprocta_punctata_%28Gamboa%2C_Panama%29.jpg
 92,18,DAUBENTONIIDAE,2014-09-09 21:59:21.672785,2014-09-10 08:11:48.360495,"<div class=""intro"">Family:</div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Aye-aye_%28Daubentonia_madagascariensis%29.jpg/220px-Aye-aye_%28Daubentonia_madagascariensis%29.jpg
+93,18,MONODONTIDAE,2014-09-09 21:59:24.171001,2014-09-10 08:11:48.676164,"<div class=""intro"">see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Belugawhale_MMC.jpg/220px-Belugawhale_MMC.jpg
 94,19,PROCAVIIDAE,2014-09-09 21:59:27.751319,2014-09-10 08:11:48.999938,"<div class=""intro""><b>Hyraxes</b> (from the Greek <span lang=""grc"" xml:lang=""grc"">ὕραξ</span>, <i>hurax</i>, ""shrewmouse"") (also called <b>dassies</b>)<sup id=""cite_ref-1"" class=""reference""><em>Middle East</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Yellow-spotted_Rock_Hyrax.jpg/220px-Yellow-spotted_Rock_Hyrax.jpg
 95,19,MACROPODIDAE,2014-09-09 21:59:31.012036,2014-09-10 08:11:49.334316,"<div class=""intro""><b>Macropods</b> are <em>Australian Aborigines</em> arrived and before the Europeans arrived.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Young_red_necked_wallaby.jpg/200px-Young_red_necked_wallaby.jpg
 96,19,DINOMYIDAE,2014-09-09 22:00:04.216206,2014-09-10 08:11:49.592943,"<div class=""intro"">The <b>Dinomyidae</b> were once a very speciose group of <em>capybara</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Josephoartigasia_BW.jpg/220px-Josephoartigasia_BW.jpg
@@ -542,12 +321,16 @@ Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6
 †<i><em>Ideodelphys</em></i><br>
 †<i><em>Pitheculus</em></i><br>
 <i><em>Dromiciops</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Monito_del_Monte_ps6.jpg/220px-Monito_del_Monte_ps6.jpg
+98,21,DUGONGIDAE,2014-09-09 22:00:44.4128,2014-09-10 08:11:50.089633,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dugong_Marsa_Alam.jpg/220px-Dugong_Marsa_Alam.jpg
+99,21,TENRECIDAE,2014-09-09 22:00:49.274079,2014-09-10 08:11:50.984133,"<div class=""intro"">The <b>tenrec</b> is a <em>Madagascar dry deciduous forests</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tanrek.jpg/220px-Tanrek.jpg
 100,21,PERAMELIDAE,2014-09-09 22:00:51.328104,2014-09-10 08:11:51.253693,"<div class=""intro""><em>Peramelinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Perameles_gunni.jpg/220px-Perameles_gunni.jpg
 101,22,MACROSCELIDIDAE,2014-09-09 22:00:57.195384,2014-09-10 08:11:52.228116,"<div class=""intro""><i><em>Elephantulus</em></i><br>
 <i><em>Macroscelides</em></i><br>
 <i><em>Petrodromus</em></i><br>
 <i><em>Rhynchocyon</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Macroscelides._proboscideus.6869.jpg/200px-Macroscelides._proboscideus.6869.jpg
+102,23,ELEPHANTIDAE,2014-09-09 22:01:04.792533,2014-09-10 08:11:52.492102,"<div class=""intro"">The <b>Elephantidae</b> are a <em>living</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/220px-Elephas_maximus_%28Bandipur%29.jpg
 103,23,EQUIDAE,2014-09-09 22:02:00.425106,2014-09-10 08:11:52.786151,"<div class=""intro""><b>Equidae</b> (sometimes known as the <b>horse family</b>) is the <em>rhinoceros</em>, and several other extinct families.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Prezewalsky_26-9-2004-2.JPG/220px-Prezewalsky_26-9-2004-2.JPG
+104,23,ESCHRICHTIIDAE,2014-09-09 22:02:13.897181,2014-09-10 08:11:53.084012,"<div class=""intro""><b>Eschrichtiidae</b> or the <b>gray whales</b> is a <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Graywhale_MMC.jpg/220px-Graywhale_MMC.jpg
 105,23,LEMURIDAE,2014-09-09 22:02:22.601231,2014-09-10 08:11:53.391662,"<div class=""intro""><i><em>Lemur</em></i><br>
 <i><em>Eulemur</em></i><br>
 <i><em>Hapalemur</em></i><br>
@@ -556,6 +339,7 @@ Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6
 106,23,GALAGIDAE,2014-09-09 22:02:38.917893,2014-09-10 08:11:53.694959,"<div class=""intro""> <i><em>Otolemur</em></i><br>
  <i><em>Euoticus</em></i><br>
  <i><em>Galago</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Greater_Bush_Baby.jpg/220px-Greater_Bush_Baby.jpg
+107,23,GIRAFFIDAE,2014-09-09 22:04:26.397423,2014-09-10 08:11:54.647792,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Okapi.bristol.600pix.jpg/220px-Okapi.bristol.600pix.jpg
 108,23,HOMINIDAE,2014-09-09 22:04:44.461547,2014-09-10 08:11:55.038387,"<div class=""intro"">The <b>Hominidae</b> (<span class=""nowrap""><span title=""Representation in the International Phonetic Alphabet (IPA)"" class=""IPA""><em>genera</em>:</div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ham-and-handler.jpg/250px-Ham-and-handler.jpg
 109,23,PSEUDOCHEIRIDAE,2014-09-09 22:05:32.673318,2014-09-10 08:11:55.342027,"<div class=""intro""><b>Pseudocheiridae</b> is a family of <em>New Guinea</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Pseudocheirus_peregrinus-Cayley.jpg/266px-Pseudocheirus_peregrinus-Cayley.jpg
 110,23,HYLOBATIDAE,2014-09-09 22:06:46.858445,2014-09-10 08:11:55.655919,"<div class=""intro""><i><em>Hylobates</em></i><br>
@@ -564,8 +348,15 @@ Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6
 <i><em>Symphalangus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Hylobates_lar_pair_of_white_and_black_01.jpg/220px-Hylobates_lar_pair_of_white_and_black_01.jpg
 111,23,TRAGULIDAE,2014-09-09 22:06:59.440079,2014-09-10 08:11:56.594323,"<div class=""intro""><b>Chevrotains</b>, also known as <b>mouse-deer</b>, are small <em><span>[</span>5<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mouse-deer_Singapore_Zoo_2012.JPG/220px-Mouse-deer_Singapore_Zoo_2012.JPG
 112,23,HYPSIPRYMNODONTIDAE,2014-09-09 22:07:27.920695,2014-09-10 08:11:56.88377,"<div class=""intro"">The <b>Hypsiprymnodontidae</b> <span class=""nowrap""><span title=""Representation in the International Phonetic Alphabet (IPA)"" class=""IPA""><em>propleopus</em></i>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hypsyprymnodon_moschatus.JPG/220px-Hypsyprymnodon_moschatus.JPG
+113,23,INIIDAE,2014-09-09 22:07:39.724866,2014-09-10 08:11:57.185553,"<div class=""intro"">see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Inia.jpg/220px-Inia.jpg
 114,23,PHYSETERIDAE,2014-09-09 22:08:11.460692,2014-09-10 08:11:57.478802,"<div class=""intro""><b>Physeteridae</b><br>
 <b>Kogiidae</b></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Faroe_stamp_400_sperm_whale_%28physeter_macrocephatus%29.jpg/220px-Faroe_stamp_400_sperm_whale_%28physeter_macrocephatus%29.jpg
+115,23,DIATOMYIDAE,2014-09-09 22:08:32.849333,2014-09-10 08:11:58.139413,"<div class=""intro""><i><em>Laonastes</em></i><br>
+<i>†<em>Diatomys</em></i><br>
+<i>†<em>Fallomus</em></i><br>
+<i>†<em>Marymus</em></i><br>
+<i>†<em>Pierremus</em></i><br>
+<i>†<em>Willmus</em></i></div>",none
 116,23,VOMBATIDAE,2014-09-09 22:08:37.410728,2014-09-10 08:11:58.532819,"<div class=""intro""><b>Wombats</b> are short-legged, muscular <em><span>[</span>2<span>]</span></em></sup> in central Queensland.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/220px-Vombatus_ursinus_-Maria_Island_National_Park.jpg
 117,23,LEPILEMURIDAE,2014-09-09 22:09:12.808007,2014-09-10 08:11:58.857113,"<div class=""intro"">over 20, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/39/Lepilemur_sahamalazensis_c.png/220px-Lepilemur_sahamalazensis_c.png
 118,23,THYLACOMYIDAE,2014-09-09 22:11:07.766087,2014-09-10 08:11:59.146519,"<div class=""intro""><i><em>Macrotis lagotis</em></i><br>
@@ -580,6 +371,8 @@ Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6
 <i><em>Manis crassicaudata</em></i><br>
 <i><em>Manis pentadactyla</em></i><br>
 <i><em>Manis javanica</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/58/The_Children%27s_Museum_of_Indianapolis_-_ground_pangolin.jpg/250px-The_Children%27s_Museum_of_Indianapolis_-_ground_pangolin.jpg
+120,24,MORMOOPIDAE,2014-09-09 22:15:39.877339,2014-09-10 08:11:59.703685,"<div class=""intro""><i><em>Mormoops</em><br>
+<em>Pteronotus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mormoops_blainvillii.jpg/240px-Mormoops_blainvillii.jpg
 121,24,MOSCHIDAE,2014-09-09 22:15:48.762118,2014-09-10 08:12:00.49995,"<div class=""intro""><b>Musk deer</b> can refer to any one of, or all seven species, that make up <i><b>Moschus</b></i>, the only genus of the <em>musk</em> gland.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Moschustier.jpg/250px-Moschustier.jpg
 122,24,MYOCASTORIDAE,2014-09-09 22:16:52.21609,2014-09-10 08:12:01.478098,"<div class=""intro"">The <b>coypu</b> (from <em>pest</em> throughout most of its range.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nutria_%28Myocastor_coypus%29.jpg/299px-Nutria_%28Myocastor_coypus%29.jpg
 123,24,MYRMECOBIIDAE,2014-09-09 22:18:23.998357,2014-09-10 08:12:01.817804,"<div class=""intro"">The <b>numbat</b> (<i>Myrmecobius fasciatus</i>), also known as the <b>banded anteater</b>, <b>marsupial anteater</b>, or <i><b>walpurti</b></i>, is a <em>conservation</em> programs.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Numbat.jpg/220px-Numbat.jpg
@@ -587,7 +380,9 @@ Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6
 <i><em>Tamandua</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Myresluger2.jpg/200px-Myresluger2.jpg
 125,24,MYSTACINIDAE,2014-09-09 22:18:27.776133,2014-09-10 08:12:02.819929,"<div class=""intro""><i><em>M. robusta</em></i><br>
 <i><em>M. tuberculata</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/MystacinaTuberculataFord.jpg/220px-MystacinaTuberculataFord.jpg
+126,24,MYZOPODIDAE,2014-09-09 22:18:29.350538,2014-09-10 08:12:03.036937,"<div class=""intro""><i><b>Myzopoda</b></i>, which has two described <em><span>[</span>3<span>]</span></em></sup></div>",none
 127,24,NANDINIIDAE,2014-09-09 22:18:32.894911,2014-09-10 08:12:03.400358,"<div class=""intro"">The <b>African palm civet</b> (<i>Nandinia binotata</i>), also known as the <b>two-spotted palm civet</b>, is a small <em>nocturnal</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/14-nandinia_binotata.JPG/220px-14-nandinia_binotata.JPG
+128,24,PHOCOENIDAE,2014-09-09 22:19:07.638806,2014-09-10 08:12:03.71267,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Harbor.Porpoise.4.jpg/225px-Harbor.Porpoise.4.jpg
 129,24,NESOPHONTIDAE,2014-09-09 22:19:34.145634,2014-09-10 08:12:04.356079,"<div class=""intro"">†<i><em>Nesophontes edithae</em></i><br>
 †<i><em>Nesophontes hypomicrus</em></i><br>
 †<i><em>Nesophontes longirostris</em></i><br>
@@ -602,8 +397,11 @@ Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6
 131,25,NOTORYCTIDAE,2014-09-09 22:20:13.908632,2014-09-10 08:12:04.861251,"<div class=""intro""><i><em>N. typhlops</em></i><br>
 <i><em>N. caurinus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Notoryctes_typhlops.jpg/220px-Notoryctes_typhlops.jpg
 132,25,NYCTERIDAE,2014-09-09 22:20:21.14706,2014-09-10 08:12:05.100272,"<div class=""intro""><b>Nycteridae</b> is the family of <b>slit-faced</b> or <b>hollow-faced bats</b>. They are grouped in a single <em>Africa</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Nycteris_thebaica.jpg/200px-Nycteris_thebaica.jpg
+133,25,OCHOTONIDAE,2014-09-09 22:20:56.961793,2014-09-10 08:12:05.451711,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ochotona_princeps.jpg/220px-Ochotona_princeps.jpg
 134,25,ODOBENIDAE,2014-09-09 22:21:17.595815,2014-09-10 08:12:05.670022,"<div class=""intro""><i><em>Odobenus</em></i> (walrus)<br>
 <i>(see text for more)</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Noaa-walrus22.jpg/220px-Noaa-walrus22.jpg
+135,26,ORNITHORHYNCHIDAE,2014-09-09 22:21:50.956292,2014-09-10 08:12:05.884101,"<div class=""intro""><em>Obdurodon</em></i><br>
+<i><em>Ornithorhynchus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Platypus.jpg/250px-Platypus.jpg
 136,27,ORYCTEROPODIDAE,2014-09-09 22:21:58.381537,2014-09-10 08:12:06.175949,"<div class=""intro""><i><em>Orycteropus</em></i><br>
 †<i><em>Amphiorycteropus</em></i><br>
 †<i><em>Leptorycteropus</em></i><br>
@@ -612,6 +410,7 @@ Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6
 †<i><em>Babakotia</em></i><br>
 †<i><em>Mesopropithecus</em></i><br>
 †<i><em>Palaeopropithecus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palaeopropithecus_ingens.jpg/220px-Palaeopropithecus_ingens.jpg
+138,27,PEDETIDAE,2014-09-09 22:23:21.885956,2014-09-10 08:12:06.698767,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Springharelg.jpg/220px-Springharelg.jpg
 139,27,PETROMURIDAE,2014-09-09 22:24:38.99058,2014-09-10 08:12:07.359202,"<div class=""intro"">The <b>dassie rat</b> (<i>Petromus typicus</i>) is an <em><span>[</span>2<span>]</span></em></sup> and the two animals are found in similar habitats. <i>Petromus</i> means ""rock mouse"" and dassie rats are one of many rodents sometimes called <b>rock rats</b>. The family and genus names are sometimes misspelled as <b>Petromyidae</b> and <i><b>Petromys</b></i>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Petromus_typicus.jpg/220px-Petromus_typicus.jpg
 140,27,PHASCOLARCTIDAE,2014-09-09 22:24:57.516925,2014-09-10 08:12:08.025501,"<div class=""intro"">†<i><em>Invictokoala</em></i><br>
 †<i><em>Litokoala</em></i><br>
@@ -623,9 +422,12 @@ Extinct genera, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6
 141,27,PLATACANTHOMYIDAE,2014-09-09 22:26:26.751617,2014-09-10 08:12:08.25693,"<div class=""intro"">†<i><em>Neocometes</em></i><br>
 <i><em>Platacanthomys</em></i><br>
 <i><em>Typhlomys</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Malabar_spiny_dormouse.jpg/220px-Malabar_spiny_dormouse.jpg
+142,27,PLATANISTIDAE,2014-09-09 22:26:28.049234,2014-09-10 08:12:09.050284,"<div class=""intro""><i>Platanista gangetica gangetica</i><br>
+<i>Platanista gangetica minor</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ganges_river_dolphin_skeleton.jpg/220px-Ganges_river_dolphin_skeleton.jpg
 143,27,PRIONODONTIDAE,2014-09-09 22:27:23.436136,2014-09-10 08:12:09.410159,"<div class=""intro"">The <b>Asiatic linsang</b> (<i>Prionodon</i>) is a <em><span>[</span>5<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Prionodon_pardicolor_-_Kunming_Natural_History_Museum_of_Zoology_-_DSC02486.JPG/220px-Prionodon_pardicolor_-_Kunming_Natural_History_Museum_of_Zoology_-_DSC02486.JPG
 144,27,PROLAGIDAE,2014-09-09 22:27:50.313452,2014-09-10 08:12:09.988218,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Prolagus_oeningensis_01.JPG/220px-Prolagus_oeningensis_01.JPG
 145,27,PTILOCERCIDAE,2014-09-09 22:29:31.649504,2014-09-10 08:12:10.233945,"<div class=""intro"">The <b>pen-tailed treeshrew</b> (<i>Ptilocercus lowii</i>) is a <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ptilocercus_lowii.jpg/220px-Ptilocercus_lowii.jpg
+146,27,RHINOLOPHIDAE,2014-09-09 22:30:47.015435,2014-09-10 08:12:11.071059,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bat%2820070605%29.jpg/220px-Bat%2820070605%29.jpg
 147,27,RHINOPOMATIDAE,2014-09-09 22:31:32.525032,2014-09-10 08:12:11.833145,"<div class=""intro""><i><em>R. hadramauticum</em></i><br>
 <i><em>R. hardwickei</em><br>
 <em>R. macinnesi</em><br>
@@ -651,11 +453,13 @@ Genus †<i><em>Megalibgwilia</em></i><br>
 <i><em>Tapirus indicus</em></i><br>
 <i><em>Tapirus pinchaque</em></i><br>
 <i><em>Tapirus terrestris</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Tapirus_terrestris.jpg/220px-Tapirus_terrestris.jpg
+151,27,TARSIPEDIDAE,2014-09-09 22:38:08.67639,2014-09-10 08:12:14.115614,"<div class=""intro"">The <b>honey possum</b> (<i>Tarsipes rostratus</i>) is a tiny <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tarsipes_rostratus_-_Gould.jpg/220px-Tarsipes_rostratus_-_Gould.jpg
 152,27,TARSIIDAE,2014-09-09 22:38:09.137599,2014-09-10 08:12:14.429945,"<div class=""intro""><i><em>Carlito</em></i><br>
 <i><em>Cephalopachus</em></i><br>
 <i><em>Tarsius</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tarsier-GG.jpg/220px-Tarsier-GG.jpg
 153,27,THRYONOMYIDAE,2014-09-09 22:39:01.026984,2014-09-10 08:12:15.244534,"<div class=""intro""><i>Thryonomys gregorianus</i> (<em>lesser cane rat</em>)<br>
 <i>Thryonomys swinderianus</i> (<em>greater cane rat</em>)</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Grand_aulacode_male.jpg/220px-Grand_aulacode_male.jpg
+154,27,THYLACINIDAE,2014-09-09 22:39:02.125437,2014-09-10 08:12:15.458643,"<div class=""intro"">All extinct, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Thylacinus.jpg/250px-Thylacinus.jpg
 155,27,THYROPTERIDAE,2014-09-09 22:39:14.052429,2014-09-10 08:12:15.672901,"<div class=""intro""><i><em>Thyroptera devivoi</em></i><br>
 <i><em>Thyroptera discifera</em></i><br>
 <i><em>Thyroptera tricolor</em></i><br>
@@ -682,18 +486,26 @@ For <em>text</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Bl
 <i><em>Elgaria</em></i><br>
 <i><em>Gerrhonotus</em></i><br>
 <i><em>Mesaspis</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Anguidae.jpg/200px-Anguidae.jpg
+159,28,ELAPIDAE,2014-09-09 22:41:41.771067,2014-09-10 08:12:16.850082,"<div class=""intro""><b>Elapidae</b> (<em>Indian Oceans</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/L14cobra.jpg/200px-L14cobra.jpg
+160,28,AGAMIDAE,2014-09-09 22:41:42.387565,2014-09-10 08:12:17.129396,"<div class=""intro"">6, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/MC_Siedleragame.jpg/220px-MC_Siedleragame.jpg
 161,29,CHELIDAE,2014-09-09 22:41:45.355905,2014-09-10 08:12:18.046601,"<div class=""intro"">See Text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Chelus_fimbriatus_2005.jpg/220px-Chelus_fimbriatus_2005.jpg
 162,29,LACERTIDAE,2014-09-09 22:41:47.486898,2014-09-10 08:12:18.343153,"<div class=""intro"">See <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Jaszczurka-Lacerta_agilis.jpg/220px-Jaszczurka-Lacerta_agilis.jpg
+163,29,XENODERMATIDAE,2014-09-09 22:42:04.338647,2014-09-10 08:12:19.169074,Unknown,
 164,29,BOIDAE,2014-09-09 22:42:12.588264,2014-09-10 08:12:19.440777,"<div class=""intro""><em>Boinae</em><br>
 <em>Erycinae</em><br>
 <em>Sanziniinae</em><br>
 <em><span>[</span>a<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Boa_constrictor_%282%29.jpg/220px-Boa_constrictor_%282%29.jpg
 165,29,ACROCHORDIDAE,2014-09-09 22:42:13.552853,2014-09-10 08:12:19.732283,"<div class=""intro"">The <b>Acrochordidae</b> are a monogeneric <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Wart_snake_1.jpg/220px-Wart_snake_1.jpg
 166,29,EMYDIDAE,2014-09-09 22:42:15.314311,2014-09-10 08:12:20.031678,"<div class=""intro""><b>Emydidae</b>, commonly called the <b>pond turtles</b> or <b>marsh turtles</b>,<sup id=""cite_ref-ernst203_1-1"" class=""reference""><em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Graptemys_nigrinoda_hatchlings.jpg/220px-Graptemys_nigrinoda_hatchlings.jpg
+167,29,TYPHLOPIDAE,2014-09-09 22:42:15.800956,2014-09-10 08:12:20.306262,"<div class=""intro"">The <b>Typhlopidae</b> are a <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/3/31/Ramphotyphlops_braminus.jpg
 168,29,NATRICIDAE,2014-09-09 22:42:18.372787,2014-09-10 08:12:20.920704,"<div class=""intro"">Many, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Natrix_tessellata_Rheinland-Pfalz_02.jpg/240px-Natrix_tessellata_Rheinland-Pfalz_02.jpg
+169,29,DIPSADIDAE,2014-09-09 22:42:19.557374,2014-09-10 08:12:21.933655,Unknown,
 170,29,COLUBRIDAE,2014-09-09 22:42:25.290616,2014-09-10 08:12:22.193146,"<div class=""intro"">The <b>Colubridae</b> (from Latin <i>coluber</i>, snake) are a <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coluber_caspius.jpg/220px-Coluber_caspius.jpg
+171,29,GEKKONIDAE,2014-09-09 22:42:27.548487,2014-09-10 08:12:22.425253,"<div class=""intro""><i>See text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tokay.jpg/240px-Tokay.jpg
+172,29,TROGONOPHIDAE,2014-09-09 22:42:41.025925,2014-09-10 08:12:22.668087,"<div class=""intro"">4, <i>See Text.</i></div>",//upload.wikimedia.org/wikipedia/commons/7/74/Red_Pencil_Icon.png
 173,29,VIPERIDAE,2014-09-09 22:42:42.301986,2014-09-10 08:12:23.440337,"<div class=""intro""><sup id=""cite_ref-McD99_1-0"" class=""reference""><em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Crotalus-basiliscus-basiliskenklapperschlange.jpg/220px-Crotalus-basiliscus-basiliskenklapperschlange.jpg
 174,30,ALLIGATORIDAE,2014-09-09 22:42:55.900074,2014-09-10 08:12:23.773285,"<div class=""intro"">The <b>Alligatoridae</b> <em>caimans</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Florida_Alligator.jpg/220px-Florida_Alligator.jpg
+175,30,PSEUDOXYRHOPHIIDAE,2014-09-09 22:42:56.929401,2014-09-10 08:12:24.59699,Unknown,
 176,30,GYMNOPHTHALMIDAE,2014-09-09 22:42:58.161719,2014-09-10 08:12:24.846006,"<div class=""intro""><b>Gymnophthalmidae</b> is a <em>geckos</em>, these eyelids are movable.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Leposoma_rugiceps.jpg/220px-Leposoma_rugiceps.jpg
 177,30,ATRACTASPIDIDAE,2014-09-09 22:43:05.632972,2014-09-10 08:12:25.120698,"<div class=""intro""><br>
 The <b>Atractaspidinae</b> are a <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Atractaspis_engaddensis.jpg/220px-Atractaspis_engaddensis.jpg
@@ -705,7 +517,10 @@ The <b>Atractaspidinae</b> are a <em><span>[</span>2<span>]</span></em></sup></d
 <i><em>Dipsosaurus</em></i><br>
 <i><em>Iguana</em></i><br>
 <i><em>Sauromalus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/57/AA_Iguana_Fot_Ars_Summum.JPG/220px-AA_Iguana_Fot_Ars_Summum.JPG
+179,30,TEIIDAE,2014-09-09 22:43:08.918059,2014-09-10 08:12:26.474071,"<div class=""intro"">10, <i>See text.</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Goldteju_Tupinambis_teguixin.jpg/200px-Goldteju_Tupinambis_teguixin.jpg
 180,30,AMPHISBAENIDAE,2014-09-09 22:43:41.854391,2014-09-10 08:12:26.704538,"<div class=""intro"">17, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Amphisbaena_alba03.jpg/220px-Amphisbaena_alba03.jpg
+181,30,TRIONYCHIDAE,2014-09-09 22:43:48.990494,2014-09-10 08:12:27.028945,"<div class=""intro""><em>Cyclanorbinae</em><br>
+<em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Pelodiscus.jpg/220px-Pelodiscus.jpg
 182,30,DIBAMIDAE,2014-09-09 22:43:53.026219,2014-09-10 08:12:27.251552,"<div class=""intro""><i><em>Anelytropsis</em></i><br>
 <i><em>Dibamus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/7/74/Red_Pencil_Icon.png
 183,30,LEIOSAURIDAE,2014-09-09 22:43:54.58834,2014-09-10 08:12:27.882415,"<div class=""intro""><b>Leiosauridae</b> is a family of lizards. It contains the following genera:</div>",//upload.wikimedia.org/wikipedia/en/thumb/9/96/Urostrophus_scapulatus.jpg/240px-Urostrophus_scapulatus.jpg
@@ -715,19 +530,28 @@ The <b>Atractaspidinae</b> are a <em><span>[</span>2<span>]</span></em></sup></d
 <i>A. alexanderae</i><br>
 <i>A. grinnelli</i><br>
 <i>A. campi</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Anniella_pulchra.jpg/240px-Anniella_pulchra.jpg
+185,30,DACTYLOIDAE,2014-09-09 22:43:56.787174,2014-09-10 08:12:28.93955,"<div class=""intro"">The <b>Dactyloidae</b> are a family of <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Green_anole.jpg/250px-Green_anole.jpg
 186,30,ANOMALEPIDIDAE,2014-09-09 22:44:57.979977,2014-09-10 08:12:29.17593,"<div class=""intro"">The <b>Anomalepididae</b> are a <em><span>[</span>2<span>]</span></em></sup></div>",none
 187,30,ANOMOCHILIDAE,2014-09-09 22:45:02.29704,2014-09-10 08:12:29.383587,"<div class=""intro"">The <b>Anomochilidae</b>, or anomochilids, are a <em><span>[</span>2<span>]</span></em></sup></div>",none
+188,30,PAREATIDAE,2014-09-09 22:45:12.919861,2014-09-10 08:12:30.331921,Unknown,
 189,30,PYGOPODIDAE,2014-09-09 22:45:20.583683,2014-09-10 08:12:31.056792,"<div class=""intro"">from <em>Brehms Tierleben</em>, (1892)</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pygopus_lepidopodus.jpg/250px-Pygopus_lepidopodus.jpg
 190,30,CHAMAELEONIDAE,2014-09-09 22:45:23.656744,2014-09-10 08:12:31.389362,"<div class=""intro""><b>Chameleons</b> or <b>chamaeleons</b> (<em>Florida</em>, and often are kept as household pets.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Bradypodion_pumilum_Cape_chameleon_female_IMG_1767_%28cropped%29.jpg/220px-Bradypodion_pumilum_Cape_chameleon_female_IMG_1767_%28cropped%29.jpg
+191,30,SPHAERODACTYLIDAE,2014-09-09 22:45:24.120212,2014-09-10 08:12:31.602921,"<div class=""intro""><i>See text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Teratoscincus_keyserlingii.jpg/220px-Teratoscincus_keyserlingii.jpg
 192,30,PHYLLODACTYLIDAE,2014-09-09 22:45:27.429511,2014-09-10 08:12:31.856961,"<div class=""intro""><i>See text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Phyllodactylus_xanti.jpg/240px-Phyllodactylus_xanti.jpg
 193,30,PYTHONIDAE,2014-09-09 22:45:33.874048,2014-09-10 08:12:32.650431,"<div class=""intro"">The <b>Pythonidae</b>, commonly known simply as <b>pythons</b>, from the <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Python_molurus_molurus_2.jpg/220px-Python_molurus_molurus_2.jpg
 194,30,TESTUDINIDAE,2014-09-09 22:46:06.558233,2014-09-10 08:12:33.031826,"<div class=""intro""><b>Tortoises</b> (<span class=""nowrap""><span title=""Representation in the International Phonetic Alphabet (IPA)"" class=""IPA""><em>reclusive</em> animals.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/A._gigantea_Aldabra_Giant_Tortoise.jpg/220px-A._gigantea_Aldabra_Giant_Tortoise.jpg
+195,30,CORYTOPHANIDAE,2014-09-09 22:46:43.692858,2014-09-10 08:12:33.292315,"<div class=""intro""><i><em>Laurenti</em>, 1768</small><br>
+<i><em>H. Boie</em>, 1826</small><br>
+<i><em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Brown-basilisk-detail.jpg/250px-Brown-basilisk-detail.jpg
 196,30,GEOEMYDIDAE,2014-09-09 22:46:44.669583,2014-09-10 08:12:33.616419,"<div class=""intro"">Geoemydidae <small>Theobald 1868:9<sup id=""cite_ref-theo1868_1-0"" class=""reference""><em><span>[</span>1<span>]</span></em></sup></small><br>
 Batagurina <small>Gray 1869:185<sup id=""cite_ref-gray1869_2-0"" class=""reference""><em><span>[</span>2<span>]</span></em></sup></small><br>
 Bataguridae <small>Gray 1870:17<sup id=""cite_ref-gray1870_3-0"" class=""reference""><em><span>[</span>3<span>]</span></em></sup></small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Rhinoclemmys-pulcherrima-manni-Zoo-Berlin-1897.JPG/240px-Rhinoclemmys-pulcherrima-manni-Zoo-Berlin-1897.JPG
 197,30,DIPLODACTYLIDAE,2014-09-09 22:46:47.946625,2014-09-10 08:12:33.83253,"<div class=""intro"">25 <i>See text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oedura_lesueurii_2.jpg/220px-Oedura_lesueurii_2.jpg
 198,30,BIPEDIDAE,2014-09-09 22:46:54.480872,2014-09-10 08:12:34.089617,"<div class=""intro"">4, <i>See Text.</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bipes_biporus.jpg/220px-Bipes_biporus.jpg
+199,30,HOMALOPSIDAE,2014-09-09 22:46:56.077258,2014-09-10 08:12:35.145215,Unknown,
 200,30,BOLYERIDAE,2014-09-09 22:47:17.395776,2014-09-10 08:12:35.811493,"<div class=""intro"">The <b>Bolyeriidae</b> are a <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Casarea_dussumieri_IleRonde_860513.jpg/220px-Casarea_dussumieri_IleRonde_860513.jpg
+201,30,UROPELTIDAE,2014-09-09 22:47:38.531535,2014-09-10 08:12:36.06795,"<div class=""intro"">The <b>Uropeltidae</b> are a <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Silybura_shortii.jpg/220px-Silybura_shortii.jpg
+202,30,CALAMARIIDAE,2014-09-09 22:48:09.678427,2014-09-10 08:12:36.986428,Unknown,
 203,30,PHRYNOSOMATIDAE,2014-09-09 22:48:53.798063,2014-09-10 08:12:37.264216,"<div class=""intro""><i><em>Callisaurus</em></i><br>
 <i><em>Cophosaurus</em></i><br>
 <i><em>Holbrookia</em></i><br>
@@ -739,35 +563,46 @@ Bataguridae <small>Gray 1870:17<sup id=""cite_ref-gray1870_3-0"" class=""referen
 <i><em>Urosaurus</em></i><br>
 <i><em>Uta</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Phrynosoma_platyrhinos01.jpg/200px-Phrynosoma_platyrhinos01.jpg
 204,30,CHELONIIDAE,2014-09-09 22:49:24.930183,2014-09-10 08:12:37.554998,"<div class=""intro"">The <b>Cheloniidae</b> are a family of <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Green_turtle_swimming_over_coral_reefs_in_Kona.jpg/220px-Green_turtle_swimming_over_coral_reefs_in_Kona.jpg
-274,34,MEGOPHRYIDAE,2014-09-09 23:32:35.325228,2014-09-10 08:13:12.2758,"<div class=""intro"">About 9, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Leptob_hasselt_M_080208-4534_clobk.jpg/240px-Leptob_hasselt_M_080208-4534_clobk.jpg
 205,30,CARETTOCHELYIDAE,2014-09-09 22:49:25.518407,2014-09-10 08:12:37.862602,"<div class=""intro"">The <b>pig-nosed turtle</b> (<i>Carettochelys insculpta</i>), also known as the <b>pitted-shelled turtle</b> or <b>Fly River turtle</b>, is a <em>New Guinea</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/C_insculpta.jpg/220px-C_insculpta.jpg
+206,30,OPLURIDAE,2014-09-09 22:49:53.495172,2014-09-10 08:12:38.571458,"<div class=""intro"">2 genera (7 recognized species), <i>see article</i>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Oplurus_Cuvieri_Kirindy_Madagascar.jpg/240px-Oplurus_Cuvieri_Kirindy_Madagascar.jpg
 207,30,CHELYDRIDAE,2014-09-09 22:50:25.246193,2014-09-10 08:12:38.869863,"<div class=""intro"">The <b>Chelydridae</b> are a <em>Protochelydra</em></i>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Snapping_turtle_2_md.jpg/220px-Snapping_turtle_2_md.jpg
 208,30,KINOSTERNIDAE,2014-09-09 22:50:39.539982,2014-09-10 08:12:39.174947,"<div class=""intro""><i><em>Kinosternon</em></i><br>
 <i><em>Sternotherus</em></i><br>
 <i><em>Claudius</em></i><br>
 <i><em>Staurotypus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sternotherus_odoratus.jpg/250px-Sternotherus_odoratus.jpg
+209,30,EUBLEPHARIDAE,2014-09-09 22:51:02.79889,2014-09-10 08:12:39.780762,"<div class=""intro""><i>See text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Gecko999.jpg/240px-Gecko999.jpg
 210,30,GERRHOSAURIDAE,2014-09-09 22:51:38.250034,2014-09-10 08:12:39.982169,"<div class=""intro"">The <b>Gerrhosauridae</b> are a <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Amneville_Gerrhosaurus_major_27_08_2010_1.jpg/240px-Amneville_Gerrhosaurus_major_27_08_2010_1.jpg
 211,30,CORDYLIDAE,2014-09-09 22:51:38.871352,2014-09-10 08:12:40.228354,"<div class=""intro""><b>Cordylidae</b> is a family of small to medium sized lizards that occur in southern and eastern <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Tropical_Girdled_Lizard_P9240103.JPG/220px-Tropical_Girdled_Lizard_P9240103.JPG
 212,30,CROCODYLIDAE,2014-09-09 22:51:49.150796,2014-09-10 08:12:40.934563,"<div class=""intro"">The <b>Crocodylidae</b> <em>genetic analysis</em> has to be done to come to a final conclusion.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Persiancrocodile.jpg/220px-Persiancrocodile.jpg
+213,30,CROTAPHYTIDAE,2014-09-09 22:52:16.649257,2014-09-10 08:12:41.19655,"<div class=""intro""><i><em>Crotaphytus</em></i><br>
+<i><em>Gambelia</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Collared_Lizard_2.jpg/220px-Collared_Lizard_2.jpg
 214,30,LIOLAEMIDAE,2014-09-09 22:52:33.548833,2014-09-10 08:12:41.41302,"<div class=""intro"">Liolaeminae <small>(but see text)</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tenuis1.JPG/240px-Tenuis1.JPG
 215,30,CYLINDROPHIIDAE,2014-09-09 22:53:08.565789,2014-09-10 08:12:42.069952,"<div class=""intro"">The <b>Cylindrophiidae</b> are a <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Cyl_ruffus_061212_2025_tdp.jpg/220px-Cyl_ruffus_061212_2025_tdp.jpg
 216,30,DERMATEMYDIDAE,2014-09-09 22:54:14.204354,2014-09-10 08:12:42.787078,"<div class=""intro"">The <b>Dermatemydidae</b> are a <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Dermatemydidae.JPG/250px-Dermatemydidae.JPG
 217,30,DERMOCHELYIDAE,2014-09-09 22:54:14.936816,2014-09-10 08:12:43.142783,"<div class=""intro"">The <b>Dermochelyidae</b> are a <em>genera</em> and one extant genus, including the largest living sea turtles.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Stralsund%2C_Germany%2C_Meeresmuseum%2C_Risenschildkr%C3%B6te_%282006-10-23%29.JPG/220px-Stralsund%2C_Germany%2C_Meeresmuseum%2C_Risenschildkr%C3%B6te_%282006-10-23%29.JPG
+218,30,LEPTOTYPHLOPIDAE,2014-09-09 22:56:37.052295,2014-09-10 08:12:43.459185,"<div class=""intro""><i><em>Epictinae</em></i><br>
+<i><em>Leptotyphlopinae</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Leptotyphlops_humilis_-_head.jpg/220px-Leptotyphlops_humilis_-_head.jpg
 219,30,PODOCNEMIDIDAE,2014-09-09 22:57:12.042215,2014-09-10 08:12:44.712321,"<div class=""intro"">and see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Podocnemis_unifilis_1.jpg/220px-Podocnemis_unifilis_1.jpg
 220,30,TROPIDURIDAE,2014-09-09 22:57:56.01361,2014-09-10 08:12:45.312232,"<div class=""intro"">7 recognized genera, See article.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Mperuvianus.jpg/220px-Mperuvianus.jpg
 221,30,TROPIDOPHIIDAE,2014-09-09 22:58:08.404479,2014-09-10 08:12:45.53268,"<div class=""intro"">The <b>Tropidophiidae</b>, common name <b>dwarf boas</b>,<sup id=""cite_ref-ITIS_2-0"" class=""reference""><em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Messelophis_ermannorum_02.jpg/220px-Messelophis_ermannorum_02.jpg
 222,30,GAVIALIDAE,2014-09-09 22:58:35.536938,2014-09-10 08:12:46.167077,"<div class=""intro""><b>Gavialidae</b> is a family of <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Indian_Gharial_Crocodile_Digon3.JPG/250px-Indian_Gharial_Crocodile_Digon3.JPG
+223,30,GERRHOPILIDAE,2014-09-09 22:59:31.143683,2014-09-10 08:12:47.022777,Unknown,
+224,30,LAMPROPHIIDAE,2014-09-09 22:59:46.24139,2014-09-10 08:12:47.267501,"<div class=""intro""><b>Lamprophiidae</b> is a <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Lamprophiscapensis.jpg/220px-Lamprophiscapensis.jpg
 225,30,HELODERMATIDAE,2014-09-09 23:00:16.737554,2014-09-10 08:12:47.532894,"<div class=""intro""><i><em>Heloderma horridum</em></i><br>
 <i><em>Heloderma suspectum</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Heloderma_suspectum.jpg/220px-Heloderma_suspectum.jpg
+226,30,PSAMMOPHIIDAE,2014-09-09 23:00:51.019737,2014-09-10 08:12:48.456122,Unknown,
 227,30,XANTUSIIDAE,2014-09-09 23:03:22.566722,2014-09-10 08:12:49.079506,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Xantusia_vigilis1.jpg/250px-Xantusia_vigilis1.jpg
 228,30,LOXOCEMIDAE,2014-09-09 23:05:02.008892,2014-09-10 08:12:49.39499,"<div class=""intro"">The <b>Loxocemidae</b> are a <em><span>[</span>5<span>]</span></em></sup> Analyses of DNA show that <i>Loxocemus</i> is most closely related to the Pythonidae.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Loxocemus_bicolor.jpg/220px-Loxocemus_bicolor.jpg
+229,30,HOPLOCERCIDAE,2014-09-09 23:07:56.080723,2014-09-10 08:12:49.954137,"<div class=""intro"">3 genera (16 recognized species), <i>see article</i>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Enyalioides_palpebralis.jpg/220px-Enyalioides_palpebralis.jpg
 230,30,CARPHODACTYLIDAE,2014-09-09 23:08:24.643153,2014-09-10 08:12:50.206657,"<div class=""intro""><i>See text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Underwoodisaurus_milii.jpg/240px-Underwoodisaurus_milii.jpg
 231,30,PELOMEDUSIDAE,2014-09-09 23:11:03.644656,2014-09-10 08:12:50.5216,"<div class=""intro""><i><em>Wagler</em>, 1830</small><br>
 <i><em>Pelusios</em></i> <small>Wagler, 1830</small><br>
 <i><em>Posadachelys</em></i> † <small>Aguillón, 2014</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pelomedusa_subrufa_Beloa_070306.JPG/240px-Pelomedusa_subrufa_Beloa_070306.JPG
+232,30,PSEUDOXENODONTIDAE,2014-09-09 23:12:23.386868,2014-09-10 08:12:51.525189,Unknown,
 233,30,PLATYSTERNIDAE,2014-09-09 23:12:33.765855,2014-09-10 08:12:51.866363,"<div class=""intro"">The <b>big-headed turtle</b> (<i><b>Platysternon megacephalum</b></i>) is a species of <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Zolw_wielkoglowy.jpg/220px-Zolw_wielkoglowy.jpg
 234,30,POLYCHROTIDAE,2014-09-09 23:13:10.586985,2014-09-10 08:12:52.481206,"<div class=""intro""><span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Afairiguana</em></i><br>
 <i><em>Polychrus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Polychrus_acutirostris.JPG/220px-Polychrus_acutirostris.JPG
+235,30,PROSYMNIDAE,2014-09-09 23:13:34.122936,2014-09-10 08:12:53.474208,Unknown,
 236,30,RHINEURIDAE,2014-09-09 23:15:37.809094,2014-09-10 08:12:53.75246,"<div class=""intro""><span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Dyticonastis</em></i><br>
 <span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Hadrorhineura</em></i><br>
 <span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Hyporhina</em></i><br>
@@ -777,9 +612,12 @@ Bataguridae <small>Gray 1870:17<sup id=""cite_ref-gray1870_3-0"" class=""referen
 <span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Protorhineura</em></i><br>
 <i><em>Rhineura</em></i><br>
 <span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Spathorhynchus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Amphisbaenia_1.jpg/210px-Amphisbaenia_1.jpg
+237,30,SHINISAURIDAE,2014-09-09 23:17:09.602422,2014-09-10 08:12:54.025952,"<div class=""intro""><span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Bahndwivici</em></i><br>
+<i><em>Shinisaurus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chin-krokodilschwanzechse-01.jpg/250px-Chin-krokodilschwanzechse-01.jpg
 238,31,SPHENODONTIDAE,2014-09-09 23:17:52.97644,2014-09-10 08:12:54.251246,"<div class=""intro""><b>Sphenodontidae</b> is a family within the group Sphenodontia.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tuatara.jpg/220px-Tuatara.jpg
 239,31,VARANIDAE,2014-09-09 23:22:51.775762,2014-09-10 08:12:54.996246,"<div class=""intro"">The <b>Varanidae</b> are a <em><span>[</span>6<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Varanus_exanthematicus_%28SqueakyMarmot%29.jpg/220px-Varanus_exanthematicus_%28SqueakyMarmot%29.jpg
 240,31,XENOPELTIDAE,2014-09-09 23:23:38.693881,2014-09-10 08:12:55.234985,"<div class=""intro"">The <b>Xenopeltidae</b> are a <em><span>[</span>3<span>]</span></em></sup> Studies of DNA suggest that the xenopeltids are most closely related to the Mexican Burrowing Python (<i>Loxocemus</i>) and pythons.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/07/XenopeltisUnicolorRooij.jpg/220px-XenopeltisUnicolorRooij.jpg
+241,31,XENOPHIIDAE,2014-09-09 23:23:39.766462,2014-09-10 08:12:56.239321,Unknown,
 242,31,XENOSAURIDAE,2014-09-09 23:23:41.637049,2014-09-10 08:12:56.887528,"<div class=""intro""><b>Xenosauridae</b> is a family of <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/7/74/Red_Pencil_Icon.png
 243,32,HYPEROLIIDAE,2014-09-09 23:24:02.931751,2014-09-10 08:12:57.12721,"<div class=""intro""><em>Hyperoliinae</em><br>
 <em>Kassininae</em><br>
@@ -794,9 +632,12 @@ Bataguridae <small>Gray 1870:17<sup id=""cite_ref-gray1870_3-0"" class=""referen
 <em>Microhylinae</em><br>
 <em>Phrynomerinae</em><br>
 <em>Scaphiophryninae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Gastrophryne_carolinensis.jpg/240px-Gastrophryne_carolinensis.jpg
+246,32,ELEUTHERODACTYLIDAE,2014-09-09 23:24:05.469229,2014-09-10 08:12:57.951285,"<div class=""intro"">Eleutherodactylinae<br>
+Phyzelaphryninae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Edanae.jpg/220px-Edanae.jpg
 247,32,LIMNODYNASTIDAE,2014-09-09 23:24:08.667999,2014-09-10 08:12:58.780731,"<div class=""intro"">The <b>Myobatrachidae</b> (commonly known as the <b>Australian ground frogs</b>) are a <em>arboreal</em> species.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Crinia_signifera.jpg/240px-Crinia_signifera.jpg
 248,32,DENDROBATIDAE,2014-09-09 23:24:09.226491,2014-09-10 08:12:59.149378,"<div class=""intro""><b>Poison dart frog</b> (also known as <b>dart-poison frog</b>, <b>poison frog</b> or formerly known as <b>poison arrow frog</b>) is the common name of a group of <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Blue-poison.dart.frog.and.Yellow-banded.dart.frog.arp.jpg/220px-Blue-poison.dart.frog.and.Yellow-banded.dart.frog.arp.jpg
 249,32,LEPTODACTYLIDAE,2014-09-09 23:24:11.264915,2014-09-10 08:12:59.420688,"<div class=""intro"">The <b>Leptodactylidae</b> (commonly known as the <b>southern frogs</b>) are a diverse <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Eleutherodactylus_guttilatus.jpg/240px-Eleutherodactylus_guttilatus.jpg
+250,32,BUFONIDAE,2014-09-09 23:24:18.527257,2014-09-10 08:12:59.715751,"<div class=""intro"">The <b>true toads</b> are the <em>Bufo</em></i> being the most widespread and well known.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Bufo_bufo.jpg/240px-Bufo_bufo.jpg
 251,33,HYNOBIIDAE,2014-09-09 23:24:20.248376,2014-09-10 08:12:59.970184,"<div class=""intro""><i><em>Batrachuperus</em></i><br>
 <i><em>Hynobius</em></i><br>
 <i><em>Liua</em></i><br>
@@ -811,13 +652,17 @@ Bataguridae <small>Gray 1870:17<sup id=""cite_ref-gray1870_3-0"" class=""referen
 <em>Laliostominae</em><br>
 <em>Mantellinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Golden_mantella.JPG/220px-Golden_mantella.JPG
 253,33,AROMOBATIDAE,2014-09-09 23:24:55.471585,2014-09-10 08:13:00.881332,"<div class=""intro""><b>Aromobatidae</b> are a family of <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Allobates_femoralis.jpg/220px-Allobates_femoralis.jpg
+254,33,DICROGLOSSIDAE,2014-09-09 23:25:22.606119,2014-09-10 08:13:01.103703,"<div class=""intro"">Dicroglossinae<br>
+Occidozyginae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Paa_exilispinosa.jpg/220px-Paa_exilispinosa.jpg
 255,33,ALLOPHRYNIDAE,2014-09-09 23:25:23.077188,2014-09-10 08:13:02.205961,"<div class=""intro"">The <b>Tukeit Hill frog</b> (<i><b>Allophryne ruthveni</b></i>) is one of the two described species in the <em>English</em> name.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Status_iucn3.1_LC.svg/220px-Status_iucn3.1_LC.svg.png
+256,33,ALSODIDAE,2014-09-09 23:25:23.627126,2014-09-10 08:13:02.481824,"<div class=""intro"">Alsodinae <small>Mivart, 1869</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Alsodes_verrucosus.jpg/220px-Alsodes_verrucosus.jpg
 257,33,ALYTIDAE,2014-09-09 23:25:34.792645,2014-09-10 08:13:02.74405,"<div class=""intro"">Genus <i><em>Alytes</em></i><br>
 Genus <i><em>Discoglossus</em></i><br>
 Genus <i><em>Latonia</em></i><br>
    </div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/AlytesObstet.jpg/200px-AlytesObstet.jpg
 258,33,AMBYSTOMATIDAE,2014-09-09 23:25:38.701798,2014-09-10 08:13:03.027649,"<div class=""intro"">The <b>mole salamanders</b> (<em>tiger salamander</em> (<i>A. tigrinum, A. mavortium</i>) which is the official amphibian of many states, and often sold as a pet.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/SpottedSalamander.jpg/220px-SpottedSalamander.jpg
 259,33,PYXICEPHALIDAE,2014-09-09 23:26:15.680916,2014-09-10 08:13:03.643571,"<div class=""intro"">The <b>Pyxicephalidae</b> are a <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Pyxicephalus_adspersus%2C_Boston_Aquarium.jpg/240px-Pyxicephalus_adspersus%2C_Boston_Aquarium.jpg
+260,33,RANIDAE,2014-09-09 23:26:44.220316,2014-09-10 08:13:03.920425,"<div class=""intro"">See <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/RanaTemporaria.jpg/220px-RanaTemporaria.jpg
 261,33,AMPHIUMIDAE,2014-09-09 23:27:05.481508,2014-09-10 08:13:04.198232,"<div class=""intro""><i><em>Amphiuma means</em></i><br>
 <i><em>Amphiuma pholeter</em></i><br>
 <i><em>Amphiuma tridactylum</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Amphiuma_means.jpg/220px-Amphiuma_means.jpg
@@ -828,12 +673,17 @@ Hemidactyliinae<br>
 Plethodintinae<br>
 Spelerpinae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Kaldari_Batrachoseps_attenuatus_02.jpg/240px-Kaldari_Batrachoseps_attenuatus_02.jpg
 264,33,MYOBATRACHIDAE,2014-09-09 23:28:09.99695,2014-09-10 08:13:05.943608,"<div class=""intro"">The <b>Myobatrachidae</b> (commonly known as the <b>Australian ground frogs</b>) are a <em>arboreal</em> species.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Crinia_signifera.jpg/240px-Crinia_signifera.jpg
+265,33,PETROPEDETIDAE,2014-09-09 23:28:22.150266,2014-09-10 08:13:06.592447,"<div class=""intro"">Petropedetinae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Petropedetes_cameronensis_1874.jpg/220px-Petropedetes_cameronensis_1874.jpg
+266,33,ARTHROLEPTIDAE,2014-09-09 23:28:23.673249,2014-09-10 08:13:07.97336,"<div class=""intro""><i>See text</i></div>",//upload.wikimedia.org/wikipedia/en/e/e5/Scotobleps_gabonicus.jpg
 267,33,ASCAPHIDAE,2014-09-09 23:28:48.832451,2014-09-10 08:13:08.799081,"<div class=""intro"">The <b>tailed frogs</b> are two species of <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ascaphus_truei_web.jpg/240px-Ascaphus_truei_web.jpg
 268,33,BATRACHYLIDAE,2014-09-09 23:28:58.370018,2014-09-10 08:13:09.579893,"<div class=""intro"">4, see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Batrachyla_teniata.jpg/220px-Batrachyla_teniata.jpg
 269,33,CRAUGASTORIDAE,2014-09-09 23:29:51.853773,2014-09-10 08:13:10.199735,"<div class=""intro"">See the text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Craugastor_fitzingeri.jpg/240px-Craugastor_fitzingeri.jpg
+270,34,TYPHLONECTIDAE,2014-09-09 23:29:52.358102,2014-09-10 08:13:10.434942,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Typhlonectes_natans5.jpg/220px-Typhlonectes_natans5.jpg
 271,34,BREVICIPITIDAE,2014-09-09 23:30:14.651162,2014-09-10 08:13:10.709807,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Breviceps_gibbosus_Cape_Rain_Froga_-_Cape_Town_2.JPG/220px-Breviceps_gibbosus_Cape_Rain_Froga_-_Cape_Town_2.JPG
 272,34,BOMBINATORIDAE,2014-09-09 23:30:15.188099,2014-09-10 08:13:11.354691,"<div class=""intro""><i><em>Barbourula</em></i><br>
 <i><em>Bombina</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Bombina_variegata1.jpg/220px-Bombina_variegata1.jpg
+273,34,CERATOBATRACHIDAE,2014-09-09 23:30:39.172572,2014-09-10 08:13:11.587605,"<div class=""intro"">5, see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/CeratobatrachusGuentheriLyd.jpg/220px-CeratobatrachusGuentheriLyd.jpg
+274,34,MEGOPHRYIDAE,2014-09-09 23:32:35.325228,2014-09-10 08:13:12.2758,"<div class=""intro"">About 9, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Leptob_hasselt_M_080208-4534_clobk.jpg/240px-Leptob_hasselt_M_080208-4534_clobk.jpg
 275,34,HERPELIDAE,2014-09-09 23:32:35.792779,2014-09-10 08:13:13.040093,"<div class=""intro"">The <b>Herpelidae</b> are the <em>caecilians</em>, they superficially resemble worms or snakes.</div>",none
 276,34,BRACHYCEPHALIDAE,2014-09-09 23:32:42.97663,2014-09-10 08:13:13.682735,"<div class=""intro""><i><em>See text</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Brachycephalus_ephippium01.jpg/220px-Brachycephalus_ephippium01.jpg
 277,34,SIPHONOPIDAE,2014-09-09 23:32:54.038113,2014-09-10 08:13:14.394572,"<div class=""intro""><i><em>Brasilotyphlus</em></i><br>
@@ -843,6 +693,8 @@ Spelerpinae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Kaldari_B
 <i><em>Mimosiphonops</em></i><br>
 <i><em>Parvicaecilia</em></i><br>
 <i><em>Siphonops</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Syphonops_annulatus.jpg/220px-Syphonops_annulatus.jpg
+278,34,RHACOPHORIDAE,2014-09-09 23:33:11.688188,2014-09-10 08:13:14.648851,"<div class=""intro""><em>Buergeriinae</em><br>
+<em>Rhacophorinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Polyp_leucom_A_050421_056_ipb.jpg/220px-Polyp_leucom_A_050421_056_ipb.jpg
 279,34,CAECILIIDAE,2014-09-09 23:33:31.898195,2014-09-10 08:13:14.917177,"<div class=""intro""><i><em>Boulengerula</em></i><br>
 <i><em>Brasilotyphlus</em></i><br>
 <i><em>Caecilia</em></i><br>
@@ -883,11 +735,18 @@ Spelerpinae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Kaldari_B
   <i><em>Taricha</em></i><br>
   <i><em>Triturus</em></i><br>
   <i><em>Tylototriton</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Notophthalmus_viridescensPCCA20040816-3983A.jpg/250px-Notophthalmus_viridescensPCCA20040816-3983A.jpg
+281,34,CALYPTOCEPHALELLIDAE,2014-09-09 23:34:06.899214,2014-09-10 08:13:16.206967,Unknown,
 282,34,CENTROLENIDAE,2014-09-09 23:34:15.436216,2014-09-10 08:13:16.789666,"<div class=""intro""><em>Hyalinobatrachinae</em><br>
 <em>Centroleninae</em><br>
 <em>Allophryninae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hruedai_dorso.jpg/220px-Hruedai_dorso.jpg
+283,34,CERATOPHRYIDAE,2014-09-09 23:34:35.577108,2014-09-10 08:13:17.568805,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Argentine_Horned_Frog_%28Ceratophrys_ornata%291.JPG/220px-Argentine_Horned_Frog_%28Ceratophrys_ornata%291.JPG
+284,34,CEUTHOMANTIDAE,2014-09-09 23:34:39.372359,2014-09-10 08:13:18.458738,Unknown,
 285,34,CHIKILIDAE,2014-09-09 23:34:57.786909,2014-09-10 08:13:19.080636,"<div class=""intro""><i><em>Chikila</em></i></div>",none
 286,34,CONRAUIDAE,2014-09-09 23:35:48.885716,2014-09-10 08:13:19.310069,"<div class=""intro""><i><b>Conraua</b></i> is a genus of large <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Goliath_Frog.jpg/220px-Goliath_Frog.jpg
+287,34,CYCLORAMPHIDAE,2014-09-09 23:37:30.917467,2014-09-10 08:13:19.860125,"<div class=""intro"">See text.</div>",none
+288,34,HYLODIDAE,2014-09-09 23:37:32.317183,2014-09-10 08:13:21.124441,Unknown,
+289,34,SCOLECOMORPHIDAE,2014-09-09 23:37:37.97512,2014-09-10 08:13:21.751087,"<div class=""intro""><i><em>Crotaphatrema</em></i><br>
+<i><em>Scolecomorphus</em></i></div>",none
 290,34,HEMIPHRACTIDAE,2014-09-09 23:37:41.029519,2014-09-10 08:13:21.974733,"<div class=""intro"">6, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Hemiphractus_fasciatus.jpg/220px-Hemiphractus_fasciatus.jpg
 291,34,DERMOPHIIDAE,2014-09-09 23:39:07.226379,2014-09-10 08:13:22.58624,"<div class=""intro""><i><em>Dermophis</em></i><br>
 <i><em>Schistometopum</em></i><br>
@@ -918,20 +777,28 @@ Spelerpinae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Kaldari_B
 <i><em>Hemisus olivaceus</em></i><br>
 <i><em>Hemisus perreti</em></i><br>
 <i><em>Hemisus wittei</em></i></div>",//upload.wikimedia.org/wikipedia/commons/0/06/Hemisus_marmoratus_Museum_de_Gen%C3%A8ve.JPG
+296,34,PTYCHADENIDAE,2014-09-09 23:44:35.898746,2014-09-10 08:13:24.460534,"<div class=""intro""><i><em>Hildebrandtia</em></i><br>
+<i><em>Lanzarana</em></i><br>
+<i><em>Ptychadena</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ptychadena_pumilio_Bild1222-2.jpg/220px-Ptychadena_pumilio_Bild1222-2.jpg
 297,34,PIPIDAE,2014-09-09 23:47:20.404031,2014-09-10 08:13:25.485336,"<div class=""intro"">The <b>Pipidae</b> are a <em>Africa</em> (four other genera).</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Amplexus_of_ADF.jpg/220px-Amplexus_of_ADF.jpg
 298,34,ICHTHYOPHIIDAE,2014-09-09 23:49:39.95854,2014-09-10 08:13:26.071832,"<div class=""intro""><i><em>Caudacaecilia</em></i><br>
 <i><em>Ichthyophis</em></i><br>
 <i><em>Uraeotyphlus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Caecilian_wynaad1.jpg/240px-Caecilian_wynaad1.jpg
+299,34,RANIXALIDAE,2014-09-09 23:50:22.671114,2014-09-10 08:13:27.023346,"<div class=""intro""><i><b>Indirana</b></i> is a genus of <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Shola_talakaverifrog.jpg/220px-Shola_talakaverifrog.jpg
 300,34,NYCTIBATRACHIDAE,2014-09-09 23:51:44.499509,2014-09-10 08:13:27.605483,"<div class=""intro"">Nyctibatrachinae <small>Blommers-Schlösser, 1993</small><br>
 Lankanectinae <small>Dubois and Ohler, 2001</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Nyctibatrachus_beddomii.jpg/220px-Nyctibatrachus_beddomii.jpg
 301,34,LEIOPELMATIDAE,2014-09-09 23:51:48.333697,2014-09-10 08:13:27.882238,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hochstetters_Frog_on_Moss.jpg/250px-Hochstetters_Frog_on_Moss.jpg
+302,34,ODONTOPHRYNIDAE,2014-09-09 23:57:04.803518,2014-09-10 08:13:28.700386,Unknown,
 303,34,MICRIXALIDAE,2014-09-09 23:58:19.136279,2014-09-10 08:13:29.258721,"<div class=""intro""><i><b>Micrixalus</b></i> (commonly known as <b>dancing frogs</b>, <b>tropical frogs</b>, and <b>torrent frogs</b>) is a genus of <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Micrixalus.jpg/220px-Micrixalus.jpg
 304,34,NASIKABATRACHIDAE,2014-09-09 23:59:13.298029,2014-09-10 08:13:29.537363,"<div class=""intro""><i><b>Nasikabatrachus sahyadrensis</b></i> is a <em>Gondwana</em> had started.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Nasikabatrachus_sahyadrensis.jpg/240px-Nasikabatrachus_sahyadrensis.jpg
+305,34,PROTEIDAE,2014-09-09 23:59:23.032819,2014-09-10 08:13:29.834618,"<div class=""intro""><i><em>Necturus</em></i><br>
+<i><em>Proteus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Necturus_maculosus_maculosus.jpg/240px-Necturus_maculosus_maculosus.jpg
 306,34,ODONTOBATRACHIDAE,2014-09-10 00:00:34.121456,2014-09-10 08:13:30.344543,"<div class=""intro""><i><b>Odontobatrachus</b></i> is a new genus of frogs in the new family <em><span>[</span>1<span>]</span></em></sup></div>",none
 307,34,PELOBATIDAE,2014-09-10 00:03:01.648883,2014-09-10 08:13:31.250004,"<div class=""intro""><i><em>Pelobates cultripes</em></i><br>
 <i><em>Pelobates fuscus</em></i><br>
 <i><em>Pelobates syriacus</em></i><br>
 <i><em>Pelobates varaldii</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Pelobates_fuscus_fuscus.jpg/220px-Pelobates_fuscus_fuscus.jpg
+308,34,PELODYTIDAE,2014-09-10 00:03:04.035608,2014-09-10 08:13:31.907066,"<div class=""intro""><i><em>Pelodytes punctatus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Pelodytes_punctatus_side.jpg/200px-Pelodytes_punctatus_side.jpg
 309,34,PHRYNOBATRACHIDAE,2014-09-10 00:04:11.500253,2014-09-10 08:13:32.17324,"<div class=""intro"">87, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Phrynobatrachus_mababiensis02.jpg/240px-Phrynobatrachus_mababiensis02.jpg
 310,34,SIRENIDAE,2014-09-10 00:12:57.067756,2014-09-10 08:13:32.432981,"<div class=""intro"">  †<i><em>Habrosaurus</em></i><br>
   <i><em>Pseudobranchus</em></i><br>
@@ -941,7 +808,10 @@ Lankanectinae <small>Dubois and Ohler, 2001</small></div>",//upload.wikimedia.or
  <i>Rhyacotriton kezeri</i><br>
  <i>Rhyacotriton olympicus</i><br>
  <i>Rhyacotriton variegatus</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Rhyacotriton_variegatus.jpg/240px-Rhyacotriton_variegatus.jpg
+313,34,SCAPHIOPODIDAE,2014-09-10 00:18:41.976309,2014-09-10 08:13:33.193635,"<div class=""intro""><i><em>Spea</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Spea_hammondii_1.jpg/240px-Spea_hammondii_1.jpg
 314,34,SOOGLOSSIDAE,2014-09-10 00:19:53.876953,2014-09-10 08:13:33.434236,"<div class=""intro"">The <b>Seychelles frogs</b> (<b>Sooglossidae</b>) are a <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Nasikabatrachus_sahyadrensis.jpg/220px-Nasikabatrachus_sahyadrensis.jpg
+315,34,TELMATOBIIDAE,2014-09-10 00:21:14.717866,2014-09-10 08:13:34.431433,Unknown,
+316,35,POMACENTRIDAE,2014-09-10 00:24:16.355783,2014-09-10 08:13:34.691286,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cocoa_damselfish.jpg/200px-Cocoa_damselfish.jpg
 317,35,SERRANIDAE,2014-09-10 00:24:18.196909,2014-09-10 08:13:34.994511,"<div class=""intro""><em>Anthiinae</em><br>
 <em>Epinephelinae</em><br>
 <em>Grammistinae</em><br>
@@ -949,9 +819,12 @@ Lankanectinae <small>Dubois and Ohler, 2001</small></div>",//upload.wikimedia.or
 <em>Serraninae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cromileptes_altivelis_-_Paddelbarsch_-_Panther_grouper.jpg/240px-Cromileptes_altivelis_-_Paddelbarsch_-_Panther_grouper.jpg
 318,35,SCOMBRIDAE,2014-09-10 00:24:19.879683,2014-09-10 08:13:35.274559,"<div class=""intro""><em>Gasterochismatinae</em><br>
 <em>Scombrinae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Gelbflossen-thunfisch.jpg/220px-Gelbflossen-thunfisch.jpg
+319,35,LABRIDAE,2014-09-10 00:24:20.556935,2014-09-10 08:13:35.964858,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Thalassoma_lunare_1.jpg/220px-Thalassoma_lunare_1.jpg
 320,35,ACANTHURIDAE,2014-09-10 00:24:21.151153,2014-09-10 08:13:36.225023,"<div class=""intro"">The <b>Acanthuridae</b> are the <em>aquaria</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Acanthurussohal-ArabischerDoktor.jpg/220px-Acanthurussohal-ArabischerDoktor.jpg
+321,35,EPINEPHELIDAE,2014-09-10 00:24:45.550156,2014-09-10 08:13:37.298817,Unknown,
 322,36,ALBULIDAE,2014-09-10 00:24:46.267062,2014-09-10 08:13:37.551927,"<div class=""intro""><i><em>Albula</em></i><br>
 <i><em>Pterothrissus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bonefish.png/200px-Bonefish.png
+323,36,CHAETODONTIDAE,2014-09-10 00:24:53.946921,2014-09-10 08:13:38.292026,"<div class=""intro"">About 10, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chaetodontidae.jpg/220px-Chaetodontidae.jpg
 324,36,POMACANTHIDAE,2014-09-10 00:25:08.807965,2014-09-10 08:13:38.550105,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Pomacanthus_paru3.jpg/250px-Pomacanthus_paru3.jpg
 325,37,ELOPIDAE,2014-09-10 00:29:07.678829,2014-09-10 08:13:39.073109,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ladyfish_-_NO_Autoban_Aquarium.jpg/240px-Ladyfish_-_NO_Autoban_Aquarium.jpg
 326,37,ISTIOPHORIDAE,2014-09-10 00:31:47.887805,2014-09-10 08:13:39.823662,"<div class=""intro"">A <b>marlin</b> is a <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Atlantic_blue_marlin.jpg/220px-Atlantic_blue_marlin.jpg
@@ -959,6 +832,7 @@ Lankanectinae <small>Dubois and Ohler, 2001</small></div>",//upload.wikimedia.or
 <small><em>Valenciennes</em>, 1847</small><br>
 <i><em>Megalops cyprinoides</em></i><br>
 <small>(<em>Broussonet</em>, 1782)</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Atlantic_tarpon.jpg/250px-Atlantic_tarpon.jpg
+328,37,XIPHIIDAE,2014-09-10 00:36:29.41716,2014-09-10 08:13:40.858606,"<div class=""intro""><b>Swordfish</b> (<i>Xiphias gladius</i>; from <em><span>[</span>4<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Xiphias_gladius2.jpg/250px-Xiphias_gladius2.jpg
 329,38,Ostriches,2014-09-10 00:45:37.974859,2014-09-10 08:13:42.161579,"<div class=""intro""><i>S. c. australis</i> <small><em><span>[</span>2<span>]</span></em></sup><br>
 Southern ostrich</small><br>
 <i>S. c. camelus</i> <small><em><span>[</span>2<span>]</span></em></sup><br>
@@ -984,24 +858,43 @@ Somali ostrich</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/4
 <i><em>Apteryx rowi</em></i> <small>Okarito brown kiwi</small><br>
 <i><em>Apteryx australis</em></i> <small>Southern brown kiwi</small><br>
 <i><em>Apteryx mantelli</em></i> <small>North Island brown kiwi</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/82/TeTuatahianui.jpg/220px-TeTuatahianui.jpg
+334,40,Megapodes,2014-09-10 02:15:17.225343,2014-09-10 08:20:19.51616,"<div class=""intro"">The <b>megapodes</b>, also known as <b>incubator birds</b> or <b>mound-builders</b>, are stocky, medium-large chicken-like <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Australian_Brush_turkey2.jpeg/300px-Australian_Brush_turkey2.jpeg
+335,40,Guans,2014-09-10 02:15:29.951249,2014-09-10 08:25:51.320581,"<div class=""intro""><b><em>Guan</em></b> is a surname.</div>",none
 336,40,Guineafowl,2014-09-10 02:16:03.737127,2014-09-10 08:25:51.625051,"<div class=""intro"">The <b>guineafowl</b> (<span class=""nowrap""><span title=""Representation in the International Phonetic Alphabet (IPA)"" class=""IPA""><em>introduced</em> elsewhere.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Helmeted_guineafowl_kruger00.jpg/300px-Helmeted_guineafowl_kruger00.jpg
+337,40,New_World_quails,2014-09-10 02:16:08.468367,2014-09-10 08:35:04.583278,Unknown,
+338,40,Pheasants_partridges_turkeys_grouse,2014-09-10 02:16:29.26481,2014-09-10 08:35:05.520657,Unknown,
+339,41,Screamers,2014-09-10 02:18:25.799407,2014-09-10 08:35:05.769209,"<div class=""intro""><b><em>Screamer</em></b> is a family of bird species.</div>",none
 340,41,Magpie_Goose,2014-09-10 02:18:27.481312,2014-09-10 08:35:06.037781,"<div class=""intro""><i>Anas semipalmata</i> <small>Latham, 1798</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Magpie_goose.jpg/220px-Magpie_goose.jpg
+341,41,Ducks_geese_swans,2014-09-10 02:18:27.954443,2014-09-10 08:35:07.039771,Unknown,
 342,42,Grebes,2014-09-10 02:20:19.550183,2014-09-10 08:35:07.886599,"<div class=""intro"">A <b>grebe</b> <span class=""nowrap""><span title=""Representation in the International Phonetic Alphabet (IPA)"" class=""IPA""><em>genera</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Podiceps_nigricollis_001.jpg/300px-Podiceps_nigricollis_001.jpg
+343,43,Flamingos,2014-09-10 02:20:34.156901,2014-09-10 08:35:08.82548,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flamingos_Laguna_Colorada.jpg/220px-Flamingos_Laguna_Colorada.jpg
 344,44,Tropicbirds,2014-09-10 02:20:38.152359,2014-09-10 08:35:09.56748,"<div class=""intro"">3, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rtailedtropicbird8.jpg/220px-Rtailedtropicbird8.jpg
 345,45,Kagu,2014-09-10 02:20:40.141027,2014-09-10 08:35:10.305175,"<div class=""intro"">The <b>kagu</b> or <b>cagou</b> (<i>Rhynochetos jubatus</i>) is a crested, long-legged, and bluish-grey bird <em>predators</em>, and is threatened with extinction.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Rhynochetos_jubatus.jpg/250px-Rhynochetos_jubatus.jpg
 346,45,Sunbittern,2014-09-10 02:20:40.74693,2014-09-10 08:35:10.570439,"<div class=""intro"">The <b>sunbittern</b> (<i>Eurypyga helias</i>) is a <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Eurypyga_helias_-Smithsonian_National_Zoological_Park%2C_USA-8.jpg/220px-Eurypyga_helias_-Smithsonian_National_Zoological_Park%2C_USA-8.jpg
+347,46,Mesites,2014-09-10 02:20:41.258956,2014-09-10 08:35:11.150868,"<div class=""intro""><b>Mesites</b> may refer to:</div>",none
+348,47,Pigeons_doves,2014-09-10 02:20:43.002182,2014-09-10 08:35:12.056895,Unknown,
 349,48,Sandgrouse,2014-09-10 02:24:24.042244,2014-09-10 08:35:12.382685,"<div class=""intro""><i><em>Illiger</em>, 1811</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Double-banded_Sandgrouse.JPG/300px-Double-banded_Sandgrouse.JPG
 350,49,Oilbird,2014-09-10 02:24:33.092387,2014-09-10 08:35:12.654559,"<div class=""intro"">The <b>oilbird</b> (<i>Steatornis caripensis</i>), locally known as the <i><b>guácharo</b></i>, is a bird found in the northern areas of <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Oilbirds.jpg/220px-Oilbirds.jpg
+351,49,Frogmouths,2014-09-10 02:24:33.612539,2014-09-10 08:35:12.882016,"<div class=""intro""><i><em>Podargus</em></i><br>
+<i><em>Batrachostomus</em></i><br>
+<i><em>Rigidipenna</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tawny_frogmouth_wholebody444.jpg/220px-Tawny_frogmouth_wholebody444.jpg
 352,49,Potoos,2014-09-10 02:24:42.381732,2014-09-10 08:35:13.150576,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nyctibius_jamaicensis.jpg/220px-Nyctibius_jamaicensis.jpg
 353,49,Nightjars,2014-09-10 02:24:46.022076,2014-09-10 08:35:13.966187,"<div class=""intro"">14, see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/21/AAP065A.jpg/220px-AAP065A.jpg
+354,49,Owlet-nightjars,2014-09-10 02:25:45.88132,2014-09-10 08:35:15.125615,Unknown,
+355,49,Treeswifts,2014-09-10 02:25:52.234811,2014-09-10 08:35:16.151193,Unknown,
 356,49,Swifts,2014-09-10 02:25:54.635654,2014-09-10 08:35:16.4144,"<div class=""intro"">Nearly 20, see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Apus_apus_01.jpg/220px-Apus_apus_01.jpg
 357,49,Hummingbirds,2014-09-10 02:26:56.92336,2014-09-10 08:35:17.418684,"<div class=""intro""><em>Phaethornithinae</em><br>
 <em>Trochilinae</em><br></div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Archilochus-alexandri-002-edit.jpg/220px-Archilochus-alexandri-002-edit.jpg
+358,50,Hoatzin,2014-09-10 02:30:30.558912,2014-09-10 08:35:17.710334,"<div class=""intro""><i><em>Phasianus</em> hoazin</i> <small>Müller, 1776</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Opisthocomus_hoazin.jpg/220px-Opisthocomus_hoazin.jpg
 359,51,Cuckoos,2014-09-10 02:30:31.186762,2014-09-10 08:35:18.635838,"<div class=""intro"">Around 26, see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Guira_guira.jpg/240px-Guira_guira.jpg
+360,52,Finfoots,2014-09-10 02:32:01.103715,2014-09-10 08:35:19.531615,Unknown,
 361,52,Rails_gallinules_coots,2014-09-10 02:32:02.959843,2014-09-10 08:35:20.45278,Unknown,
 362,52,Trumpeters,2014-09-10 02:33:42.955094,2014-09-10 08:35:20.796739,"<div class=""intro"">Brass</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Trumpet_1.jpg/250px-Trumpet_1.jpg
 363,52,Limpkin,2014-09-10 02:33:46.51959,2014-09-10 08:35:21.09236,"<div class=""intro"">The <b>limpkin</b> (also called <b>carrao</b>, <b>courlan</b>, and <b>crying bird</b>), <i><b>Aramus guarauna</b></i>, is a bird that looks like a large <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Limpkin_RWD1.jpg/300px-Limpkin_RWD1.jpg
+364,52,Cranes,2014-09-10 02:33:47.121296,2014-09-10 08:35:21.70888,"<div class=""intro""><b>Crane</b> or <b>cranes</b> may refer to:</div>",none
 365,53,Bustards,2014-09-10 02:33:56.684055,2014-09-10 08:35:21.981122,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ardeotis_kori_Etosha.JPG/300px-Ardeotis_kori_Etosha.JPG
+366,54,Turacos,2014-09-10 02:34:12.695293,2014-09-10 08:35:22.70601,Unknown,
+367,55,Loons/divers,2014-09-10 02:34:26.486848,2014-09-10 08:35:23.649584,Unknown,
 368,56,Penguins,2014-09-10 02:34:29.481555,2014-09-10 08:35:24.028018,"<div class=""intro""><i><em>Aptenodytes</em></i><br>
 <i><em>Eudyptes</em></i><br>
 <i><em>Eudyptula</em></i><br>
@@ -1009,28 +902,40 @@ Somali ostrich</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/4
 <i><em>Pygoscelis</em></i><br>
 <i><em>Spheniscus</em></i><br>
 For prehistoric genera, see <em>Systematics</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chinstrap_Penguin.jpg/200px-Chinstrap_Penguin.jpg
+369,57,Southern_storm-petrels,2014-09-10 02:34:40.561251,2014-09-10 08:35:25.062608,Unknown,
+370,57,Northern_storm-petrels,2014-09-10 02:34:46.440418,2014-09-10 08:35:25.877486,Unknown,
 371,57,Albatrosses,2014-09-10 02:34:55.659907,2014-09-10 08:35:26.259609,"<div class=""intro""><i><em>Diomedea</em></i><br>
 <i><em>Thalassarche</em></i><br>
 <i><em>Phoebastria</em></i><br>
 <i><em>Phoebetria</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Short_tailed_Albatross1.jpg/300px-Short_tailed_Albatross1.jpg
+372,57,Petrels_shearwaters,2014-09-10 02:35:13.183588,2014-09-10 08:35:27.51883,Unknown,
 373,58,Storks,2014-09-10 02:36:14.082466,2014-09-10 08:35:28.359212,"<div class=""intro""><i><em>Anastomus</em></i><br>
 <i><em>Ciconia</em></i><br>
 <i><em>Ephippiorhynchus</em></i><br>
 <i><em>Jabiru</em></i><br>
 <i><em>Leptoptilos</em></i><br>
 <i><em>Mycteria</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Asian_Openbill_%28Anastomus_oscitans%29_in_Kolkata_I_IMG_0495.jpg/220px-Asian_Openbill_%28Anastomus_oscitans%29_in_Kolkata_I_IMG_0495.jpg
+374,59,Ibises_spoonbills,2014-09-10 02:36:27.3394,2014-09-10 08:35:29.158185,Unknown,
+375,59,Herons,2014-09-10 02:36:49.762263,2014-09-10 08:35:29.454512,"<div class=""intro"">About 21 extant, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Great_Blue_Heron_On_Rock1.jpg/270px-Great_Blue_Heron_On_Rock1.jpg
 376,59,Hamerkop,2014-09-10 02:37:35.579983,2014-09-10 08:35:29.718191,"<div class=""intro"">The <b>hamerkop</b> (<i>Scopus umbretta</i>), also known as <b>hammerkop</b>, <b>hammerkopf</b>, <b>hammerhead</b>, <b>hammerhead <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Hamerkop_standing_in_a_stream_in_Zambia.JPG/300px-Hamerkop_standing_in_a_stream_in_Zambia.JPG
 377,59,Shoebill,2014-09-10 02:37:36.148715,2014-09-10 08:35:30.002157,"<div class=""intro"">The <b>shoebill</b> (<i>Balaeniceps rex</i>) also known as <b>whalehead</b> or <b>shoe-billed stork</b>, is a very large <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Balaeniceps_rex.jpg/220px-Balaeniceps_rex.jpg
+378,59,Pelicans,2014-09-10 02:37:36.632441,2014-09-10 08:35:30.469349,"<div class=""intro"">8, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Pelikan_Walvis_Bay.jpg/220px-Pelikan_Walvis_Bay.jpg
 379,60,Frigatebirds,2014-09-10 02:37:41.779182,2014-09-10 08:35:30.75092,"<div class=""intro"">The <b>frigatebirds</b> are a family, <b>Fregatidae</b>, of <em>gular pouch</em> that is inflated during the breeding season to attract a mate.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Male_Frigate_bird.jpg/220px-Male_Frigate_bird.jpg
+380,60,Gannets_boobies,2014-09-10 02:37:44.876521,2014-09-10 08:35:31.614988,Unknown,
 381,60,Cormorants,2014-09-10 02:37:52.7843,2014-09-10 08:35:32.008185,"<div class=""intro"">3–43, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Microcarbo_melanoleucos_Austins_Ferry_3.jpg/240px-Microcarbo_melanoleucos_Austins_Ferry_3.jpg
 382,60,Darters,2014-09-10 02:38:14.058435,2014-09-10 08:35:32.369027,"<div class=""intro""><i><em>Anhinga anhinga</em></i><br>
 <i><em>Anhinga melanogaster</em></i><br>
 <i><em>Anhinga rufa</em></i><br>
 <i><em>Anhinga novaehollandiae</em></i><br>
 (but see <em>text</em>)</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Anhingarufa1.JPG/220px-Anhingarufa1.JPG
+383,61,Thick-knees,2014-09-10 02:38:16.444528,2014-09-10 08:35:33.254461,Unknown,
+384,61,Sheathbills,2014-09-10 02:38:22.329801,2014-09-10 08:35:33.550183,"<div class=""intro""><i><em>Chionis albus</em></i><br>
+<i><em>Chionis minor</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Snowy_Sheathbill.jpg/250px-Snowy_Sheathbill.jpg
 385,61,Magellanic_Plover,2014-09-10 02:38:23.438293,2014-09-10 08:35:33.773818,"<div class=""intro"">The <b>Magellanic plover</b> (<i>Pluvianellus socialis</i>) is a rare and unique <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Magellanic_Plover.jpg/220px-Magellanic_Plover.jpg
 386,61,Egyptian_Plover,2014-09-10 02:38:24.073402,2014-09-10 08:35:34.021803,"<div class=""intro"">The <b>Egyptian plover</b> (<i>Pluvianus aegyptius</i>) is a <em>monotypic</em> family Pluvianidae.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flickr_-_Rainbirder_-_Egyptian_Plover_%28Pluvianus_aegyptius%29.jpg/240px-Flickr_-_Rainbirder_-_Egyptian_Plover_%28Pluvianus_aegyptius%29.jpg
+387,61,Oystercatchers,2014-09-10 02:38:24.787093,2014-09-10 08:35:34.649381,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Haematopus_longirostris_2.jpg/220px-Haematopus_longirostris_2.jpg
 388,61,Ibisbill,2014-09-10 02:38:31.754481,2014-09-10 08:35:34.909923,"<div class=""intro""><i>Clorhynchus strophiatus</i> <small>Hodgson, 1835</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ibisbill.jpg/220px-Ibisbill.jpg
+389,61,Avocets_stilts,2014-09-10 02:38:32.228528,2014-09-10 08:35:35.711406,Unknown,
 390,61,Plovers,2014-09-10 02:38:38.404024,2014-09-10 08:35:35.965113,"<div class=""intro""><i><em>Pluvialis</em></i><br>
 <i><em>Charadrius</em></i><br>
 <i><em>Thinornis</em></i><br>
@@ -1040,16 +945,24 @@ For prehistoric genera, see <em>Systematics</em></div>",//upload.wikimedia.org/w
 <i><em>Phegornis</em></i><br>
 <i><em>Oreopholus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Killdeer23.jpg/220px-Killdeer23.jpg
 391,61,Plains-wanderer,2014-09-10 02:39:22.49886,2014-09-10 08:35:36.798271,"<div class=""intro"">The <b>plains-wanderer</b> (<i>Pedionomus torquatus</i>) or <b>plains wanderer</b>, is a bird, the only representative of its family. It is endemic to <em>New South Wales</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Status_iucn3.1_EN.svg/220px-Status_iucn3.1_EN.svg.png
+392,61,Seedsnipes,2014-09-10 02:39:22.97911,2014-09-10 08:35:38.37379,Unknown,
+393,61,Painted-snipes,2014-09-10 02:39:25.00195,2014-09-10 08:35:39.294986,Unknown,
 394,61,Jacanas,2014-09-10 02:39:27.577042,2014-09-10 08:35:39.559079,"<div class=""intro"">The <b>jacanas</b> (sometimes referred to as <b>Jesus birds</b> or <b>lily trotters</b>) are a group of tropical <em>Etymology</em> below for pronunciation.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Irediparra_gallinacea1.jpg/250px-Irediparra_gallinacea1.jpg
+395,61,Sandpipers_snipes_phalaropes,2014-09-10 02:39:31.985353,2014-09-10 08:35:40.524214,Unknown,
+396,61,Buttonquails,2014-09-10 02:40:36.986352,2014-09-10 08:35:41.547435,Unknown,
 397,61,Crab-plover,2014-09-10 02:40:49.81146,2014-09-10 08:35:42.220275,"<div class=""intro"">The <b>crab-plover</b> or <b>crab plover</b> (<i>Dromas ardeola)</i> is a <em>eggs</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Reiherl%C3%A4ufer.jpg/300px-Reiherl%C3%A4ufer.jpg
-494,74,Swallows_and_martins,2014-09-10 03:24:32.054576,2014-09-10 08:36:54.971125,Unknown,
+398,61,Coursers_pratincoles,2014-09-10 02:40:50.357622,2014-09-10 08:35:43.103571,Unknown,
+399,61,Gulls_terns_skimmers,2014-09-10 02:41:00.19553,2014-09-10 08:35:44.10728,Unknown,
+400,61,Skuas,2014-09-10 02:42:10.303287,2014-09-10 08:35:44.785841,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Stercorarius_pomarinusPCCA20070623-3985B.jpg/250px-Stercorarius_pomarinusPCCA20070623-3985B.jpg
 401,61,Auks,2014-09-10 02:42:16.878964,2014-09-10 08:35:45.088678,"<div class=""intro"">An <b>auk</b> is a <em>great auk</em>). Due to their short wings, auks have to flap their wings very quickly in order to fly.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Parakeetauklets2.jpg/250px-Parakeetauklets2.jpg
 402,62,Barn-owls,2014-09-10 02:42:34.749599,2014-09-10 08:35:45.708296,"<div class=""intro""><i><em>Tyto</em></i><br>
 <i><em>Phodilus</em></i><br>
 For fossil genera, see article.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Masked_owl_mask4441.jpg/220px-Masked_owl_mask4441.jpg
+403,62,Typical_owls,2014-09-10 02:42:46.729264,2014-09-10 08:35:45.981634,"<div class=""intro"">some 25, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Eastern_Screech_Owl.jpg/220px-Eastern_Screech_Owl.jpg
 404,63,New_World_vultures,2014-09-10 02:45:07.333741,2014-09-10 08:35:47.178261,Unknown,
 405,64,Secretarybird,2014-09-10 02:45:11.91975,2014-09-10 08:35:47.48679,"<div class=""intro""><small><a rel=""nofollow"" class=""external free"" href=""http://www.birdlife.org/datazone/speciesfactsheet.php?id=3562"">http://www.birdlife.org/datazone/speciesfactsheet.php?id=3562</em></small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sagittarius_serpentarius_Sekret%C3%A4r.JPG/300px-Sagittarius_serpentarius_Sekret%C3%A4r.JPG
 406,64,Osprey,2014-09-10 02:45:12.543975,2014-09-10 08:35:47.865794,"<div class=""intro"">The <b>osprey</b> (<i>Pandion haliaetus</i>), sometimes known as the <b>sea hawk</b>, <b>fish eagle,</b> <b>river hawk</b> or <b>fish hawk</b>, is a <em>raptor</em>, reaching more than 60 cm (24 in) in length and 180 cm (71 in) across the wings. It is brown on the upperparts and predominantly greyish on the head and underparts.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/01/2010-kabini-osprey.jpg/220px-2010-kabini-osprey.jpg
+407,64,Hawks_eagles,2014-09-10 02:45:14.040733,2014-09-10 08:35:48.716833,Unknown,
 408,65,Mousebirds,2014-09-10 02:47:49.459933,2014-09-10 08:35:49.726672,"<div class=""intro""><i><em>Colius</em></i><br>
 <i><em>Urocolius</em></i><br>
 For fossil <em>text</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Urocolius_macrourus-20090110B.jpg/250px-Urocolius_macrourus-20090110B.jpg
@@ -1061,9 +974,17 @@ For fossil <em>text</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/
 <i><em>Pharomachrus</em></i><br>
 <i><em>Priotelus</em></i><br>
 <i><em>Trogon</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Harpactes_erythrocephalus_-_Khao_Yai.jpg/220px-Harpactes_erythrocephalus_-_Khao_Yai.jpg
+411,68,Hornbills,2014-09-10 02:48:20.373685,2014-09-10 08:35:51.575275,"<div class=""intro"">14, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Malabar_grey_hornbill.jpg/220px-Malabar_grey_hornbill.jpg
+412,68,Hoopoes,2014-09-10 02:48:58.62755,2014-09-10 08:35:52.608266,Unknown,
+413,68,Woodhoopoes,2014-09-10 02:49:00.905659,2014-09-10 08:35:53.735998,Unknown,
 414,69,Bee-eaters,2014-09-10 02:49:05.701979,2014-09-10 08:35:54.035211,"<div class=""intro"">The <b>bee-eaters</b> are a group of <em>bills</em> and pointed wings, which give them a swallow-like appearance when seen from afar. There are 26 different species of bee-eaters.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/European_bee_eater.jpg/240px-European_bee_eater.jpg
 415,69,Rollers,2014-09-10 02:49:24.188239,2014-09-10 08:35:55.045633,"<div class=""intro"">The <b>rollers</b> are an <em>crows</em> in size and build, and share the colourful appearance of kingfishers and bee-eaters, blues and pinkish or cinnamon browns predominating. The two inner front toes are connected, but not the outer one.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Lilac-breasted_roller.jpg/220px-Lilac-breasted_roller.jpg
 416,69,Ground-rollers,2014-09-10 02:49:31.683557,2014-09-10 08:35:55.588599,"<div class=""intro"">The <b>ground rollers</b> are a small family of <em>rollers</em>. They most resemble the latter group, and are sometimes considered a sub-family of the true rollers.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Short-legged_Ground-roller%2C_Masoala_National_Park%2C_Madagascar.jpg/240px-Short-legged_Ground-roller%2C_Masoala_National_Park%2C_Madagascar.jpg
+417,69,Todies,2014-09-10 02:49:34.3016,2014-09-10 08:35:56.353201,"<div class=""intro"">See text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Todus_todus_cropped.jpg/220px-Todus_todus_cropped.jpg
+418,69,Motmots,2014-09-10 02:49:36.873166,2014-09-10 08:35:57.214779,Unknown,
+419,69,Kingfishers,2014-09-10 02:49:45.497091,2014-09-10 08:35:57.495857,"<div class=""intro""><em>Alcedinidae</em><br>
+<em>Halcyonidae</em><br>
+<em>Cerylidae</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Alcedo_azurea_-_Julatten.jpg/300px-Alcedo_azurea_-_Julatten.jpg
 420,70,Jacamars,2014-09-10 02:51:03.650739,2014-09-10 08:35:58.281523,"<div class=""intro""><i><em>Galbalcyrhynchus</em></i><br>
 <i><em>Brachygalba</em></i><br>
 <i><em>Jacamaralcyon</em></i><br>
@@ -1083,6 +1004,10 @@ For fossil <em>text</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/
 <i><em>Pteroglossus</em></i><br>
 <i><em>Ramphastos</em></i><br>
 <i><em>Selenidera</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pteroglossus-torquatus-001.jpg/300px-Pteroglossus-torquatus-001.jpg
+423,70,New_World_barbets,2014-09-10 02:52:08.990965,2014-09-10 08:36:00.185226,Unknown,
+424,70,Prong-billed_barbets,2014-09-10 02:52:19.217197,2014-09-10 08:36:01.311846,Unknown,
+425,70,Asian_barbets,2014-09-10 02:52:20.316764,2014-09-10 08:36:02.33543,Unknown,
+426,70,African_barbets,2014-09-10 02:52:39.068317,2014-09-10 08:36:03.256547,Unknown,
 427,70,Honeyguides,2014-09-10 02:53:11.005961,2014-09-10 08:36:04.035898,"<div class=""intro""><i><em>Indicator</em></i><br>
 <i><em>Melichneutes</em></i><br>
 <i><em>Melignomon</em></i><br>
@@ -1091,6 +1016,8 @@ For fossil <em>text</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/
 429,71,Seriemas,2014-09-10 02:55:49.825754,2014-09-10 08:36:05.060136,"<div class=""intro""><i><em>Cariama</em></i><br>
 <i><em>Chunga</em></i><br>
 <span title=""Extinct""><span style=""font-style:normal;""><span style=""font-weight:normal;"">†</span></span></span><i><em>Noriegavis</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Cariama_cristata.jpg/220px-Cariama_cristata.jpg
+430,72,Falcons_caracaras,2014-09-10 02:55:50.881898,2014-09-10 08:36:06.022101,Unknown,
+431,73,New_Zealand_parrots,2014-09-10 02:56:37.881938,2014-09-10 08:36:06.844357,Unknown,
 432,73,Cockatoos,2014-09-10 02:56:40.166607,2014-09-10 08:36:07.815449,"<div class=""intro""><i><em>Probosciger</em></i><br>
 <i><em>Callocephalon</em></i><br>
 <i><em>Nymphicus</em></i><br>
@@ -1098,6 +1025,10 @@ For fossil <em>text</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/
 <i><em>Eolophus</em></i><br>
 <i><em>Lophochroa</em></i><br>
 <i><em>Cacatua</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Eolophus_roseicapilla_-Wamboin%2C_NSW%2C_Australia_-adult-8-2cp.jpg/220px-Eolophus_roseicapilla_-Wamboin%2C_NSW%2C_Australia_-adult-8-2cp.jpg
+433,73,Parrots,2014-09-10 02:56:51.597121,2014-09-10 08:36:08.294549,"<div class=""intro""><em>Cacatuoidea</em> (cockatoos)<br>
+<em>Psittacoidea</em> (true parrots)<br>
+<em>Strigopoidea</em> (New Zealand parrots)</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/220px-Ara_ararauna_Luc_Viatour.jpg
+434,74,New_Zealand_wrens,2014-09-10 03:00:51.171651,2014-09-10 08:36:09.197108,Unknown,
 435,74,Broadbills,2014-09-10 03:00:53.493645,2014-09-10 08:36:09.879338,"<div class=""intro""><i><em>Smithornis</em></i><br>
 <i><em>Pseudocalyptomena</em></i><br>
 <i><em>Corydon</em></i><br>
@@ -1109,12 +1040,19 @@ For fossil <em>text</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/
 436,74,Asities,2014-09-10 03:01:02.124045,2014-09-10 08:36:10.689823,"<div class=""intro""><i><em>Philepitta</em></i><br>
 <i><em>Neodrepanis</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Philepitta_castanea_1868.jpg/220px-Philepitta_castanea_1868.jpg
 437,74,Sapayoa,2014-09-10 03:01:04.305746,2014-09-10 08:36:10.959012,"<div class=""intro"">The <b>sapayoa</b> or <b>broad-billed sapayoa</b> (<i>Sapayoa aenigma</i>) is a <em><span>[</span>2<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Status_iucn3.1_LC.svg/220px-Status_iucn3.1_LC.svg.png
+438,74,Pittas,2014-09-10 03:01:04.801551,2014-09-10 08:36:12.063277,Unknown,
+439,74,Manakins,2014-09-10 03:01:25.250489,2014-09-10 08:36:12.354574,"<div class=""intro""><i>Many, see text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Manacus_candei1.jpg/220px-Manacus_candei1.jpg
+440,74,Cotingas,2014-09-10 03:01:56.334479,2014-09-10 08:36:13.189242,Unknown,
+441,74,Tyrant-flycatchers,2014-09-10 03:02:51.611971,2014-09-10 08:36:14.024062,Unknown,
 442,74,Antbirds,2014-09-10 03:06:49.405838,2014-09-10 08:36:14.974308,"<div class=""intro"">The <b>antbirds</b> are a large <em>shrikes</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Gymnopithys-leucaspis-002.jpg/220px-Gymnopithys-leucaspis-002.jpg
 443,74,Gnateaters,2014-09-10 03:08:55.96084,2014-09-10 08:36:15.782445,"<div class=""intro""><i><em>Vieillot</em>, 1816</small><br>
 <i><em>Cassin</em>, 1860</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Conopophaga_castaneiceps_3.jpg/220px-Conopophaga_castaneiceps_3.jpg
 444,74,Tapaculos,2014-09-10 03:09:00.581693,2014-09-10 08:36:16.430195,"<div class=""intro"">Pteroptochidae</div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Ocellated_Tapaculo_%28Acropternis_orthonyx%29.jpg/240px-Ocellated_Tapaculo_%28Acropternis_orthonyx%29.jpg
+445,74,Antthrushes_and_antpittas,2014-09-10 03:09:36.363284,2014-09-10 08:36:17.28597,Unknown,
 446,74,Ovenbirds,2014-09-10 03:10:11.307067,2014-09-10 08:36:17.970912,"<div class=""intro""><b>Ovenbirds</b> or <b>furnariids</b> are a large family of small <em>wood warbler</em> family, Parulidae.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Scaly-throated_Foliage-gleaner.jpg/220px-Scaly-throated_Foliage-gleaner.jpg
+447,74,Woodcreepers,2014-09-10 03:12:32.693747,2014-09-10 08:36:18.924079,Unknown,
 448,74,Lyrebirds,2014-09-10 03:13:03.990194,2014-09-10 08:36:19.605813,"<div class=""intro"">A <b>lyrebird</b> is either of two <em>mimic</em> natural and artificial sounds from their environment. As well as their extraordinary mimicking ability, lyrebirds are notable because of the striking beauty of the male bird's huge tail when it is fanned out in display; and also because of their courtship display. Lyrebirds have unique plumes of neutral coloured tailfeathers and are among Australia's best-known native birds.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Superb_lyrbird_in_scrub.jpg/300px-Superb_lyrbird_in_scrub.jpg
+449,74,Scrub-birds,2014-09-10 03:13:04.930233,2014-09-10 08:36:20.664955,Unknown,
 450,74,Bowerbirds,2014-09-10 03:13:05.976639,2014-09-10 08:36:20.969262,"<div class=""intro""><i><em>Ailuroedus</em></i><br>
 <i><em>Amblyornis</em></i><br>
 <i><em>Chlamydera</em></i><br>
@@ -1122,9 +1060,26 @@ For fossil <em>text</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/
 <i><em>Ptilonorhynchus</em></i><br>
 <i><em>Scenopooetes</em></i><br>
 <i><em>Sericulus</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Satinbowerbirdmale.jpg/250px-Satinbowerbirdmale.jpg
+451,74,Australian_treecreepers,2014-09-10 03:13:17.497067,2014-09-10 08:36:21.893637,Unknown,
+452,74,Australasian_wrens,2014-09-10 03:13:21.094573,2014-09-10 08:36:22.917826,Unknown,
+453,74,Hawaiian_honeyeaters,2014-09-10 03:13:36.278946,2014-09-10 08:36:23.736929,Unknown,
+454,74,Honeyeaters,2014-09-10 03:13:38.961131,2014-09-10 08:36:24.020658,"<div class=""intro"">see the text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Crescent_Honeyeater_Edit2.jpg/250px-Crescent_Honeyeater_Edit2.jpg
 455,74,Bristlebirds,2014-09-10 03:15:20.339287,2014-09-10 08:36:24.692001,"<div class=""intro""><i><em>Dasyornis brachypterus</em></i><br>
 <i><em>Dasyornis broadbenti</em></i><br>
 <i><em>Dasyornis longirostris</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bristlebirds.jpg/250px-Bristlebirds.jpg
+456,74,Pardalotes,2014-09-10 03:15:21.959402,2014-09-10 08:36:25.785152,Unknown,
+457,74,Thornbills_and_gerygones,2014-09-10 03:15:24.00567,2014-09-10 08:36:26.706775,Unknown,
+458,74,Australasian_babblers,2014-09-10 03:15:59.184808,2014-09-10 08:36:27.52615,Unknown,
+459,74,Logrunners,2014-09-10 03:16:01.999444,2014-09-10 08:36:27.976117,"<div class=""intro"">2, <i>see text</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Logrunner.jpg/200px-Logrunner.jpg
+460,74,Satin_birds,2014-09-10 03:16:05.478701,2014-09-10 08:36:28.754603,Unknown,
+461,74,Berrypeckers,2014-09-10 03:16:06.965154,2014-09-10 08:36:29.574251,Unknown,
+462,74,Wattled_crows,2014-09-10 03:16:13.41579,2014-09-10 08:36:30.392602,Unknown,
+463,74,Whipbirds_wedgebills_and_jewel-babblers,2014-09-10 03:16:15.117832,2014-09-10 08:36:31.212485,Unknown,
+464,74,Quail-thrushes,2014-09-10 03:16:20.12584,2014-09-10 08:36:32.031119,Unknown,
+465,74,Shrike-flycatchers_wattle-eyes_and_batises,2014-09-10 03:16:22.783902,2014-09-10 08:36:32.850089,Unknown,
+466,74,Helmetshrikes_bushshrikes_and_puffbacks,2014-09-10 03:16:45.932561,2014-09-10 08:36:34.417469,Unknown,
+467,74,Boatbills,2014-09-10 03:17:18.931121,2014-09-10 08:36:35.321225,Unknown,
+468,74,Vangas,2014-09-10 03:17:19.900394,2014-09-10 08:36:36.128168,Unknown,
 469,74,Butcherbirds,2014-09-10 03:17:32.063004,2014-09-10 08:36:36.380875,"<div class=""intro""><i>C. quoyi</i><br>
 <i>C. torquatus</i><br>
 <i>C. cassicus</i><br>
@@ -1132,20 +1087,41 @@ For fossil <em>text</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/
 <i>C. mentalis</i><br>
 <i>C. nigrogularis</i><br>
 <i>C. tibicen</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cracticus_torquatus_-Brisbane_-garden_fence-8.jpg/220px-Cracticus_torquatus_-Brisbane_-garden_fence-8.jpg
+470,74,Woodswallows,2014-09-10 03:17:38.223859,2014-09-10 08:36:37.357318,Unknown,
+471,74,Ioras,2014-09-10 03:17:44.193646,2014-09-10 08:36:38.175359,Unknown,
 472,74,Bristlehead,2014-09-10 03:17:46.51477,2014-09-10 08:36:38.848002,"<div class=""intro"">The <b>Bornean bristlehead</b> (<i>Pityriasis gymnocephala</i>), also variously known as the <b>bristled shrike</b>, <b>bald-headed crow</b> or the <b>bald-headed wood-shrike</b>, is the only member of the <em><span>[</span>3<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Barite_chauve.JPG/280px-Barite_chauve.JPG
+473,74,Cuckoo-shrikes,2014-09-10 03:17:46.99298,2014-09-10 08:36:39.917623,Unknown,
+474,74,Sittellas,2014-09-10 03:18:33.011279,2014-09-10 08:36:40.735325,Unknown,
+475,74,Shrike-tits,2014-09-10 03:18:34.189964,2014-09-10 08:36:41.76,Unknown,
 476,74,Whistlers,2014-09-10 03:18:35.29151,2014-09-10 08:36:41.982445,"<div class=""intro"">A <b>whistler</b> is a <em>magnetosphere</em>. Thus they are perceived as a descending tone which can last for a few seconds. The study of whistlers categorizes them into Pure Note, Diffuse, 2-Hop, and Echo Train types.</div>",none
 477,74,Shrikes,2014-09-10 03:18:54.352325,2014-09-10 08:36:42.298023,"<div class=""intro""><b>Shrikes</b> are <em>Malaconotidae</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Juvenile_Long-tailed_Fiscals.jpg/220px-Juvenile_Long-tailed_Fiscals.jpg
+478,74,Vireos_and_allies,2014-09-10 03:19:12.499435,2014-09-10 08:36:43.194667,Unknown,
+479,74,Orioles_and_figbirds,2014-09-10 03:19:42.343153,2014-09-10 08:36:44.214072,Unknown,
+480,74,Shrike-thrushes_and_allies,2014-09-10 03:19:59.610576,2014-09-10 08:36:45.240751,Unknown,
+481,74,New_Zealand_thrushes,2014-09-10 03:20:08.771295,2014-09-10 08:36:46.060275,Unknown,
+482,74,Drongos,2014-09-10 03:20:09.793002,2014-09-10 08:36:46.608237,"<div class=""intro""><b>Drongos</b> may refer to:</div>",none
 483,74,Fantails,2014-09-10 03:20:25.202884,2014-09-10 08:36:47.494134,Unknown,
 484,74,Monarchs,2014-09-10 03:20:49.160211,2014-09-10 08:36:47.826982,"<div class=""intro"">A <b>monarch</b> is the <em>constitutional monarchy</em>).</div>",none
+485,74,Crows_and_jays,2014-09-10 03:21:47.304956,2014-09-10 08:36:48.710065,Unknown,
+486,74,Australian_mudnesters,2014-09-10 03:22:54.836257,2014-09-10 08:36:49.715471,Unknown,
 487,74,Birds_of_paradise,2014-09-10 03:22:55.960505,2014-09-10 08:36:50.070708,"<div class=""intro"">14 genera, 41 species</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/15/Wilson%27s_Bird_of_Paradise.jpg/300px-Wilson%27s_Bird_of_Paradise.jpg
+488,74,Australasian_robins,2014-09-10 03:23:18.101944,2014-09-10 08:36:50.946007,Unknown,
 489,74,Rockfowl,2014-09-10 03:23:42.544491,2014-09-10 08:36:51.654871,"<div class=""intro""><i><em>P. gymnocephalus</em></i><br>
 <i><em>P. oreas</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/7/76/White-necked_Rockfowl_%28Picathartes_gymnocephalus%29cropped.jpg/300px-White-necked_Rockfowl_%28Picathartes_gymnocephalus%29cropped.jpg
 490,74,Waxwings,2014-09-10 03:23:43.619917,2014-09-10 08:36:51.906221,"<div class=""intro"">The <b>waxwings</b> form the genus <i><b>Bombycilla</b></i> of <em>Phainoptila</em></i> is sometimes included.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Bohemian_Wax_Wing.jpg/250px-Bohemian_Wax_Wing.jpg
+491,74,Palmchat,2014-09-10 03:23:47.897519,2014-09-10 08:36:52.134298,"<div class=""intro"">The <b>palmchat</b> (<i>Dulus dominicus</i>) is a small, long-tailed <em>palms</em> for feeding, roosting and nesting.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dulus_dominicus.JPG/220px-Dulus_dominicus.JPG
+492,74,Tits_and_chickadees,2014-09-10 03:23:48.39912,2014-09-10 08:36:52.920606,Unknown,
+493,74,Penduline-tits,2014-09-10 03:24:22.820668,2014-09-10 08:36:54.149629,Unknown,
+494,74,Swallows_and_martins,2014-09-10 03:24:32.054576,2014-09-10 08:36:54.971125,Unknown,
 495,74,Long-tailed_tits,2014-09-10 03:25:28.115166,2014-09-10 08:36:55.255354,"<div class=""intro""><i><em>Hermann</em> 1804</small><br>
 <i><em>Townsend</em>, 1837</small><br>
 <i><em>Temminck</em> 1836</small><br>
 <i><em>Severtsov</em>, 1873</small></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Aegithalos_caudatus_side-on.jpg/240px-Aegithalos_caudatus_side-on.jpg
 496,74,Larks,2014-09-10 03:25:34.189458,2014-09-10 08:36:56.191272,"<div class=""intro""><b>Larks</b> are <em>North America</em>. Habitats vary widely, but many species live in dry regions.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Alauda_arvensis_2.jpg/250px-Alauda_arvensis_2.jpg
+497,74,Cisticolas_and_allies,2014-09-10 03:26:34.731014,2014-09-10 08:36:57.222584,Unknown,
+498,74,Bulbuls,2014-09-10 03:27:52.521179,2014-09-10 08:36:57.938818,Unknown,
+499,74,Old_World_warblers,2014-09-10 03:29:13.306483,2014-09-10 08:36:58.962514,Unknown,
+500,74,Babblers_and_parrotbills,2014-09-10 03:32:18.770887,2014-09-10 08:36:59.888211,Unknown,
 501,74,White-eyes,2014-09-10 03:35:32.743541,2014-09-10 08:37:00.149828,"<div class=""intro""><i><em>Apalopteron</em></i><br>
 <i><em>Cleptornis</em></i><br>
 <i><em>Heleia</em></i><br>
@@ -1160,17 +1136,41 @@ For fossil <em>text</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/
 <i><em>Woodfordia</em></i><br>
 <i><em>Yuhina</em></i><br>
 <i><em>Zosterops</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Silvereyepairofjuveniles.jpg/250px-Silvereyepairofjuveniles.jpg
+502,74,Fairy-bluebirds,2014-09-10 03:36:31.210758,2014-09-10 08:37:01.010856,Unknown,
+503,74,Goldcrests_and_kinglets,2014-09-10 03:36:32.441954,2014-09-10 08:37:01.932584,Unknown,
 504,74,Wrens,2014-09-10 03:36:36.576683,2014-09-10 08:37:02.804464,"<div class=""intro"">The <b>wrens</b> are mostly small, brownish <em>Maluridae</em>).</div>",//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cistothorus_palustris_Iona.jpg/240px-Cistothorus_palustris_Iona.jpg
+505,74,Gnatcatchers,2014-09-10 03:37:22.515281,2014-09-10 08:37:03.396692,"<div class=""intro""><i><em>Microbates</em><br>
+<em>Ramphocaenus</em><br>
+<em>Polioptila</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/California_Gnatcatcher.jpg/300px-California_Gnatcatcher.jpg
+506,74,Nuthatches_and_wallcreeper,2014-09-10 03:37:30.993366,2014-09-10 08:37:04.390079,Unknown,
 507,74,Treecreepers,2014-09-10 03:37:46.004786,2014-09-10 08:37:04.656935,"<div class=""intro""><i><em>Certhia</em></i><br>
 <i><em>Salpornis</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Certhia-americana-001.jpg/120px-Certhia-americana-001.jpg
 508,74,Black-capped_Donacobius,2014-09-10 03:37:52.110465,2014-09-10 08:37:05.370865,"<div class=""intro"">The <b>black-capped donacobius</b> (<i>Donacobius atricapilla</i>) is a conspicuous, vocal <em><span>[</span>1<span>]</span></em></sup></div>",//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Donacobius_atricapilla_-Fazenda_Campo_de_Ouro%2C_Piraju%2C_Sao_Paulo%2C_Brasil-8.jpg/240px-Donacobius_atricapilla_-Fazenda_Campo_de_Ouro%2C_Piraju%2C_Sao_Paulo%2C_Brasil-8.jpg
+509,74,Mockingbirds_and_thrashers,2014-09-10 03:37:52.723762,2014-09-10 08:37:06.335918,Unknown,
 510,74,Philippine_creepers,2014-09-10 03:38:11.469115,2014-09-10 08:37:06.963221,"<div class=""intro""><i><em>Rhabdornis grandis</em></i><br>
 <i><em>Rhabdornis inornatus</em></i><br>
 <i><em>Rhabdornis mystacalis</em></i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/7575_Stripe-sided_Rhabdornis_3.jpg/220px-7575_Stripe-sided_Rhabdornis_3.jpg
+511,74,Starlings,2014-09-10 03:38:12.926215,2014-09-10 08:37:07.265568,"<div class=""intro"">Nearly 30, see text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Lamprotornis_hildebrandti_-Tanzania-8-2c.jpg/250px-Lamprotornis_hildebrandti_-Tanzania-8-2c.jpg
 512,74,Thrushes,2014-09-10 03:39:22.012475,2014-09-10 08:37:08.039598,"<div class=""intro"">Some 20, see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/American_Robin_0025.jpg/220px-American_Robin_0025.jpg
+513,74,Chats_and_Old_World_flycatchers,2014-09-10 03:41:06.177492,2014-09-10 08:37:08.897611,Unknown,
 514,74,Dippers,2014-09-10 03:44:08.481826,2014-09-10 08:37:09.182491,"<div class=""intro""><b>Dippers</b> are members of the genus <i><b>Cinclus</b></i> in the <em>passerines</em> for their ability to dive and swim underwater.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cinclus_mexicanus_FWS.jpg/220px-Cinclus_mexicanus_FWS.jpg
+515,74,Leafbirds,2014-09-10 03:44:11.376502,2014-09-10 08:37:10.021425,Unknown,
+516,74,Flowerpeckers,2014-09-10 03:44:17.885648,2014-09-10 08:37:10.727688,Unknown,
 517,74,Sunbirds,2014-09-10 03:44:43.082637,2014-09-10 08:37:11.557631,"<div class=""intro"">15, see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Crimson_Sunbird_%28Aethopyga_siparaja%29_male.jpg/300px-Crimson_Sunbird_%28Aethopyga_siparaja%29_male.jpg
 518,74,Sugarbirds,2014-09-10 03:45:57.704493,2014-09-10 08:37:12.202595,"<div class=""intro"">See text.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Cape_Sugarbird_%28Promerops_cafer%29.jpg/220px-Cape_Sugarbird_%28Promerops_cafer%29.jpg
+519,74,Sparrows_snowfinches_and_allies,2014-09-10 03:45:58.82564,2014-09-10 08:37:12.991105,Unknown,
+520,74,Weavers_and_allies,2014-09-10 03:46:28.92155,2014-09-10 08:37:13.708767,Unknown,
+521,74,Waxbills_grass_finches_munias_and_allies,2014-09-10 03:47:30.789813,2014-09-10 08:37:14.52733,Unknown,
+522,74,Indigobirds_and_allies,2014-09-10 03:48:54.069302,2014-09-10 08:37:15.551233,Unknown,
+523,74,Accentors,2014-09-10 03:49:05.915954,2014-09-10 08:37:16.370694,Unknown,
 524,74,Olive_Warbler,2014-09-10 03:49:13.220918,2014-09-10 08:37:17.055272,"<div class=""intro"">The <b>olive warbler</b> (<i>Peucedramus taeniatus</i>) is a small <em>family</em> <b>Peucedramidae</b>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Olive_Warbler_%28Peucedramus_taeniatus%29.jpg/220px-Olive_Warbler_%28Peucedramus_taeniatus%29.jpg
+525,74,Wagtails_and_pipits,2014-09-10 03:49:13.717929,2014-09-10 08:37:17.906537,Unknown,
+526,74,Finches_and_Hawaiian_honeycreepers,2014-09-10 03:49:28.431905,2014-09-10 08:37:18.93049,Unknown,
+527,74,Pink-tailed_Bunting,2014-09-10 03:51:03.619105,2014-09-10 08:37:19.750421,Unknown,
+528,74,New_World_warblers,2014-09-10 03:51:48.514354,2014-09-10 08:37:21.184099,Unknown,
+529,74,Grosbeaks_saltators_and_allies,2014-09-10 03:52:56.374744,2014-09-10 08:37:22.207941,Unknown,
+530,74,New_World_blackbirds,2014-09-10 03:52:58.557628,2014-09-10 08:37:22.924631,Unknown,
 531,74,Bananaquit,2014-09-10 03:54:03.939678,2014-09-10 08:37:23.230934,"<div class=""intro""><i>Certhiola martinicensis</i><br>
 <i>Certhiola dominicana</i></div>",//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Bananaquits.jpg/220px-Bananaquits.jpg
+532,74,Buntings_American_sparrows_and_allies,2014-09-10 03:54:04.704058,2014-09-10 08:37:24.257721,Unknown,
+533,74,Tanagers,2014-09-10 03:55:32.382724,2014-09-10 08:37:24.963965,"<div class=""intro"">many: see text</div>",//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Green-headed_Tanager_Ubatuba.jpg/220px-Green-headed_Tanager_Ubatuba.jpg
