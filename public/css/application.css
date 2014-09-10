@@ -126,7 +126,7 @@ li {
   height: auto;
 /*  padding: 0px 20px 20px 20px;*/
   border: 4px solid black;
-  background-image: url("/image/white-linen-background.jpg");
+  background-color: #63cc4d;
   position: fixed;
   top: 100px;
   left: 50%;
@@ -136,7 +136,7 @@ li {
 }
 
 #new-user-form {
-  color: gray;
+  color: white;
   width: 35%;
   margin: 90px auto;
 
@@ -144,30 +144,22 @@ li {
 
 #new-user-form h3 {
   text-align: center;
-  color: gray;
+  color: white;
   font-size: 2em;
 }
 
 #new-user {
-  margin-left: 70px;
-  font-size: 1.45em;
+  /*margin-left: 10px;*/
+  font-size: 1.65em;
 }
 
-#lname-field {
-  margin-left: 6px;
-}
-
-#email-field {
-  margin-left: 42px;
-}
-
-#password-field {
- margin-left: 11px;
+#fname-field, #lname-field, #email-field, #password-field {
+  margin-left: 0px;
 }
 
 #submit-btn {
   display: block;
-  margin-left: 100px;
+  margin-left: 65px;
   margin-top: 15px;
 }
 
