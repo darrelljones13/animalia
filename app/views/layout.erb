@@ -33,7 +33,7 @@
       </h1>
       <ul>
         <li>
-          <a href="#" id="random-animal-link">Random Animal</a>
+          <a href="/species/random" id="random-animal-link">Random Animal</a>
         </li>
         <li>
           <a href='#' id="search-link">Search</a>
@@ -83,14 +83,14 @@
         <h2><%= @species.common_name %></h2>
         <h3><em><%= @species.scientific_name %></em></h3>
         
-        <ul>
-          <div class="status">
+        <div class="status">
+          <ul>
             <li>Endangered Species Status: <%= @species.redListStatus %></li>
               <% if @species.population_trend != nil %>
             <li>Population Trends: <%= @species.population_trend %></li>
-          </div>
+          </ul>
+        </div>
             <% end %>
-        </ul>
                 
         <div class="species-info">      
           <h3>Range</h3><p><%= @species.range %></p>
