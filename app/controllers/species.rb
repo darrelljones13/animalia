@@ -35,7 +35,7 @@ post '/species' do
 end
 
 post '/species/search' do
-  @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:species].downcase}%", "%#{params[:species].downcase}%")
+  @species = Species.find_by("lower(common_name) LIKE ? OR lower(scientific_name) LIKE ?", "%#{params[:animal].downcase}%", "%#{params[:animal].downcase}%")
     @relatives = Species.where("genus_id = ? AND id != ?", @species.genus_id, @species.id).limit(10)
   erb :card, layout: false
 end

@@ -34,10 +34,12 @@ $(document).ready(function() {
 		});
 	});
 
-	$('#species-search-input-submit').on('click', function() {
+	$('#species-search-input-submit').on('click', function(event) {
 		event.preventDefault();
 		hideAllOverlays();
-		$.get('/species/search', function(data) {
+		var searchInput = $('#species-search-input').val();
+		console.log(searchInput)
+		$.post('/species/search', {animal: searchInput}, function(data) {
 			$("#species-card.overlay").html(data);
 			$("#species-card.overlay").show();
 		});
