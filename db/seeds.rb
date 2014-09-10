@@ -112,7 +112,7 @@ class Parser
   end
 
    def self.seed_wiki_order
-    @orders = Order.all
+    @orders = Order.where(image_name: nil)
     @orders.each do |ord|
       wiki_info = ord.parse_wiki_order
       unless wiki_info.nil?
@@ -125,10 +125,21 @@ class Parser
   def self.seed_wiki_family
     @families = Family.all
     @families.each do |family|
-      unless family.parse_wiki_family.nil?
-        family.update( family.parse_wiki_family )
+      family.name = family.name.gsub(",", "").gsub(" ","_")
+      family.save
+      wiki_info = family.parse_wiki_family
+      unless wiki_info.nil?
+        family.update( wiki_info )
         family.save
       end
+    end
+  end
+
+  def self.seed_genus_photos
+    @genus = Genus.all
+    @genus.each do |genus|
+        genus.update( genus.get_genus_photos )
+        genus.save
     end
   end
 
@@ -142,25 +153,51 @@ class Parser
     end
   end
 
-  def self.seed_genus_photos
-    @genus = Genus.all
-    @genus.each do |genus|
-        genus.update( genus.get_genus_photos )
-        genus.save
-    end
-  end
-
 end
 
 class BigDataParser
 
-  def seed_species
+  def self.seed_kingdom_phylum
     kingdom = Kingdom.create(name: "Animalia")
-    phylum = Phylum.create(name: "Chordata", kingdom_id: Kingdom.last.id)
-    chlass = Chlass.create(name: "Aves", phylum_id: Phylum.last.id)
-      # Order.create(name: species["Order"], chlass_id: Chlass.last.id)
-      # Family.create(name: species["Family"], order_id: Order.last.id)
-      # Genus.create(name: species["Scientific name"].split(" ")[0], family_id: Family.last.id)
+    phylum = Phylum.create(name: "Chordata", kingdom_id: 1)
+  end
+
+
+  def self.seed_chlass
+    CSV.foreach('chlasses123.csv', :headers => true) do |row|
+      Chlass.create(phylum_id: 1, name: row["name"])
+    end
+  end
+  
+  def self.seed_order
+    CSV.foreach('orders456.csv', :headers => true) do |row|
+      Order.create(chlass_id: row["chlass_id"], 
+                   name: row["name"],
+                   wikitext: row["wikitext"],
+                   image_name: row["image_name"])
+    end
+  end
+
+  def self.seed_family
+    CSV.foreach('families456.csv', :headers => true) do |row|
+      Family.create(order_id: row["order_id"], 
+                   name: row["name"],
+                   wikitext: row["wikitext"],
+                   image_name: row["image_name"])
+    end
+  end
+
+  def seed_genus
+    CSV.foreach('genus123.csv', :headers => true) do |row|
+      Genus.create(
+        family_id: row["family_id"],
+        name: row["name"],
+        wikitext: row["wikitext"],
+        image_name: row["image_name"])
+    end
+  end
+
+  def self.seed_species
     CSV.foreach('123kingdom123.csv', :headers => true) do |row|
       Species.create(
         genus_id: row["genus_id"],
@@ -175,13 +212,25 @@ class BigDataParser
         range: row["range"],
         habitat: row["habitat"],
         major_threats: row["major_threats"])
-        # id,genus_id,common_name,scientific_name,red_list_status,population_trend,created_at,updated_at,wikitext,image_name,red_list_id,range,habitat,major_threats
     end
   end
 
+  def self.shark_dot_all
+    seed_kingdom_phylum
+    seed_chlass
+    seed_order
+    seed_family
+    seed_genus
+    seed_species
+  end
 
 end
 
+#=== use this guy to seed from CSVs =============#
+BigDataParser.shark_dot_all
+#================================================#
+
+#=Wont need to run these if the CSV seeding works==#
 # Parser.seed_birds
 # Parser.seed_mammals
 # Parser.seed_reptiles
@@ -191,4 +240,4 @@ end
 # Parser.seed_wiki_family
 # Parser.seed_wiki_order
 # Parser.seed_genus_photos
-
+#================================================#

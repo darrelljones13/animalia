@@ -31,7 +31,11 @@ class Order < ActiveRecord::Base
     begin
       url = "http://en.wikipedia.org/wiki/#{self.name.downcase}"
       doc = Nokogiri::HTML(open(url))
-      img_link = doc.search('.infobox img')[0]['src']  # img source
+      unless doc.search('.infobox img').empty?
+        img_link = doc.search('.infobox img')[0]['src']  # img source
+      else
+        img_link = "none"
+      end
       intro = (doc.search('p')[0]).to_s # description
       intro.gsub!(P_START, '<div class="intro">')
       intro.gsub!(P_END, "</div>")
@@ -39,6 +43,7 @@ class Order < ActiveRecord::Base
       intro.gsub!(A_END, "</em>")
       return {wikitext: intro, image_name: img_link}
     rescue OpenURI::HTTPError => ex
+      return {wikitext: "Unknown"}
     end
   end
 
