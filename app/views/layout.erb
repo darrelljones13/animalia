@@ -74,6 +74,7 @@
 
       <div class="card-container">
         <div class="main-image">
+          <% if @species %>
           <img src="<%= @species.image_name %>" style="float: right"/>
         </div>
         
@@ -120,6 +121,7 @@
               <input class="add-to-collection" type="submit" value="Add to Collection!" />
             </form>
             <% end %>
+        <% end %>
                       
         </div>
                       

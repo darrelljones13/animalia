@@ -6,17 +6,13 @@ post '/users/login' do
   redirect '/'
 end
 
-get '/users/new' do
-  erb :"users/new"
-end
-
 get '/logout' do
   session.clear
   redirect '/'
 end
 
 # register
-get 'users/new' do
+get '/users/new' do
   erb :'users/new'
 end
 
