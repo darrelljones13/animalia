@@ -46,11 +46,17 @@ function populateCards(clicked, next) {
         function(data,status) {
             data.forEach( function(object) {
                 $(".bar." + next).append('<div class="icons"><img src="' + object['image'] + '" /><h4>' + object['name'] + '</h4><span class="hidden-id">' + object['id'] + '</span></div>');
+
         });
     });
     request.done(function() {
         resizeIcons();
+        preloadIconImages();
     });
+}
+
+function preloadIconImages() {
+
 }
 
 function populateSpeciesDetail(clicked, next) {
