@@ -12,6 +12,8 @@ body {
 
 #logo img {
   width: 99%;
+  border-radius: 0;
+  border: none;
 }
 
 header {
