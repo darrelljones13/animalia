@@ -2,25 +2,7 @@ $(document).ready(function(){
     $(window).resize(function(){
       resizeIcons();
     });
-
     resizeIcons();
-    // BAR CLICKS **********************************
-    // $(".container").on("click", ".bar.active", function(event) {
-    //     var level = $(this).attr("id");
-    //     var next = parseInt(level) + 1;
-    //     console.log("hey")
-
-    //     $(".bar").removeClass("selected");
-    //     $(this).addClass("selected");
-
-    //     setTimeout(function() {
-    //         for(var x = 1; x < level; x++) {
-    //             $("#" + x).addClass("active");
-    //         }
-    //     }, 300);
-
-    // });
-
     // CARD CLICKS **********************************
     $(".bar").on("click", ".icons", function(event) {
         $(this).parent().scrollTop($(this).position());
@@ -29,54 +11,15 @@ $(document).ready(function(){
         var next = (parseInt(level) + 1);
         $.when(moveTaxonomyForward(this, next)).then(resizeIcons());
         if(next === 8) {
-            request = $.get("/ajax/" + $(this).children('.hidden-id').text() + "/"+ next,function(data,status){
-                $(".description").html(data['description']);
-                $(".detail h3").text(data['name']);
-                $(".red_list_status").text(data['status']);
-                $(".population_trend").text(data['trend']);
-                $(".bar .hierarchy .kingdom").html(data['taxonomy']['kingdom']);
-                $(".bar .hierarchy .phylum").html(data['taxonomy']['phylum']);
-                $(".bar .hierarchy .class").html(data['taxonomy']['class']);
-                $(".bar .hierarchy .order").html(data['taxonomy']['order']);
-                $(".bar .hierarchy .family").html(data['taxonomy']['family']);
-                $(".bar .hierarchy .genus").html(data['taxonomy']['genus']);
-                $(".bar .hierarchy .species").html(data['taxonomy']['species']);
-            });
-            request.done(function() {
-                resizeIcons();
-            });
-            // headed to species detail
+            // prepare species detail
+            clearSpeciesDetail();
+            populateSpeciesDetail(this, next);
+            // move view to species detail
             $(".bar.species").addClass(".active");
-
-            $(".detail img").attr("src", $(this).children("img").attr("src"));
-
         }else{
-            request = $.get("/ajax/" + $(this).children('.hidden-id').text() + "/"+ next,function(data,status){
-                data.forEach( function(object) {
-                    $(".bar." + next).append('<div class="icons"><img src="' + object['image'] + '" /><h4>' + object['name'] + '</h4><span class="hidden-id">' + object['id'] + '</span></div>');
-                });
-            });
-            request.done(function() {
-                resizeIcons();
-            });
-
+            populateCards(this, next);
         }
-
     });
-
-
-//
-//    $(".bar.class").on("click", ".cards", function(event) {
-//        $(".bar").removeClass("selected");
-//        $(".bar.order").addClass("selected");
-//        $(".cards").remove();
-//        for(var i = 0; i < 20; i++) {
-//            $(".bar.order").append('<div class=cards>NAME</div>')
-//            $(".bar.order").append('<div class="cards odd">NAME</div>')
-//        }
-//
-//    });
-
 });
 
 function resizeIcons() {
@@ -97,3 +40,53 @@ function moveTaxonomyForward(clicked, next) {
     $(clicked).siblings().removeClass("breadcrumb")
     $(clicked).addClass("breadcrumb");
 }
+
+function populateCards(clicked, next) {
+    request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next,
+        function(data,status) {
+            data.forEach( function(object) {
+                $(".bar." + next).append('<div class="icons"><img src="' + object['image'] + '" /><h4>' + object['name'] + '</h4><span class="hidden-id">' + object['id'] + '</span></div>');
+        });
+    });
+    request.done(function() {
+        resizeIcons();
+    });
+}
+
+function populateSpeciesDetail(clicked, next) {
+    console.log(clicked);
+    var request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next, function(data,status){
+        $(".description").html(data['description']);
+        $(".detail h3").text(data['name']);
+        $(".red_list_status").text(data['status']);
+        $(".population_trend").text(data['trend']);
+        $(".bar .hierarchy .kingdom").html(data['taxonomy']['kingdom']);
+        $(".bar .hierarchy .phylum").html(data['taxonomy']['phylum']);
+        $(".bar .hierarchy .class").html(data['taxonomy']['class']);
+        $(".bar .hierarchy .order").html(data['taxonomy']['order']);
+        $(".bar .hierarchy .family").html(data['taxonomy']['family']);
+        $(".bar .hierarchy .genus").html(data['taxonomy']['genus']);
+        $(".bar .hierarchy .species").html(data['taxonomy']['species']);
+        $(".detail img").attr("src", $(clicked).children("img").attr("src"));
+    });
+    request.done(function() {
+        resizeIcons();
+    });
+}
+
+function clearSpeciesDetail() {
+    $(".description").html("");
+    $(".detail h3").text("");
+    $(".red_list_status").text("");
+    $(".population_trend").text("");
+    $(".bar .hierarchy .kingdom").html("");
+    $(".bar .hierarchy .phylum").html("");
+    $(".bar .hierarchy .class").html("");
+    $(".bar .hierarchy .order").html("");
+    $(".bar .hierarchy .family").html("");
+    $(".bar .hierarchy .genus").html("");
+    $(".bar .hierarchy .species").html("");
+    $(".detail img").attr("src", "");
+}
+
+
