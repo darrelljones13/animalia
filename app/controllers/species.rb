@@ -142,25 +142,21 @@ get '/preload/:parent/:level' do |parent, level|
   case level.to_i
     when 4
       Order.where(chlass_id: parent).pluck(:id).each do |order|
-        puts "**********" + order[0]
-        Family.where(order_id: order[0]).pluck(:image_name).each do |item|
-          items << {image: item[0]}
+        Family.where(order_id: order).pluck(:image_name).each do |item|
+          items << {image: item}
         end
       end
     when 5
       Family.where(order_id: parent).pluck(:id).each do |family|
-        puts "**********" + family[0]
-        Genus.where(family_id: family[0]).pluck(:image_name).each do |item|
-          items << {image: item[0]}
+        Genus.where(family_id: family).pluck(:image_name).each do |item|
+          items << {image: item}
         end
       end
     when 6
       Genus.where(family_id: parent).pluck(:id).each do |genus|
-        puts "**********" + genus.to_s
-          Species.where(genus_id: g.to_s).pluck(:image_name).each do |item|
-            items << {image: item[0]}
-          end
-
+        Species.where(genus_id: genus).pluck(:image_name).each do |item|
+          items << {image: item}
+        end
       end
     when 7
       items = {}

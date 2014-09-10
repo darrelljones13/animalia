@@ -66,10 +66,11 @@ function populateCards(clicked, next) {
 }
 
 function preloadIconImages(clicked, next) {
+    $('.preload-image-container').empty();
     request = $.get("/preload/" + clicked + "/"+ next,
-        function(data,status) {
+        function(data) {
             data.forEach( function(object) {
-                ('.preload-image-container').append('<img src="' + image + '" />');
+                $('.preload-image-container').append('<img src="' + object['image'] + '" />');
         });
     });
 }
