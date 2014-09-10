@@ -27,6 +27,7 @@ $(document).ready(function(){
         $('.icons').css("height", "");
         var level = $(this).parent().attr("class").split(' ')[0];
         var next = (parseInt(level) + 1);
+        $.when(moveTaxonomyForward(this, next)).then(resizeIcons());
         if(next === 8) {
             request = $.get("/ajax/" + $(this).children('.hidden-id').text() + "/"+ next,function(data,status){
                 $(".description").html(data['description']);
@@ -61,15 +62,6 @@ $(document).ready(function(){
 
         }
 
-
-        $(".selected").removeClass("selected");
-        $("." + next).addClass("selected").removeClass("inactive");
-        $("." + next).children(".icons").remove();
-        for(var i = next; i <= 7; i++) {
-            $("." + i).removeClass("active").children(".icons").remove();
-        };
-        $(this).siblings().removeClass("breadcrumb")
-        $(this).addClass("breadcrumb");
     });
 
 
@@ -93,3 +85,15 @@ function resizeIcons() {
         $(this).css("height", width);
     });
 };
+
+function moveTaxonomyForward(clicked, next) {
+    $(".selected").removeClass("selected");
+    $("." + next).addClass("selected").removeClass("inactive");
+    $("." + next).children(".icons").remove();
+
+    for(var i = next; i <= 7; i++) {
+        $("." + i).removeClass("active").children(".icons").remove();
+    };
+    $(clicked).siblings().removeClass("breadcrumb")
+    $(clicked).addClass("breadcrumb");
+}
