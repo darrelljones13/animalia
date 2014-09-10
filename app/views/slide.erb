@@ -65,9 +65,12 @@
             <div class="6 genus"> </div>
             <div class="7 species"> </div>
         </div>
+
+        <% if current_user %>
         <form id="add-card-button" action="/add_to_collection" method="POST">
           <input class="" type="submit" value="Add to Collection!" />
         </form>
+        <% end %>
     </div>
 </div>
 <div class="hierarchy taxonomy-footer">
