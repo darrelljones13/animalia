@@ -176,16 +176,16 @@ li {
 
 .collection-page-headline {
   text-align: left;
-  padding-left: 150px;
+  padding-left: 250px;
   font-size: 2.5em
 }
 
 .profile-container {
-  width: 600px;
-  height: auto;
+  width: 800px;
+  height: 80%;
   padding: 20px;
   border: 4px solid black;
-  background-color: #63cc4d;
+  background-image: url("/image/white-linen-background.jpg");
   position: fixed;
   top: 100px;
   left: 50%;
@@ -206,41 +206,54 @@ li {
   height: auto;
 }
 
+.collection-card {
+  display: inline;
+
+}
+
 .collection-card .card {
+
   background-color: gray;
-  display: inline-block;
+ /* flex: 1;*/
   border-radius: 8px;
   border: 5px;
   padding: 10px;
   position: relative;
-  margin: 10px;
-  box-shadow: 5px 5px 5px #444;
+  margin: 5px;
+  box-shadow: 0px 0px 5px #444;
   width: 80px;
   height: 150px;
-  left: 0;
+  overflow: hidden;
+  display: inline-block;
+
+
 
 }
 
 
  .collection-card .card h3 {
   text-align: center;
-  bottom: 0;
   color: white;
-
+  font-size: 12px;
 }
 
 
+
 .collection-card .card img {
-  border: 2px solid gray;
-  border-radius: 100%;
+  border: 5px black;
+  border-radius: 10%;
   position: relative;
+  box-shadow: 0px 0px 5px #444;
   width: 100%;
   height: auto;
 }
 
-
 #collection_list {
   /*padding: 10px;*/
+}
+
+#create-collection {
+  display: inline;
 }
 
 .edit-collection {

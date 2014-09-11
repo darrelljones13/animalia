@@ -1,9 +1,9 @@
 <div class="profile-container">
   <h3 class="collection-page-headline"><%= @user.first_name %>'s Collections</h3>
   
-  <div class="collection-image"><img src="/image/lion-icon.png" alt=""></div>
+  <div class="collection-image"><img src="/image/blue-lion.png" alt=""></div>
 
-  <ul id="collection_list">
+  <div id="collection_list">
     <% unless @collections.nil? %>
       <% @collections.each do |collection| %>
 
@@ -15,7 +15,6 @@
           </form>
 
                 <div class="collection-card">
-          <ul>
             <% collection.cards.each do |card| %>
                   <div class="card">
                 <% if card.species.common_name != nil %>
@@ -24,18 +23,17 @@
                 <% else %>
                   <a href="/species/<%=card.species.id%>"><h3><%= card.species.scientific_name %></h3></a>
                 <% end %>
+          </div>
             <% end %>
           </div>
-          </div>
-          </ul>
-        
       <% end %>
+  <form method="POST" action="/collection/new">
+    <input type="text" name="collection_name" placeholder="collection name">
+    <input id="create-collection" type="submit" value="New Collection">
+  </form>
+  </div>
     <% end %>
-  </ul>
+ 
 <hr>
 
-<form method="POST" action="/collection/new">
-  <input type="text" name="collection_name" placeholder="collection name">
-  <input id="create-collection" type="submit" value="New Collection">
-</form>
 </div>
