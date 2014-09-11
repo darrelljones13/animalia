@@ -128,7 +128,7 @@ get '/ajax/:parent/:level' do |parent, level|
       else
         name = item.scientific_name
       end
-      items = {id: item.id, name: name, image: item.image_name, description: item.wikitext, status: item.redListStatus, trend: item.population_trend, taxonomy: item.taxonomy, range: item.range, habitat: item.habitat, major_threats: item.major_threats}
+      items = {id: item.id, name: name, image: item.image_name, status: item.redListStatus, trend: item.population_trend, range: item.range, habitat: item.habitat, major_threats: item.major_threats}
     end
 
     content_type :json
