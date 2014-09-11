@@ -94,14 +94,6 @@ end
 
 get '/ajax/:parent/:level' do |parent, level|
   items = []
-  images = [
-    "",
-    "/image/bird-icon.png",
-    "/image/lion-icon.png",
-    "/image/lizard-icon.png",
-    "/image/frog-icon.png",
-    "/image/fish-icon.png"
-  ]
 
   case level.to_i
     when 4
@@ -131,12 +123,48 @@ get '/ajax/:parent/:level' do |parent, level|
       puts "*"*50
       puts parent
       item = Species.find(parent.to_i)
-        if item.common_name != nil
-          name = item.common_name
-        else
-          name = item.scientific_name
+      if item.common_name != nil
+        name = item.common_name
+      else
+        name = item.scientific_name
+      end
+      items = {id: item.id, name: name, image: item.image_name, description: item.wikitext, status: item.redListStatus, trend: item.population_trend, taxonomy: item.taxonomy, range: item.range, habitat: item.habitat, major_threats: item.major_threats}
+    end
+
+    content_type :json
+    items.to_json
+end
+
+get '/preload/:parent/:level' do |parent, level|
+  items = []
+  parent = parent.to_i
+  case level.to_i
+    when 3
+      Order.all.pluck(:image_name).each do |item|
+        items << {image: item}
+      end
+    when 4
+      Order.where(chlass_id: parent).pluck(:id).each do |order|
+        Family.where(order_id: order).pluck(:image_name).each do |item|
+          items << {image: item}
         end
-        items = {id: item.id, name: name, image: item.image_name, description: item.wikitext, status: item.redListStatus, trend: item.population_trend, taxonomy: item.taxonomy}
+      end
+    when 5
+      Family.where(order_id: parent).pluck(:id).each do |family|
+        Genus.where(family_id: family).pluck(:image_name).each do |item|
+          items << {image: item}
+        end
+      end
+    when 6
+      Genus.where(family_id: parent).pluck(:id).each do |genus|
+        Species.where(genus_id: genus).pluck(:image_name).each do |item|
+          items << {image: item}
+        end
+      end
+    when 7
+      items = {}
+    when 8
+      items = {}
     end
 
     content_type :json

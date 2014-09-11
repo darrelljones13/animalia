@@ -3,19 +3,21 @@ $(document).ready(function(){
       resizeIcons();
     });
     resizeIcons();
+    preloadIconImages(1, 3) // order images
     // CARD CLICKS **********************************
     $(".bar").on("click", ".icons", function(event) {
         $(this).parent().scrollTop($(this).position());
         $('.icons').css("height", "");
         var level = $(this).parent().attr("class").split(' ')[0];
         var next = (parseInt(level) + 1);
-        $.when(moveTaxonomyForward(this, next)).then(resizeIcons());
+        moveTaxonomyForward(this, next);
+        resizeIcons();
         if(next === 8) {
             // prepare species detail
             clearSpeciesDetail();
             populateSpeciesDetail(this, next);
             // move view to species detail
-            $(".bar.species").addClass(".active");
+            $(".bar.species").addClass("active");
         }else{
             populateCards(this, next);
         }
@@ -23,7 +25,15 @@ $(document).ready(function(){
 });
 
 function resizeIcons() {
+    $(".icon-fake").each(function() {
+        width = $(this).width();
+        $(this).css("height", width);
+    });
     $(".icons").each(function() {
+        width = $(".icon-fake").width();
+        $(this).css("height", width);
+    });
+    $(".bar.selected .icons").each(function() {
         width = $(this).width();
         $(this).css("height", width);
     });
@@ -39,31 +49,40 @@ function moveTaxonomyForward(clicked, next) {
     };
     $(clicked).siblings().removeClass("breadcrumb")
     $(clicked).addClass("breadcrumb");
+
 }
 
 function populateCards(clicked, next) {
-    request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next,
+    var id = $(clicked).children('.hidden-id').text()
+    request = $.get("/ajax/" + id + "/"+ next,
         function(data,status) {
             data.forEach( function(object) {
                 $(".bar." + next).append('<div class="icons"><img src="' + object['image'] + '" /><h4>' + object['name'] + '</h4><span class="hidden-id">' + object['id'] + '</span></div>');
-
         });
     });
     request.done(function() {
         resizeIcons();
-        preloadIconImages();
+        preloadIconImages(id, next);
     });
 }
 
-function preloadIconImages() {
-
+function preloadIconImages(clicked, next) {
+    $('.preload-image-container').empty();
+    request = $.get("/preload/" + clicked + "/"+ next,
+        function(data) {
+            data.forEach( function(object) {
+                $('.preload-image-container').append('<img src="' + object['image'] + '" />');
+        });
+    });
 }
 
 function populateSpeciesDetail(clicked, next) {
-    console.log(clicked);
     var request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next, function(data,status){
         $(".description").html(data['description']);
-        $(".detail h3").text(data['name']);
+        $(".range").text(data['range']);
+        $(".habitat").text(data['habitat']);
+        $(".major_threats").text(data['major_threats']);
+        $(".card-container h3").text(data['name']);
         $(".red_list_status").text(data['status']);
         $(".population_trend").text(data['trend']);
         $(".bar .hierarchy .kingdom").html(data['taxonomy']['kingdom']);

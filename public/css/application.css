@@ -26,6 +26,7 @@ body {
 }
 
 header {
+  position: relative;
   background: white;
   position: fixed;
   top: 0;
