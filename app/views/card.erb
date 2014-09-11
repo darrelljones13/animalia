@@ -44,9 +44,9 @@
             <% end %>
         </div>            
         <% end %>
-
           <% if current_user %>
-          <form id="add-card-button" action="/add_to_collection" method="POST">
+          <form class="add-card-button" action="/add_to_collection" method="POST">
+          <span class="current-species-id" style="display: none;"><%= @species.id %></span>
             <input class="add-to-collection" type="submit" value="Add to Collection!" />
           </form>
           <% end %>
