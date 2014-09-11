@@ -226,11 +226,234 @@ class BigDataParser
 
 end
 
+class Relinker
+  def self.mammals
+    count = 0
+    CSV.foreach('Mammals_Higher_Taxonomy_8.csv', :headers => true) do |csv|
+      if s = Species.find_by(scientific_name: "#{csv['Genus']} #{csv['Species']}")
+        g = Genus.find_by(name: csv['Genus'])
+        f = Family.find_by(name: csv['Family'])
+        o = Order.find_by(name: csv['Order'])
+        c = 1
+
+        s.genus_id = g.id
+
+        if f != g.family_id
+          g.family_id = f.id
+          g.save
+        end
+
+        if o != f.order_id
+          f.order_id = o.id
+          f.save
+        end
+
+        if c != o.chlass_id
+          o.chlass_id = c.id
+          o.save
+        end
+        count += 1
+      end
+    end
+    puts "=" * 25
+    puts "Updated #{count} Records"
+  end
+
+  def self.birds
+    count = 0
+    CSV.foreach('birds_proper.csv', :headers => true) do |csv|
+      if s = Species.find_by(scientific_name: csv['Scientific name'])
+        g = Genus.find_by(name: csv["Scientific name"].split(" ")[0])
+        f = Family.find_by(name: csv['Family'])
+        o = Order.find_by(name: csv['Order'])
+        c = 5
+
+        s.genus_id = g.id
+
+        if f != g.family_id
+          g.family_id = f.id
+          g.save
+        end
+
+        if o != f.order_id
+          f.order_id = o.id
+          f.save
+        end
+
+        if c != o.chlass_id
+          o.chlass_id = c.id
+          o.save
+        end
+        count += 1
+      end
+    end
+    puts "=" * 25
+    puts "Updated #{count} Records"
+  end
+
+  def self.reptiles
+    count = 0
+    CSV.foreach('Reptiles_Higher_Taxonomy_8.csv', :headers => true) do |csv|
+      if s = Species.find_by(scientific_name: "#{csv['Genus']} #{csv['Species']}")
+        g = Genus.find_by(name: csv['Genus'])
+        f = Family.find_by(name: csv['Family'])
+        o = Order.find_by(name: csv['Order'])
+        c = 2
+
+        s.genus_id = g.id
+
+        if f != g.family_id
+          g.family_id = f.id
+          g.save
+        end
+
+        if o != f.order_id
+          f.order_id = o.id
+          f.save
+        end
+
+        if c != o.chlass_id
+          o.chlass_id = c.id
+          o.save
+        end
+        count += 1
+      end
+    end
+    puts "=" * 25
+    puts "Updated #{count} Records"
+  end
+
+  def self.amphibians
+    count = 0
+    CSV.foreach('Amphibians_Higher_Taxonomy_8.csv', :headers => true) do |csv|
+      if s = Species.find_by(scientific_name: "#{csv['Genus']} #{csv['Species']}")
+        g = Genus.find_by(name: csv['Genus'])
+        f = Family.find_by(name: csv['Family'])
+        o = Order.find_by(name: csv['Order'])
+        c = 3
+
+        s.genus_id = g.id
+
+        if f != g.family_id
+          g.family_id = f.id
+          g.save
+        end
+
+        if o != f.order_id
+          f.order_id = o.id
+          f.save
+        end
+
+        if c != o.chlass_id
+          o.chlass_id = c.id
+          o.save
+        end
+        count += 1
+      end
+    end
+    puts "=" * 25
+    puts "Updated #{count} Records"
+  end
+
+  def self.fishies
+    count = 0
+    CSV.foreach('MarineFish_Higher_Taxonomy_8.csv', :headers => true) do |csv|
+      if s = Species.find_by(scientific_name: "#{csv['Genus']} #{csv['Species']}")
+        g = Genus.find_by(name: csv['Genus'])
+        f = Family.find_by(name: csv['Family'])
+        o = Order.find_by(name: csv['Order'])
+        c = 4
+
+        s.genus_id = g.id
+
+        if f != g.family_id
+          g.family_id = f.id
+          g.save
+        end
+
+        if o != f.order_id
+          f.order_id = o.id
+          f.save
+        end
+
+        if c != o.chlass_id
+          o.chlass_id = c.id
+          o.save
+        end
+        count += 1
+      end
+    end
+    puts "=" * 25
+    puts "Updated #{count} Records"
+  end
+
+  def self.fixBlankImages
+    default_images = [
+      "",
+      "/image/lion-icon.png",
+      "/image/lizard-icon.png",
+      "/image/frog-icon.png",
+      "/image/fish-icon.png",
+      "/image/bird-icon.png"
+    ]
+
+    # http://localhost:9393/http:/images/default.jpg
+    xclasses = Chlass.all
+    xclasses.each do |xclass|
+      xorders = Order.where(chlass_id: xclass.id)
+      xorders.each do |xorder|
+        if xorder.image_name == nil || xorder.image_name.include?("Status_iucn") || xorder.image_name == "none" || xorder.image_name.include?("tree-frog-logo.png")
+          xorder.image_name = default_images[xclass.id]
+          xorder.save
+        end
+        xfamilies = Family.where(order_id: xorder.id)
+        xfamilies.each do |xfamily|
+          if xfamily.image_name == nil || xfamily.image_name.include?("Status_iucn") || xfamily.image_name == "none" || xfamily.image_name.include?("tree-frog-logo.png")
+            xfamily.image_name = xorder.image_name
+            xfamily.save
+          end
+          xgenuses = Genus.where(family_id: xfamily.id)
+          xgenuses.each do |xgenus|
+            if xgenus.image_name == nil || xgenus.image_name.include?("Status_iucn") || xgenus.image_name.include?("tree-frog-logo.png")
+              xgenus.image_name = xfamily.image_name
+              xgenus.save
+            end
+            xspecieses = Species.where(genus_id: xgenus.id)
+            xspecieses.each do |xspecies|
+              if xspecies.image_name == nil || xspecies.image_name.include?("Status_iucn") || xspecies.image_name.include?("tree-frog-logo.png")
+                xspecies.image_name = xgenus.image_name
+                xspecies.save
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end
+
+
 #=== use this guy to seed from CSVs =============#
-BigDataParser.shark_dot_all
+# BigDataParser.shark_dot_all
 # Chlass.all.destroy_all
 # BigDataParser.seed_chlass
 #================================================#
+
+# === relinking taxonomy structure ===============
+  # "Mammalia", 1,
+  # "Reptilia", 2,
+  # "Amphibia", 3,
+  # "Osteichthyes", 4,
+  # "Aves", 5
+
+# Relinker.mammals
+# Relinker.birds
+# Relinker.reptiles
+# Relinker.amphibians
+# Relinker.fishies
+Relinker.fixBlankImages
+
+# === relinking taxonomy structure ===============
 
 #=Wont need to run these if the CSV seeding works==#
 # Parser.seed_birds
