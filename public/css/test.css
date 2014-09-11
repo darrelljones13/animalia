@@ -291,7 +291,7 @@ img {
 }
 .taxonomy-footer {
     position: fixed;
-    top: 93%;
+    top: 91%;
     left: 0px;
     height: 50%;
     width: 100%;
@@ -303,19 +303,27 @@ img {
 .hierarchy.taxonomy-footer div {
     flex: 2;
     transform: skewY(-5deg);
-    border-top-right-radius: 15px;
+    border-top-right-radius: 30px;
     height: 100%;
+    background: url('/image/grass.png');
+    padding-top: 1%;
+    text-shadow: 1px 1px 1px #333;
 }
+.hierarchy.taxonomy-footer div:nth-child(odd) {
+    background: url('/image/grass2.png');
+}
+
 .hierarchy.taxonomy-footer .kingdom {
     flex: 0.5;
-    margin-top: -10%;
+    margin-top: -8%;
 }
 .hierarchy.taxonomy-footer .phylum {
     flex: 2;
-    margin-top: -8%;
+    margin-top: -5%;
 }
 .hierarchy.taxonomy-footer .selected {
     flex: 6;
+    box-shadow: none;
 }
 .hierarchy.taxonomy-footer .detail.selected {
     flex: 10;
