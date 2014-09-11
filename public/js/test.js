@@ -3,6 +3,7 @@ $(document).ready(function(){
       resizeIcons();
     });
     resizeIcons();
+    preloadIconImages(1, 3) // order images
     // CARD CLICKS **********************************
     $(".bar").on("click", ".icons", function(event) {
         $(this).parent().scrollTop($(this).position());
@@ -78,7 +79,10 @@ function preloadIconImages(clicked, next) {
 function populateSpeciesDetail(clicked, next) {
     var request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next, function(data,status){
         $(".description").html(data['description']);
-        $(".detail h3").text(data['name']);
+        $(".range").text(data['range']);
+        $(".habitat").text(data['habitat']);
+        $(".major_threats").text(data['major_threats']);
+        $(".card-container h3").text(data['name']);
         $(".red_list_status").text(data['status']);
         $(".population_trend").text(data['trend']);
         $(".bar .hierarchy .kingdom").html(data['taxonomy']['kingdom']);
