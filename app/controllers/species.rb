@@ -14,17 +14,15 @@ end
 
 #not finished. need to address edge cases
 post '/add_to_collection' do
-  p params
+  
   @user_collection = current_user.collections.first
-
-  if @card = Card.create(user_id: current_user.id, species_id: params[:species_id], collection_id: @user_collection.id)
+  if @card = Card.create(user_id: current_user.id, species_id: params["species_id"], collection_id: @user_collection.id)
     content_type :json
     @card.to_json
   else
     content_type :json
     "try again".to_json
   end
-    # redirect '/'
 end
 
 # get '/species' do

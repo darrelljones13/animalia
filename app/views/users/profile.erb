@@ -18,10 +18,11 @@
                 <div class="collection-card">
                   <div id="<%= card.species.id %>"class="card">
                 <% if card.species.common_name != nil %>
-                  <a href="/species/<%=card.species.id%>"><h3><%= card.species.common_name.split(",")[0] %></h3>
+                
+                  <a class="animal-card-in-collection" href="#"><h3><%= card.species.common_name.split(",")[0] %></h3>
                   <img src="<%= card.species.image_name %>"/></a>
                 <% else %>
-                  <a href="/species/<%=card.species.id%>"><h3><%= card.species.scientific_name %></h3></a>
+                  <a class="animal-card-in-collection" href="/species/<%=card.species.id%>"><h3><%= card.species.scientific_name %></h3></a>
                 <% end %>
           </div>
             <% end %>

@@ -29,7 +29,6 @@ $(document).ready(function() {
 	});	
 
 	//random animal link, shows modal
-
 	$('#random-animal-link').on('click', function() {
 		hideAllOverlays();
 		$.get('/species/random', function(data) {
@@ -38,17 +37,23 @@ $(document).ready(function() {
 		});
 	});
 
+	//animal modal from collection card
+	$('.animal-card-in-collection').on('click', function(event) {
+    	event.preventDefault();
+    	hideAllOverlays();
+    	$("#species-card.overlay").show();
+  	});
+	
 	//animal modal
-
-  $('.card').on('click', function(event) {
-    event.preventDefault();
-    hideAllOverlays();
-    $("#species-card.overlay").show();
-  });
+  	$('.card').on('click', function(event) {
+    	event.preventDefault();
+    	hideAllOverlays();
+    	$("#species-card.overlay").show();
+  	});
   
-  $('.overlay').on('click', '.exit',  hideAllOverlays);
+  	$('.overlay').on('click', '.exit',  hideAllOverlays);
 
-  //relative links for animal modal
+  	//relative links for animal modal
 	
 	$(document).on('click', '.relative.card', function(event) {
 		event.preventDefault();
@@ -72,17 +77,6 @@ $(document).ready(function() {
 		});
 	});
   
-  // my collection card modal
-
-  $(document).on('click', '.card', function(event) {
-    event.preventDefault();
-    event.stopPropagation();
-    hideAllOverlays();
-    var animalId = $(this).attr('id')
-    $.get('/card', {animal_id: animalId}, function(data) {
-      $("#species-card.overlay").html(data);
-      $("#species-card.overlay").show();
-    });
 
 //     $.post('/speciesnames', function(species) {
 //         autocomplete('#species-input-instructions', species);
@@ -153,17 +147,26 @@ $(document).ready(function() {
 //             $("#species-card.overlay").show();
 //         });
 //     });
+  // my collection card modal
+  	$(document).on('click', '.card', function(event) {
+    	event.preventDefault();
+    	event.stopPropagation();
+    	hideAllOverlays();
+    	var animalId = $(this).attr('id')
+    	$.get('/card', {animal_id: animalId}, function(data) {
+      		$("#species-card.overlay").html(data);
+      		$("#species-card.overlay").show();
+  		});
+    });
 
-    //add card to collection
+    //###BOOM add card to collection
     $("body").on("submit", ".add-card-button", function(event) {
         console.log(this);
         event.preventDefault();
         event.stopPropagation();
         var specId = parseInt($(this).find('.current-species-id').text());
         console.log(specId);
-        var data = {
-            species_id: specId
-        };
+        var data = { species_id: specId };
         console.log(data);
         $.post('/add_to_collection', data, function(message) {
             console.log(message);
@@ -194,8 +197,5 @@ $(document).ready(function() {
 //     // 	$.post('/species', {species: species}, function(foundSpecies){
 //     // 		console.log(foundSpecies)
 //     // 	});
-  });
 
- });
-
-//end doc ready
+});  //end doc ready
