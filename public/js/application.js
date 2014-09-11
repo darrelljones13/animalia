@@ -81,6 +81,21 @@ $(document).ready(function() {
 	});	
   });
   
+  // my collection card modal
+
+  $(document).on('click', '.card', function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    hideAllOverlays();
+    var animalId = $(this).attr('id')
+    $.get('/card', {animal_id: animalId}, function(data) {
+      $("#species-card.overlay").html(data);
+      $("#species-card.overlay").show();
+    });
+  });
+
+    $('.overlay').on('click', '.exit',  hideAllOverlays);
+
 	//search for species in database
 	// $('#species-search').on('submit', function(event){
 	// 	event.preventDefault();

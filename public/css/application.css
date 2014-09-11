@@ -183,11 +183,11 @@ li {
   height: 80%;
   padding: 20px;
   border: 4px solid black;
-  background-image: url("/image/white-linen-background.jpg");
-  position: fixed;
+/*  background-image: url("/image/white-linen-background.jpg");
+*/  position: fixed;
   top: 100px;
   left: 50%;
-  margin-left: -300px;
+  margin-left: -400px;
   border-radius: 10px;
   overflow: scroll;
 }
