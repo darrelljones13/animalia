@@ -67,32 +67,32 @@ function populateCards(clicked, next) {
 }
 
 function preloadIconImages(clicked, next) {
-    // $('.preload-image-container').empty();
-    // request = $.get("/preload/" + clicked + "/"+ next,
-    //     function(data) {
-    //         data.forEach( function(object) {
-    //             $('.preload-image-container').append('<img src="' + object['image'] + '" />');
-    //     });
-    // });
+    $('.preload-image-container').empty();
+    request = $.get("/preload/" + clicked + "/"+ next,
+        function(data) {
+            data.forEach( function(object) {
+                $('.preload-image-container').append('<img src="' + object['image'] + '" />');
+        });
+    });
 }
 
 function populateSpeciesDetail(clicked, next) {
     var request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next, function(data,status){
-        $(".description").html(data['description']);
+        $('.detail-name').text(data['name'])
         $(".range").text(data['range']);
         $(".habitat").text(data['habitat']);
         $(".major_threats").text(data['major_threats']);
         $(".card-container h3").text(data['name']);
         $(".red_list_status").text(data['status']);
         $(".population_trend").text(data['trend']);
-        $(".bar .hierarchy .kingdom").html(data['taxonomy']['kingdom']);
-        $(".bar .hierarchy .phylum").html(data['taxonomy']['phylum']);
-        $(".bar .hierarchy .class").html(data['taxonomy']['class']);
-        $(".bar .hierarchy .order").html(data['taxonomy']['order']);
-        $(".bar .hierarchy .family").html(data['taxonomy']['family']);
-        $(".bar .hierarchy .genus").html(data['taxonomy']['genus']);
-        $(".bar .hierarchy .species").html(data['taxonomy']['species']);
         $(".detail img").attr("src", $(clicked).children("img").attr("src"));
+        // $(".bar .hierarchy .kingdom").html(data['taxonomy']['kingdom']);
+        // $(".bar .hierarchy .phylum").html(data['taxonomy']['phylum']);
+        // $(".bar .hierarchy .class").html(data['taxonomy']['class']);
+        // $(".bar .hierarchy .order").html(data['taxonomy']['order']);
+        // $(".bar .hierarchy .family").html(data['taxonomy']['family']);
+        // $(".bar .hierarchy .genus").html(data['taxonomy']['genus']);
+        // $(".bar .hierarchy .species").html(data['taxonomy']['species']);
     });
     request.done(function() {
         resizeIcons();
@@ -100,17 +100,19 @@ function populateSpeciesDetail(clicked, next) {
 }
 
 function clearSpeciesDetail() {
-    $(".description").html("");
-    $(".detail h3").text("");
+    // $(".detail-name").text("");
     $(".red_list_status").text("");
     $(".population_trend").text("");
-    $(".bar .hierarchy .kingdom").html("");
-    $(".bar .hierarchy .phylum").html("");
-    $(".bar .hierarchy .class").html("");
-    $(".bar .hierarchy .order").html("");
-    $(".bar .hierarchy .family").html("");
-    $(".bar .hierarchy .genus").html("");
-    $(".bar .hierarchy .species").html("");
+    $(".range").text("");
+    $(".habitat").text("");
+    $(".major_threats").text("");
+    // $(".bar .hierarchy .kingdom").html("");
+    // $(".bar .hierarchy .phylum").html("");
+    // $(".bar .hierarchy .class").html("");
+    // $(".bar .hierarchy .order").html("");
+    // $(".bar .hierarchy .family").html("");
+    // $(".bar .hierarchy .genus").html("");
+    // $(".bar .hierarchy .species").html("");
     $(".detail img").attr("src", "");
 }
 
