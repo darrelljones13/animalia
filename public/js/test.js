@@ -61,7 +61,7 @@ function populateCards(clicked, next) {
         });
     });
     request.done(function() {
-        resizeIcons();
+        resizeIcons().delay(500).resizeIcons();
         preloadIconImages(id, next);
     });
 }
@@ -95,7 +95,7 @@ function populateSpeciesDetail(clicked, next) {
         // $(".bar .hierarchy .species").html(data['taxonomy']['species']);
     });
     request.done(function() {
-        resizeIcons();
+        resizeIcons().delay(500).resizeIcons();
     });
 }
 
