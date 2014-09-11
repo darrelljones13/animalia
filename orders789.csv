@@ -24,7 +24,7 @@ id,chlass_id,name,created_at,updated_at,wikitext,image_name
 12,1,PILOSA,2014-09-09 21:51:46.370008,2014-09-10 04:55:42.747886,"<div class=""intro""><em>Vermilingua</em> - anteaters<br>
 <em>Folivora</em> - sloths</div>",//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Myresluger.jpg/250px-Myresluger.jpg
 13,1,CINGULATA,2014-09-09 21:52:02.263242,2014-09-10 04:55:43.027513,"<div class=""intro""><b>Cingulata</b>, part of the superorder <em>Paleo-Indians</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Glyptotheriumm.jpg/220px-Glyptotheriumm.jpg
-14,1,PAUCITUBERCULATA,2014-09-09 21:52:06.566252,2014-09-10 04:55:43.70168,"<div class=""intro""><b>Caenolestinae</b><br></div>",//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Shrew_opossum_-_Caenolestidae.png/240px-Shrew_opossum_-_Caenolestidae.png
+14,1,PAUCITUBERCULATA,2014-09-09 21:52:06.566252,2014-09-10 04:55:43.70168,"<div class=""intro""><b>Caenolestinae</b><br></div>",http://www.blueanimalbio.com/mammalia/youdai/2/numbat.jpg
 15,1,DIDELPHIMORPHIA,2014-09-09 21:52:53.362748,2014-09-10 04:55:44.061348,"<div class=""intro"">Several; see <em>text</em></div>",//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opossum_2.jpg/220px-Opossum_2.jpg
 16,1,PERISSODACTYLA,2014-09-09 21:53:49.636049,2014-09-10 04:55:44.379325,"<div class=""intro"">An <b>odd-toed ungulate</b> is a <em>rhinoceroses</em>.</div>",//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/ErmineSpot.jpg/250px-ErmineSpot.jpg
 17,1,PERAMELEMORPHIA,2014-09-09 21:54:13.263923,2014-09-10 04:55:44.668163,"<div class=""intro"">†<em>Yaralidae</em><br>
