@@ -78,7 +78,6 @@ function preloadIconImages(clicked, next) {
 
 function populateSpeciesDetail(clicked, next) {
     var request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next, function(data,status){
-        console.log(data);
         $(".description").html(data['description']);
         $(".range").text(data['range']);
         $(".habitat").text(data['habitat']);
