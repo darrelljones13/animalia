@@ -3,14 +3,14 @@
   <head>
 
   <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/application.css">
-  <link rel="stylesheet" href="/css/species.css">
   <link rel="stylesheet" href="/css/taxonomy.css">
+  <link rel="stylesheet" href="/css/species.css">
   <link rel="stylesheet" href="/css/card.css">
+  <link rel="stylesheet" href="/css/application.css">
+
   <% if @flex == true %>
     <%= "<link href='/css/test.css' rel='stylesheet' type='text/css' /> "%>
   <% end %>
-
 
     <link rel="shortcut icon" href="/image/treefrog_icon.ico">
 
@@ -39,7 +39,7 @@
           <a href='#' id="search-link">Search</a>
         </li>
         <% if session[:user_id].nil? %>
-          <a href="/users/new" >Create New Account</a>
+          <li><a href="/users/new" >Create New Account</a></li>
           <form id="sign-in" action="/users/login" method="POST">
             EMAIL: <input type="email" name="email" value="" />
             PASSWORD: <input type="password" name="password" value="" />
