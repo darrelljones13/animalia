@@ -67,13 +67,13 @@ function populateCards(clicked, next) {
 }
 
 function preloadIconImages(clicked, next) {
-    $('.preload-image-container').empty();
-    request = $.get("/preload/" + clicked + "/"+ next,
-        function(data) {
-            data.forEach( function(object) {
-                $('.preload-image-container').append('<img src="' + object['image'] + '" />');
-        });
-    });
+    // $('.preload-image-container').empty();
+    // request = $.get("/preload/" + clicked + "/"+ next,
+    //     function(data) {
+    //         data.forEach( function(object) {
+    //             $('.preload-image-container').append('<img src="' + object['image'] + '" />');
+    //     });
+    // });
 }
 
 function populateSpeciesDetail(clicked, next) {
