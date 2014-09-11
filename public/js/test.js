@@ -80,6 +80,9 @@ function populateSpeciesDetail(clicked, next) {
     var request = $.get("/ajax/" + $(clicked).children('.hidden-id').text() + "/"+ next, function(data,status){
         console.log(data);
         $(".description").html(data['description']);
+        $(".range").text(data['range']);
+        $(".habitat").text(data['habitat']);
+        $(".major_threats").text(data['major_threats']);
         $(".card-container h3").text(data['name']);
         $(".red_list_status").text(data['status']);
         $(".population_trend").text(data['trend']);
