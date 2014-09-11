@@ -1,10 +1,6 @@
 $(document).ready(function() {
 
 
-    //get species data from database
-    $.post('/speciesnames', function(species) {
-        autocomplete("#species-search-input", species);
-
 	//get species data from database
 	$.post('/speciesnames', function(species){
 		autocomplete("#species-search-input", species);
@@ -75,16 +71,6 @@ $(document).ready(function() {
 			$("#species-card.overlay").show();
 		});
 	});
-		
-   //probably not finished
-  $("#add-card-button").on("click", function(event) {
-  	event.preventDefault();
-  	event.stopPropagation();
-  	var specId = parseInt($('#current-species-id').html());
-  	$.post('/add_to_collection', {species_id: specId}, function(message) {
-		console.log(message);
-	});	
-  });
   
   // my collection card modal
 
@@ -168,22 +154,21 @@ $(document).ready(function() {
 //         });
 //     });
 
-//     //add card to collection
-//     $("body").on("submit", ".add-card-button", function(event) {
-//         debugger;
-//         console.log(this);
-//         event.preventDefault();
-//         event.stopPropagation();
-//         var specId = parseInt($(this).find('.current-species-id').text());
-//         console.log(specId);
-//         var data = {
-//             species_id: specId
-//         };
-//         console.log(data);
-//         $.post('/add_to_collection', data, function(message) {
-//             console.log(message);
-//         });
-//     });
+    //add card to collection
+    $("body").on("submit", ".add-card-button", function(event) {
+        console.log(this);
+        event.preventDefault();
+        event.stopPropagation();
+        var specId = parseInt($(this).find('.current-species-id').text());
+        console.log(specId);
+        var data = {
+            species_id: specId
+        };
+        console.log(data);
+        $.post('/add_to_collection', data, function(message) {
+            console.log(message);
+        });
+    });
 
 //     // my collection card modal
 
@@ -209,8 +194,8 @@ $(document).ready(function() {
 //     // 	$.post('/species', {species: species}, function(foundSpecies){
 //     // 		console.log(foundSpecies)
 //     // 	});
-//     // });
+  });
 
-// });
+ });
 
 //end doc ready
