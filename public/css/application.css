@@ -1,7 +1,6 @@
 body {
 /*  overflow: hidden;*/
-  /*font-family: quattrocento-sans, sans-serif;*/
-  font-family: 'Comfortaa', bold;
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
   color: #444;
 }
 
@@ -38,6 +37,8 @@ header {
 }
 
 header h1 {
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
+  font-weight: normal;
   color: grey;
   position: relative;
   left: -3%;
@@ -84,7 +85,7 @@ header li:first-of-type {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: quattrocento-sans, sans-serif;
+  font-family: "expo-sans-pro", sans-serif;
   font-weight: bold;
   color: #222;
 }
