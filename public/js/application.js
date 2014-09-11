@@ -78,7 +78,7 @@ $(document).ready(function() {
   	var specId = parseInt($('#current-species-id').html());
   	$.post('/add_to_collection', {species_id: specId}, function(message) {
 		console.log(message);
-		}); 
+	});	
   });
   
 	//search for species in database
