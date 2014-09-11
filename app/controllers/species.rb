@@ -22,7 +22,7 @@ post '/add_to_collection' do
     content_type :json
     "try again".to_json
   end
-
+    redirect '/'
 end
 
 # get '/species' do

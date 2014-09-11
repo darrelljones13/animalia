@@ -14,9 +14,9 @@
             <input id="create" type="submit" value="Edit this collection">
           </form>
 
-                <div class="collection-card">
             <% collection.cards.each do |card| %>
-                  <div class="card">
+                <div class="collection-card">
+                  <div id="<%= card.species.id %>"class="card">
                 <% if card.species.common_name != nil %>
                   <a href="/species/<%=card.species.id%>"><h3><%= card.species.common_name.split(",")[0] %></h3>
                   <img src="<%= card.species.image_name %>"/></a>
