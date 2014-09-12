@@ -149,7 +149,7 @@ img {
     /*box-shadow: inset 0 0 1000px #666;*/
 }
 .icon-fake.selected {
-    box-shadow: 0 0 10px 8px #f4b612, ;
+    box-shadow: 0 0 10px 8px #f4b612 ;
 }
 .icon-fake img {
     min-height: 100%;
