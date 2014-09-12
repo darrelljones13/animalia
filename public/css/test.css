@@ -141,15 +141,15 @@ img {
     background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#5fa9d8 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#5fa9d8',GradientType=0 ); /* IE6-9 */
 
-    background-size: 100% 100%;
+    background-size: 100%;
     color: black;
     overflow: hidden;
     cursor:pointer;
     z-index: 10;
-    box-shadow: inset 0 0 1000px #666;
+    /*box-shadow: inset 0 0 1000px #666;*/
 }
 .icon-fake.selected {
-    box-shadow: 0 0 10px 8px #f4b612;
+    box-shadow: 0 0 10px 8px #f4b612, ;
 }
 .icon-fake img {
     min-height: 100%;
