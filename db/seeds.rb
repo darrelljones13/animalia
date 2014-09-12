@@ -446,14 +446,15 @@ end
   # "Osteichthyes", 4,
   # "Aves", 5
 
-# Relinker.mammals
-# Relinker.birds
-# Relinker.reptiles
-# Relinker.amphibians
-# Relinker.fishies
-Relinker.fixBlankImages
 
 # === relinking taxonomy structure ===============
+
+# Relinker.mammals
+# Relinker.birds
+Relinker.reptiles
+Relinker.amphibians
+Relinker.fishies
+Relinker.fixBlankImages
 
 #=Wont need to run these if the CSV seeding works==#
 # Parser.seed_birds
@@ -465,4 +466,5 @@ Relinker.fixBlankImages
 # Parser.seed_wiki_family
 # Parser.seed_wiki_order
 # Parser.seed_genus_photos
+
 #================================================#
